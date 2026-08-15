@@ -175,7 +175,16 @@ Go-AI-Optimal/
 └── tests/
 ```
 
-### 8. 测试
+### 8. 初赛作品附件
+
+按算法赛页面要求组织的单 ZIP 附件已放在
+[`deliverables/AI4R_ALG_AIVC_队伍名待替换.zip`](deliverables/AI4R_ALG_AIVC_队伍名待替换.zip)。
+它包含初赛方案 PDF/DOCX、源码、结果表和外部资源披露，不含官方数据或预测文件。
+
+当前文件仍需填写真实队伍名后才能上传。具体替换位置、大小和 SHA256 见
+[`deliverables/README.md`](deliverables/README.md)。
+
+### 9. 测试
 
 ```bash
 pytest -q
@@ -186,7 +195,7 @@ python scripts/verify_release.py
 GOAI 官方 metadata，以及可选的 Peter et al. 1,011-genome 原始证据包。除此之外，
 本仓库还执行了完整 checkpoint replay，结果见上面的复现收据。
 
-### 9. 重要限制
+### 10. 重要限制
 
 - 所有成绩是本地 OOF proxy，没有官方提交 ID 或官方分数。
 - 当前权威本地输出合同是 4,422 个 train-supported proteins；若官方入口要求
@@ -197,7 +206,7 @@ GOAI 官方 metadata，以及可选的 Peter et al. 1,011-genome 原始证据包
   因而没有进入 M12.0。
 - R01/R00 仍是主要瓶颈：当前 fallback 对完全新菌株和双未知组合缺少稳定可迁移语义。
 
-### 10. 许可与引用
+### 11. 许可与引用
 
 源码采用 [MIT License](LICENSE)。训练权重仍受 GOAI 官方数据使用条款和外部资源条款
 约束。OP3 数据为 CC BY 4.0，来源、文件哈希和用途见
@@ -281,7 +290,15 @@ internal candidate within a maximum absolute difference of `3e-6` across all
 Routes are derived from the entities actually observed during full refitting,
 not inferred from `split_final` labels.
 
-### 5. Limitations and licensing
+### 5. Competition attachment
+
+The staged single-ZIP preliminary attachment is available at
+[`deliverables/AI4R_ALG_AIVC_队伍名待替换.zip`](deliverables/AI4R_ALG_AIVC_队伍名待替换.zip).
+It contains the proposal documents, source code, result summaries, and resource
+disclosure, but no official data or predictions. The actual team name must be
+filled in before portal upload; see [`deliverables/README.md`](deliverables/README.md).
+
+### 6. Limitations and licensing
 
 The reported scores are local proxies. The current verified output contract is
 4,422 train-supported proteins, while an authoritative organizer contract is
