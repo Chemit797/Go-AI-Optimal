@@ -1,0 +1,51 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 2392,
+        "MolecularFormula": "C25H24N6O",
+        "SMILES": "CN1CCN(CC1)C2=CC3=C(C=C2)N=C(N3)C4=CC5=C(C=C4)N=C(N5)C6=CC=C(C=C6)O",
+        "ConnectivitySMILES": "CN1CCN(CC1)C2=CC3=C(C=C2)N=C(N3)C4=CC5=C(C=C4)N=C(N5)C6=CC=C(C=C6)O",
+        "InChIKey": "INAAIJLSXJJHOZ-UHFFFAOYSA-N",
+        "IUPACName": "4-[6-[6-(4-methylpiperazin-1-yl)-1H-benzimidazol-2-yl]-1H-benzimidazol-2-yl]phenol",
+        "Title": "Bisbenzimidazole"
+      },
+      {
+        "CID": 31953,
+        "MolecularFormula": "C25H27Cl3N6O",
+        "SMILES": "CN1CCN(CC1)C2=CC3=C(C=C2)N=C(N3)C4=CC5=C(C=C4)N=C(N5)C6=CC=C(C=C6)O.Cl.Cl.Cl",
+        "ConnectivitySMILES": "CN1CCN(CC1)C2=CC3=C(C=C2)N=C(N3)C4=CC5=C(C=C4)N=C(N5)C6=CC=C(C=C6)O.Cl.Cl.Cl",
+        "InChIKey": "SMNPLAKEGAEPJD-UHFFFAOYSA-N",
+        "IUPACName": "4-[6-[6-(4-methylpiperazin-1-yl)-1H-benzimidazol-2-yl]-1H-benzimidazol-2-yl]phenol;trihydrochloride",
+        "Title": "Bisbenzimidazole Trihydrochloride"
+      },
+      {
+        "CID": 182069,
+        "MolecularFormula": "C25H25ClN6O",
+        "SMILES": "CN1CCN(CC1)C2=CC3=C(C=C2)N=C(N3)C4=CC5=C(C=C4)N=C(N5)C6=CC=C(C=C6)O.Cl",
+        "ConnectivitySMILES": "CN1CCN(CC1)C2=CC3=C(C=C2)N=C(N3)C4=CC5=C(C=C4)N=C(N5)C6=CC=C(C=C6)O.Cl",
+        "InChIKey": "UDJDXLXTHZQAAC-UHFFFAOYSA-N",
+        "IUPACName": "4-[6-[6-(4-methylpiperazin-1-yl)-1H-benzimidazol-2-yl]-1H-benzimidazol-2-yl]phenol;hydrochloride",
+        "Title": "Phenol, p-(5-(5-(4-methyl-1-piperazinyl)-2-benzimidazolyl)-2-benzimidazolyl)-, hydrochloride"
+      },
+      {
+        "CID": 135705211,
+        "MolecularFormula": "C25H29Cl3N6O2",
+        "SMILES": "CN1CCN(CC1)C2=CC3=C(C=C2)N=C(N3)C4=CC5=C(C=C4)N=C(N5)C6=CC=C(C=C6)O.O.Cl.Cl.Cl",
+        "ConnectivitySMILES": "CN1CCN(CC1)C2=CC3=C(C=C2)N=C(N3)C4=CC5=C(C=C4)N=C(N5)C6=CC=C(C=C6)O.O.Cl.Cl.Cl",
+        "InChIKey": "MZWWAGMOVQUICZ-UHFFFAOYSA-N",
+        "IUPACName": "4-[6-[6-(4-methylpiperazin-1-yl)-1H-benzimidazol-2-yl]-1H-benzimidazol-2-yl]phenol;hydrate;trihydrochloride",
+        "Title": "Hoechst 33258"
+      },
+      {
+        "CID": 448194,
+        "MolecularFormula": "C25H25N6O+",
+        "SMILES": "C[NH+]1CCN(CC1)C2=CC3=C(C=C2)N=C(N3)C4=CC5=C(C=C4)N=C(N5)C6=CC=C(C=C6)O",
+        "ConnectivitySMILES": "C[NH+]1CCN(CC1)C2=CC3=C(C=C2)N=C(N3)C4=CC5=C(C=C4)N=C(N5)C6=CC=C(C=C6)O",
+        "InChIKey": "INAAIJLSXJJHOZ-UHFFFAOYSA-O",
+        "IUPACName": "4-[6-[6-(4-methylpiperazin-4-ium-1-yl)-1H-benzimidazol-2-yl]-1H-benzimidazol-2-yl]phenol",
+        "Title": "4-[6-[6-(4-methylpiperazin-4-ium-1-yl)-1H-benzimidazol-2-yl]-1H-benzimidazol-2-yl]phenol"
+      }
+    ]
+  }
+}

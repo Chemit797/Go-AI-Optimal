@@ -1,0 +1,283 @@
+{
+  "schema_version": "goai.chemical-structure-views.v3",
+  "identity_policy": "exact is default; parent/component substitutions and identity-risk zeroing are separate, explicitly reviewed ablations",
+  "parent_raw_names": [
+    "Doxycycline hyclate",
+    "LY 294002 hydrochloride",
+    "Hoechst 33258",
+    "Oligomycin",
+    "Tunicamycin"
+  ],
+  "zero_risky_raw_names": [
+    "Doxycycline hyclate",
+    "G418",
+    "Hoechst 33258",
+    "Hygromycin B",
+    "LY 294002 hydrochloride",
+    "Oligomycin",
+    "Tunicamycin"
+  ],
+  "shuffled_exact": {
+    "seed": 1701,
+    "rotation": 49,
+    "permutation": [
+      {
+        "recipient": "(1R, 2S, 5R) - (-) - Menthol",
+        "donor": "Amiodarone hydrochloride"
+      },
+      {
+        "recipient": "(S)-(+)-Camptothecin",
+        "donor": "Amphotericin B"
+      },
+      {
+        "recipient": "1-10 Phenanthroline monohydrate",
+        "donor": "Anisomycin"
+      },
+      {
+        "recipient": "4-Hydroxytamoxifen",
+        "donor": "Artemisinin"
+      },
+      {
+        "recipient": "Abietic acid",
+        "donor": "Brefeldin A"
+      },
+      {
+        "recipient": "Amiodarone hydrochloride",
+        "donor": "CHX"
+      },
+      {
+        "recipient": "Amphotericin B",
+        "donor": "Cisplatin"
+      },
+      {
+        "recipient": "Anisomycin",
+        "donor": "Clomiphene citrate"
+      },
+      {
+        "recipient": "Artemisinin",
+        "donor": "Clotrimazole"
+      },
+      {
+        "recipient": "Brefeldin A",
+        "donor": "Cyclopiazonic acid"
+      },
+      {
+        "recipient": "CHX",
+        "donor": "Desipramine hydrochloride"
+      },
+      {
+        "recipient": "Cisplatin",
+        "donor": "Doxycycline hyclate"
+      },
+      {
+        "recipient": "Clomiphene citrate",
+        "donor": "Dyclonine hydrochloride"
+      },
+      {
+        "recipient": "Clotrimazole",
+        "donor": "EDTA"
+      },
+      {
+        "recipient": "Cyclopiazonic acid",
+        "donor": "Emodin"
+      },
+      {
+        "recipient": "Desipramine hydrochloride",
+        "donor": "FCCP"
+      },
+      {
+        "recipient": "Doxycycline hyclate",
+        "donor": "Fluconazole"
+      },
+      {
+        "recipient": "Dyclonine hydrochloride",
+        "donor": "G418"
+      },
+      {
+        "recipient": "EDTA",
+        "donor": "Geldanamycin"
+      },
+      {
+        "recipient": "Emodin",
+        "donor": "H2O2"
+      },
+      {
+        "recipient": "FCCP",
+        "donor": "Haloperidol"
+      },
+      {
+        "recipient": "Fluconazole",
+        "donor": "Harmine hydrochloride"
+      },
+      {
+        "recipient": "G418",
+        "donor": "Hoechst 33258"
+      },
+      {
+        "recipient": "Geldanamycin",
+        "donor": "Hydroxyurea"
+      },
+      {
+        "recipient": "H2O2",
+        "donor": "Hygromycin B"
+      },
+      {
+        "recipient": "Haloperidol",
+        "donor": "LY 294002 hydrochloride"
+      },
+      {
+        "recipient": "Harmine hydrochloride",
+        "donor": "MMS"
+      },
+      {
+        "recipient": "Hoechst 33258",
+        "donor": "NaCl"
+      },
+      {
+        "recipient": "Hydroxyurea",
+        "donor": "Neomycin B"
+      },
+      {
+        "recipient": "Hygromycin B",
+        "donor": "Nigericin"
+      },
+      {
+        "recipient": "LY 294002 hydrochloride",
+        "donor": "Nocodazole"
+      },
+      {
+        "recipient": "MMS",
+        "donor": "Nystatin dihydrate"
+      },
+      {
+        "recipient": "NaCl",
+        "donor": "Oligomycin"
+      },
+      {
+        "recipient": "Neomycin B",
+        "donor": "Parthenolide"
+      },
+      {
+        "recipient": "Nigericin",
+        "donor": "Pentamidine isethionate"
+      },
+      {
+        "recipient": "Nocodazole",
+        "donor": "Plumbagin"
+      },
+      {
+        "recipient": "Nystatin dihydrate",
+        "donor": "Raloxifene hydrochloride"
+      },
+      {
+        "recipient": "Oligomycin",
+        "donor": "Rapamycin"
+      },
+      {
+        "recipient": "Parthenolide",
+        "donor": "SDS"
+      },
+      {
+        "recipient": "Pentamidine isethionate",
+        "donor": "Sorbitol"
+      },
+      {
+        "recipient": "Plumbagin",
+        "donor": "Staurosporine"
+      },
+      {
+        "recipient": "Raloxifene hydrochloride",
+        "donor": "Sulfometuron methyl"
+      },
+      {
+        "recipient": "Rapamycin",
+        "donor": "Tamoxifen"
+      },
+      {
+        "recipient": "SDS",
+        "donor": "Trichostatin A"
+      },
+      {
+        "recipient": "Sorbitol",
+        "donor": "Trifluoperazine dihydrochloride"
+      },
+      {
+        "recipient": "Staurosporine",
+        "donor": "Tunicamycin"
+      },
+      {
+        "recipient": "Sulfometuron methyl",
+        "donor": "U-73122"
+      },
+      {
+        "recipient": "Tamoxifen",
+        "donor": "Valinomycin"
+      },
+      {
+        "recipient": "Trichostatin A",
+        "donor": "Wortmannin"
+      },
+      {
+        "recipient": "Trifluoperazine dihydrochloride",
+        "donor": "(1R, 2S, 5R) - (-) - Menthol"
+      },
+      {
+        "recipient": "Tunicamycin",
+        "donor": "(S)-(+)-Camptothecin"
+      },
+      {
+        "recipient": "U-73122",
+        "donor": "1-10 Phenanthroline monohydrate"
+      },
+      {
+        "recipient": "Valinomycin",
+        "donor": "4-Hydroxytamoxifen"
+      },
+      {
+        "recipient": "Wortmannin",
+        "donor": "Abietic acid"
+      }
+    ]
+  },
+  "risky_raw_names": [
+    "Doxycycline hyclate",
+    "G418",
+    "Hoechst 33258",
+    "Hygromycin B",
+    "LY 294002 hydrochloride",
+    "Oligomycin",
+    "Tunicamycin"
+  ],
+  "inputs": {
+    "exact_map": {
+      "path": "../chemical_entity_map.tsv",
+      "sha256": "928ebf5698b42c873a092672613d224aace4f94c4268b103220a13d6043e6b78"
+    },
+    "parent_views": {
+      "path": "../entities/chemical_parent_normalized_views.tsv",
+      "sha256": "c9c0c24d019748df667a7c6050e67773771752038db32a262c499b2855010b78"
+    },
+    "identity_risks": {
+      "path": "../../../resources/entities/chemical_identity_risk_review.tsv",
+      "sha256": "fbc2bb05b8bfe2add123c068b206bdd1d0c3492db9ab1488aae410b3ad856a3d"
+    }
+  },
+  "outputs": {
+    "exact": {
+      "path": "chemical_entity_map_exact.tsv",
+      "sha256": "57bc9fde4a519a32d4d6c7fe13511e337aaf1383f14383ba7b100e38248bfd91"
+    },
+    "parent_normalized": {
+      "path": "chemical_entity_map_parent_normalized.tsv",
+      "sha256": "4f5ac8db3b150fdee025f9cd9fdbafd7371a6a4fbb5deac7df771251e6473c35"
+    },
+    "zero_risky": {
+      "path": "chemical_entity_map_zero_risky.tsv",
+      "sha256": "61da177d72d60344aa4fbabc8b4f200b7082bac8fc57554b0d3c548ec345850a"
+    },
+    "exact_shuffled": {
+      "path": "chemical_entity_map_exact_shuffled.tsv",
+      "sha256": "3bf5ba41f060f88c9701da6d184955bc68fdb65da59bdebece7214cb73cd67db"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 52947716,
+        "MolecularFormula": "C45H74O11",
+        "SMILES": "CC[C@@H]\\1CC[C@H]2[C@H]([C@H]([C@@H]([C@]3(O2)CC[C@@H]([C@@H](O3)C[C@@H](C)O)C)C)OC(=O)/C=C/[C@@H]([C@H]([C@@H](C(=O)[C@@H]([C@H]([C@@H](C(=O)[C@]([C@H]([C@@H](C/C=C/C=C1)C)O)(C)O)C)O)C)C)O)C)C",
+        "ConnectivitySMILES": "CCC1CCC2C(C(C(C3(O2)CCC(C(O3)CC(C)O)C)C)OC(=O)C=CC(C(C(C(=O)C(C(C(C(=O)C(C(C(CC=CC=C1)C)O)(C)O)C)O)C)C)O)C)C",
+        "InChIKey": "MNULEGDCPYONBU-AWJDAWNUSA-N",
+        "IUPACName": "(1R,4E,5'S,6S,6'S,7R,8S,10R,11R,12S,14R,15S,16R,18E,20E,22R,25S,27R,28S,29R)-22-ethyl-7,11,14,15-tetrahydroxy-6'-[(2R)-2-hydroxypropyl]-5',6,8,10,12,14,16,28,29-nonamethylspiro[2,26-dioxabicyclo[23.3.1]nonacosa-4,18,20-triene-27,2'-oxane]-3,9,13-trione",
+        "Title": "Oligomycin A"
+      }
+    ]
+  }
+}

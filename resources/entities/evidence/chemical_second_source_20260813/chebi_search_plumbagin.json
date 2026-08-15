@@ -1,0 +1,31 @@
+{
+  "results": [
+    {
+      "_index": "chebi-prod-compounds-12082026",
+      "_type": "_doc",
+      "_id": "8273",
+      "_score": 65.61188,
+      "_source": {
+        "chebi_accession": "CHEBI:8273",
+        "name": "plumbagin",
+        "ascii_name": "plumbagin",
+        "stars": 3,
+        "default_structure": 14951,
+        "definition": "A  hydroxy-1,4-naphthoquinone that is 1,4-naphthoquinone in which the hydrogens at positions 2 and 5 are substituted by methyl and hydroxy groups, respectively.",
+        "formula": "C11H8O3",
+        "smiles": "CC1=CC(=O)c2c(O)cccc2C1=O",
+        "inchikey": "VCMMXZQDRFWYSE-UHFFFAOYSA-N",
+        "charge": 0,
+        "inchi": "InChI=1S/C11H8O3/c1-6-5-9(13)10-7(11(6)14)3-2-4-8(10)12/h2-5,12H,1H3",
+        "mass": 188.182,
+        "monoisotopicmass": 188.04734,
+        "structures": [
+          14951,
+          3237990
+        ]
+      }
+    }
+  ],
+  "total": 1,
+  "number_pages": 1
+}

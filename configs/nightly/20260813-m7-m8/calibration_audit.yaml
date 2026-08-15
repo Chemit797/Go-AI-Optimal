@@ -1,0 +1,114 @@
+# Calibration identifiability audit.  This is a two-fold/seed-42 diagnostic
+# screen; every score is LOCAL STRICT OOF, not an official competition score.
+# Workload: 7 tasks * (2 plate fits + 14 R00/R10/R01/R11/RT fits)
+# = 112 fold fits total.
+base_config: ../../experiments/m7_general_only.yaml
+fold_seed: 42
+n_folds: 2
+cpu_threads_per_job: 8
+protocol_label: LOCAL_STRICT_OOF_NOT_OFFICIAL
+
+audit_scenarios: &audit_scenarios [plate, R00, R10, R01, R11, RT]
+audit_model: &audit_model
+  epochs: 12
+  universal_epochs: 9
+  strain_expert_epochs: 0
+  chemical_expert_epochs: 0
+  pair_expert_epochs: 0
+  joint_learning_rate_scale: 0.2
+  calibration_center_weight: 0.0001
+  calibration_l2_weight: 0.0001
+  qc_policy: controls_only
+
+experiments:
+  - id: CAL-M7.0-R16-BASE
+    kind: calibration_audit
+    priority: 0
+    scenarios: *audit_scenarios
+    seeds: [42]
+    overrides:
+      model:
+        <<: *audit_model
+        calibration_rank: 16
+        calibration_use_plate: true
+        calibration_plate_dropout: 0.30
+        calibration_plate_shuffle: false
+
+  - id: CAL-M7.0-R4
+    kind: calibration_audit
+    priority: 1
+    scenarios: *audit_scenarios
+    seeds: [42]
+    overrides:
+      model:
+        <<: *audit_model
+        calibration_rank: 4
+        calibration_use_plate: true
+        calibration_plate_dropout: 0.30
+        calibration_plate_shuffle: false
+
+  - id: CAL-M7.0-R8
+    kind: calibration_audit
+    priority: 1
+    scenarios: *audit_scenarios
+    seeds: [42]
+    overrides:
+      model:
+        <<: *audit_model
+        calibration_rank: 8
+        calibration_use_plate: true
+        calibration_plate_dropout: 0.30
+        calibration_plate_shuffle: false
+
+  - id: CAL-M7.0-PLATE-SHUFFLE
+    kind: calibration_audit
+    priority: 2
+    scenarios: *audit_scenarios
+    seeds: [42]
+    overrides:
+      model:
+        <<: *audit_model
+        calibration_rank: 16
+        calibration_use_plate: true
+        calibration_plate_dropout: 0.30
+        calibration_plate_shuffle: true
+        calibration_shuffle_seed: 991
+
+  - id: CAL-M7.0-NO-PLATE
+    kind: calibration_audit
+    priority: 2
+    scenarios: *audit_scenarios
+    seeds: [42]
+    overrides:
+      model:
+        <<: *audit_model
+        calibration_rank: 16
+        calibration_use_plate: false
+        calibration_plate_dropout: 0.0
+        calibration_plate_shuffle: false
+
+  - id: CAL-M7.0-DROPOUT-P000
+    kind: calibration_audit
+    priority: 3
+    scenarios: *audit_scenarios
+    seeds: [42]
+    overrides:
+      model:
+        <<: *audit_model
+        calibration_rank: 16
+        calibration_use_plate: true
+        calibration_plate_dropout: 0.0
+        calibration_plate_shuffle: false
+
+  - id: CAL-M7.0-DROPOUT-P050
+    kind: calibration_audit
+    priority: 3
+    scenarios: *audit_scenarios
+    seeds: [42]
+    overrides:
+      model:
+        <<: *audit_model
+        calibration_rank: 16
+        calibration_use_plate: true
+        calibration_plate_dropout: 0.50
+        calibration_plate_shuffle: false

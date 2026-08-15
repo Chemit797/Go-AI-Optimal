@@ -1,0 +1,49 @@
+{
+  "knowledge_track": "open-knowledge",
+  "sources": [
+    {
+      "dataset": "L1000FWD chemical perturbation signatures",
+      "license_note": "Academic/non-profit use is stated as free by the provider; commercial or prize-bearing submission requires a separate license check.",
+      "license_url": "https://maayanlab.cloud/l1000fwd/download_page",
+      "files": [
+        {
+          "name": "CD_signatures_LM_42809x978.gctx",
+          "sha256": "6f50ade23f49d4d062938d936d98951be7528aced043cb2d77f9414c18545492",
+          "size_bytes": 346694992,
+          "url": "https://maayanlab.cloud/l1000fwd/download/CD_signatures_LM_42809x978.gctx"
+        },
+        {
+          "name": "CD_signature_metadata.csv",
+          "sha256": "b4495715d35f9bc17412c5ffa900d802812b25419ecd6291be6dd6fa4f38a557",
+          "size_bytes": 5075455,
+          "url": "https://maayanlab.cloud/l1000fwd/download/CD_signature_metadata.csv"
+        },
+        {
+          "name": "Drugs_metadata.csv",
+          "sha256": "6447c511ac7d4111f2bd5e46cc95f0ca872d98d579d5e4ccaef6594ed7b899e3",
+          "size_bytes": 7797325,
+          "url": "https://maayanlab.cloud/l1000fwd/download/Drugs_metadata.csv"
+        },
+        {
+          "name": "Probes_L1000_metadata.csv",
+          "sha256": "500aa68b119bbca5a805326328bd6cf5a754528b9fe89fd99c08364e6dd96f2e",
+          "size_bytes": 16690,
+          "url": "https://maayanlab.cloud/l1000fwd/download/Probes_L1000_metadata.csv"
+        }
+      ]
+    },
+    {
+      "dataset": "Open Problems single-cell perturbation pseudobulk differential expression",
+      "license": "CC BY 4.0",
+      "schema_url": "https://github.com/openproblems-bio/task_perturbation_prediction",
+      "files": [
+        {
+          "name": "2023-09-12_de_by_cell_type_train.h5ad",
+          "sha256": "19042eeec15814d94abdea59c43b3eef496aca5725f209915ee293c843e6c516",
+          "size_bytes": 537565848,
+          "url": "https://openproblems-bio.s3.amazonaws.com/public/neurips-2023-competition/2023-09-14_kaggle_upload/2023-09-12_de_by_cell_type_train.h5ad"
+        }
+      ]
+    }
+  ]
+}

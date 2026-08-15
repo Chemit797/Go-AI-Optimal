@@ -1,0 +1,81 @@
+base_config: ../../experiments/response_loss_mse_control.yaml
+fold_seed: 42
+n_folds: 4
+cpu_threads_per_job: 8
+
+# Discovery-driven second wave.  Every candidate changes only the listed axes
+# relative to M2.0 and reuses the frozen entity/time folds from the core matrix.
+experiments:
+  - id: N-FILM-L128
+    priority: 1
+    scenarios: [time, time_forward]
+    seeds: [42]
+    overrides:
+      model: {interaction_mode: shared_film, response_rank: 128}
+
+  - id: N-FILM-L256
+    priority: 1
+    scenarios: [time, time_forward]
+    seeds: [42]
+    overrides:
+      model: {interaction_mode: shared_film, response_rank: 256}
+
+  - id: N-FILM-HUBER
+    priority: 1
+    scenarios: [time, time_forward]
+    seeds: [42]
+    overrides:
+      model:
+        interaction_mode: shared_film
+        absolute_loss: huber
+        background_loss: huber
+        fc_loss: huber
+
+  - id: N-FILM-L128-HUBER
+    priority: 2
+    scenarios: [time, time_forward]
+    seeds: [42]
+    overrides:
+      model:
+        interaction_mode: shared_film
+        response_rank: 128
+        absolute_loss: huber
+        background_loss: huber
+        fc_loss: huber
+
+  - id: N-CONCAT-L128
+    priority: 3
+    scenarios: [S1, S3, time_forward]
+    seeds: [42]
+    overrides:
+      model: {interaction_mode: shared_concat, response_rank: 128}
+
+  - id: N-CONCAT-L256
+    priority: 3
+    scenarios: [S1, S3, time_forward]
+    seeds: [42]
+    overrides:
+      model: {interaction_mode: shared_concat, response_rank: 256}
+
+  - id: N-CONCAT-HUBER
+    priority: 4
+    scenarios: [S1, S3, time_forward]
+    seeds: [42]
+    overrides:
+      model:
+        interaction_mode: shared_concat
+        absolute_loss: huber
+        background_loss: huber
+        fc_loss: huber
+
+  - id: N-CONCAT-L256-HUBER
+    priority: 5
+    scenarios: [S1, S3, time_forward]
+    seeds: [42]
+    overrides:
+      model:
+        interaction_mode: shared_concat
+        response_rank: 256
+        absolute_loss: huber
+        background_loss: huber
+        fc_loss: huber

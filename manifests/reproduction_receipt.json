@@ -1,0 +1,22 @@
+{
+  "protocol": "public_repository_full_checkpoint_replay_v1",
+  "date_utc": "2026-08-15",
+  "status": "passed",
+  "rows": 4454,
+  "proteins": 4422,
+  "values_compared": 19695588,
+  "reference_model": "GOAI-M12.0 frozen local candidate",
+  "reference_prediction_sha256": "4179afee866920ef7df6da99025c17e26c3b901647591691562884af7e8159ab",
+  "replayed_prediction_sha256": "47fc768d27a7c928ea82bd0556f725ce8ba5e9545571f96a8127db1dee7c8b47",
+  "max_absolute_difference": 0.000003000000003083869,
+  "mean_absolute_difference": 0.0000000029827746193868924,
+  "count_absolute_difference_gt_1e_5": 0,
+  "route_counts": {
+    "R10": 2072,
+    "R01": 1594,
+    "R00": 425,
+    "R11": 135,
+    "control": 228
+  },
+  "note": "CSV hashes differ because replay formatting and sub-micro float rounding differ; all numeric values agree within 3e-6. No prediction file is included in this repository."
+}

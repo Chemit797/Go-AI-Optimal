@@ -1,0 +1,172 @@
+base_config: ../../experiments/response_loss_mse_control.yaml
+fold_seed: 42
+n_folds: 4
+cpu_threads_per_job: 8
+
+experiments:
+  - id: N-CTRL-01
+    priority: 0
+    scenarios: [S1, S2, S3, time, time_forward, plate]
+    seeds: [42]
+    overrides: {}
+
+  - id: N-CELL-10
+    priority: 1
+    scenarios: [S1, S2, S3, time, time_forward]
+    seeds: [42]
+    overrides:
+      model: {interaction_mode: shared_concat}
+
+  - id: N-CELL-11
+    priority: 2
+    scenarios: [S1, S2, S3, time_forward]
+    seeds: [42]
+    overrides:
+      model: {interaction_mode: shared_gate}
+
+  - id: N-CELL-12
+    priority: 2
+    scenarios: [S1, S2, S3, time_forward]
+    seeds: [42]
+    overrides:
+      model: {interaction_mode: shared_film}
+
+  - id: N-RANK-L32
+    priority: 3
+    scenarios: [S1, S3, time_forward]
+    seeds: [42]
+    overrides:
+      model: {response_rank: 32, response_basis: learned}
+
+  - id: N-RANK-L128
+    priority: 3
+    scenarios: [S1, S3, time_forward]
+    seeds: [42]
+    overrides:
+      model: {response_rank: 128, response_basis: learned}
+
+  - id: N-RANK-L256
+    priority: 3
+    scenarios: [S1, S3, time_forward]
+    seeds: [42]
+    overrides:
+      model: {response_rank: 256, response_basis: learned}
+
+  - id: N-RANK-S256
+    priority: 4
+    scenarios: [S1, S3, time_forward]
+    seeds: [42]
+    overrides:
+      model: {response_rank: 256, response_basis: fixed_svd}
+
+  - id: N-CAL-01
+    priority: 5
+    scenarios: [S1, S2, time_forward, plate]
+    seeds: [42]
+    overrides:
+      model: {calibration_rank: 4}
+
+  - id: N-CAL-02
+    priority: 5
+    scenarios: [S1, S2, time_forward, plate]
+    seeds: [42]
+    overrides:
+      model: {calibration_rank: 8}
+
+  - id: N-CAL-03
+    priority: 5
+    scenarios: [S1, S2, time_forward, plate]
+    seeds: [42]
+    overrides:
+      model: {calibration_use_plate: false}
+
+  - id: N-CAL-04
+    priority: 6
+    scenarios: [S1, S2, time_forward, plate]
+    seeds: [42]
+    overrides:
+      model: {calibration_plate_dropout: 0.3}
+
+  - id: N-CAL-05
+    priority: 6
+    scenarios: [S1, S2, time_forward, plate]
+    seeds: [42]
+    overrides:
+      model: {calibration_plate_dropout: 0.5}
+
+  - id: N-CAL-06
+    priority: 6
+    scenarios: [S1, S2, time_forward, plate]
+    seeds: [42]
+    overrides:
+      model: {calibration_plate_shuffle: true, calibration_shuffle_seed: 991}
+
+  - id: N-CAL-07
+    priority: 7
+    scenarios: [S1, S2, time_forward, plate]
+    seeds: [42]
+    overrides:
+      model: {calibration_rank: 8, calibration_center_weight: 0.0001, calibration_l2_weight: 0.0001}
+
+  - id: N-CAL-08
+    priority: 7
+    scenarios: [S1, time_forward, plate]
+    seeds: [42]
+    overrides:
+      model: {qc_policy: controls_only}
+
+  - id: N-PRIOR-10
+    priority: 8
+    scenarios: [S1, S2, S3, time_forward]
+    seeds: [42]
+    overrides:
+      model: {response_prior_mode: chemical, response_prior_alpha: 4.0}
+
+  - id: N-PRIOR-11
+    priority: 8
+    scenarios: [S1, S2, S3, time_forward]
+    seeds: [42]
+    overrides:
+      model: {response_prior_mode: strain, response_prior_alpha: 4.0}
+
+  - id: N-PRIOR-12
+    priority: 8
+    scenarios: [S1, S2, S3, time, time_forward]
+    seeds: [42]
+    overrides:
+      model: {response_prior_mode: both, response_prior_alpha: 4.0}
+
+  - id: N-PRIOR-13
+    priority: 9
+    scenarios: [S1, S2, S3, time, time_forward]
+    seeds: [42]
+    overrides:
+      model: {response_prior_mode: both, response_prior_alpha: 4.0, response_prior_learnable_scale: true}
+
+  - id: N-CHEM-05
+    priority: 10
+    scenarios: [S1, S3]
+    seeds: [42]
+    overrides:
+      entity:
+        chemical_map: null
+        chemical_features: data/processed/chemical_embeddings/chemberta_77m_mlm/chemberta_real.tsv
+
+  - id: N-CHEM-05S
+    priority: 10
+    scenarios: [S1, S3]
+    seeds: [42]
+    overrides:
+      entity:
+        chemical_map: null
+        chemical_features: data/processed/chemical_embeddings/chemberta_77m_mlm/chemberta_shuffled.tsv
+
+  - id: N-CHEM-07
+    priority: 11
+    scenarios: [S1, S3]
+    seeds: [42]
+    overrides:
+      entity:
+        chemical_map: data/processed/chemical_entity_map.tsv
+        chemical_bits: 512
+        chemical_features: data/processed/chemical_embeddings/chemberta_77m_mlm/chemberta_real.tsv

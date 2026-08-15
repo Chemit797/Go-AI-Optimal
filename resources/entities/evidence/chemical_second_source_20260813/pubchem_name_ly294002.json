@@ -1,0 +1,15 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 3973,
+        "MolecularFormula": "C19H17NO3",
+        "SMILES": "C1COCCN1C2=CC(=O)C3=C(O2)C(=CC=C3)C4=CC=CC=C4",
+        "ConnectivitySMILES": "C1COCCN1C2=CC(=O)C3=C(O2)C(=CC=C3)C4=CC=CC=C4",
+        "InChIKey": "CZQHHVNHHHRRDU-UHFFFAOYSA-N",
+        "IUPACName": "2-morpholin-4-yl-8-phenylchromen-4-one",
+        "Title": "2-(4-morpholinyl)-8-phenyl-4H-1-benzopyran-4-one"
+      }
+    ]
+  }
+}

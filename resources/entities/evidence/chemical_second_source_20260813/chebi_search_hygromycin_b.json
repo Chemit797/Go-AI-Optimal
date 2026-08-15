@@ -1,0 +1,54 @@
+{
+  "results": [
+    {
+      "_index": "chebi-prod-compounds-12082026",
+      "_type": "_doc",
+      "_id": "16976",
+      "_score": 89.33421,
+      "_source": {
+        "chebi_accession": "CHEBI:16976",
+        "name": "hygromycin B",
+        "ascii_name": "hygromycin B",
+        "stars": 3,
+        "default_structure": 2666,
+        "inchikey": "GRRNUXAQVGOGFE-NZSRVPFOSA-N",
+        "formula": "C20H37N3O13",
+        "mass": 527.524,
+        "charge": 0,
+        "smiles": "CN[C@H]1C[C@@H](N)[C@H](O)[C@@H](O[C@@H]2O[C@H](CO)[C@H](O)[C@@H]3O[C@]4(O[C@H]23)O[C@H](C(N)CO)[C@H](O)[C@H](O)[C@H]4O)[C@@H]1O",
+        "monoisotopicmass": 527.23264,
+        "inchi": "InChI=1S/C20H37N3O13/c1-23-7-2-5(21)9(26)15(10(7)27)33-19-17-16(11(28)8(4-25)32-19)35-20(36-17)18(31)13(30)12(29)14(34-20)6(22)3-24/h5-19,23-31H,2-4,21-22H2,1H3/t5-,6?,7+,8-,9+,10-,11+,12-,13+,14-,15-,16+,17+,18-,19+,20-/m1/s1",
+        "structures": [
+          2666,
+          38623
+        ]
+      }
+    },
+    {
+      "_index": "chebi-prod-compounds-12082026",
+      "_type": "_doc",
+      "_id": "57971",
+      "_score": 85.982216,
+      "_source": {
+        "chebi_accession": "CHEBI:57971",
+        "name": "hygromycin B(3+)",
+        "ascii_name": "hygromycin B(3+)",
+        "stars": 3,
+        "default_structure": 2178411,
+        "definition": "An ammonium ion that is the trication of hygromycin B arising from protonation of the three amino groups; major species at pH 7.3.",
+        "charge": 3,
+        "inchi": "InChI=1S/C20H37N3O13/c1-23-7-2-5(21)9(26)15(10(7)27)33-19-17-16(11(28)8(4-25)32-19)35-20(36-17)18(31)13(30)12(29)14(34-20)6(22)3-24/h5-19,23-31H,2-4,21-22H2,1H3/p+3/t5-,6?,7+,8-,9+,10-,11+,12-,13+,14-,15-,16+,17+,18-,19+,20-/m1/s1",
+        "formula": "C20H40N3O13",
+        "monoisotopicmass": 530.25447,
+        "smiles": "C[NH2+][C@H]1C[C@@H]([NH3+])[C@H](O)[C@@H](O[C@@H]2O[C@H](CO)[C@H](O)[C@@H]3O[C@]4(O[C@H]23)O[C@H](C([NH3+])CO)[C@H](O)[C@H](O)[C@H]4O)[C@@H]1O",
+        "mass": 530.548,
+        "inchikey": "GRRNUXAQVGOGFE-NZSRVPFOSA-Q",
+        "structures": [
+          2178411
+        ]
+      }
+    }
+  ],
+  "total": 2,
+  "number_pages": 1
+}

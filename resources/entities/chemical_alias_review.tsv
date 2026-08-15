@@ -1,0 +1,6 @@
+raw_name	query_name	review_class	proxy_kind	notes
+Doxycycline hyclate	Doxycycline hyclate	exact_database_candidate	exact_formulation	PubChem CID 54705095 preserves ethanol, hydrate, and hydrochloride components; ChEBI/ChEMBL use a two-drug formula unit, so identity is not promoted to verified. Parent doxycycline CID 54671203 remains a labeled ablation view.
+LY 294002 hydrochloride	LY294002 hydrochloride	exact_database_candidate	exact_salt_candidate	PubChem exact-name CID 11957589 preserves hydrochloride. ChEBI/ChEMBL confirm only parent LY294002, so the exact salt remains a candidate and CID 3973 is retained only as the parent ablation.
+Hoechst 33258	Hoechst 33258	proxy	formulation_unspecified_parent_normalized	PubChem CID 2392, ChEBI 52082, and ChEMBL 301735 agree on the Hoechst 33258 base; the supplied label omits salt/hydrate. Prior CID 1464 is an ethoxy analogue and is rejected.
+Oligomycin	Oligomycin A	proxy	mixture_to_component	Generic oligomycin is collapsed to the A component.
+Tunicamycin	Tunicamycin A1	proxy	mixture_to_component	Generic tunicamycin is collapsed to one homolog.

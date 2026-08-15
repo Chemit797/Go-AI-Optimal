@@ -1,0 +1,15 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 4156,
+        "MolecularFormula": "C2H6O3S",
+        "SMILES": "COS(=O)(=O)C",
+        "ConnectivitySMILES": "COS(=O)(=O)C",
+        "InChIKey": "MBABOKRGFJTBAE-UHFFFAOYSA-N",
+        "IUPACName": "methyl methanesulfonate",
+        "Title": "Methyl Methanesulfonate"
+      }
+    ]
+  }
+}

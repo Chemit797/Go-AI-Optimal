@@ -1,0 +1,12 @@
+base_config: ../../experiments/response_loss_mse_control.yaml
+fold_seed: 42
+n_folds: 4
+cpu_threads_per_job: 8
+
+experiments:
+  - id: N-CONCAT-L256-S2-AUDIT
+    priority: 0
+    scenarios: [S2]
+    seeds: [42, 43, 2026]
+    overrides:
+      model: {interaction_mode: shared_concat, response_rank: 256}

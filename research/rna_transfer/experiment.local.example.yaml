@@ -1,0 +1,59 @@
+seed: 42
+
+paths:
+  goai_metadata: ../../data/official/WAYB_WAYC_metadata_train_val.csv
+  goai_proteome: ../../data/official/WAYB_WAYC_proteome_raw_train_val.csv
+  goai_chemical_map: ../../resources/entities/chemical_entity_map.tsv
+  goai_s1_folds: ../../data/folds/fold_assignments.csv
+  op3_h5ad: ../../data/external/op3/2023-09-12_de_by_cell_type_train.h5ad
+  op3_full_h5ad: ../../data/external/op3/de_train_full.h5ad
+  l1000_gctx: ../../data/external/l1000fwd/CD_signatures_LM_42809x978.gctx
+  l1000_signature_metadata: ../../data/external/l1000fwd/CD_signature_metadata.csv
+  l1000_drug_metadata: ../../data/external/l1000fwd/Drugs_metadata.csv
+  l1000_probe_metadata: ../../data/external/l1000fwd/Probes_L1000_metadata.csv
+  private_cache: ../../runs/private-cache
+  output_root: ../../runs/rna-transfer
+
+fingerprint:
+  radius: 2
+  n_bits: 2048
+
+rna_pretraining:
+  target_layer: logFC
+  residualize_cell_mean: true
+  clip_abs_logfc: 4.0
+  pca_rank: 64
+  encoder_hidden: 256
+  encoder_dim: 64
+  cell_dim: 16
+  fusion_hidden: 192
+  dropout: 0.20
+  epochs: 400
+  cv_epochs: 240
+  batch_size: 64
+  learning_rate: 0.001
+  weight_decay: 0.001
+  n_folds: 5
+
+goai_s1:
+  context_fields:
+    - Strains
+    - Medium
+    - Temperature
+    - pert_time
+    - pert_time_unit
+    - data_source
+    - instrument
+    - Yeast_cell_plate
+  context_dim: 64
+  fusion_hidden: 256
+  dropout: 0.15
+  max_epochs: 70
+  min_epochs: 12
+  patience: 10
+  batch_size: 128
+  learning_rate: 0.0007
+  encoder_lr_scale: 0.20
+  weight_decay: 0.0005
+  high_effect_weight: 0.35
+  inner_valid_fraction: 0.20

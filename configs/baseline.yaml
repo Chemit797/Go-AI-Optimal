@@ -1,0 +1,19 @@
+data:
+  metadata_train_val: ../WAYB_WAYC_metadata_train_val.csv
+  proteome_train_val: ../WAYB_WAYC_proteome_raw_train_val.csv
+  metadata_test: ../WAYB_WAYC_metadata_test.csv
+  missing_rate_threshold: 0.80
+
+model:
+  hidden_dim: 256
+  dropout: 0.10
+  learning_rate: 0.001
+  epochs: 50
+  seed: 42
+  device: auto
+
+features:
+  chemical_hash_dim: 32
+
+runtime:
+  runs_dir: ../runs

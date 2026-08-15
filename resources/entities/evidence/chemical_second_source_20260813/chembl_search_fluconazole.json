@@ -1,0 +1,436 @@
+{
+  "molecules": [
+    {
+      "atc_classifications": [
+        "J02AC01",
+        "D01AC15"
+      ],
+      "availability_type": 1,
+      "biotherapeutic": null,
+      "black_box_warning": 0,
+      "chemical_probe": 0,
+      "chirality": 2,
+      "cross_references": [
+        {
+          "xref_id": "fluconazole",
+          "xref_name": "fluconazole",
+          "xref_src": "DailyMed"
+        }
+      ],
+      "dosed_ingredient": true,
+      "first_approval": 1990,
+      "first_in_class": 0,
+      "helm_notation": null,
+      "inorganic_flag": 0,
+      "max_phase": "4.0",
+      "molecule_chembl_id": "CHEMBL106",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL106",
+        "molecule_chembl_id": "CHEMBL106",
+        "parent_chembl_id": "CHEMBL106"
+      },
+      "molecule_properties": {
+        "alogp": "0.74",
+        "aromatic_rings": 3,
+        "full_molformula": "C13H12F2N6O",
+        "full_mwt": "306.28",
+        "hba": 7,
+        "hbd": 1,
+        "heavy_atoms": 22,
+        "mw_freebase": "306.28",
+        "np_likeness_score": "-0.86",
+        "num_ro5_violations": 0,
+        "psa": "81.65",
+        "qed_weighted": "0.75",
+        "ro3_pass": "N",
+        "rtb": 5
+      },
+      "molecule_structures": {
+        "canonical_smiles": "OC(Cn1cncn1)(Cn1cncn1)c1ccc(F)cc1F",
+        "molfile": "\n     RDKit          2D\n\n 22 24  0  0  0  0  0  0  0  0999 V2000\n    1.8414   -0.1105    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    1.4289   -0.8250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.1434   -1.2375    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.8579   -0.8250    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    3.6116   -1.1606    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.1636   -0.5475    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    3.7511    0.1670    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.9441   -0.0045    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    1.0164   -1.5395    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.4289   -2.2540    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    1.0934   -3.0076    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.7065   -3.5597    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    2.4209   -3.1472    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.2494   -2.3402    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    0.7145   -0.4125    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.7145    0.4125    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.0000    0.8250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.7145    0.4125    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.4289    0.8250    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.7145   -0.4125    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.0000   -0.8250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.0000   -1.6500    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0\n  2  3  1  0\n  3  4  1  0\n  4  5  1  0\n  5  6  2  0\n  6  7  1  0\n  7  8  2  0\n  8  4  1  0\n  2  9  1  0\n  9 10  1  0\n 10 11  1  0\n 11 12  2  0\n 12 13  1  0\n 13 14  2  0\n 14 10  1  0\n  2 15  1  0\n 15 16  2  0\n 16 17  1  0\n 17 18  2  0\n 18 19  1  0\n 18 20  1  0\n 20 21  2  0\n 21 15  1  0\n 21 22  1  0\nM  END\n> <chembl_id>\nCHEMBL106\n\n> <chembl_pref_name>\nFLUCONAZOLE",
+        "standard_inchi": "InChI=1S/C13H12F2N6O/c14-10-1-2-11(12(15)3-10)13(22,4-20-8-16-6-18-20)5-21-9-17-7-19-21/h1-3,6-9,22H,4-5H2",
+        "standard_inchi_key": "RFHAOTPXVQNOHP-UHFFFAOYSA-N"
+      },
+      "molecule_synonyms": [
+        {
+          "molecule_synonym": "Alkanazole",
+          "syn_type": "OTHER",
+          "synonyms": "ALKANAZOLE"
+        },
+        {
+          "molecule_synonym": "BAYT-006267",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "BAYT-006267"
+        },
+        {
+          "molecule_synonym": "BAYT006267",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "BAYT006267"
+        },
+        {
+          "molecule_synonym": "Canesten oral",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "CANESTEN ORAL"
+        },
+        {
+          "molecule_synonym": "Diflucan",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "DIFLUCAN"
+        },
+        {
+          "molecule_synonym": "Diflucan one",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "DIFLUCAN ONE"
+        },
+        {
+          "molecule_synonym": "Difluconazole",
+          "syn_type": "OTHER",
+          "synonyms": "DIFLUCONAZOLE"
+        },
+        {
+          "molecule_synonym": "Fluconazol",
+          "syn_type": "INN_SPANISH",
+          "synonyms": "FLUCONAZOL"
+        },
+        {
+          "molecule_synonym": "Fluconazole",
+          "syn_type": "ATC",
+          "synonyms": "FLUCONAZOLE"
+        },
+        {
+          "molecule_synonym": "Fluconazole",
+          "syn_type": "BAN",
+          "synonyms": "FLUCONAZOLE"
+        },
+        {
+          "molecule_synonym": "Fluconazole",
+          "syn_type": "BNF",
+          "synonyms": "FLUCONAZOLE"
+        },
+        {
+          "molecule_synonym": "Fluconazole",
+          "syn_type": "FDA",
+          "synonyms": "FLUCONAZOLE"
+        },
+        {
+          "molecule_synonym": "Fluconazole",
+          "syn_type": "INN",
+          "synonyms": "FLUCONAZOLE"
+        },
+        {
+          "molecule_synonym": "Fluconazole",
+          "syn_type": "JAN",
+          "synonyms": "FLUCONAZOLE"
+        },
+        {
+          "molecule_synonym": "Fluconazole",
+          "syn_type": "MERCK_INDEX",
+          "synonyms": "FLUCONAZOLE"
+        },
+        {
+          "molecule_synonym": "Fluconazole",
+          "syn_type": "OTHER",
+          "synonyms": "FLUCONAZOLE"
+        },
+        {
+          "molecule_synonym": "Fluconazole",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "FLUCONAZOLE"
+        },
+        {
+          "molecule_synonym": "Fluconazole",
+          "syn_type": "USAN",
+          "synonyms": "FLUCONAZOLE"
+        },
+        {
+          "molecule_synonym": "Fluconazole",
+          "syn_type": "USP",
+          "synonyms": "FLUCONAZOLE"
+        },
+        {
+          "molecule_synonym": "Fluconazoli",
+          "syn_type": "OTHER",
+          "synonyms": "FLUCONAZOLI"
+        },
+        {
+          "molecule_synonym": "NSC-758661",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "NSC-758661"
+        },
+        {
+          "molecule_synonym": "Triflucan",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "Triflucan"
+        },
+        {
+          "molecule_synonym": "UK-49,858",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "UK-49,858"
+        },
+        {
+          "molecule_synonym": "UK-49858",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "UK-49858"
+        },
+        {
+          "molecule_synonym": "Zoltec",
+          "syn_type": "OTHER",
+          "synonyms": "ZOLTEC"
+        }
+      ],
+      "molecule_type": "Small molecule",
+      "natural_product": 0,
+      "oral": true,
+      "orphan": 0,
+      "parenteral": true,
+      "polymer_flag": 0,
+      "pref_name": "FLUCONAZOLE",
+      "prodrug": 0,
+      "score": 37.0,
+      "structure_type": "MOL",
+      "therapeutic_flag": true,
+      "topical": false,
+      "usan_stem": "-conazole",
+      "usan_stem_definition": "systemic antifungals (miconazole type)",
+      "usan_substem": "-conazole",
+      "usan_year": 1988,
+      "veterinary": 0,
+      "withdrawn_flag": false
+    },
+    {
+      "atc_classifications": [],
+      "availability_type": -1,
+      "biotherapeutic": null,
+      "black_box_warning": 0,
+      "chemical_probe": 0,
+      "chirality": -1,
+      "cross_references": [],
+      "dosed_ingredient": false,
+      "first_approval": null,
+      "first_in_class": -1,
+      "helm_notation": null,
+      "inorganic_flag": -1,
+      "max_phase": null,
+      "molecule_chembl_id": "CHEMBL1163001",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL106",
+        "molecule_chembl_id": "CHEMBL1163001",
+        "parent_chembl_id": "CHEMBL106"
+      },
+      "molecule_properties": {
+        "alogp": "0.74",
+        "aromatic_rings": 3,
+        "full_molformula": "C13H12F2N6O",
+        "full_mwt": "308.28",
+        "hba": 7,
+        "hbd": 1,
+        "heavy_atoms": 22,
+        "mw_freebase": "306.28",
+        "np_likeness_score": "-0.86",
+        "num_ro5_violations": 0,
+        "psa": "81.65",
+        "qed_weighted": "0.75",
+        "ro3_pass": "N",
+        "rtb": 5
+      },
+      "molecule_structures": {
+        "canonical_smiles": "[3H]OC(Cn1cncn1)(Cn1cncn1)c1ccc(F)cc1F",
+        "molfile": "\n     RDKit          2D\n\n 23 25  0  0  0  0  0  0  0  0999 V2000\n   -4.1909    4.7008    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -4.9054    4.2883    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -5.6198    4.7008    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -5.6198    5.5258    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -4.9054    5.9383    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -4.1909    5.5258    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -6.3343    5.9383    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0\n   -4.9054    3.4633    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0\n   -3.4764    4.2883    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -3.8889    3.5738    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.7620    3.8758    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -3.0639    5.0027    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.7620    3.0508    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.2389    5.0027    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   -3.1745    1.7812    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -3.4294    2.5659    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.0945    2.5659    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.3495    1.7812    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.9694    5.4152    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.9694    4.5902    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.7540    4.3353    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.7540    5.6702    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -3.9158    2.6793    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0\n  1  6  2  0\n  2  3  2  0\n  3  4  1  0\n  4  5  2  0\n  5  6  1  0\n  4  7  1  0\n  2  8  1  0\n  1  9  1  0\n  9 10  1  0\n  9 11  1  0\n  9 12  1  0\n 11 13  1  0\n 12 14  1  0\n 16 13  1  0\n 13 17  1  0\n 15 16  2  0\n 17 18  2  0\n 15 18  1  0\n 21 14  1  0\n 14 22  1  0\n 19 20  1  0\n 20 21  2  0\n 19 22  2  0\n 10 23  1  0\nM  ISO  1  23   3\nM  END\n> <chembl_id>\nCHEMBL1163001\n\n> <chembl_pref_name>\n[3H]FLUCONAZOLE",
+        "standard_inchi": "InChI=1S/C13H12F2N6O/c14-10-1-2-11(12(15)3-10)13(22,4-20-8-16-6-18-20)5-21-9-17-7-19-21/h1-3,6-9,22H,4-5H2/i22T",
+        "standard_inchi_key": "RFHAOTPXVQNOHP-SURVTVKHSA-N"
+      },
+      "molecule_synonyms": [
+        {
+          "molecule_synonym": "[3H]-Fluconazole",
+          "syn_type": "OTHER",
+          "synonyms": "[3H]-Fluconazole"
+        }
+      ],
+      "molecule_type": "Small molecule",
+      "natural_product": 0,
+      "oral": false,
+      "orphan": -1,
+      "parenteral": false,
+      "polymer_flag": 0,
+      "pref_name": "[3H]FLUCONAZOLE",
+      "prodrug": -1,
+      "score": 30.0,
+      "structure_type": "MOL",
+      "therapeutic_flag": false,
+      "topical": false,
+      "usan_stem": null,
+      "usan_stem_definition": null,
+      "usan_substem": null,
+      "usan_year": null,
+      "veterinary": -1,
+      "withdrawn_flag": false
+    },
+    {
+      "atc_classifications": [],
+      "availability_type": -1,
+      "biotherapeutic": null,
+      "black_box_warning": 0,
+      "chemical_probe": 0,
+      "chirality": -1,
+      "cross_references": [],
+      "dosed_ingredient": false,
+      "first_approval": null,
+      "first_in_class": -1,
+      "helm_notation": null,
+      "inorganic_flag": -1,
+      "max_phase": null,
+      "molecule_chembl_id": "CHEMBL4588194",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL4588194",
+        "molecule_chembl_id": "CHEMBL4588194",
+        "parent_chembl_id": "CHEMBL4588194"
+      },
+      "molecule_properties": {
+        "alogp": "3.68",
+        "aromatic_rings": 4,
+        "full_molformula": "C20H17ClF2N6OS",
+        "full_mwt": "462.91",
+        "hba": 8,
+        "hbd": 1,
+        "heavy_atoms": 31,
+        "mw_freebase": "462.91",
+        "np_likeness_score": "-1.68",
+        "num_ro5_violations": 0,
+        "psa": "81.65",
+        "qed_weighted": "0.40",
+        "ro3_pass": "N",
+        "rtb": 8
+      },
+      "molecule_structures": {
+        "canonical_smiles": "OC(Cn1cncn1)(Cn1cnc(SCc2cccc(Cl)c2)n1)c1ccc(F)cc1F",
+        "molfile": " \n     RDKit          2D\n\n 31 34  0  0  0  0  0  0  0  0999 V2000\n    2.7235  -12.0664    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.7223  -12.8939    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.4372  -13.3067    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.1537  -12.8934    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.1507  -12.0628    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.4354  -11.6537    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.4329  -10.8287    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.1461  -10.4141    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.7172  -10.4184    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.4250   -9.9998    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    4.8619  -10.8244    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    2.7148   -9.5934    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    3.3801   -9.1100    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    3.1229   -8.3262    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.2978   -8.3286    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    2.0454   -9.1140    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.0090  -11.6541    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0\n    3.4370  -14.1317    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0\n    4.9542  -11.6403    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.7617  -11.8094    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    6.1720  -11.0936    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.6181  -10.4823    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    6.9957  -11.0915    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n    7.4100  -11.8049    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    8.2350  -11.8028    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    8.6445  -12.5169    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    9.4687  -12.5151    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    9.8802  -11.7990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    9.4614  -11.0833    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    8.6385  -11.0886    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    9.8827  -13.2287    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0\n  2  3  1  0\n  3  4  2  0\n  4  5  1  0\n  5  6  2  0\n  6  1  1  0\n  6  7  1  0\n  7  8  1  0\n  7  9  1  0\n  7 10  1  0\n  8 11  1  0\n  9 12  1  0\n 12 13  1  0\n 13 14  2  0\n 14 15  1  0\n 15 16  2  0\n 16 12  1  0\n  1 17  1  0\n  3 18  1  0\n 11 19  1  0\n 19 20  2  0\n 20 21  1  0\n 21 22  2  0\n 22 11  1  0\n 21 23  1  0\n 23 24  1  0\n 24 25  1  0\n 25 26  2  0\n 26 27  1  0\n 27 28  2  0\n 28 29  1  0\n 29 30  2  0\n 30 25  1  0\n 27 31  1  0\nM  END\n> <chembl_id>\nCHEMBL4588194\n\n> <chembl_pref_name>\nNone",
+        "standard_inchi": "InChI=1S/C20H17ClF2N6OS/c21-15-3-1-2-14(6-15)8-31-19-25-13-29(27-19)10-20(30,9-28-12-24-11-26-28)17-5-4-16(22)7-18(17)23/h1-7,11-13,30H,8-10H2",
+        "standard_inchi_key": "FIQDWZOHDZXHJA-UHFFFAOYSA-N"
+      },
+      "molecule_synonyms": [],
+      "molecule_type": "Unknown",
+      "natural_product": 0,
+      "oral": false,
+      "orphan": -1,
+      "parenteral": false,
+      "polymer_flag": 0,
+      "pref_name": null,
+      "prodrug": -1,
+      "score": 29.0,
+      "structure_type": "MOL",
+      "therapeutic_flag": false,
+      "topical": false,
+      "usan_stem": null,
+      "usan_stem_definition": null,
+      "usan_substem": null,
+      "usan_year": null,
+      "veterinary": -1,
+      "withdrawn_flag": false
+    },
+    {
+      "atc_classifications": [],
+      "availability_type": null,
+      "biotherapeutic": null,
+      "black_box_warning": 0,
+      "chemical_probe": 0,
+      "chirality": 2,
+      "cross_references": [],
+      "dosed_ingredient": false,
+      "first_approval": null,
+      "first_in_class": 0,
+      "helm_notation": null,
+      "inorganic_flag": 0,
+      "max_phase": "2.0",
+      "molecule_chembl_id": "CHEMBL1908301",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL106",
+        "molecule_chembl_id": "CHEMBL1908301",
+        "parent_chembl_id": "CHEMBL1908301"
+      },
+      "molecule_properties": {
+        "alogp": "0.85",
+        "aromatic_rings": 3,
+        "full_molformula": "C13H13F2N6O4P",
+        "full_mwt": "386.26",
+        "hba": 8,
+        "hbd": 2,
+        "heavy_atoms": 26,
+        "mw_freebase": "386.26",
+        "np_likeness_score": "-0.75",
+        "num_ro5_violations": 0,
+        "psa": "128.18",
+        "qed_weighted": "0.57",
+        "ro3_pass": "N",
+        "rtb": 7
+      },
+      "molecule_structures": {
+        "canonical_smiles": "O=P(O)(O)OC(Cn1cncn1)(Cn1cncn1)c1ccc(F)cc1F",
+        "molfile": "\n     RDKit          2D\n\n 26 28  0  0  0  0  0  0  0  0999 V2000\n   -3.2639   -5.6014    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -4.5137   -4.8893    0.0000 P   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.5421   -5.1800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.2874   -7.4907    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   -4.2521   -8.1543    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   -3.9760   -6.8512    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.3919   -6.7446    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   -3.6853   -4.8893    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -3.9809   -6.0229    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -3.1525   -6.4298    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.7379   -6.2409    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   -3.2639   -7.2678    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.5421   -4.3612    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -3.4383   -8.0720    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.0549   -6.7059    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -4.5864   -7.4035    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.1158   -7.5197    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.8300   -3.9447    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.8300   -5.5869    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -4.5137   -4.0706    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -4.7026   -5.6886    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -5.2985   -5.1509    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.1130   -4.3516    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -3.2639   -3.9398    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.1130   -5.1800    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.3913   -3.9447    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0\n  2  8  1  0\n  3  1  1  0\n  4 17  2  0\n  5 16  2  0\n  6  9  1  0\n  7 10  1  0\n  8  1  1  0\n  9  1  1  0\n 10  1  1  0\n 11  7  1  0\n 12  6  1  0\n 13  3  2  0\n 14 12  2  0\n 15 11  2  0\n 16  6  1  0\n 17  7  1  0\n 18 13  1  0\n 19  3  1  0\n 20  2  2  0\n 21  2  1  0\n 22  2  1  0\n 23 25  1  0\n 24 13  1  0\n 25 19  2  0\n 26 23  1  0\n 15  4  1  0\n 14  5  1  0\n 18 23  2  0\nM  END\n> <chembl_id>\nCHEMBL1908301\n\n> <chembl_pref_name>\nFOSFLUCONAZOLE",
+        "standard_inchi": "InChI=1S/C13H13F2N6O4P/c14-10-1-2-11(12(15)3-10)13(25-26(22,23)24,4-20-8-16-6-18-20)5-21-9-17-7-19-21/h1-3,6-9H,4-5H2,(H2,22,23,24)",
+        "standard_inchi_key": "GHJWNRRCRIGGIO-UHFFFAOYSA-N"
+      },
+      "molecule_synonyms": [
+        {
+          "molecule_synonym": "Fluconazole dihydrogen phosphate",
+          "syn_type": "OTHER",
+          "synonyms": "FLUCONAZOLE DIHYDROGEN PHOSPHATE"
+        },
+        {
+          "molecule_synonym": "Fluconazole dihydrogen phosphate ester",
+          "syn_type": "MERCK_INDEX",
+          "synonyms": "FLUCONAZOLE DIHYDROGEN PHOSPHATE ESTER"
+        },
+        {
+          "molecule_synonym": "Fosfluconazol",
+          "syn_type": "INN_SPANISH",
+          "synonyms": "FOSFLUCONAZOL"
+        },
+        {
+          "molecule_synonym": "Fosfluconazole",
+          "syn_type": "INN",
+          "synonyms": "FOSFLUCONAZOLE"
+        },
+        {
+          "molecule_synonym": "Prodif",
+          "syn_type": "OTHER",
+          "synonyms": "PRODIF"
+        },
+        {
+          "molecule_synonym": "UK-292,663",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "UK-292,663"
+        },
+        {
+          "molecule_synonym": "UK-292663",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "UK-292663"
+        }
+      ],
+      "molecule_type": "Small molecule",
+      "natural_product": 0,
+      "oral": false,
+      "orphan": 0,
+      "parenteral": false,
+      "polymer_flag": 0,
+      "pref_name": "FOSFLUCONAZOLE",
+      "prodrug": 1,
+      "score": 16.0,
+      "structure_type": "MOL",
+      "therapeutic_flag": false,
+      "topical": false,
+      "usan_stem": "-conazole; fos-",
+      "usan_stem_definition": "systemic antifungals (miconazole type); phosphoro-derivatives",
+      "usan_substem": "-conazole; fos-",
+      "usan_year": null,
+      "veterinary": 0,
+      "withdrawn_flag": false
+    }
+  ],
+  "page_meta": {
+    "limit": 20,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 4
+  }
+}

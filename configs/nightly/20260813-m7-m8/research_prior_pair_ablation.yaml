@@ -1,0 +1,149 @@
+# Research-only target-stat prior and pair-scale ablations.  These jobs cannot
+# promote a numbered M7/M8 model.  All priors are fold-fit/leave-one-row-out;
+# their full-protein values are projected through the shared response decoder.
+base_config: ../../experiments/m7_general_only.yaml
+fold_seed: 42
+n_folds: 2
+cpu_threads_per_job: 8
+protocol_label: LOCAL_STRICT_OOF_NOT_OFFICIAL
+promotion_eligible: false
+expected_total_fits: 86
+
+core_scenarios: &core_scenarios [R00, R10, R01, R11, RT]
+research_base: &research_base
+  epochs: 13
+  universal_epochs: 9
+  strain_expert_epochs: 2
+  chemical_expert_epochs: 2
+  pair_expert_epochs: 0
+  joint_learning_rate_scale: 0.2
+  fold_matched_universal_warm_start: true
+  background_strain_expert_enabled: true
+  response_strain_expert_enabled: true
+  response_chemical_expert_enabled: true
+  entity_dropout: 0.25
+
+pair_base: &pair_base
+  epochs: 14
+  universal_epochs: 9
+  strain_expert_epochs: 2
+  chemical_expert_epochs: 2
+  pair_expert_epochs: 1
+  joint_learning_rate_scale: 0.2
+  fold_matched_universal_warm_start: true
+  background_strain_expert_enabled: true
+  response_strain_expert_enabled: true
+  response_chemical_expert_enabled: true
+  response_pair_expert_enabled: true
+  entity_dropout: 0.25
+
+experiments:
+  - id: RESEARCH-PRIOR-NONE
+    kind: research_prior_ablation
+    model_id: M7.3-prior-control
+    promotion_eligible: false
+    scenarios: *core_scenarios
+    seeds: [42]
+    overrides:
+      model:
+        <<: *research_base
+        response_prior_mode: none
+
+  - id: RESEARCH-PRIOR-CHEMICAL
+    kind: research_prior_ablation
+    model_id: research-prior-chemical
+    promotion_eligible: false
+    scenarios: *core_scenarios
+    seeds: [42]
+    overrides:
+      model:
+        <<: *research_base
+        response_prior_mode: chemical
+        response_prior_alpha: 4.0
+        response_prior_learnable_scale: false
+
+  - id: RESEARCH-PRIOR-STRAIN
+    kind: research_prior_ablation
+    model_id: research-prior-strain
+    promotion_eligible: false
+    scenarios: *core_scenarios
+    seeds: [42]
+    overrides:
+      model:
+        <<: *research_base
+        response_prior_mode: strain
+        response_prior_alpha: 4.0
+        response_prior_learnable_scale: false
+
+  - id: RESEARCH-PRIOR-BOTH
+    kind: research_prior_ablation
+    model_id: research-prior-both
+    promotion_eligible: false
+    scenarios: *core_scenarios
+    seeds: [42]
+    overrides:
+      model:
+        <<: *research_base
+        response_prior_mode: both
+        response_prior_alpha: 4.0
+        response_prior_learnable_scale: false
+
+  - id: SCALE-M7.4-PAIR-P000
+    kind: expert_scale_screen
+    selection_axis: pair
+    selection_value: 0.0
+    promotion_eligible: false
+    scenarios: [R11, RT]
+    seeds: [42]
+    overrides:
+      model:
+        <<: *pair_base
+        pair_expert_scale: 0.0
+
+  - id: SCALE-M7.4-PAIR-P025
+    kind: expert_scale_screen
+    selection_axis: pair
+    selection_value: 0.25
+    promotion_eligible: false
+    scenarios: [R11, RT]
+    seeds: [42]
+    overrides:
+      model:
+        <<: *pair_base
+        pair_expert_scale: 0.25
+
+  - id: SCALE-M7.4-PAIR-P050
+    kind: expert_scale_screen
+    selection_axis: pair
+    selection_value: 0.5
+    promotion_eligible: false
+    scenarios: [R11, RT]
+    seeds: [42]
+    overrides:
+      model:
+        <<: *pair_base
+        pair_expert_scale: 0.5
+
+  - id: SCALE-M7.4-PAIR-P075
+    kind: expert_scale_screen
+    selection_axis: pair
+    selection_value: 0.75
+    promotion_eligible: false
+    scenarios: [R11, RT]
+    seeds: [42]
+    overrides:
+      model:
+        <<: *pair_base
+        pair_expert_scale: 0.75
+
+  - id: SCALE-M7.4-PAIR-P100
+    kind: expert_scale_screen
+    selection_axis: pair
+    selection_value: 1.0
+    promotion_eligible: false
+    scenarios: [R11, RT]
+    seeds: [42]
+    overrides:
+      model:
+        <<: *pair_base
+        pair_expert_scale: 1.0

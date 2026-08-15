@@ -1,0 +1,17 @@
+baseline_config: ../baseline.yaml
+model: {hidden_dim: 128, response_rank: 64, response_basis: learned, calibration_rank: 16, dropout: 0.10, learning_rate: 0.001, weight_decay: 0.0002, epochs: 80, batch_size: 128, seed: 42, device: "cuda:1", absolute_weight: 0.25, background_weight: 1.0, fc_weight: 1.0, fc_correlation_weight: 0.0, absolute_loss: mse, background_loss: mse, fc_loss: mse, huber_delta: 1.0, target_scale_floor: 0.10, calibration_enabled: true}
+entity:
+  chemical_map: null
+  chemical_features: null
+  strain_features: ../../data/processed/entities/strain_semantics_shuffled.tsv
+  strain_features_manifest_required: true
+  strain_feature_columns: [snp_mds_001, snp_mds_002, snp_mds_003, snp_mds_004, snp_mds_005, snp_mds_006, snp_mds_007, snp_mds_008]
+  strain_feature_transform: nearest
+  chemical_registry: ../../data/processed/entities/chemical_registry.tsv
+  strain_registry: ../../data/processed/entities/strain_registry.tsv
+  allow_proxy_semantics: false
+  semantic_identity_policy: research_allow_candidate
+  semantic_training_coverage_required: false
+  chemical_bits: 512
+graph: {variant: none, artifact: null, weight: 0.0}
+runtime: {runs_dir: ../../runs/m12/strain_nearest8_shuffled}

@@ -1,0 +1,15 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 11957589,
+        "MolecularFormula": "C19H18ClNO3",
+        "SMILES": "C1COCCN1C2=CC(=O)C3=C(O2)C(=CC=C3)C4=CC=CC=C4.Cl",
+        "ConnectivitySMILES": "C1COCCN1C2=CC(=O)C3=C(O2)C(=CC=C3)C4=CC=CC=C4.Cl",
+        "InChIKey": "OQZQSRICUOWBLW-UHFFFAOYSA-N",
+        "IUPACName": "2-morpholin-4-yl-8-phenylchromen-4-one;hydrochloride",
+        "Title": "2-Morpholin-4-yl-8-phenylchromen-4-one;hydrochloride"
+      }
+    ]
+  }
+}

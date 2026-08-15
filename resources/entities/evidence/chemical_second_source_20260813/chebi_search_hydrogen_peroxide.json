@@ -1,0 +1,270 @@
+{
+  "results": [
+    {
+      "_index": "chebi-prod-compounds-12082026",
+      "_type": "_doc",
+      "_id": "16240",
+      "_score": 91.01669,
+      "_source": {
+        "chebi_accession": "CHEBI:16240",
+        "name": "hydrogen peroxide",
+        "ascii_name": "hydrogen peroxide",
+        "stars": 3,
+        "default_structure": 14170,
+        "definition": "An inorganic peroxide consisting of two hydroxy groups joined by a covalent oxygen-oxygen single bond.",
+        "inchi": "InChI=1S/H2O2/c1-2/h1-2H",
+        "mass": 34.014,
+        "monoisotopicmass": 34.00548,
+        "formula": "H2O2",
+        "inchikey": "MHAJPDPJQMAIIY-UHFFFAOYSA-N",
+        "charge": 0,
+        "smiles": "[H]OO[H]",
+        "structures": [
+          14170
+        ]
+      }
+    },
+    {
+      "_index": "chebi-prod-compounds-12082026",
+      "_type": "_doc",
+      "_id": "75178",
+      "_score": 83.97615,
+      "_source": {
+        "chebi_accession": "CHEBI:75178",
+        "name": "urea hydrogen peroxide",
+        "ascii_name": "urea hydrogen peroxide",
+        "stars": 3,
+        "default_structure": 2826955,
+        "definition": "A mixture obtained by combining equimolar amounts of hydrogen peroxide and urea.",
+        "inchikey": "AQLJVWUFPCUVLO-UHFFFAOYSA-N",
+        "monoisotopicmass": 94.03784,
+        "inchi": "InChI=1S/CH4N2O.H2O2/c2-1(3)4;1-2/h(H4,2,3,4);1-2H",
+        "formula": "CH4N2O.H2O2",
+        "smiles": "NC(N)=O.OO",
+        "charge": 0,
+        "mass": 94.07,
+        "structures": [
+          2826955
+        ]
+      }
+    },
+    {
+      "_index": "chebi-prod-compounds-12082026",
+      "_type": "_doc",
+      "_id": "29192",
+      "_score": 40.632214,
+      "_source": {
+        "chebi_accession": "CHEBI:29192",
+        "name": "hydrogenperoxide(1\u2212)",
+        "ascii_name": "hydrogenperoxide(1-)",
+        "stars": 3,
+        "default_structure": 1285,
+        "inchikey": "MHAJPDPJQMAIIY-UHFFFAOYSA-M",
+        "monoisotopicmass": 32.9982,
+        "smiles": "[H]O[O-]",
+        "inchi": "InChI=1S/H2O2/c1-2/h1-2H/p-1",
+        "mass": 33.006,
+        "charge": -1,
+        "formula": "HO2",
+        "structures": [
+          1285
+        ]
+      }
+    },
+    {
+      "_index": "chebi-prod-compounds-12082026",
+      "_type": "_doc",
+      "_id": "235319",
+      "_score": 36.758213,
+      "_source": {
+        "chebi_accession": "CHEBI:235319",
+        "name": "Pervanadate",
+        "ascii_name": "Pervanadate",
+        "stars": 2,
+        "definition": "trisodium;hydrogen peroxide;trioxido(oxo)vanadium"
+      }
+    },
+    {
+      "_index": "chebi-prod-compounds-12082026",
+      "_type": "_doc",
+      "_id": "35923",
+      "_score": 1.6495378,
+      "_source": {
+        "chebi_accession": "CHEBI:35923",
+        "name": "hydroperoxide",
+        "ascii_name": "hydroperoxide",
+        "stars": 3,
+        "definition": "A monosubstitution product of hydrogen peroxide, HOOH."
+      }
+    },
+    {
+      "_index": "chebi-prod-compounds-12082026",
+      "_type": "_doc",
+      "_id": "136452",
+      "_score": 1.3589804,
+      "_source": {
+        "chebi_accession": "CHEBI:136452",
+        "name": "jacoline",
+        "ascii_name": "jacoline",
+        "stars": 3,
+        "default_structure": 3103148,
+        "definition": "A pyrrolizine alkaloid obtained from senecionine by formal addition of hydrogen peroxide across the ethylidene double bond.",
+        "smiles": "[H][C@]12C3=CCN1CC[C@H]2OC(=O)[C@@](O)([C@@H](C)O)C[C@@H](C)[C@@](C)(O)C(=O)OC3",
+        "inchikey": "FMWJEBGSMAOQNN-YLFNNMARSA-N",
+        "mass": 369.414,
+        "charge": 0,
+        "formula": "C18H27NO7",
+        "monoisotopicmass": 369.17875,
+        "inchi": "InChI=1S/C18H27NO7/c1-10-8-18(24,11(2)20)16(22)26-13-5-7-19-6-4-12(14(13)19)9-25-15(21)17(10,3)23/h4,10-11,13-14,20,23-24H,5-9H2,1-3H3/t10-,11-,13-,14-,17-,18+/m1/s1",
+        "structures": [
+          3103148
+        ]
+      }
+    },
+    {
+      "_index": "chebi-prod-compounds-12082026",
+      "_type": "_doc",
+      "_id": "35924",
+      "_score": 1.3589804,
+      "_source": {
+        "chebi_accession": "CHEBI:35924",
+        "name": "peroxol",
+        "ascii_name": "peroxol",
+        "stars": 3,
+        "default_structure": 2168892,
+        "definition": "Monosubstitution products of hydrogen peroxide HOOH, having the skeleton ROOH, in which R is any organyl group.",
+        "formula": "HO2R",
+        "smiles": "*OO",
+        "monoisotopicmass": 32.99765,
+        "charge": 0,
+        "mass": 33.007,
+        "structures": [
+          2168892
+        ]
+      }
+    },
+    {
+      "_index": "chebi-prod-compounds-12082026",
+      "_type": "_doc",
+      "_id": "63940",
+      "_score": 1.269532,
+      "_source": {
+        "chebi_accession": "CHEBI:63940",
+        "name": "sodium tungstate",
+        "ascii_name": "sodium tungstate",
+        "stars": 3,
+        "default_structure": 2785509,
+        "definition": "An inorganic sodium salt having tungstate as the counterion. Combines with hydrogen peroxide for the oxidation of secondary amines to nitrones.",
+        "inchi": "InChI=1S/2Na.4O.W/q2*+1;;;2*-1;",
+        "monoisotopicmass": 293.91013,
+        "smiles": "[Na+].[Na+].[O]=[W](=[O])([O-])[O-]",
+        "charge": 0,
+        "inchikey": "XMVONEAAOPAGAO-UHFFFAOYSA-N",
+        "mass": 293.816,
+        "formula": "2Na.O4W",
+        "structures": [
+          2785509
+        ]
+      }
+    },
+    {
+      "_index": "chebi-prod-compounds-12082026",
+      "_type": "_doc",
+      "_id": "63939",
+      "_score": 1.2489798,
+      "_source": {
+        "chebi_accession": "CHEBI:63939",
+        "name": "sodium tungstate dihydrate",
+        "ascii_name": "sodium tungstate dihydrate",
+        "stars": 3,
+        "default_structure": 2785505,
+        "definition": "A hydrate that is the dihydrate form of sodium tungstate. Combines with hydrogen peroxide for the oxidation of secondary amines to nitrones",
+        "formula": "2H2O.2Na.O4W",
+        "inchi": "InChI=1S/2Na.2H2O.4O.W/h;;2*1H2;;;;;/q2*+1;;;;;2*-1;",
+        "smiles": "O.O.[Na+].[Na+].[O]=[W](=[O])([O-])[O-]",
+        "charge": 0,
+        "inchikey": "WPZFLQRLSGVIAA-UHFFFAOYSA-N",
+        "monoisotopicmass": 329.93126,
+        "mass": 329.846,
+        "structures": [
+          2785505
+        ]
+      }
+    },
+    {
+      "_index": "chebi-prod-compounds-12082026",
+      "_type": "_doc",
+      "_id": "71428",
+      "_score": 1.0049478,
+      "_source": {
+        "chebi_accession": "CHEBI:71428",
+        "name": "procarbazine hydrochloride",
+        "ascii_name": "procarbazine hydrochloride",
+        "stars": 3,
+        "default_structure": 2813920,
+        "definition": "A hydrochloride obtained by combining procarbazine with one equivalent of hydrochloric acid. An antineoplastic chemotherapy drug used for treatment of Hodgkin's lymphoma. Metabolism yields azo-procarbazine and hydrogen peroxide, which results in the breaking of DNA strands.",
+        "formula": "C12H19N3O.HCl",
+        "inchi": "InChI=1S/C12H19N3O.ClH/c1-9(2)15-12(16)11-6-4-10(5-7-11)8-14-13-3;/h4-7,9,13-14H,8H2,1-3H3,(H,15,16);1H",
+        "inchikey": "DERJYEZSLHIUKF-UHFFFAOYSA-N",
+        "charge": 0,
+        "mass": 257.765,
+        "smiles": "CNNCc1ccc(C(=O)NC(C)C)cc1.Cl",
+        "monoisotopicmass": 257.12949,
+        "structures": [
+          2813920,
+          2813922
+        ]
+      }
+    },
+    {
+      "_index": "chebi-prod-compounds-12082026",
+      "_type": "_doc",
+      "_id": "747478",
+      "_score": 0.8994987,
+      "_source": {
+        "chebi_accession": "CHEBI:747478",
+        "name": "S1QEL2.2",
+        "ascii_name": "S1QEL2.2",
+        "stars": 2,
+        "default_structure": 3489220,
+        "definition": "S1QEL2.2 is a specific, piperazine-type suppressor of superoxide and hydrogen peroxide production generated at Site IQ of mitochondrial complex I during reverse electron transport (RET). It is used as a pharmacological tool to study mitochondrial reactive oxygen species (ROS) without significantly inhibiting forward electron transport",
+        "smiles": "CCCCC1CCC(C(=O)NCCS(=O)(=O)N2CCN(c3cccc(Cl)c3)CC2)CC1",
+        "inchi": "InChI=1S/C23H36ClN3O3S/c1-2-3-5-19-8-10-20(11-9-19)23(28)25-12-17-31(29,30)27-15-13-26(14-16-27)22-7-4-6-21(24)18-22/h4,6-7,18-20H,2-3,5,8-17H2,1H3,(H,25,28)",
+        "charge": 0,
+        "mass": 470.079,
+        "inchikey": "BEQFSSMENHBAAH-UHFFFAOYSA-N",
+        "formula": "C23H36ClN3O3S",
+        "monoisotopicmass": 469.21659,
+        "structures": [
+          3489220
+        ]
+      }
+    },
+    {
+      "_index": "chebi-prod-compounds-12082026",
+      "_type": "_doc",
+      "_id": "71417",
+      "_score": 0.87900233,
+      "_source": {
+        "chebi_accession": "CHEBI:71417",
+        "name": "procarbazine",
+        "ascii_name": "procarbazine",
+        "stars": 3,
+        "default_structure": 2813896,
+        "definition": "A benzamide obtained by formal condensation of the carboxy group of 4-[(2-methylhydrazino)methyl]benzoic acid with the amino group of isopropylamine. An antineoplastic chemotherapy drug used for treatment of Hodgkin's lymphoma. Metabolism yields azo-procarbazine and hydrogen peroxide, which results in the breaking of DNA strands.",
+        "smiles": "CNNCc1ccc(C(=O)NC(C)C)cc1",
+        "inchikey": "CPTBDICYNRMXFX-UHFFFAOYSA-N",
+        "inchi": "InChI=1S/C12H19N3O/c1-9(2)15-12(16)11-6-4-10(5-7-11)8-14-13-3/h4-7,9,13-14H,8H2,1-3H3,(H,15,16)",
+        "monoisotopicmass": 221.15281,
+        "charge": 0,
+        "mass": 221.304,
+        "formula": "C12H19N3O",
+        "structures": [
+          2813896
+        ]
+      }
+    }
+  ],
+  "total": 12,
+  "number_pages": 1
+}

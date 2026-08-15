@@ -1,0 +1,40 @@
+base_config: ../../experiments/response_loss_mse_control.yaml
+fold_seed: 42
+n_folds: 4
+cpu_threads_per_job: 8
+
+# Final confirmation only.  Candidate axes were selected from the completed
+# 20260812 screen; these runs test model-seed stability on the same frozen OOF.
+experiments:
+  - id: N-CONCAT-L256-CONFIRM
+    priority: 0
+    scenarios: [S1]
+    seeds: [43, 2026]
+    overrides:
+      model: {interaction_mode: shared_concat, response_rank: 256}
+
+  - id: N-CONCAT-L256-HUBER-CONFIRM
+    priority: 1
+    scenarios: [S1]
+    seeds: [43, 2026]
+    overrides:
+      model:
+        interaction_mode: shared_concat
+        response_rank: 256
+        absolute_loss: huber
+        background_loss: huber
+        fc_loss: huber
+
+  - id: N-FILM-L256-CONFIRM
+    priority: 2
+    scenarios: [time, time_forward]
+    seeds: [43, 2026]
+    overrides:
+      model: {interaction_mode: shared_film, response_rank: 256}
+
+  - id: N-CAL-NOPLATE-CONFIRM
+    priority: 3
+    scenarios: [S2, plate]
+    seeds: [43, 2026]
+    overrides:
+      model: {calibration_use_plate: false}

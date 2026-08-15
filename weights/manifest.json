@@ -1,0 +1,27 @@
+{
+  "schema_version": "goai-weight-release-v1",
+  "model": "GOAI-M12.0",
+  "created_utc": "2026-08-15",
+  "fit_scope": "all_released_labeled_rows",
+  "fit_sample_count_m2_m6": 8958,
+  "fit_treatment_count_m9": 7884,
+  "seeds": [42, 43, 2026],
+  "artifacts": [
+    {"path": "weights/m2/mse/S42/checkpoint.pt", "family": "M2.0", "seed": 42, "size_bytes": 3919522, "sha256": "8ca2e5e42c93162798daf56d26a6b7cbbd88ef9daac9941ca93df5f0a97dc22c"},
+    {"path": "weights/m2/mse/S43/checkpoint.pt", "family": "M2.0", "seed": 43, "size_bytes": 3919522, "sha256": "5b4bdf3f640fac307b5031e49e63cad5b38a783fe2da012bbaa69e606236362e"},
+    {"path": "weights/m2/mse/S2026/checkpoint.pt", "family": "M2.0", "seed": 2026, "size_bytes": 3919522, "sha256": "a18e54e3ff5b916035de4c84235e40a9ca46a2688fbd06de54451de5a5004d6f"},
+    {"path": "weights/m2/huber/S42/checkpoint.pt", "family": "M2.31", "seed": 42, "size_bytes": 3919522, "sha256": "3c2e555ade07e6a1be4a0203b76ce9e3f5e82fc7a1d5503556093d11b9eb85dc"},
+    {"path": "weights/m2/huber/S43/checkpoint.pt", "family": "M2.31", "seed": 43, "size_bytes": 3919522, "sha256": "68342e596e53b9cadaaa1118307ca74e197499880ef7c82115b311b0cd718c4a"},
+    {"path": "weights/m2/huber/S2026/checkpoint.pt", "family": "M2.31", "seed": 2026, "size_bytes": 3919522, "sha256": "a8310ece73d177672ce42919903370cc9ac36ebfc79282a0cee1c02672d55051"},
+    {"path": "weights/m6/concat256/S42/checkpoint.pt", "family": "M6.11", "seed": 42, "size_bytes": 7474786, "sha256": "32ae1c203f9365cb0aa355f8de4062a46f22ad01c8db44ddfbb9473b8f86e06a"},
+    {"path": "weights/m6/concat256/S43/checkpoint.pt", "family": "M6.11", "seed": 43, "size_bytes": 7474786, "sha256": "5b0eabe5dde4ac3d75972d2456c5a3d1bce63e3e6e48876050942fac37d26bed"},
+    {"path": "weights/m6/concat256/S2026/checkpoint.pt", "family": "M6.11", "seed": 2026, "size_bytes": 7474786, "sha256": "739f2bb9a99f611c70cf6c765d22ba2588c477f7bd9252a3a90952c9f904b52c"},
+    {"path": "weights/m6/film256/S42/checkpoint.pt", "family": "M6.21", "seed": 42, "size_bytes": 7523554, "sha256": "1f64582f12e7416e47bd2e54ad1a7501d0e888951941e8fc25d510b9d36f2790"},
+    {"path": "weights/m6/film256/S43/checkpoint.pt", "family": "M6.21", "seed": 43, "size_bytes": 7523554, "sha256": "af5019ea1b813bf49278f6aadaf94ad23f5b7a859bee12b628b81bf8dd91329d"},
+    {"path": "weights/m6/film256/S2026/checkpoint.pt", "family": "M6.21", "seed": 2026, "size_bytes": 7523554, "sha256": "777d937338a6663585d25c3f49f19f0c134ef8a91035677f9a82bffd0dd51088"},
+    {"path": "weights/m9/op3_residual/S42/checkpoint.pt", "family": "M9.6", "seed": 42, "size_bytes": 11995362, "sha256": "34a94594b57227609db5e699f679cddf43f40e0d6ac07bebcd70899665a3c50d"},
+    {"path": "weights/m9/op3_residual/S43/checkpoint.pt", "family": "M9.6", "seed": 43, "size_bytes": 11995362, "sha256": "46093a47b16e6eab94dd887baeeff4b7573904ba84fc5aaf8a0b706e46bab454"},
+    {"path": "weights/m9/op3_residual/S2026/checkpoint.pt", "family": "M9.6", "seed": 2026, "size_bytes": 11995362, "sha256": "0e8e328f2d04e660515d576ed23e591eca83dc0bf02ab756314a86391971a233"},
+    {"path": "weights/pretrained/op3_rna_chemical_encoder.pt", "family": "OP3-encoder", "seed": null, "size_bytes": 2172032, "sha256": "c8d9091bbdd6f5d4eeae85106a9db4b773425da0544a9d73fae05ce9dbb7c996"}
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "results": [
+    {
+      "_index": "chebi-prod-compounds-12082026",
+      "_type": "_doc",
+      "_id": "41774",
+      "_score": 64.749405,
+      "_source": {
+        "chebi_accession": "CHEBI:41774",
+        "name": "tamoxifen",
+        "ascii_name": "tamoxifen",
+        "stars": 3,
+        "default_structure": 5096,
+        "monoisotopicmass": 371.22491,
+        "smiles": "CC/C(=C(c1ccccc1)c1ccc(OCCN(C)C)cc1)c1ccccc1",
+        "charge": 0,
+        "mass": 371.524,
+        "inchi": "InChI=1S/C26H29NO/c1-4-25(21-11-7-5-8-12-21)26(22-13-9-6-10-14-22)23-15-17-24(18-16-23)28-20-19-27(2)3/h5-18H,4,19-20H2,1-3H3/b26-25-",
+        "formula": "C26H29NO",
+        "inchikey": "NKANXQFJJICGDU-QPLCGJKRSA-N",
+        "structures": [
+          5096
+        ]
+      }
+    },
+    {
+      "_index": "chebi-prod-compounds-12082026",
+      "_type": "_doc",
+      "_id": "32663",
+      "_score": 55.942177,
+      "_source": {
+        "chebi_accession": "CHEBI:32663",
+        "name": "tamoxifen <em>N</em>-\u03b2-<small>D</small>-glucosiduronic acid",
+        "ascii_name": "tamoxifen N-beta-D-glucosiduronic acid",
+        "stars": 3,
+        "default_structure": 4579,
+        "smiles": "CC/C(=C(c1ccccc1)c1ccc(OCC[N+](C)(C)[C@@H]2O[C@H](C(=O)O)[C@@H](O)[C@H](O)[C@H]2O)cc1)c1ccccc1",
+        "monoisotopicmass": 548.26428,
+        "charge": 1,
+        "formula": "C32H38NO7",
+        "mass": 548.656,
+        "inchi": "InChI=1S/C32H37NO7/c1-4-25(21-11-7-5-8-12-21)26(22-13-9-6-10-14-22)23-15-17-24(18-16-23)39-20-19-33(2,3)31-29(36)27(34)28(35)30(40-31)32(37)38/h5-18,27-31,34-36H,4,19-20H2,1-3H3/p+1/b26-25-/t27-,28-,29+,30-,31+/m0/s1",
+        "inchikey": "UKFQQYJAYUAYES-DTMHFWPESA-O",
+        "structures": [
+          4579
+        ]
+      }
+    },
+    {
+      "_index": "chebi-prod-compounds-12082026",
+      "_type": "_doc",
+      "_id": "9397",
+      "_score": 32.01981,
+      "_source": {
+        "chebi_accession": "CHEBI:9397",
+        "name": "tamoxifen citrate",
+        "ascii_name": "tamoxifen citrate",
+        "stars": 3,
+        "default_structure": 75438,
+        "smiles": "CC/C(=C(c1ccccc1)c1ccc(OCCN(C)C)cc1)c1ccccc1.O=C([O-])CC(O)(CC(=O)[O-])C(=O)[O-].[H+].[H+].[H+]",
+        "inchi": "InChI=1S/C26H29NO.C6H8O7/c1-4-25(21-11-7-5-8-12-21)26(22-13-9-6-10-14-22)23-15-17-24(18-16-23)28-20-19-27(2)3;7-3(8)1-6(13,5(11)12)2-4(9)10/h5-18H,4,19-20H2,1-3H3;13H,1-2H2,(H,7,8)(H,9,10)(H,11,12)/b26-25-;",
+        "charge": 0,
+        "inchikey": "FQZYTYWMLGAPFJ-OQKDUQJOSA-N",
+        "mass": 563.647,
+        "monoisotopicmass": 563.25192,
+        "formula": "3H.C26H29NO.C6H5O7",
+        "structures": [
+          75438
+        ]
+      }
+    },
+    {
+      "_index": "chebi-prod-compounds-12082026",
+      "_type": "_doc",
+      "_id": "191818",
+      "_score": 27.645563,
+      "_source": {
+        "chebi_accession": "CHEBI:191818",
+        "name": "Alpha-Hydroxy-tamoxifen-O-glucuronide",
+        "ascii_name": "Alpha-Hydroxy-tamoxifen-O-glucuronide",
+        "stars": 2,
+        "default_structure": 3312401,
+        "formula": "C32H37NO8",
+        "inchikey": "WEHJOAAYUBXOCR-RVJUPFJYSA-N",
+        "charge": 0,
+        "inchi": "InChI=1S/C32H37NO8/c1-3-25(21-10-6-4-7-11-21)26(22-12-8-5-9-13-22)23-14-16-24(17-15-23)39-19-18-33(2)20-40-32-29(36)27(34)28(35)30(41-32)31(37)38/h4-17,27-30,32,34-36H,3,18-20H2,1-2H3,(H,37,38)/b26-25-/t27-,28-,29+,30-,32+/m0/s1",
+        "mass": 563.647,
+        "monoisotopicmass": 563.25192,
+        "smiles": "CC/C(=C(c1ccccc1)c1ccc(OCCN(C)CO[C@@H]2O[C@H](C(=O)O)[C@@H](O)[C@H](O)[C@H]2O)cc1)c1ccccc1",
+        "structures": [
+          3312401
+        ]
+      }
+    },
+    {
+      "_index": "chebi-prod-compounds-12082026",
+      "_type": "_doc",
+      "_id": "63825",
+      "_score": 27.645563,
+      "_source": {
+        "chebi_accession": "CHEBI:63825",
+        "name": "tamoxifen <em>N</em>-oxide",
+        "ascii_name": "tamoxifen N-oxide",
+        "stars": 3,
+        "default_structure": 3074173,
+        "definition": "A tertiary amine oxide resulting from the formal oxidation of the amino group of tamoxifen.",
+        "formula": "C26H29NO2",
+        "monoisotopicmass": 387.21983,
+        "charge": 0,
+        "mass": 387.523,
+        "smiles": "CC/C(=C(c1ccccc1)c1ccc(OCC[N+](C)(C)[O-])cc1)c1ccccc1",
+        "inchi": "InChI=1S/C26H29NO2/c1-4-25(21-11-7-5-8-12-21)26(22-13-9-6-10-14-22)23-15-17-24(18-16-23)29-20-19-27(2,3)28/h5-18H,4,19-20H2,1-3H3/b26-25-",
+        "inchikey": "YAASNACECBQAFW-QPLCGJKRSA-N",
+        "structures": [
+          2785072,
+          3074173
+        ]
+      }
+    },
+    {
+      "_index": "chebi-prod-compounds-12082026",
+      "_type": "_doc",
+      "_id": "44616",
+      "_score": 1.2313414,
+      "_source": {
+        "chebi_accession": "CHEBI:44616",
+        "name": "afimoxifene",
+        "ascii_name": "afimoxifene",
+        "stars": 3,
+        "default_structure": 2786502,
+        "definition": "A tertiary amino compound that is tamoxifen in which the phenyl group which is in a <i>Z</i>- relationship to the ethyl substituent is hydroxylated at the <em>para</em>- position. It is the active metabolite of tamoxifen.",
+        "formula": "C26H29NO2",
+        "inchi": "InChI=1S/C26H29NO2/c1-4-25(20-8-6-5-7-9-20)26(21-10-14-23(28)15-11-21)22-12-16-24(17-13-22)29-19-18-27(2)3/h5-17,28H,4,18-19H2,1-3H3/b26-25-",
+        "smiles": "CC/C(=C(c1ccc(O)cc1)c1ccc(OCCN(C)C)cc1)c1ccccc1",
+        "monoisotopicmass": 387.21983,
+        "charge": 0,
+        "mass": 387.523,
+        "inchikey": "TXUZVZSFRXZGTL-QPLCGJKRSA-N",
+        "structures": [
+          2786502,
+          41943
+        ]
+      }
+    }
+  ],
+  "total": 6,
+  "number_pages": 1
+}

@@ -1,0 +1,255 @@
+{
+  "results": [
+    {
+      "_index": "chebi-prod-compounds-12082026",
+      "_type": "_doc",
+      "_id": "28285",
+      "_score": 65.07496,
+      "_source": {
+        "chebi_accession": "CHEBI:28285",
+        "name": "oligomycin A",
+        "ascii_name": "oligomycin A",
+        "stars": 3,
+        "default_structure": 3113337,
+        "definition": "An oligomycin with formula C<small><sub>45</sub></small>H<small><sub>74</sub></small>0<small><sub>11</sub></small>. An inhibitor of mitochondrial F<small><sub>1</sub></small>F<small><sub>O</sub></small> ATP synthase that induces apoptosis in a variety of cell types and exhibits antifungal, antitumour, and nematicidal activities, but its clinical application has been limited by poor solubility in water and other biocompatible solvents.",
+        "inchi": "InChI=1S/C45H74O11/c1-12-34-17-15-13-14-16-27(4)42(51)44(11,53)43(52)32(9)40(50)31(8)39(49)30(7)38(48)26(3)18-21-37(47)54-41-29(6)35(20-19-34)55-45(33(41)10)23-22-25(2)36(56-45)24-28(5)46/h13-15,17-18,21,25-36,38,40-42,46,48,50-51,53H,12,16,19-20,22-24H2,1-11H3/b14-13+,17-15+,21-18+/t25-,26-,27+,28+,29+,30-,31-,32-,33-,34-,35-,36-,38+,40+,41+,42-,44+,45-/m0/s1",
+        "formula": "C45H74O11",
+        "inchikey": "MNULEGDCPYONBU-AWJDAWNUSA-N",
+        "mass": 791.076,
+        "charge": 0,
+        "monoisotopicmass": 790.52311,
+        "smiles": "CC[C@H]1/C=C/C=C/C[C@@H](C)[C@H](O)[C@@](C)(O)C(=O)[C@@H](C)[C@H](O)[C@@H](C)C(=O)[C@@H](C)[C@H](O)[C@@H](C)/C=C/C(=O)O[C@@H]2[C@H](C)[C@H](CC1)O[C@]1(CC[C@H](C)[C@H](C[C@@H](C)O)O1)[C@H]2C",
+        "structures": [
+          3113337,
+          3251885
+        ]
+      }
+    },
+    {
+      "_index": "chebi-prod-compounds-12082026",
+      "_type": "_doc",
+      "_id": "84314",
+      "_score": 65.07496,
+      "_source": {
+        "chebi_accession": "CHEBI:84314",
+        "name": "oligomycin mixture",
+        "ascii_name": "oligomycin mixture",
+        "stars": 3,
+        "definition": "Any mixture comprising two or more oligomycins."
+      }
+    },
+    {
+      "_index": "chebi-prod-compounds-12082026",
+      "_type": "_doc",
+      "_id": "7751",
+      "_score": 61.532944,
+      "_source": {
+        "chebi_accession": "CHEBI:7751",
+        "name": "oligomycin B",
+        "ascii_name": "oligomycin B",
+        "stars": 3,
+        "default_structure": 3113340,
+        "definition": "An oligomycin with formula C<small><sub>45</sub></small>H<small><sub>72</sub></small>O<small><sub>12</sub></small> that is oligomycin A in which the spirocyclic ring bearing the 2-hydroxypropyl substituent has been substituted by an oxo group at the carbon which is directly attached to the spirocentre. It is a nonselective inhibitor of the mitochondrial F<small><sub>1</sub></small>F<small><sub>0</sub></small> ATP synthase.",
+        "formula": "C45H72O12",
+        "mass": 805.059,
+        "inchi": "InChI=1S/C45H72O12/c1-12-33-17-15-13-14-16-25(3)42(52)44(11,54)43(53)31(9)40(51)30(8)39(50)29(7)38(49)24(2)18-21-37(48)55-41-28(6)34(20-19-33)56-45(32(41)10)36(47)22-26(4)35(57-45)23-27(5)46/h13-15,17-18,21,24-35,38,40-42,46,49,51-52,54H,12,16,19-20,22-23H2,1-11H3/b14-13+,17-15+,21-18+/t24-,25+,26-,27+,28+,29-,30-,31-,32-,33-,34-,35-,38+,40+,41+,42-,44+,45+/m0/s1",
+        "charge": 0,
+        "monoisotopicmass": 804.50238,
+        "inchikey": "QPRQJOHKNJIMGN-WVUAJZTGSA-N",
+        "smiles": "CC[C@H]1/C=C/C=C/C[C@@H](C)[C@H](O)[C@@](C)(O)C(=O)[C@@H](C)[C@H](O)[C@@H](C)C(=O)[C@@H](C)[C@H](O)[C@@H](C)/C=C/C(=O)O[C@@H]2[C@H](C)[C@H](CC1)O[C@@]1(O[C@@H](C[C@@H](C)O)[C@@H](C)CC1=O)[C@H]2C",
+        "structures": [
+          3113340,
+          3251883
+        ]
+      }
+    },
+    {
+      "_index": "chebi-prod-compounds-12082026",
+      "_type": "_doc",
+      "_id": "7752",
+      "_score": 61.532944,
+      "_source": {
+        "chebi_accession": "CHEBI:7752",
+        "name": "oligomycin C",
+        "ascii_name": "oligomycin C",
+        "stars": 3,
+        "default_structure": 3113346,
+        "definition": "An oligomycin with formula C<small><sub>45</sub></small>H<small><sub>74</sub></small>O<small><sub>10</sub></small> that is oligomycin A in which the hydroxy group that is \u03b1- to a macrolide keto group has been replaced by a hydrogen. It is an inhibitor of the mitochondrial F<small><sub>1</sub></small>F<small><sub>0</sub></small> ATP synthase.",
+        "formula": "C45H74O10",
+        "inchi": "InChI=1S/C45H74O10/c1-12-35-17-15-13-14-16-26(3)39(48)30(7)41(50)32(9)43(52)33(10)42(51)31(8)40(49)27(4)18-21-38(47)53-44-29(6)36(20-19-35)54-45(34(44)11)23-22-25(2)37(55-45)24-28(5)46/h13-15,17-18,21,25-37,39-40,43-44,46,48-49,52H,12,16,19-20,22-24H2,1-11H3/b14-13+,17-15+,21-18+/t25-,26+,27-,28+,29+,30-,31-,32+,33-,34-,35-,36-,37-,39-,40+,43-,44+,45-/m0/s1",
+        "mass": 775.077,
+        "inchikey": "CMMLZMMKTYEOKV-RDKHTNMBSA-N",
+        "charge": 0,
+        "smiles": "CC[C@H]1/C=C/C=C/C[C@@H](C)[C@H](O)[C@H](C)C(=O)[C@@H](C)[C@H](O)[C@@H](C)C(=O)[C@@H](C)[C@H](O)[C@@H](C)/C=C/C(=O)O[C@@H]2[C@H](C)[C@H](CC1)O[C@]1(CC[C@H](C)[C@H](C[C@@H](C)O)O1)[C@H]2C",
+        "monoisotopicmass": 774.5282,
+        "structures": [
+          3113346,
+          3251884
+        ]
+      }
+    },
+    {
+      "_index": "chebi-prod-compounds-12082026",
+      "_type": "_doc",
+      "_id": "25675",
+      "_score": 45.491997,
+      "_source": {
+        "chebi_accession": "CHEBI:25675",
+        "name": "oligomycin",
+        "ascii_name": "oligomycin",
+        "stars": 3,
+        "default_structure": 3113339,
+        "definition": "Any of the 26-membered ring macrolides produced by <em>Streptomyces</em> species that can be toxic to other organisms through their ability to inhibit mitochondrial membrane-bound ATP synthases.",
+        "formula": "C43H64O10R5",
+        "mass": 740.964,
+        "monoisotopicmass": 740.44995,
+        "charge": 0,
+        "smiles": "[1*][C@@]1([2*])[C@@H]2OC(=O)/C=C/[C@H](C)[C@@H](O)[C@H](C)C(=O)[C@H](C)[C@@H](O)[C@H](C)C(=O)[C@@]([3*])(C)[C@@H](O)[C@H](C)C/C=C/C=C/[C@H](CC)CC[C@H](O[C@@]13O[C@@H](C[C@@H]([5*])O)[C@@H](C)CC3=[4*])[C@H]2C",
+        "structures": [
+          3113339
+        ]
+      }
+    },
+    {
+      "_index": "chebi-prod-compounds-12082026",
+      "_type": "_doc",
+      "_id": "201363",
+      "_score": 29.786657,
+      "_source": {
+        "chebi_accession": "CHEBI:201363",
+        "name": "Oligomycin F",
+        "ascii_name": "Oligomycin F",
+        "stars": 2,
+        "default_structure": 3352006,
+        "mass": 805.103,
+        "inchikey": "BBXPKWAURBGKEO-ZWOLTWBCSA-N",
+        "charge": 0,
+        "inchi": "InChI=1S/C46H76O11/c1-12-34-18-16-14-15-17-28(5)43(52)45(11,54)44(53)32(9)41(51)31(8)40(50)30(7)39(49)27(4)19-22-38(48)55-42-29(6)36(21-20-34)56-46(33(42)10)24-23-26(3)37(57-46)25-35(47)13-2/h14-16,18-19,22,26-37,39,41-43,47,49,51-52,54H,12-13,17,20-21,23-25H2,1-11H3/b15-14+,18-16+,22-19+/t26-,27-,28+,29+,30-,31-,32-,33-,34?,35+,36-,37?,39+,41+,42+,43?,45+,46-/m1/s1",
+        "formula": "C46H76O11",
+        "monoisotopicmass": 804.53876,
+        "smiles": "CCC1/C=C/C=C/C[C@H](C)C(O)[C@](C)(O)C(=O)[C@H](C)[C@@H](O)[C@H](C)C(=O)[C@H](C)[C@@H](O)[C@H](C)/C=C/C(=O)O[C@H]2[C@@H](C)[C@@H](CC1)O[C@@]1(CC[C@@H](C)C(C[C@@H](O)CC)O1)[C@@H]2C",
+        "structures": [
+          3352006
+        ]
+      }
+    },
+    {
+      "_index": "chebi-prod-compounds-12082026",
+      "_type": "_doc",
+      "_id": "203482",
+      "_score": 29.786657,
+      "_source": {
+        "chebi_accession": "CHEBI:203482",
+        "name": "Oligomycin G",
+        "ascii_name": "Oligomycin G",
+        "stars": 2,
+        "default_structure": 3360480,
+        "inchi": "InChI=1S/C44H74O10/c1-11-34-16-14-12-13-15-26(3)40(49)29(6)35(46)24-36(47)30(7)42(51)32(9)41(50)27(4)17-20-39(48)52-43-31(8)37(19-18-34)53-44(33(43)10)22-21-25(2)38(54-44)23-28(5)45/h12-14,16-17,20,25-34,36-38,40-43,45,47,49-51H,11,15,18-19,21-24H2,1-10H3/b13-12-,16-14?,20-17-",
+        "monoisotopicmass": 762.5282,
+        "smiles": "CCC1C=C/C=CCC(C)C(O)C(C)C(=O)CC(O)C(C)C(O)C(C)C(O)C(C)/C=CC(=O)OC2C(C)C(CC1)OC1(CCC(C)C(CC(C)O)O1)C2C",
+        "inchikey": "MAWWFIBHIOEUPH-DFGFLKMESA-N",
+        "charge": 0,
+        "formula": "C44H74O10",
+        "mass": 763.066,
+        "structures": [
+          3360480
+        ]
+      }
+    },
+    {
+      "_index": "chebi-prod-compounds-12082026",
+      "_type": "_doc",
+      "_id": "222244",
+      "_score": 29.786657,
+      "_source": {
+        "chebi_accession": "CHEBI:222244",
+        "name": "Oligomycin E",
+        "ascii_name": "Oligomycin E",
+        "stars": 2,
+        "default_structure": 3435405,
+        "formula": "C45H72O13",
+        "smiles": "CC[C@H]1/C=CC=C/C[C@@H](C)[C@H](O)[C@](C)(O)C(=O)[C@@H](C)[C@@H](O)[C@H](C)C(=O)[C@H](C)[C@@H](O)[C@H](C)/C=C/C(=O)O[C@H]2[C@H](C)[C@@H](CC1)O[C@@]1(O[C@@H](C[C@@H](C)O)[C@@H](C)CC1=O)[C@@]2(C)O",
+        "inchikey": "UWEZMQMMPORRMH-XBUZHXRVSA-N",
+        "inchi": "InChI=1S/C45H72O13/c1-12-32-17-15-13-14-16-25(3)40(52)43(10,54)41(53)31(9)39(51)30(8)38(50)29(7)37(49)24(2)18-21-36(48)56-42-28(6)33(20-19-32)57-45(44(42,11)55)35(47)22-26(4)34(58-45)23-27(5)46/h13-15,17-18,21,24-34,37,39-40,42,46,49,51-52,54-55H,12,16,19-20,22-23H2,1-11H3/b14-13-,17-15-,21-18+/t24-,25-,26+,27-,28-,29-,30-,31+,32+,33-,34+,37+,39+,40+,42+,43+,44+,45+/m1/s1",
+        "charge": 0,
+        "mass": 821.058,
+        "monoisotopicmass": 820.49729,
+        "structures": [
+          3435405
+        ]
+      }
+    },
+    {
+      "_index": "chebi-prod-compounds-12082026",
+      "_type": "_doc",
+      "_id": "7753",
+      "_score": 29.786657,
+      "_source": {
+        "chebi_accession": "CHEBI:7753",
+        "name": "oligomycin D",
+        "ascii_name": "oligomycin D",
+        "stars": 3,
+        "default_structure": 3113348,
+        "definition": "An oligomycin with formula C<small><sub>44</sub></small>H<small><sub>72</sub></small>O<small><sub>11</sub></small> that is oligomycin A in which the methyl substituent adjacent to the spirocyclic centre has been replaced by a hydrogen.",
+        "formula": "C44H72O11",
+        "smiles": "CC[C@H]1/C=C/C=C/C[C@@H](C)[C@H](O)[C@@](C)(O)C(=O)[C@@H](C)[C@H](O)[C@@H](C)C(=O)[C@@H](C)[C@H](O)[C@@H](C)/C=C/C(=O)O[C@H]2C[C@@]3(CC[C@H](C)[C@H](C[C@@H](C)O)O3)O[C@@H](CC1)[C@H]2C",
+        "inchikey": "LVWVMRBMGDJZLM-BONFEJLISA-N",
+        "inchi": "InChI=1S/C44H72O11/c1-11-33-16-14-12-13-15-27(4)41(50)43(10,52)42(51)32(9)40(49)31(8)39(48)30(7)38(47)26(3)17-20-37(46)53-36-24-44(54-34(19-18-33)29(36)6)22-21-25(2)35(55-44)23-28(5)45/h12-14,16-17,20,25-36,38,40-41,45,47,49-50,52H,11,15,18-19,21-24H2,1-10H3/b13-12+,16-14+,20-17+/t25-,26-,27+,28+,29+,30-,31-,32-,33-,34-,35-,36-,38+,40+,41-,43+,44-/m0/s1",
+        "mass": 777.049,
+        "monoisotopicmass": 776.50746,
+        "charge": 0,
+        "structures": [
+          3113348
+        ]
+      }
+    },
+    {
+      "_index": "chebi-prod-compounds-12082026",
+      "_type": "_doc",
+      "_id": "199064",
+      "_score": 26.94445,
+      "_source": {
+        "chebi_accession": "CHEBI:199064",
+        "name": "21-hydroxy oligomycin C",
+        "ascii_name": "21-hydroxy oligomycin C",
+        "stars": 2,
+        "default_structure": 3342814,
+        "formula": "C45H74O11",
+        "smiles": "CC[C@H]1/C=C/C=C/C[C@@H](C)[C@H](O)[C@H](C)C(=O)[C@@H](C)[C@H](O)[C@@H](C)C(=O)[C@@H](C)[C@H](O)[C@@H](C)/C=C/C(=O)O[C@@H]2[C@H](C)[C@H](C[C@H]1O)O[C@]1(CC[C@H](C)[C@H](C[C@@H](C)O)O1)[C@H]2C",
+        "mass": 791.076,
+        "charge": 0,
+        "inchi": "InChI=1S/C45H74O11/c1-12-34-17-15-13-14-16-25(3)39(49)29(7)41(51)31(9)43(53)32(10)42(52)30(8)40(50)26(4)18-19-38(48)54-44-28(6)37(23-35(34)47)56-45(33(44)11)21-20-24(2)36(55-45)22-27(5)46/h13-15,17-19,24-37,39-40,43-44,46-47,49-50,53H,12,16,20-23H2,1-11H3/b14-13+,17-15+,19-18+/t24-,25+,26-,27+,28+,29-,30-,31+,32-,33-,34-,35+,36-,37-,39-,40+,43-,44+,45+/m0/s1",
+        "inchikey": "PDHNJYCZSJPJDI-ZZIRKPJYSA-N",
+        "monoisotopicmass": 790.52311,
+        "structures": [
+          3342814
+        ]
+      }
+    },
+    {
+      "_index": "chebi-prod-compounds-12082026",
+      "_type": "_doc",
+      "_id": "227206",
+      "_score": 26.94445,
+      "_source": {
+        "chebi_accession": "CHEBI:227206",
+        "name": "40-hydroxy oligomycin B",
+        "ascii_name": "40-hydroxy oligomycin B",
+        "stars": 2,
+        "default_structure": 3455211,
+        "inchikey": "YOZZPIPXUJKGKJ-LTXUUYMMSA-N",
+        "formula": "C45H72O13",
+        "charge": 0,
+        "mass": 821.058,
+        "inchi": "InChI=1S/C45H72O13/c1-11-32-15-13-12-14-16-33(23-46)43(54)44(10,55)42(53)30(8)40(52)29(7)39(51)28(6)38(50)24(2)17-20-37(49)56-41-27(5)34(19-18-32)57-45(31(41)9)36(48)21-25(3)35(58-45)22-26(4)47/h12-15,17,20,24-35,38,40-41,43,46-47,50,52,54-55H,11,16,18-19,21-23H2,1-10H3/b14-12+,15-13+,20-17+/t24-,25-,26+,27+,28-,29-,30-,31-,32-,33-,34-,35-,38+,40+,41+,43-,44-,45+/m0/s1",
+        "smiles": "CC[C@H]1/C=C/C=C/C[C@@H](CO)[C@H](O)[C@@](C)(O)C(=O)[C@@H](C)[C@H](O)[C@@H](C)C(=O)[C@@H](C)[C@H](O)[C@@H](C)/C=C/C(=O)O[C@@H]2[C@H](C)[C@H](CC1)O[C@@]1(O[C@@H](C[C@@H](C)O)[C@@H](C)CC1=O)[C@H]2C",
+        "monoisotopicmass": 820.49729,
+        "structures": [
+          3455211
+        ]
+      }
+    }
+  ],
+  "total": 11,
+  "number_pages": 1
+}

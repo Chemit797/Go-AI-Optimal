@@ -1,0 +1,55 @@
+{
+  "results": [
+    {
+      "_index": "chebi-prod-compounds-12082026",
+      "_type": "_doc",
+      "_id": "25255",
+      "_score": 65.16673,
+      "_source": {
+        "chebi_accession": "CHEBI:25255",
+        "name": "methyl methanesulfonate",
+        "ascii_name": "methyl methanesulfonate",
+        "stars": 3,
+        "default_structure": 2823432,
+        "definition": "A methanesulfonate ester resulting from the formal condensation of methanesulfonic acid with methanol.",
+        "inchikey": "MBABOKRGFJTBAE-UHFFFAOYSA-N",
+        "smiles": "COS(C)(=O)=O",
+        "inchi": "InChI=1S/C2H6O3S/c1-5-6(2,3)4/h1-2H3",
+        "charge": 0,
+        "monoisotopicmass": 110.00377,
+        "formula": "C2H6O3S",
+        "mass": 110.134,
+        "structures": [
+          2823432,
+          3478
+        ]
+      }
+    },
+    {
+      "_index": "chebi-prod-compounds-12082026",
+      "_type": "_doc",
+      "_id": "59145",
+      "_score": 22.78267,
+      "_source": {
+        "chebi_accession": "CHEBI:59145",
+        "name": "3-mesyloxymethyl-5,5-dimethylbutyrolactone",
+        "ascii_name": "3-mesyloxymethyl-5,5-dimethylbutyrolactone",
+        "stars": 3,
+        "default_structure": 2190266,
+        "definition": "A butan-4-olide having a mesyloxymethyl group at the 3-position and two methyl substituents at the 5-position.",
+        "inchikey": "JISQVVRQGZOKPJ-UHFFFAOYSA-N",
+        "mass": 222.262,
+        "formula": "C8H14O5S",
+        "charge": 0,
+        "inchi": "InChI=1S/C8H14O5S/c1-8(2)4-6(7(9)13-8)5-12-14(3,10)11/h6H,4-5H2,1-3H3",
+        "smiles": "CC1(C)CC(COS(C)(=O)=O)C(=O)O1",
+        "monoisotopicmass": 222.05619,
+        "structures": [
+          2190266
+        ]
+      }
+    }
+  ],
+  "total": 2,
+  "number_pages": 1
+}

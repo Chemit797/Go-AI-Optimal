@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "goai-optimal"
+version = "12.0.0"
+description = "Reproducible GOAI-M12.0 virtual yeast-cell perturbation system"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { file = "LICENSE" }
+authors = [{ name = "Chemit797" }]
+dependencies = [
+  "numpy>=1.24,<2",
+  "pandas>=2.0,<3",
+  "PyYAML>=6.0",
+  "torch>=2.4,<3",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+chemistry = ["rdkit>=2024.3"]
+entities = ["xlrd>=2.0.1"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"

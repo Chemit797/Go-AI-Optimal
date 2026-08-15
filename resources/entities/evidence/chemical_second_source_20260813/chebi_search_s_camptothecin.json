@@ -1,0 +1,102 @@
+{
+  "results": [
+    {
+      "_index": "chebi-prod-compounds-12082026",
+      "_type": "_doc",
+      "_id": "27656",
+      "_score": 44.06189,
+      "_source": {
+        "chebi_accession": "CHEBI:27656",
+        "name": "camptothecin",
+        "ascii_name": "camptothecin",
+        "stars": 3,
+        "default_structure": 80797,
+        "definition": "A pyranoindolizinoquinoline that is pyrano[3',4':6,7]indolizino[1,2-<em>b</em>]quinoline which is substituted by oxo groups at positions 3 and 14, and by an ethyl group and a hydroxy group at position 4 (the <i>S</i> enantiomer).",
+        "mass": 348.358,
+        "inchikey": "VSJKWCGYPAHWDS-FQEVSTJZSA-N",
+        "formula": "C20H16N2O4",
+        "smiles": "CC[C@@]1(O)C(=O)OCc2c1cc1n(c2=O)Cc2cc3ccccc3nc2-1",
+        "charge": 0,
+        "monoisotopicmass": 348.11101,
+        "inchi": "InChI=1S/C20H16N2O4/c1-2-20(25)14-8-16-17-12(7-11-5-3-4-6-15(11)21-17)9-22(16)18(23)13(14)10-26-19(20)24/h3-8,25H,2,9-10H2,1H3/t20-/m0/s1",
+        "structures": [
+          80797
+        ]
+      }
+    },
+    {
+      "_index": "chebi-prod-compounds-12082026",
+      "_type": "_doc",
+      "_id": "80755",
+      "_score": 37.744934,
+      "_source": {
+        "chebi_accession": "CHEBI:80755",
+        "name": "9-Aminocamptothecin",
+        "ascii_name": "9-Aminocamptothecin",
+        "stars": 2,
+        "default_structure": 2864700,
+        "mass": 363.373,
+        "inchikey": "FUXVKZWTXQUGMW-FQEVSTJZSA-N",
+        "smiles": "CC[C@@]1(O)C(=O)OCc2c1cc1n(c2=O)Cc2cc3c(N)cccc3nc2-1",
+        "formula": "C20H17N3O4",
+        "charge": 0,
+        "monoisotopicmass": 363.12191,
+        "inchi": "InChI=1S/C20H17N3O4/c1-2-20(26)13-7-16-17-10(6-11-14(21)4-3-5-15(11)22-17)8-23(16)18(24)12(13)9-27-19(20)25/h3-7,26H,2,8-9,21H2,1H3/t20-/m0/s1",
+        "structures": [
+          2864700
+        ]
+      }
+    },
+    {
+      "_index": "chebi-prod-compounds-12082026",
+      "_type": "_doc",
+      "_id": "90225",
+      "_score": 37.744934,
+      "_source": {
+        "chebi_accession": "CHEBI:90225",
+        "name": "rubitecan",
+        "ascii_name": "rubitecan",
+        "stars": 3,
+        "default_structure": 2899865,
+        "definition": "A pyranoindolizinoquinoline that is camptothecin in which the hydrogen at position 9 has been replaced by a nitro group. It is a prodrug for 9-aminocamptothecin.",
+        "mass": 393.355,
+        "formula": "C20H15N3O6",
+        "smiles": "CC[C@@]1(O)C(=O)OCc2c1cc1n(c2=O)Cc2cc3c([N+](=O)[O-])cccc3nc2-1",
+        "inchi": "InChI=1S/C20H15N3O6/c1-2-20(26)13-7-16-17-10(8-22(16)18(24)12(13)9-29-19(20)25)6-11-14(21-17)4-3-5-15(11)23(27)28/h3-7,26H,2,8-9H2,1H3/t20-/m0/s1",
+        "charge": 0,
+        "monoisotopicmass": 393.09609,
+        "inchikey": "VHXNKPBCCMUMSW-FQEVSTJZSA-N",
+        "structures": [
+          2899865
+        ]
+      }
+    },
+    {
+      "_index": "chebi-prod-compounds-12082026",
+      "_type": "_doc",
+      "_id": "8988",
+      "_score": 34.452106,
+      "_source": {
+        "chebi_accession": "CHEBI:8988",
+        "name": "SN-38",
+        "ascii_name": "SN-38",
+        "stars": 3,
+        "default_structure": 2854376,
+        "definition": "A member of the class of pyranoindolizinoquinolines that is (4<i>S</i>)-pyrano[3',4':6,7]indolizino[1,2-<em>b</em>]quinoline-3,14-dione bearing two additional ethyl substituents at positions 4 and 11 as well as two additional hydroxy substituents at positions 4 and 9. It is the active metabolite of irinotecan and is ~1000 times more active than irinotecan itself.",
+        "formula": "C22H20N2O5",
+        "smiles": "CCc1c2c(nc3ccc(O)cc13)-c1cc3c(c(=O)n1C2)COC(=O)[C@]3(O)CC",
+        "charge": 0,
+        "inchi": "InChI=1S/C22H20N2O5/c1-3-12-13-7-11(25)5-6-17(13)23-19-14(12)9-24-18(19)8-16-15(20(24)26)10-29-21(27)22(16,28)4-2/h5-8,25,28H,3-4,9-10H2,1-2H3/t22-/m0/s1",
+        "monoisotopicmass": 392.13722,
+        "mass": 392.411,
+        "inchikey": "FJHBVJOVLFPMQE-QFIPXVFZSA-N",
+        "structures": [
+          2854376,
+          3237894
+        ]
+      }
+    }
+  ],
+  "total": 4,
+  "number_pages": 1
+}

@@ -1,0 +1,15 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 3365,
+        "MolecularFormula": "C13H12F2N6O",
+        "SMILES": "C1=CC(=C(C=C1F)F)C(CN2C=NC=N2)(CN3C=NC=N3)O",
+        "ConnectivitySMILES": "C1=CC(=C(C=C1F)F)C(CN2C=NC=N2)(CN3C=NC=N3)O",
+        "InChIKey": "RFHAOTPXVQNOHP-UHFFFAOYSA-N",
+        "IUPACName": "2-(2,4-difluorophenyl)-1,3-bis(1,2,4-triazol-1-yl)propan-2-ol",
+        "Title": "Fluconazole"
+      }
+    ]
+  }
+}

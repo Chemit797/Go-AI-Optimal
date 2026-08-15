@@ -1,0 +1,37 @@
+baseline_config: ../baseline.yaml
+
+model:
+  hidden_dim: 128
+  response_rank: 128
+  response_basis: fixed_svd
+  calibration_rank: 16
+  dropout: 0.10
+  learning_rate: 0.001
+  weight_decay: 0.0002
+  epochs: 80
+  batch_size: 128
+  seed: 42
+  device: cuda:1
+  absolute_weight: 0.25
+  background_weight: 1.0
+  fc_weight: 1.0
+  fc_correlation_weight: 0.0
+  absolute_loss: mse
+  background_loss: mse
+  fc_loss: mse
+  huber_delta: 1.0
+  target_scale_floor: 0.10
+  calibration_enabled: true
+
+entity:
+  chemical_map: null
+  strain_features: null
+  chemical_bits: 512
+
+graph:
+  variant: none
+  artifact: null
+  weight: 0.0
+
+runtime:
+  runs_dir: ../../runs/experiments/response_space_svd128

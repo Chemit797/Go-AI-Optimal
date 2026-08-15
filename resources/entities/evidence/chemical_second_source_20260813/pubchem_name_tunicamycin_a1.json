@@ -1,0 +1,15 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 56927832,
+        "MolecularFormula": "C37H60N4O16",
+        "SMILES": "CC(C)CCCCCCCC/C=C/C(=O)N[C@@H]1[C@H]([C@H]([C@H](O[C@H]1O[C@@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)O)NC(=O)C)C[C@H]([C@@H]3[C@H]([C@H]([C@@H](O3)N4C=CC(=O)NC4=O)O)O)O)O)O",
+        "ConnectivitySMILES": "CC(C)CCCCCCCCC=CC(=O)NC1C(C(C(OC1OC2C(C(C(C(O2)CO)O)O)NC(=O)C)CC(C3C(C(C(O3)N4C=CC(=O)NC4=O)O)O)O)O)O",
+        "InChIKey": "YJQCOFNZVFGCAF-LLXUUZRASA-N",
+        "IUPACName": "(E)-N-[(2S,3R,4R,5R,6R)-2-[(2R,3R,4R,5S,6R)-3-acetamido-4,5-dihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-6-[(2R)-2-[(2R,3S,4R,5R)-5-(2,4-dioxopyrimidin-1-yl)-3,4-dihydroxyoxolan-2-yl]-2-hydroxyethyl]-4,5-dihydroxyoxan-3-yl]-12-methyltridec-2-enamide",
+        "Title": "Tunicamycin A1"
+      }
+    ]
+  }
+}

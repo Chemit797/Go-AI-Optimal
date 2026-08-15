@@ -1,0 +1,15 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 784,
+        "MolecularFormula": "H2O2",
+        "SMILES": "OO",
+        "ConnectivitySMILES": "OO",
+        "InChIKey": "MHAJPDPJQMAIIY-UHFFFAOYSA-N",
+        "IUPACName": "hydrogen peroxide",
+        "Title": "Hydrogen Peroxide"
+      }
+    ]
+  }
+}

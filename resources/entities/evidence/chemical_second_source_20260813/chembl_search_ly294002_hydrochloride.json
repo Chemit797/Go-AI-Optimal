@@ -1,0 +1,3312 @@
+{
+  "molecules": [
+    {
+      "atc_classifications": [],
+      "availability_type": -1,
+      "biotherapeutic": null,
+      "black_box_warning": 0,
+      "chemical_probe": 0,
+      "chirality": 2,
+      "cross_references": [],
+      "dosed_ingredient": false,
+      "first_approval": null,
+      "first_in_class": 0,
+      "helm_notation": null,
+      "inorganic_flag": 0,
+      "max_phase": "-1.0",
+      "molecule_chembl_id": "CHEMBL98350",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL98350",
+        "molecule_chembl_id": "CHEMBL98350",
+        "parent_chembl_id": "CHEMBL98350"
+      },
+      "molecule_properties": {
+        "alogp": "3.30",
+        "aromatic_rings": 3,
+        "full_molformula": "C19H17NO3",
+        "full_mwt": "307.35",
+        "hba": 4,
+        "hbd": 0,
+        "heavy_atoms": 23,
+        "mw_freebase": "307.35",
+        "np_likeness_score": "-0.27",
+        "num_ro5_violations": 0,
+        "psa": "42.68",
+        "qed_weighted": "0.73",
+        "ro3_pass": "N",
+        "rtb": 2
+      },
+      "molecule_structures": {
+        "canonical_smiles": "O=c1cc(N2CCOCC2)oc2c(-c3ccccc3)cccc12",
+        "molfile": "\n     RDKit          2D\n\n 23 26  0  0  0  0  0  0  0  0999 V2000\n    5.0972    0.0717    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    5.0972    2.5467    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    2.2393   -0.7533    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    3.6682    0.0717    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    5.8116    0.4842    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.8116    1.3092    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.5261    0.0717    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.3827    0.4842    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.0972    1.7217    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.3827    1.3092    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.5261   -0.7533    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.5261    1.7217    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.2406    0.4842    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.2406    1.3092    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.9538    0.4842    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.6682   -0.7533    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.2406   -1.1658    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.8116   -1.1658    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.2393    0.0717    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.9538   -1.1658    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.2406   -1.9908    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.8116   -1.9908    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.5261   -2.4033    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  5  1  0\n  1  8  1  0\n  2  9  2  0\n  3 19  1  0\n  3 20  1  0\n  4  8  1  0\n  4 15  1  0\n  4 16  1  0\n  5  6  1  0\n  5  7  2  0\n  6  9  1  0\n  6 12  2  0\n  7 11  1  0\n  7 13  1  0\n  8 10  2  0\n  9 10  1  0\n 11 17  2  0\n 11 18  1  0\n 12 14  1  0\n 13 14  2  0\n 15 19  1  0\n 16 20  1  0\n 17 21  1  0\n 18 22  2  0\n 21 23  2  0\n 22 23  1  0\nM  END\n> <chembl_id>\nCHEMBL98350\n\n> <chembl_pref_name>\nLY-294002",
+        "standard_inchi": "InChI=1S/C19H17NO3/c21-17-13-18(20-9-11-22-12-10-20)23-19-15(7-4-8-16(17)19)14-5-2-1-3-6-14/h1-8,13H,9-12H2",
+        "standard_inchi_key": "CZQHHVNHHHRRDU-UHFFFAOYSA-N"
+      },
+      "molecule_synonyms": [
+        {
+          "molecule_synonym": "Ly-294002",
+          "syn_type": "OTHER",
+          "synonyms": "LY-294002"
+        },
+        {
+          "molecule_synonym": "NSC-697286",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "NSC-697286"
+        },
+        {
+          "molecule_synonym": "SF-1101",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "SF-1101"
+        }
+      ],
+      "molecule_type": "Small molecule",
+      "natural_product": 1,
+      "oral": false,
+      "orphan": 0,
+      "parenteral": false,
+      "polymer_flag": 0,
+      "pref_name": "LY-294002",
+      "prodrug": 0,
+      "score": 20.0,
+      "structure_type": "MOL",
+      "therapeutic_flag": false,
+      "topical": false,
+      "usan_stem": null,
+      "usan_stem_definition": null,
+      "usan_substem": null,
+      "usan_year": null,
+      "veterinary": 0,
+      "withdrawn_flag": false
+    },
+    {
+      "atc_classifications": [],
+      "availability_type": 1,
+      "biotherapeutic": null,
+      "black_box_warning": 1,
+      "chemical_probe": 0,
+      "chirality": 1,
+      "cross_references": [
+        {
+          "xref_id": "vancomycin%20hydrochloride",
+          "xref_name": "vancomycin hydrochloride",
+          "xref_src": "DailyMed"
+        }
+      ],
+      "dosed_ingredient": true,
+      "first_approval": 1964,
+      "first_in_class": 0,
+      "helm_notation": null,
+      "inorganic_flag": 0,
+      "max_phase": "4.0",
+      "molecule_chembl_id": "CHEMBL1200628",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL262777",
+        "molecule_chembl_id": "CHEMBL1200628",
+        "parent_chembl_id": "CHEMBL262777"
+      },
+      "molecule_properties": {
+        "alogp": null,
+        "aromatic_rings": null,
+        "full_molformula": "C66H76Cl3N9O24",
+        "full_mwt": "1485.73",
+        "hba": null,
+        "hbd": null,
+        "heavy_atoms": null,
+        "mw_freebase": "1449.27",
+        "np_likeness_score": null,
+        "num_ro5_violations": null,
+        "psa": null,
+        "qed_weighted": null,
+        "ro3_pass": null,
+        "rtb": null
+      },
+      "molecule_structures": {
+        "canonical_smiles": "CN[C@H](CC(C)C)C(=O)N[C@H]1C(=O)N[C@@H](CC(N)=O)C(=O)N[C@H]2C(=O)N[C@H]3C(=O)N[C@H](C(=O)N[C@H](C(=O)O)c4cc(O)cc(O)c4-c4cc3ccc4O)[C@H](O)c3ccc(c(Cl)c3)Oc3cc2cc(c3O[C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O[C@H]2C[C@](C)(N)[C@H](O)[C@H](C)O2)Oc2ccc(cc2Cl)[C@H]1O.Cl",
+        "molfile": "\n     RDKit          2D\n\n105113  0  0  0  0  0  0  0  0999 V2000\n    3.4500   -6.8042    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n   -2.3875   -4.5500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.6417   -4.5417    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.8083   -4.8875    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.2458   -0.0292    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.9083    0.5458    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.9750   -5.8042    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.9750   -4.8875    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.0458   -4.5500    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    1.7125   -4.8875    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    4.0542   -4.8792    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.8083   -7.1417    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.2208   -4.5500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.3958   -6.8125    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.5417   -4.8875    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.2208   -6.8042    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.1167   -2.3167    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.3958   -6.1375    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.9208   -0.0292    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.4750   -4.5417    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    1.1250   -4.5500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.2250   -4.8792    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    1.7042   -2.6417    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.5417   -2.6542    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.2917   -4.5500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.6333   -4.8875    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.2458    1.1333    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    1.1125   -1.6375    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -3.0208   -2.1917    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.1250   -3.6667    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.2583    0.5458    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.0458   -2.3167    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    2.2917   -2.3042    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    2.8875   -4.8792    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.8083   -7.8250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.0000   -1.6042    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.8125   -4.5417    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.9208    1.1333    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.3833   -3.6792    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.6417   -3.6750    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.3375   -2.1917    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.2250   -6.1292    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.3458   -1.0167    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.6458   -5.8000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -3.3625   -1.6125    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.8875   -5.5542    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.8000   -3.3375    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.0542   -3.3042    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.9083   -0.6167    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.0583   -5.5417    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.7125   -3.3250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.5417   -3.3292    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.6333   -2.6542    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.8792   -2.6375    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -3.0250   -1.0167    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.3958   -8.1667    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.4542   -2.3000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.6333   -3.3375    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.3000   -5.9000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.0417   -2.6250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.2125   -3.6792    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.6333   -7.1417    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.9750   -7.1500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.4042   -4.8792    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -3.5583   -4.5500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    4.0542   -5.5542    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.2208   -3.9292    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    0.5375   -5.5625    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.9750   -7.8250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.2917   -3.8667    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    5.8125   -3.8625    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.0458   -6.1292    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.8000   -2.6542    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.4750   -3.6542    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.4000   -4.9625    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.2125   -2.3250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.8792   -3.3167    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.3042   -6.5792    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    6.4042   -5.5542    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -3.6083   -2.5292    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.0458   -6.8042    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.2583   -0.6167    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.9375    0.5458    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.2208   -8.1542    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    6.9792   -4.5417    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    1.7167   -5.5625    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   -4.0375   -1.6125    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    3.4500   -1.6167    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n   -0.0375   -3.6792    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n   -2.9708   -3.3375    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    5.2292   -3.3417    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.3750   -5.5375    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.6333   -7.8250    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.2583    1.7250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -3.5625   -8.1625    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -3.0250   -2.8750    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.9333    1.7250    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -3.3625   -0.4292    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.8125   -5.8917    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.5667   -4.8792    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.8125   -6.5750    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.2250   -5.5542    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.0500   -5.2250    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    0.5375   -4.2042    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.8833   -4.0708    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n  3 11  1  0\n  4  2  1  0\n  5  6  1  0\n  6 28  1  1\n  7  8  1  0\n  8  2  1  0\n  9 26  1  0\n 10 21  1  0\n 11 20  1  0\n 12 14  1  0\n 13  4  1  0\n 14 18  1  0\n 15  9  1  0\n 16 12  1  0\n 17 24  1  0\n 18  7  1  0\n 19  5  1  0\n 20 34  1  0\n 21 15  1  0\n  3 22  1  1\n 23 17  2  0\n 24 32  1  0\n 25 10  1  0\n 26 13  1  0\n 27  6  1  0\n 28 17  1  0\n 29 41  1  0\n 30 21  1  0\n 31 38  1  0\n 32 53  1  0\n 33 23  1  0\n 34 25  1  0\n 35 12  2  0\n 36 49  1  1\n 37 22  1  0\n 38 27  1  0\n 39  2  1  0\n 40  3  1  0\n 41 36  1  0\n 42 44  2  0\n 43 36  1  0\n 44 26  1  0\n 45 55  1  0\n 34 46  1  1\n 47 39  1  0\n 48 74  2  0\n  5 49  1  6\n 18 50  1  6\n 51 30  2  0\n 52 24  2  0\n 53 76  2  0\n 54 33  1  0\n 55 43  1  0\n 56 69  2  0\n 57 54  1  0\n 58 61  2  0\n 59 46  1  0\n 60 57  2  0\n 61 47  1  0\n 62 16  2  0\n 63 14  2  0\n 64 37  1  0\n 65  8  2  0\n 66 11  2  0\n 67 13  2  0\n 68 15  2  0\n 69 63  1  0\n 70 25  2  0\n 71 37  2  0\n 72 44  1  0\n 73 47  2  0\n 74 77  1  0\n 75 50  2  0\n 76 73  1  0\n 77 54  2  0\n 78 59  2  0\n 64 79  1  6\n 29 80  1  6\n 81 72  2  0\n 19 82  1  1\n 31 83  1  6\n 84 35  1  0\n 85 64  1  0\n 86 59  1  0\n 45 87  1  6\n 88 57  1  0\n 89 58  1  0\n 39 90  1  6\n 40 91  1  1\n 92 50  1  0\n 93 62  1  0\n 38 94  1  1\n 95 69  1  0\n 29 96  1  0\n 97 94  1  0\n 55 98  1  6\n 99 79  1  0\n100 85  1  0\n101 99  1  0\n102 99  1  0\n 26103  1  1\n 21104  1  6\n  2105  1  1\n 58 53  1  0\n 42 16  1  0\n 62 81  1  0\n 35 56  1  0\n 30 52  1  0\n 51 23  1  0\n 19 31  1  0\n 60 48  1  0\n 48 40  1  0\n 29 45  1  0\nM  END\n> <chembl_id>\nCHEMBL1200628\n\n> <chembl_pref_name>\nVANCOMYCIN HYDROCHLORIDE",
+        "standard_inchi": "InChI=1S/C66H75Cl2N9O24.ClH/c1-23(2)12-34(71-5)58(88)76-49-51(83)26-7-10-38(32(67)14-26)97-40-16-28-17-41(55(40)101-65-56(54(86)53(85)42(22-78)99-65)100-44-21-66(4,70)57(87)24(3)96-44)98-39-11-8-27(15-33(39)68)52(84)50-63(93)75-48(64(94)95)31-18-29(79)19-37(81)45(31)30-13-25(6-9-36(30)80)46(60(90)77-50)74-61(91)47(28)73-59(89)35(20-43(69)82)72-62(49)92;/h6-11,13-19,23-24,34-35,42,44,46-54,56-57,65,71,78-81,83-87H,12,20-22,70H2,1-5H3,(H2,69,82)(H,72,92)(H,73,89)(H,74,91)(H,75,93)(H,76,88)(H,77,90)(H,94,95);1H/t24-,34+,35-,42+,44-,46+,47+,48-,49+,50-,51+,52+,53+,54-,56+,57+,65-,66-;/m0./s1",
+        "standard_inchi_key": "LCTORFDMHNKUSG-XTTLPDOESA-N"
+      },
+      "molecule_synonyms": [
+        {
+          "molecule_synonym": "Firvanq",
+          "syn_type": "OTHER",
+          "synonyms": "FIRVANQ"
+        },
+        {
+          "molecule_synonym": "Firvanq kit",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "FIRVANQ KIT"
+        },
+        {
+          "molecule_synonym": "NSC-757377",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "NSC-757377"
+        },
+        {
+          "molecule_synonym": "Vancocin",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "VANCOCIN"
+        },
+        {
+          "molecule_synonym": "Vancocin hydrochloride",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "VANCOCIN HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Vancocin matrigel",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "VANCOCIN MATRIGEL"
+        },
+        {
+          "molecule_synonym": "Vancoled",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "VANCOLED"
+        },
+        {
+          "molecule_synonym": "Vancomycin (as hydrochloride)",
+          "syn_type": "OTHER",
+          "synonyms": "VANCOMYCIN (AS HYDROCHLORIDE)"
+        },
+        {
+          "molecule_synonym": "Vancomycin hcl",
+          "syn_type": "OTHER",
+          "synonyms": "VANCOMYCIN HCL"
+        },
+        {
+          "molecule_synonym": "Vancomycin hydrochloride",
+          "syn_type": "BNF",
+          "synonyms": "VANCOMYCIN HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Vancomycin hydrochloride",
+          "syn_type": "FDA",
+          "synonyms": "VANCOMYCIN HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Vancomycin hydrochloride",
+          "syn_type": "OTHER",
+          "synonyms": "VANCOMYCIN HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Vancomycin hydrochloride",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "VANCOMYCIN HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Vancomycin monohydrochloride",
+          "syn_type": "MERCK_INDEX",
+          "synonyms": "VANCOMYCIN MONOHYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Vancomycin, monohydrochloride",
+          "syn_type": "OTHER",
+          "synonyms": "VANCOMYCIN, MONOHYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Vancor",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "VANCOR"
+        },
+        {
+          "molecule_synonym": "Vanoled",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "Vanoled"
+        }
+      ],
+      "molecule_type": "Small molecule",
+      "natural_product": 0,
+      "oral": true,
+      "orphan": 0,
+      "parenteral": true,
+      "polymer_flag": 0,
+      "pref_name": "VANCOMYCIN HYDROCHLORIDE",
+      "prodrug": 0,
+      "score": 14.0,
+      "structure_type": "MOL",
+      "therapeutic_flag": true,
+      "topical": false,
+      "usan_stem": "-mycin",
+      "usan_stem_definition": "antibiotics (Streptomyces strain)",
+      "usan_substem": "-mycin",
+      "usan_year": null,
+      "veterinary": 0,
+      "withdrawn_flag": false
+    },
+    {
+      "atc_classifications": [],
+      "availability_type": 1,
+      "biotherapeutic": null,
+      "black_box_warning": 0,
+      "chemical_probe": 0,
+      "chirality": 0,
+      "cross_references": [
+        {
+          "xref_id": "verapamil%20hydrochloride",
+          "xref_name": "verapamil hydrochloride",
+          "xref_src": "DailyMed"
+        }
+      ],
+      "dosed_ingredient": true,
+      "first_approval": 1981,
+      "first_in_class": 0,
+      "helm_notation": null,
+      "inorganic_flag": 0,
+      "max_phase": "4.0",
+      "molecule_chembl_id": "CHEMBL1280",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL6966",
+        "molecule_chembl_id": "CHEMBL1280",
+        "parent_chembl_id": "CHEMBL6966"
+      },
+      "molecule_properties": {
+        "alogp": "5.09",
+        "aromatic_rings": 2,
+        "full_molformula": "C27H39ClN2O4",
+        "full_mwt": "491.07",
+        "hba": 6,
+        "hbd": 0,
+        "heavy_atoms": 33,
+        "mw_freebase": "454.61",
+        "np_likeness_score": "-0.07",
+        "num_ro5_violations": 1,
+        "psa": "63.95",
+        "qed_weighted": "0.42",
+        "ro3_pass": "N",
+        "rtb": 13
+      },
+      "molecule_structures": {
+        "canonical_smiles": "COc1ccc(CCN(C)CCCC(C#N)(c2ccc(OC)c(OC)c2)C(C)C)cc1OC.Cl",
+        "molfile": "\n     RDKit          2D\n\n 34 34  0  0  0  0  0  0  0  0999 V2000\n    2.5250   -7.5000    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n    0.7167   -6.0750    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.1042   -6.4292    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.3625   -5.4542    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0042   -4.8417    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.5083   -6.0792    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.1208   -6.4375    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.2375   -6.4042    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.1208   -7.1417    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.2417   -7.1167    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.1042   -7.1417    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.6167   -6.0542    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.5083   -7.5000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.6292   -7.4750    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.0667   -5.4542    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.0125   -6.4167    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.1750   -6.0667    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    5.0125   -7.1250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.7333   -6.0792    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    3.7875   -6.4167    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.8500   -6.0500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    4.4000   -6.0625    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.3292   -6.4292    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.7333   -7.5000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    6.8542   -7.4667    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    1.9417   -6.0667    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.5625   -6.4250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.1667   -5.3542    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.7042   -4.8417    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.7750   -5.4500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.4625   -6.4000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.3458   -6.4292    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.4667   -7.1125    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.3458   -7.1417    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  3  2  1  0\n  4  2  1  0\n  5  4  3  0\n  6  3  2  0\n  7  6  1  0\n  8 12  2  0\n  9 13  1  0\n 10 14  2  0\n 11  3  1  0\n 12 16  1  0\n 13 11  2  0\n 14 18  1  0\n 15  2  1  0\n 16 22  1  0\n 17 27  1  0\n 18 16  2  0\n 19  7  1  0\n 20 17  1  0\n 21  8  1  0\n 22 20  1  0\n 23  2  1  0\n 24  9  1  0\n 25 10  1  0\n 26 23  1  0\n 27 26  1  0\n 28 17  1  0\n 29 15  1  0\n 30 15  1  0\n 31 21  1  0\n 32 19  1  0\n 33 25  1  0\n 34 24  1  0\n  9  7  2  0\n 10  8  1  0\nM  END\n> <chembl_id>\nCHEMBL1280\n\n> <chembl_pref_name>\nVERAPAMIL HYDROCHLORIDE",
+        "standard_inchi": "InChI=1S/C27H38N2O4.ClH/c1-20(2)27(19-28,22-10-12-24(31-5)26(18-22)33-7)14-8-15-29(3)16-13-21-9-11-23(30-4)25(17-21)32-6;/h9-12,17-18,20H,8,13-16H2,1-7H3;1H",
+        "standard_inchi_key": "DOQPXTMNIUCOSY-UHFFFAOYSA-N"
+      },
+      "molecule_synonyms": [
+        {
+          "molecule_synonym": "Berkatens",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "BERKATENS"
+        },
+        {
+          "molecule_synonym": "Calan",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "CALAN"
+        },
+        {
+          "molecule_synonym": "Calan sr",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "CALAN SR"
+        },
+        {
+          "molecule_synonym": "Cordilox",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "CORDILOX"
+        },
+        {
+          "molecule_synonym": "Cordilox i.v.",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "CORDILOX I.V."
+        },
+        {
+          "molecule_synonym": "Cordilox mr 240",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "CORDILOX MR 240"
+        },
+        {
+          "molecule_synonym": "Covera",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "COVERA"
+        },
+        {
+          "molecule_synonym": "Covera-hs",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "COVERA-HS"
+        },
+        {
+          "molecule_synonym": "CP-16533-1",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "CP-16533-1"
+        },
+        {
+          "molecule_synonym": "Ethimil mr 240",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "ETHIMIL MR 240"
+        },
+        {
+          "molecule_synonym": "Geangin",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "GEANGIN"
+        },
+        {
+          "molecule_synonym": "Half securon sr",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "HALF SECURON SR"
+        },
+        {
+          "molecule_synonym": "Isoptin",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "ISOPTIN"
+        },
+        {
+          "molecule_synonym": "Isoptin sr",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "Isoptin sr"
+        },
+        {
+          "molecule_synonym": "LU-20175",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "LU-20175"
+        },
+        {
+          "molecule_synonym": "Manidon sr",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "MANIDON SR"
+        },
+        {
+          "molecule_synonym": "NSC-272366",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "NSC-272366"
+        },
+        {
+          "molecule_synonym": "NSC-657799",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "NSC-657799"
+        },
+        {
+          "molecule_synonym": "Ranvera mr",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "RANVERA MR"
+        },
+        {
+          "molecule_synonym": "Securon",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "SECURON"
+        },
+        {
+          "molecule_synonym": "Securon iv",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "SECURON IV"
+        },
+        {
+          "molecule_synonym": "Securon mid",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "SECURON MID"
+        },
+        {
+          "molecule_synonym": "Securon sr",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "SECURON SR"
+        },
+        {
+          "molecule_synonym": "Univer",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "UNIVER"
+        },
+        {
+          "molecule_synonym": "Verapamil hcl",
+          "syn_type": "OTHER",
+          "synonyms": "VERAPAMIL HCL"
+        },
+        {
+          "molecule_synonym": "Verapamil hydrochloride",
+          "syn_type": "BNF",
+          "synonyms": "VERAPAMIL HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Verapamil hydrochloride",
+          "syn_type": "FDA",
+          "synonyms": "VERAPAMIL HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Verapamil hydrochloride",
+          "syn_type": "JAN",
+          "synonyms": "VERAPAMIL HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Verapamil hydrochloride",
+          "syn_type": "MERCK_INDEX",
+          "synonyms": "VERAPAMIL HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Verapamil hydrochloride",
+          "syn_type": "OTHER",
+          "synonyms": "VERAPAMIL HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Verapamil hydrochloride",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "VERAPAMIL HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Verapamil hydrochloride",
+          "syn_type": "USAN",
+          "synonyms": "VERAPAMIL HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Verapamil hydrochloride",
+          "syn_type": "USP",
+          "synonyms": "VERAPAMIL HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Verapamil hydrochloride component of tarka",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "VERAPAMIL HYDROCHLORIDE COMPONENT OF TARKA"
+        },
+        {
+          "molecule_synonym": "Verapamili hydrochloridum",
+          "syn_type": "OTHER",
+          "synonyms": "VERAPAMILI HYDROCHLORIDUM"
+        },
+        {
+          "molecule_synonym": "Verapress mr 240",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "VERAPRESS MR 240"
+        },
+        {
+          "molecule_synonym": "Vera-til sr",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "VERA-TIL SR"
+        },
+        {
+          "molecule_synonym": "Verelan",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "VERELAN"
+        },
+        {
+          "molecule_synonym": "Verelan pm",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "VERELAN PM"
+        },
+        {
+          "molecule_synonym": "Vertab sr 240",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "VERTAB SR 240"
+        },
+        {
+          "molecule_synonym": "Zolvera",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "ZOLVERA"
+        }
+      ],
+      "molecule_type": "Small molecule",
+      "natural_product": 0,
+      "oral": true,
+      "orphan": 0,
+      "parenteral": true,
+      "polymer_flag": 0,
+      "pref_name": "VERAPAMIL HYDROCHLORIDE",
+      "prodrug": 0,
+      "score": 13.0,
+      "structure_type": "MOL",
+      "therapeutic_flag": true,
+      "topical": false,
+      "usan_stem": "-pamil",
+      "usan_stem_definition": "coronary vasodilators (verapamil type)",
+      "usan_substem": "-pamil",
+      "usan_year": 1981,
+      "veterinary": 0,
+      "withdrawn_flag": false
+    },
+    {
+      "atc_classifications": [],
+      "availability_type": 1,
+      "biotherapeutic": null,
+      "black_box_warning": 0,
+      "chemical_probe": 0,
+      "chirality": 2,
+      "cross_references": [
+        {
+          "xref_id": "dopamine%20hydrochloride",
+          "xref_name": "dopamine hydrochloride",
+          "xref_src": "DailyMed"
+        },
+        {
+          "xref_id": "human/EPAR/neoatricon",
+          "xref_name": "neoatricon",
+          "xref_src": "EMA"
+        }
+      ],
+      "dosed_ingredient": true,
+      "first_approval": 1974,
+      "first_in_class": 0,
+      "helm_notation": null,
+      "inorganic_flag": 0,
+      "max_phase": "4.0",
+      "molecule_chembl_id": "CHEMBL1557",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL59",
+        "molecule_chembl_id": "CHEMBL1557",
+        "parent_chembl_id": "CHEMBL59"
+      },
+      "molecule_properties": {
+        "alogp": "0.60",
+        "aromatic_rings": 1,
+        "full_molformula": "C8H12ClNO2",
+        "full_mwt": "189.64",
+        "hba": 3,
+        "hbd": 3,
+        "heavy_atoms": 11,
+        "mw_freebase": "153.18",
+        "np_likeness_score": "1.15",
+        "num_ro5_violations": 0,
+        "psa": "66.48",
+        "qed_weighted": "0.54",
+        "ro3_pass": "N",
+        "rtb": 2
+      },
+      "molecule_structures": {
+        "canonical_smiles": "Cl.NCCc1ccc(O)c(O)c1",
+        "molfile": "\n     RDKit          2D\n\n 12 11  0  0  0  0  0  0  0  0999 V2000\n    3.7750   -6.5292    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n    6.2292   -5.8667    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.2417   -6.5792    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.6167   -5.5292    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.6292   -6.9417    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.0125   -5.8875    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.8500   -5.5125    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    5.0125   -6.5917    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.8667   -6.9292    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    3.1625   -5.5500    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    3.7792   -5.9000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.3875   -5.5292    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  3  2  1  0\n  4  2  2  0\n  5  3  2  0\n  6  4  1  0\n  7  2  1  0\n  8  6  2  0\n  9  3  1  0\n 10 11  1  0\n 11 12  1  0\n 12  6  1  0\n  8  5  1  0\nM  END\n> <chembl_id>\nCHEMBL1557\n\n> <chembl_pref_name>\nDOPAMINE HYDROCHLORIDE",
+        "standard_inchi": "InChI=1S/C8H11NO2.ClH/c9-4-3-6-1-2-7(10)8(11)5-6;/h1-2,5,10-11H,3-4,9H2;1H",
+        "standard_inchi_key": "CTENFNNZBMHDDG-UHFFFAOYSA-N"
+      },
+      "molecule_synonyms": [
+        {
+          "molecule_synonym": "ASL-279",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "ASL-279"
+        },
+        {
+          "molecule_synonym": "Cardiosteril",
+          "syn_type": "OTHER",
+          "synonyms": "CARDIOSTERIL"
+        },
+        {
+          "molecule_synonym": "Dopamine hcl",
+          "syn_type": "OTHER",
+          "synonyms": "DOPAMINE HCL"
+        },
+        {
+          "molecule_synonym": "Dopamine hydrochloride",
+          "syn_type": "BNF",
+          "synonyms": "DOPAMINE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Dopamine hydrochloride",
+          "syn_type": "EMA",
+          "synonyms": "DOPAMINE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Dopamine hydrochloride",
+          "syn_type": "FDA",
+          "synonyms": "DOPAMINE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Dopamine hydrochloride",
+          "syn_type": "JAN",
+          "synonyms": "DOPAMINE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Dopamine hydrochloride",
+          "syn_type": "MERCK_INDEX",
+          "synonyms": "DOPAMINE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Dopamine hydrochloride",
+          "syn_type": "OTHER",
+          "synonyms": "DOPAMINE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Dopamine hydrochloride",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "DOPAMINE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Dopamine hydrochloride",
+          "syn_type": "USAN",
+          "synonyms": "DOPAMINE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Dopamine hydrochloride",
+          "syn_type": "USP",
+          "synonyms": "DOPAMINE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Dopamini hydrochloridum",
+          "syn_type": "OTHER",
+          "synonyms": "DOPAMINI HYDROCHLORIDUM"
+        },
+        {
+          "molecule_synonym": "Dopamin-natterman",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "Dopamin-Natterman"
+        },
+        {
+          "molecule_synonym": "Dopmin",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "DOPMIN"
+        },
+        {
+          "molecule_synonym": "Dynatra",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "Dynatra"
+        },
+        {
+          "molecule_synonym": "Inotropin",
+          "syn_type": "OTHER",
+          "synonyms": "INOTROPIN"
+        },
+        {
+          "molecule_synonym": "Intropin",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "INTROPIN"
+        },
+        {
+          "molecule_synonym": "Neoatricon",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "NEOATRICON"
+        },
+        {
+          "molecule_synonym": "NSC-169105",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "NSC-169105"
+        },
+        {
+          "molecule_synonym": "Sabax dopamin",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "Sabax Dopamin"
+        },
+        {
+          "molecule_synonym": "Selectajet",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "SELECTAJET"
+        },
+        {
+          "molecule_synonym": "Tensamin",
+          "syn_type": "OTHER",
+          "synonyms": "TENSAMIN"
+        }
+      ],
+      "molecule_type": "Small molecule",
+      "natural_product": 0,
+      "oral": false,
+      "orphan": 0,
+      "parenteral": true,
+      "polymer_flag": 0,
+      "pref_name": "DOPAMINE HYDROCHLORIDE",
+      "prodrug": 0,
+      "score": 13.0,
+      "structure_type": "MOL",
+      "therapeutic_flag": true,
+      "topical": false,
+      "usan_stem": "-pamine",
+      "usan_stem_definition": "dopaminergics (butopamine type)",
+      "usan_substem": "-pamine",
+      "usan_year": 1969,
+      "veterinary": 0,
+      "withdrawn_flag": false
+    },
+    {
+      "atc_classifications": [],
+      "availability_type": 0,
+      "biotherapeutic": null,
+      "black_box_warning": 0,
+      "chemical_probe": 0,
+      "chirality": 2,
+      "cross_references": [],
+      "dosed_ingredient": true,
+      "first_approval": 1982,
+      "first_in_class": 0,
+      "helm_notation": null,
+      "inorganic_flag": 0,
+      "max_phase": "4.0",
+      "molecule_chembl_id": "CHEMBL1564",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL1492",
+        "molecule_chembl_id": "CHEMBL1564",
+        "parent_chembl_id": "CHEMBL1492"
+      },
+      "molecule_properties": {
+        "alogp": "3.89",
+        "aromatic_rings": 2,
+        "full_molformula": "C19H24ClNO",
+        "full_mwt": "317.86",
+        "hba": 2,
+        "hbd": 0,
+        "heavy_atoms": 21,
+        "mw_freebase": "281.40",
+        "np_likeness_score": "-0.24",
+        "num_ro5_violations": 0,
+        "psa": "12.47",
+        "qed_weighted": "0.84",
+        "ro3_pass": "N",
+        "rtb": 4
+      },
+      "molecule_structures": {
+        "canonical_smiles": "CN1CCC(OC(c2ccccc2)c2ccccc2)CC1.Cl",
+        "molfile": "\n     RDKit          2D\n\n 22 23  0  0  0  0  0  0  0  0999 V2000\n    4.1167   -6.5917    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n    5.4167   -5.1875    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.9667   -5.9292    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    4.8000   -4.8375    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    6.0292   -4.8167    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.4167   -5.8875    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.1917   -5.1917    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.5667   -4.8542    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.1917   -5.9042    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.9542   -5.2167    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.5792   -6.2667    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.3542   -6.2917    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.0417   -6.2375    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.8167   -6.2500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.0167   -4.1125    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.6500   -5.1625    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.2542   -4.7917    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.0542   -6.9500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.8292   -6.9625    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.6292   -3.7417    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.4500   -7.3125    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.2542   -4.0917    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  3 11  1  0\n  4  2  1  0\n  5  2  1  0\n  6  2  1  0\n  7  4  1  0\n  8  7  1  0\n  9  7  1  0\n 10  8  1  0\n 11  9  1  0\n 12  3  1  0\n 13  6  1  0\n 14  6  2  0\n 15  5  1  0\n 16  5  2  0\n 17 16  1  0\n 18 13  2  0\n 19 14  1  0\n 20 15  2  0\n 21 19  2  0\n 22 20  1  0\n 21 18  1  0\n 22 17  2  0\n  3 10  1  0\nM  END\n> <chembl_id>\nCHEMBL1564\n\n> <chembl_pref_name>\nDIPHENYLPYRALINE HYDROCHLORIDE",
+        "standard_inchi": "InChI=1S/C19H23NO.ClH/c1-20-14-12-18(13-15-20)21-19(16-8-4-2-5-9-16)17-10-6-3-7-11-17;/h2-11,18-19H,12-15H2,1H3;1H",
+        "standard_inchi_key": "LPRLDRXGWKXRMQ-UHFFFAOYSA-N"
+      },
+      "molecule_synonyms": [
+        {
+          "molecule_synonym": "Diaminophen",
+          "syn_type": "OTHER",
+          "synonyms": "DIAMINOPHEN"
+        },
+        {
+          "molecule_synonym": "Diamiphen",
+          "syn_type": "OTHER",
+          "synonyms": "DIAMIPHEN"
+        },
+        {
+          "molecule_synonym": "Diamiphene",
+          "syn_type": "OTHER",
+          "synonyms": "DIAMIPHENE"
+        },
+        {
+          "molecule_synonym": "Diaphen",
+          "syn_type": "OTHER",
+          "synonyms": "DIAPHEN"
+        },
+        {
+          "molecule_synonym": "Diphenylpyraline hcl",
+          "syn_type": "OTHER",
+          "synonyms": "DIPHENYLPYRALINE HCL"
+        },
+        {
+          "molecule_synonym": "Diphenylpyraline hydrochloride",
+          "syn_type": "BNF",
+          "synonyms": "DIPHENYLPYRALINE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Diphenylpyraline hydrochloride",
+          "syn_type": "FDA",
+          "synonyms": "DIPHENYLPYRALINE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Hispril",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "HISPRIL"
+        },
+        {
+          "molecule_synonym": "Histryl",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "HISTRYL"
+        },
+        {
+          "molecule_synonym": "Histryl paed",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "HISTRYL PAED"
+        },
+        {
+          "molecule_synonym": "Lergoban",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "LERGOBAN"
+        },
+        {
+          "molecule_synonym": "NSC-16338",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "NSC-16338"
+        },
+        {
+          "molecule_synonym": "NSC-61825",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "NSC-61825"
+        }
+      ],
+      "molecule_type": "Small molecule",
+      "natural_product": 0,
+      "oral": true,
+      "orphan": 0,
+      "parenteral": false,
+      "polymer_flag": 0,
+      "pref_name": "DIPHENYLPYRALINE HYDROCHLORIDE",
+      "prodrug": 0,
+      "score": 13.0,
+      "structure_type": "MOL",
+      "therapeutic_flag": true,
+      "topical": false,
+      "usan_stem": null,
+      "usan_stem_definition": null,
+      "usan_substem": null,
+      "usan_year": null,
+      "veterinary": 0,
+      "withdrawn_flag": false
+    },
+    {
+      "atc_classifications": [],
+      "availability_type": 1,
+      "biotherapeutic": null,
+      "black_box_warning": 0,
+      "chemical_probe": 0,
+      "chirality": 1,
+      "cross_references": [
+        {
+          "xref_id": "tetracycline%20hydrochloride",
+          "xref_name": "tetracycline hydrochloride",
+          "xref_src": "DailyMed"
+        }
+      ],
+      "dosed_ingredient": true,
+      "first_approval": 1953,
+      "first_in_class": 0,
+      "helm_notation": null,
+      "inorganic_flag": 0,
+      "max_phase": "4.0",
+      "molecule_chembl_id": "CHEMBL454950",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL1440",
+        "molecule_chembl_id": "CHEMBL454950",
+        "parent_chembl_id": "CHEMBL1440"
+      },
+      "molecule_properties": {
+        "alogp": "-0.21",
+        "aromatic_rings": 1,
+        "full_molformula": "C22H25ClN2O8",
+        "full_mwt": "480.90",
+        "hba": 9,
+        "hbd": 6,
+        "heavy_atoms": 32,
+        "mw_freebase": "444.44",
+        "np_likeness_score": "1.70",
+        "num_ro5_violations": 1,
+        "psa": "181.62",
+        "qed_weighted": "0.34",
+        "ro3_pass": "N",
+        "rtb": 2
+      },
+      "molecule_structures": {
+        "canonical_smiles": "CN(C)[C@@H]1C(O)=C(C(N)=O)C(=O)[C@@]2(O)C(O)=C3C(=O)c4c(O)cccc4[C@@](C)(O)[C@H]3C[C@@H]12.Cl",
+        "molfile": "\n     RDKit          2D\n\n 35 37  0  0  0  0  0  0  0  0999 V2000\n    3.4292   -2.3750    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n   -0.0708   -1.3250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.3000   -1.3125    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.1667   -1.3542    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.6833   -1.6750    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.5417   -1.7000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.0583   -0.6250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.1792   -0.6500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.9333   -1.6500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.2833   -0.6042    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.5458   -1.2875    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.9083   -0.2375    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.5208   -0.5875    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.5667   -0.2875    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.6583   -0.2625    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.7792   -1.7250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.5292   -2.4125    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.9458   -2.3750    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    0.5792    0.4375    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   -3.1708   -1.6292    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.0875   -2.0417    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    1.7750   -2.4417    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.6958   -2.3875    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    1.8125   -0.3042    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.2708    0.3833    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    2.4000   -1.3750    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   -3.1458   -0.2167    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.5583    0.3833    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -3.1833   -2.3500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -3.7750   -0.5625    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -3.7958   -1.2625    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.0333    0.8125    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.2125    0.7875    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.2833   -0.0625    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.0750    0.1375    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n  3  5  2  0\n  4  6  1  0\n  5  2  1  0\n  6  2  1  0\n  7  2  1  0\n  8 14  1  0\n  9  3  1  0\n 10 15  1  0\n 11  9  1  0\n 12 10  1  0\n 13 12  1  0\n 14  7  1  0\n 15  7  1  0\n 16  4  1  0\n 17  6  2  0\n 18  9  2  0\n 14 19  1  6\n 20 11  2  0\n  2 21  1  6\n 22 16  2  0\n 23  5  1  0\n 24  8  1  0\n 12 25  1  1\n 26 16  1  0\n 27 13  2  0\n 28 12  1  0\n 29 20  1  0\n 30 27  1  0\n 31 20  1  0\n 32 19  1  0\n 33 19  1  0\n 10 34  1  6\n  7 35  1  6\n  3 10  1  0\n  4  8  2  0\n 13 11  1  0\n 30 31  2  0\nM  END\n> <chembl_id>\nCHEMBL454950\n\n> <chembl_pref_name>\nTETRACYCLINE HYDROCHLORIDE",
+        "standard_inchi": "InChI=1S/C22H24N2O8.ClH/c1-21(31)8-5-4-6-11(25)12(8)16(26)13-9(21)7-10-15(24(2)3)17(27)14(20(23)30)19(29)22(10,32)18(13)28;/h4-6,9-10,15,25,27-28,31-32H,7H2,1-3H3,(H2,23,30);1H/t9-,10-,15-,21+,22-;/m0./s1",
+        "standard_inchi_key": "XMEVHPAGJVLHIG-FMZCEJRJSA-N"
+      },
+      "molecule_synonyms": [
+        {
+          "molecule_synonym": "Achromycin",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "ACHROMYCIN"
+        },
+        {
+          "molecule_synonym": "Achromycin v",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "ACHROMYCIN V"
+        },
+        {
+          "molecule_synonym": "Actisite",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "ACTISITE"
+        },
+        {
+          "molecule_synonym": "Bristacycline",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "BRISTACYCLINE"
+        },
+        {
+          "molecule_synonym": "Cyclopar",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "CYCLOPAR"
+        },
+        {
+          "molecule_synonym": "Latycin",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "LATYCIN"
+        },
+        {
+          "molecule_synonym": "Neocycline b",
+          "syn_type": "OTHER",
+          "synonyms": "NEOCYCLINE B"
+        },
+        {
+          "molecule_synonym": "NSC-757338",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "NSC-757338"
+        },
+        {
+          "molecule_synonym": "Panmycin",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "PANMYCIN"
+        },
+        {
+          "molecule_synonym": "Retet",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "RETET"
+        },
+        {
+          "molecule_synonym": "Robitet",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "ROBITET"
+        },
+        {
+          "molecule_synonym": "Sumycin",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "SUMYCIN"
+        },
+        {
+          "molecule_synonym": "Tetrachel",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "TETRACHEL"
+        },
+        {
+          "molecule_synonym": "Tetracycline hcl",
+          "syn_type": "OTHER",
+          "synonyms": "TETRACYCLINE HCL"
+        },
+        {
+          "molecule_synonym": "Tetracycline hydrochloride",
+          "syn_type": "BNF",
+          "synonyms": "TETRACYCLINE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Tetracycline hydrochloride",
+          "syn_type": "FDA",
+          "synonyms": "TETRACYCLINE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Tetracycline hydrochloride",
+          "syn_type": "MERCK_INDEX",
+          "synonyms": "TETRACYCLINE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Tetracycline hydrochloride",
+          "syn_type": "OTHER",
+          "synonyms": "TETRACYCLINE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Tetracycline hydrochloride",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "TETRACYCLINE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Tetracycline hydrochloride component of achromycin",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "TETRACYCLINE HYDROCHLORIDE COMPONENT OF ACHROMYCIN"
+        },
+        {
+          "molecule_synonym": "Tetracycline hydrochloride component of apt t3x  tetracycline tetracycline",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "TETRACYCLINE HYDROCHLORIDE COMPONENT OF APT T3X  TETRACYCLINE TETRACYCLINE"
+        },
+        {
+          "molecule_synonym": "Tetracycline hydrochloride component of apt-t3x  tetracycline tetracycline",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "TETRACYCLINE HYDROCHLORIDE COMPONENT OF APT-T3X  TETRACYCLINE TETRACYCLINE"
+        },
+        {
+          "molecule_synonym": "Tetracycline hydrochloride component of helidac",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "TETRACYCLINE HYDROCHLORIDE COMPONENT OF HELIDAC"
+        },
+        {
+          "molecule_synonym": "Tetracycline hydrochloride component of pylera",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "TETRACYCLINE HYDROCHLORIDE COMPONENT OF PYLERA"
+        },
+        {
+          "molecule_synonym": "Tetracyclini hydrochloridum",
+          "syn_type": "OTHER",
+          "synonyms": "TETRACYCLINI HYDROCHLORIDUM"
+        },
+        {
+          "molecule_synonym": "Tetracyn",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "TETRACYN"
+        },
+        {
+          "molecule_synonym": "Tetramed",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "TETRAMED"
+        },
+        {
+          "molecule_synonym": "Topicycline",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "TOPICYCLINE"
+        },
+        {
+          "molecule_synonym": "Vetquamycin 324",
+          "syn_type": "OTHER",
+          "synonyms": "VETQUAMYCIN 324"
+        }
+      ],
+      "molecule_type": "Small molecule",
+      "natural_product": 0,
+      "oral": true,
+      "orphan": 0,
+      "parenteral": true,
+      "polymer_flag": 0,
+      "pref_name": "TETRACYCLINE HYDROCHLORIDE",
+      "prodrug": 0,
+      "score": 13.0,
+      "structure_type": "MOL",
+      "therapeutic_flag": true,
+      "topical": true,
+      "usan_stem": "-cycline",
+      "usan_stem_definition": "antibiotics (tetracycline derivatives)",
+      "usan_substem": "-cycline",
+      "usan_year": null,
+      "veterinary": 0,
+      "withdrawn_flag": false
+    },
+    {
+      "atc_classifications": [],
+      "availability_type": null,
+      "biotherapeutic": null,
+      "black_box_warning": 0,
+      "chemical_probe": 0,
+      "chirality": 1,
+      "cross_references": [],
+      "dosed_ingredient": false,
+      "first_approval": null,
+      "first_in_class": 0,
+      "helm_notation": null,
+      "inorganic_flag": 0,
+      "max_phase": "3.0",
+      "molecule_chembl_id": "CHEMBL481958",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL1186894",
+        "molecule_chembl_id": "CHEMBL481958",
+        "parent_chembl_id": "CHEMBL1186894"
+      },
+      "molecule_properties": {
+        "alogp": "0.63",
+        "aromatic_rings": 2,
+        "full_molformula": "C25H26ClNO9",
+        "full_mwt": "519.93",
+        "hba": 10,
+        "hbd": 5,
+        "heavy_atoms": 35,
+        "mw_freebase": "483.47",
+        "np_likeness_score": "1.51",
+        "num_ro5_violations": 0,
+        "psa": "176.61",
+        "qed_weighted": "0.33",
+        "ro3_pass": "N",
+        "rtb": 3
+      },
+      "molecule_structures": {
+        "canonical_smiles": "CC(=O)[C@]1(N)Cc2c(O)c3c(c(O)c2[C@@H](O[C@H]2C[C@H](O)[C@H](O)CO2)C1)C(=O)c1ccccc1C3=O.Cl",
+        "molfile": "\n     RDKit          2D\n\n 36 39  0  0  0  0  0  0  0  0999 V2000\n   18.3082   -6.7750    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n    9.7027   -7.6833    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    9.7016   -8.5107    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   10.4164   -8.9235    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   10.4146   -7.2705    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   11.1300   -7.6797    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   11.1288   -8.5081    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   11.8418   -8.9211    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   11.8441   -7.2641    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   12.5616   -7.6817    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   12.5599   -8.5065    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   13.2723   -8.9186    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   13.2715   -7.2706    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   13.9845   -7.6790    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   13.9830   -8.5039    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.6928   -8.9153    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.4085   -8.5064    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.4110   -7.6801    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.6956   -7.2655    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.7440   -6.9252    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.5642   -6.8365    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   15.2571   -6.2592    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.2042   -7.8917    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   14.6902   -9.7403    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   15.4033  -10.1551    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.3951  -10.9800    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   16.1042  -11.3946    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.8224  -10.9879    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.8269  -10.1620    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.1133   -9.7427    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.5441   -9.7541    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.5340  -11.4053    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   13.2738   -9.7436    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   13.2696   -6.4456    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   11.8412   -9.7461    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   11.8441   -6.4391    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n 15 16  1  0\n 16 17  1  0\n 17 18  1  0\n 18 19  1  0\n 10  9  1  0\n  6  5  2  0\n  5  2  1  0\n 20 21  2  0\n 20 22  1  0\n 18 20  1  0\n 10 11  2  0\n 18 23  1  6\n  6  7  1  0\n 16 24  1  6\n 11 12  1  0\n 25 24  1  1\n 25 26  1  0\n 12 15  2  0\n 14 13  2  0\n 13 10  1  0\n 14 15  1  0\n 25 30  1  0\n 26 27  1  0\n 27 28  1  0\n 28 29  1  0\n 29 30  1  0\n  3  4  1  0\n 29 31  1  6\n  4  7  2  0\n 28 32  1  6\n  2  3  2  0\n 12 33  1  0\n  6  9  1  0\n 13 34  1  0\n  7  8  1  0\n  8 35  2  0\n  8 11  1  0\n  9 36  2  0\n 14 19  1  0\nM  END\n> <chembl_id>\nCHEMBL481958\n\n> <chembl_pref_name>\nAMRUBICIN HYDROCHLORIDE",
+        "standard_inchi": "InChI=1S/C25H25NO9.ClH/c1-10(27)25(26)7-13-18(16(8-25)35-17-6-14(28)15(29)9-34-17)24(33)20-19(23(13)32)21(30)11-4-2-3-5-12(11)22(20)31;/h2-5,14-17,28-29,32-33H,6-9,26H2,1H3;1H/t14-,15+,16-,17-,25-;/m0./s1",
+        "standard_inchi_key": "BHMLHEQFWVQAJS-IITOGVPQSA-N"
+      },
+      "molecule_synonyms": [
+        {
+          "molecule_synonym": "Amrubicin hydrochloride",
+          "syn_type": "JAN",
+          "synonyms": "AMRUBICIN HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Amrubicin hydrochloride",
+          "syn_type": "MERCK_INDEX",
+          "synonyms": "AMRUBICIN HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Amrubicin hydrochloride",
+          "syn_type": "OTHER",
+          "synonyms": "AMRUBICIN HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Amrubicin hydrochloride",
+          "syn_type": "USAN",
+          "synonyms": "AMRUBICIN HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Calsed",
+          "syn_type": "OTHER",
+          "synonyms": "CALSED"
+        },
+        {
+          "molecule_synonym": "SM 5887",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "SM 5887"
+        },
+        {
+          "molecule_synonym": "SM-5887",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "SM-5887"
+        }
+      ],
+      "molecule_type": "Small molecule",
+      "natural_product": 0,
+      "oral": false,
+      "orphan": 0,
+      "parenteral": false,
+      "polymer_flag": 0,
+      "pref_name": "AMRUBICIN HYDROCHLORIDE",
+      "prodrug": 0,
+      "score": 13.0,
+      "structure_type": "MOL",
+      "therapeutic_flag": false,
+      "topical": false,
+      "usan_stem": "-rubicin",
+      "usan_stem_definition": "antineoplastic antibiotics (daunorubicin type)",
+      "usan_substem": "-rubicin",
+      "usan_year": 2007,
+      "veterinary": 0,
+      "withdrawn_flag": false
+    },
+    {
+      "atc_classifications": [],
+      "availability_type": null,
+      "biotherapeutic": null,
+      "black_box_warning": 0,
+      "chemical_probe": 0,
+      "chirality": 1,
+      "cross_references": [],
+      "dosed_ingredient": false,
+      "first_approval": null,
+      "first_in_class": 0,
+      "helm_notation": null,
+      "inorganic_flag": 0,
+      "max_phase": "2.0",
+      "molecule_chembl_id": "CHEMBL460785",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL307429",
+        "molecule_chembl_id": "CHEMBL460785",
+        "parent_chembl_id": "CHEMBL307429"
+      },
+      "molecule_properties": {
+        "alogp": "-2.97",
+        "aromatic_rings": 0,
+        "full_molformula": "C6H14ClNO4",
+        "full_mwt": "199.63",
+        "hba": 5,
+        "hbd": 5,
+        "heavy_atoms": 11,
+        "mw_freebase": "163.17",
+        "np_likeness_score": "2.44",
+        "num_ro5_violations": 0,
+        "psa": "92.95",
+        "qed_weighted": "0.28",
+        "ro3_pass": "N",
+        "rtb": 1
+      },
+      "molecule_structures": {
+        "canonical_smiles": "Cl.OC[C@H]1NC[C@H](O)[C@@H](O)[C@@H]1O",
+        "molfile": "\n     RDKit          2D\n\n 12 11  0  0  0  0  0  0  0  0999 V2000\n    1.7292    0.2125    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n   -1.0208   -0.2042    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.0208    0.6208    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.4083   -0.2042    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.3083   -0.6167    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.3083    1.0333    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.4083    0.6208    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.7333   -0.6167    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.7333    1.0333    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.3083    1.8583    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.3083   -1.4417    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.4083   -1.8542    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  3  2  1  0\n  4  5  1  0\n  5  2  1  0\n  6  3  1  0\n  7  4  1  0\n  2  8  1  1\n  3  9  1  6\n  6 10  1  1\n  5 11  1  6\n 12 11  1  0\n  6  7  1  0\nM  END\n> <chembl_id>\nCHEMBL460785\n\n> <chembl_pref_name>\nDUVOGLUSTAT HYDROCHLORIDE",
+        "standard_inchi": "InChI=1S/C6H13NO4.ClH/c8-2-3-5(10)6(11)4(9)1-7-3;/h3-11H,1-2H2;1H/t3-,4+,5-,6-;/m1./s1",
+        "standard_inchi_key": "ZJIHMALTJRDNQI-VFQQELCFSA-N"
+      },
+      "molecule_synonyms": [
+        {
+          "molecule_synonym": "1 deoxynojirimycin hydrochloride",
+          "syn_type": "OTHER",
+          "synonyms": "1 DEOXYNOJIRIMYCIN HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "1-deoxynojirimycin hydrochloride",
+          "syn_type": "OTHER",
+          "synonyms": "1-DEOXYNOJIRIMYCIN HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "AT-2220",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "AT-2220"
+        },
+        {
+          "molecule_synonym": "AT2220",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "AT2220"
+        },
+        {
+          "molecule_synonym": "Duvoglustat hcl",
+          "syn_type": "OTHER",
+          "synonyms": "DUVOGLUSTAT HCL"
+        },
+        {
+          "molecule_synonym": "Duvoglustat hydrochloride",
+          "syn_type": "OTHER",
+          "synonyms": "DUVOGLUSTAT HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Duvoglustat hydrochloride",
+          "syn_type": "USAN",
+          "synonyms": "DUVOGLUSTAT HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Moranoline hydrochloride",
+          "syn_type": "OTHER",
+          "synonyms": "MORANOLINE HYDROCHLORIDE"
+        }
+      ],
+      "molecule_type": "Small molecule",
+      "natural_product": 0,
+      "oral": false,
+      "orphan": 0,
+      "parenteral": false,
+      "polymer_flag": 0,
+      "pref_name": "DUVOGLUSTAT HYDROCHLORIDE",
+      "prodrug": 0,
+      "score": 13.0,
+      "structure_type": "MOL",
+      "therapeutic_flag": false,
+      "topical": false,
+      "usan_stem": "-stat",
+      "usan_stem_definition": "enzyme inhibitors: glucosyltransferase inhibitors",
+      "usan_substem": "-stat (-glustat)",
+      "usan_year": 2009,
+      "veterinary": 0,
+      "withdrawn_flag": false
+    },
+    {
+      "atc_classifications": [],
+      "availability_type": 0,
+      "biotherapeutic": null,
+      "black_box_warning": 0,
+      "chemical_probe": 0,
+      "chirality": 2,
+      "cross_references": [],
+      "dosed_ingredient": true,
+      "first_approval": 1993,
+      "first_in_class": 0,
+      "helm_notation": null,
+      "inorganic_flag": 0,
+      "max_phase": "4.0",
+      "molecule_chembl_id": "CHEMBL1677",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL95",
+        "molecule_chembl_id": "CHEMBL1677",
+        "parent_chembl_id": "CHEMBL95"
+      },
+      "molecule_properties": {
+        "alogp": "2.70",
+        "aromatic_rings": 2,
+        "full_molformula": "C13H15ClN2",
+        "full_mwt": "234.73",
+        "hba": 2,
+        "hbd": 1,
+        "heavy_atoms": 15,
+        "mw_freebase": "198.27",
+        "np_likeness_score": "-0.67",
+        "num_ro5_violations": 0,
+        "psa": "38.91",
+        "qed_weighted": "0.71",
+        "ro3_pass": "Y",
+        "rtb": 0
+      },
+      "molecule_structures": {
+        "canonical_smiles": "Cl.Nc1c2c(nc3ccccc13)CCCC2",
+        "molfile": "\n     RDKit          2D\n\n 16 17  0  0  0  0  0  0  0  0999 V2000\n    5.7667  -19.4667    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n    5.0750  -18.7167    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.0750  -17.3042    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    4.4542  -18.3667    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.6875  -18.3667    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.4542  -17.6542    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.6875  -17.6542    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.0750  -19.4292    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    3.8417  -18.7167    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.3042  -18.7167    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.8417  -17.3042    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.3042  -17.3042    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.2250  -18.3667    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.9167  -18.3667    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.2250  -17.6542    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.9167  -17.6542    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  3  7  1  0\n  4  2  2  0\n  5  2  1  0\n  6  4  1  0\n  7  5  1  0\n  8  2  1  0\n  9  4  1  0\n 10  5  2  0\n 11  6  1  0\n 12  7  2  0\n 13  9  1  0\n 14 10  1  0\n 15 13  1  0\n 16 14  2  0\n  3  6  2  0\n 16 12  1  0\n 15 11  1  0\nM  END\n> <chembl_id>\nCHEMBL1677\n\n> <chembl_pref_name>\nTACRINE HYDROCHLORIDE",
+        "standard_inchi": "InChI=1S/C13H14N2.ClH/c14-13-9-5-1-3-7-11(9)15-12-8-4-2-6-10(12)13;/h1,3,5,7H,2,4,6,8H2,(H2,14,15);1H",
+        "standard_inchi_key": "ZUFVXZVXEJHHBN-UHFFFAOYSA-N"
+      },
+      "molecule_synonyms": [
+        {
+          "molecule_synonym": "Alzyme",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "ALZYME"
+        },
+        {
+          "molecule_synonym": "CI-970",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "CI-970"
+        },
+        {
+          "molecule_synonym": "Cognex",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "COGNEX"
+        },
+        {
+          "molecule_synonym": "NSC-72108",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "NSC-72108"
+        },
+        {
+          "molecule_synonym": "Tacrine hcl",
+          "syn_type": "OTHER",
+          "synonyms": "TACRINE HCL"
+        },
+        {
+          "molecule_synonym": "Tacrine hydrochloride",
+          "syn_type": "BNF",
+          "synonyms": "TACRINE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Tacrine hydrochloride",
+          "syn_type": "FDA",
+          "synonyms": "TACRINE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Tacrine hydrochloride",
+          "syn_type": "OTHER",
+          "synonyms": "TACRINE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Tacrine hydrochloride",
+          "syn_type": "USAN",
+          "synonyms": "TACRINE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Tacrine hydrochloride",
+          "syn_type": "USP",
+          "synonyms": "TACRINE HYDROCHLORIDE"
+        }
+      ],
+      "molecule_type": "Small molecule",
+      "natural_product": 0,
+      "oral": true,
+      "orphan": 0,
+      "parenteral": false,
+      "polymer_flag": 0,
+      "pref_name": "TACRINE HYDROCHLORIDE",
+      "prodrug": 0,
+      "score": 13.0,
+      "structure_type": "MOL",
+      "therapeutic_flag": true,
+      "topical": false,
+      "usan_stem": "-crine",
+      "usan_stem_definition": "acridine derivatives",
+      "usan_substem": "-crine",
+      "usan_year": 1988,
+      "veterinary": 0,
+      "withdrawn_flag": false
+    },
+    {
+      "atc_classifications": [],
+      "availability_type": 1,
+      "biotherapeutic": null,
+      "black_box_warning": 0,
+      "chemical_probe": 0,
+      "chirality": 0,
+      "cross_references": [
+        {
+          "xref_id": "donepezil%20hydrochloride",
+          "xref_name": "donepezil hydrochloride",
+          "xref_src": "DailyMed"
+        }
+      ],
+      "dosed_ingredient": true,
+      "first_approval": 1996,
+      "first_in_class": 0,
+      "helm_notation": null,
+      "inorganic_flag": 0,
+      "max_phase": "4.0",
+      "molecule_chembl_id": "CHEMBL1678",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL502",
+        "molecule_chembl_id": "CHEMBL1678",
+        "parent_chembl_id": "CHEMBL502"
+      },
+      "molecule_properties": {
+        "alogp": "4.36",
+        "aromatic_rings": 2,
+        "full_molformula": "C24H30ClNO3",
+        "full_mwt": "415.96",
+        "hba": 4,
+        "hbd": 0,
+        "heavy_atoms": 28,
+        "mw_freebase": "379.50",
+        "np_likeness_score": "-0.06",
+        "num_ro5_violations": 0,
+        "psa": "38.77",
+        "qed_weighted": "0.75",
+        "ro3_pass": "N",
+        "rtb": 6
+      },
+      "molecule_structures": {
+        "canonical_smiles": "COc1cc2c(cc1OC)C(=O)C(CC1CCN(Cc3ccccc3)CC1)C2.Cl",
+        "molfile": "\n     RDKit          2D\n\n 29 31  0  0  0  0  0  0  0  0999 V2000\n    2.8667   -1.6417    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n   -0.2125    1.2333    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.3375    1.8458    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.2000    0.5125    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.0917    1.5083    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.0458    1.2333    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.0042    0.6875    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.2125   -0.2042    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.4583    0.5125    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.9625    0.6833    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.0458   -0.2042    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.8125    1.9250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.1667    2.6583    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    4.6792    0.2708    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.9625    1.5083    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.2417    0.2708    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.5292    1.5083    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.2833    0.5125    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.4583   -0.9167    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    5.3917    0.6833    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.2417    1.9250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.5292    0.6833    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.6958   -0.2042    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.2833   -0.9167    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.3917    1.5083    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.1125    0.2708    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.8292    0.6833    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.1125    1.9250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.8292    1.5083    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  3  2  1  0\n  4  2  2  0\n  5  3  1  0\n  6  2  1  0\n  7  4  1  0\n  8  4  1  0\n  9  6  2  0\n 10 15  1  0\n 11  9  1  0\n 12  5  1  0\n 13  3  2  0\n 14 10  1  0\n 15 21  1  0\n 16 22  1  0\n 17 12  1  0\n 18  9  1  0\n 19 11  1  0\n 20 14  1  0\n 21 17  1  0\n 22 17  1  0\n 23 18  1  0\n 24 19  1  0\n 25 20  1  0\n 26 20  2  0\n 27 26  1  0\n 28 25  2  0\n 29 28  1  0\n  7  5  1  0\n 11  8  2  0\n 16 10  1  0\n 29 27  2  0\nM  END\n> <chembl_id>\nCHEMBL1678\n\n> <chembl_pref_name>\nDONEPEZIL HYDROCHLORIDE",
+        "standard_inchi": "InChI=1S/C24H29NO3.ClH/c1-27-22-14-19-13-20(24(26)21(19)15-23(22)28-2)12-17-8-10-25(11-9-17)16-18-6-4-3-5-7-18;/h3-7,14-15,17,20H,8-13,16H2,1-2H3;1H",
+        "standard_inchi_key": "XWAIAVWHZJNZQQ-UHFFFAOYSA-N"
+      },
+      "molecule_synonyms": [
+        {
+          "molecule_synonym": "Adlarity",
+          "syn_type": "OTHER",
+          "synonyms": "ADLARITY"
+        },
+        {
+          "molecule_synonym": "Adlarity",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "ADLARITY"
+        },
+        {
+          "molecule_synonym": "Aricept",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "ARICEPT"
+        },
+        {
+          "molecule_synonym": "Aricept evess",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "ARICEPT EVESS"
+        },
+        {
+          "molecule_synonym": "Aricept odt",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "ARICEPT ODT"
+        },
+        {
+          "molecule_synonym": "BNAG",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "BNAG"
+        },
+        {
+          "molecule_synonym": "Donepezil hcl",
+          "syn_type": "OTHER",
+          "synonyms": "DONEPEZIL HCL"
+        },
+        {
+          "molecule_synonym": "Donepezil hydrochloride",
+          "syn_type": "BNF",
+          "synonyms": "DONEPEZIL HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Donepezil hydrochloride",
+          "syn_type": "FDA",
+          "synonyms": "DONEPEZIL HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Donepezil hydrochloride",
+          "syn_type": "JAN",
+          "synonyms": "DONEPEZIL HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Donepezil hydrochloride",
+          "syn_type": "MERCK_INDEX",
+          "synonyms": "DONEPEZIL HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Donepezil hydrochloride",
+          "syn_type": "OTHER",
+          "synonyms": "DONEPEZIL HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Donepezil hydrochloride",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "DONEPEZIL HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Donepezil hydrochloride",
+          "syn_type": "USAN",
+          "synonyms": "DONEPEZIL HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Donepezil hydrochloride",
+          "syn_type": "USP",
+          "synonyms": "DONEPEZIL HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Donepezil hydrochloride component of namzaric",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "DONEPEZIL HYDROCHLORIDE COMPONENT OF NAMZARIC"
+        },
+        {
+          "molecule_synonym": "E-2020",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "E-2020"
+        },
+        {
+          "molecule_synonym": "E2020",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "E2020"
+        },
+        {
+          "molecule_synonym": "NSC-737535",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "NSC-737535"
+        },
+        {
+          "molecule_synonym": "NSC-758882",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "NSC-758882"
+        }
+      ],
+      "molecule_type": "Small molecule",
+      "natural_product": 0,
+      "oral": true,
+      "orphan": 0,
+      "parenteral": false,
+      "polymer_flag": 0,
+      "pref_name": "DONEPEZIL HYDROCHLORIDE",
+      "prodrug": 0,
+      "score": 13.0,
+      "structure_type": "MOL",
+      "therapeutic_flag": true,
+      "topical": true,
+      "usan_stem": "-pezil",
+      "usan_stem_definition": "acetylcholinesterase inhibitors used in the treatment of Alzheimer's disease",
+      "usan_substem": "-pezil",
+      "usan_year": 1997,
+      "veterinary": 0,
+      "withdrawn_flag": false
+    },
+    {
+      "atc_classifications": [],
+      "availability_type": 1,
+      "biotherapeutic": null,
+      "black_box_warning": 0,
+      "chemical_probe": 0,
+      "chirality": 2,
+      "cross_references": [
+        {
+          "xref_id": "hydralazine%20hydrochloride",
+          "xref_name": "hydralazine hydrochloride",
+          "xref_src": "DailyMed"
+        }
+      ],
+      "dosed_ingredient": true,
+      "first_approval": 1953,
+      "first_in_class": 0,
+      "helm_notation": null,
+      "inorganic_flag": 0,
+      "max_phase": "4.0",
+      "molecule_chembl_id": "CHEMBL542541",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL276832",
+        "molecule_chembl_id": "CHEMBL542541",
+        "parent_chembl_id": "CHEMBL276832"
+      },
+      "molecule_properties": {
+        "alogp": "0.92",
+        "aromatic_rings": 2,
+        "full_molformula": "C8H9ClN4",
+        "full_mwt": "196.64",
+        "hba": 4,
+        "hbd": 2,
+        "heavy_atoms": 12,
+        "mw_freebase": "160.18",
+        "np_likeness_score": "-1.58",
+        "num_ro5_violations": 0,
+        "psa": "63.83",
+        "qed_weighted": "0.48",
+        "ro3_pass": "N",
+        "rtb": 1
+      },
+      "molecule_structures": {
+        "canonical_smiles": "Cl.NNc1nncc2ccccc12",
+        "molfile": "\n     RDKit          2D\n\n 13 13  0  0  0  0  0  0  0  0999 V2000\n    5.4415   -1.1706    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n    7.1171   -2.8288    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    7.8316   -2.4163    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    7.8316   -1.5913    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.1171   -1.1788    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    7.1171   -0.3538    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    7.8316    0.0587    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    8.5461   -0.3538    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    9.2605    0.0587    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    9.9750   -0.3538    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    9.9750   -1.1788    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    9.2605   -1.5913    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    8.5461   -1.1788    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  2  3  1  0\n  3  4  1  0\n  4  5  2  0\n  5  6  1  0\n  6  7  2  0\n  7  8  1  0\n  8  9  2  0\n  9 10  1  0\n 10 11  2  0\n 11 12  1  0\n 12 13  2  0\n  4 13  1  0\n  8 13  1  0\nM  END\n> <chembl_id>\nCHEMBL542541\n\n> <chembl_pref_name>\nHYDRALAZINE HYDROCHLORIDE",
+        "standard_inchi": "InChI=1S/C8H8N4.ClH/c9-11-8-7-4-2-1-3-6(7)5-10-12-8;/h1-5H,9H2,(H,11,12);1H",
+        "standard_inchi_key": "ZUXNZUWOTSUBMN-UHFFFAOYSA-N"
+      },
+      "molecule_synonyms": [
+        {
+          "molecule_synonym": "Apresoline",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "APRESOLINE"
+        },
+        {
+          "molecule_synonym": "Apressinum",
+          "syn_type": "OTHER",
+          "synonyms": "APRESSINUM"
+        },
+        {
+          "molecule_synonym": "Dralzine",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "DRALZINE"
+        },
+        {
+          "molecule_synonym": "Hydralazine hcl",
+          "syn_type": "OTHER",
+          "synonyms": "HYDRALAZINE HCL"
+        },
+        {
+          "molecule_synonym": "Hydralazine hydrochloride",
+          "syn_type": "BNF",
+          "synonyms": "HYDRALAZINE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Hydralazine hydrochloride",
+          "syn_type": "FDA",
+          "synonyms": "HYDRALAZINE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Hydralazine hydrochloride",
+          "syn_type": "MERCK_INDEX",
+          "synonyms": "HYDRALAZINE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Hydralazine hydrochloride",
+          "syn_type": "OTHER",
+          "synonyms": "HYDRALAZINE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Hydralazine hydrochloride",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "HYDRALAZINE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Hydralazine hydrochloride component of apresazide",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "HYDRALAZINE HYDROCHLORIDE COMPONENT OF APRESAZIDE"
+        },
+        {
+          "molecule_synonym": "Hydralazine hydrochloride component of apresoline-esidrix",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "HYDRALAZINE HYDROCHLORIDE COMPONENT OF APRESOLINE-ESIDRIX"
+        },
+        {
+          "molecule_synonym": "Hydralazine hydrochloride component of bidil",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "HYDRALAZINE HYDROCHLORIDE COMPONENT OF BIDIL"
+        },
+        {
+          "molecule_synonym": "Hydralazine hydrochloride component of cam-ap-es",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "HYDRALAZINE HYDROCHLORIDE COMPONENT OF CAM-AP-ES"
+        },
+        {
+          "molecule_synonym": "Hydralazine hydrochloride component of dralserp",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "HYDRALAZINE HYDROCHLORIDE COMPONENT OF DRALSERP"
+        },
+        {
+          "molecule_synonym": "Hydralazine hydrochloride component of hydrap-es",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "HYDRALAZINE HYDROCHLORIDE COMPONENT OF HYDRAP-ES"
+        },
+        {
+          "molecule_synonym": "Hydralazine hydrochloride component of hydra-zide",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "HYDRALAZINE HYDROCHLORIDE COMPONENT OF HYDRA-ZIDE"
+        },
+        {
+          "molecule_synonym": "Hydralazine hydrochloride component of -hydrochlorothiazide-reserpine",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "HYDRALAZINE HYDROCHLORIDE COMPONENT OF -HYDROCHLOROTHIAZIDE-RESERPINE"
+        },
+        {
+          "molecule_synonym": "Hydralazine hydrochloride component of hydroserpine plus (r-h-h)",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "HYDRALAZINE HYDROCHLORIDE COMPONENT OF HYDROSERPINE PLUS (R-H-H)"
+        },
+        {
+          "molecule_synonym": "Hydralazine hydrochloride component of ser-a-gen",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "HYDRALAZINE HYDROCHLORIDE COMPONENT OF SER-A-GEN"
+        },
+        {
+          "molecule_synonym": "Hydralazine hydrochloride component of ser-ap-es",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "HYDRALAZINE HYDROCHLORIDE COMPONENT OF SER-AP-ES"
+        },
+        {
+          "molecule_synonym": "Hydralazine hydrochloride component of serpasil-apresoline",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "HYDRALAZINE HYDROCHLORIDE COMPONENT OF SERPASIL-APRESOLINE"
+        },
+        {
+          "molecule_synonym": "Hydralazine hydrochloride component of unipres",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "HYDRALAZINE HYDROCHLORIDE COMPONENT OF UNIPRES"
+        },
+        {
+          "molecule_synonym": "Hydralazini hydrochloridum",
+          "syn_type": "OTHER",
+          "synonyms": "HYDRALAZINI HYDROCHLORIDUM"
+        },
+        {
+          "molecule_synonym": "MC-1101",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "MC-1101"
+        },
+        {
+          "molecule_synonym": "NSC-89394",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "NSC-89394"
+        }
+      ],
+      "molecule_type": "Small molecule",
+      "natural_product": 0,
+      "oral": true,
+      "orphan": 0,
+      "parenteral": true,
+      "polymer_flag": 0,
+      "pref_name": "HYDRALAZINE HYDROCHLORIDE",
+      "prodrug": 0,
+      "score": 13.0,
+      "structure_type": "MOL",
+      "therapeutic_flag": true,
+      "topical": false,
+      "usan_stem": "-dralazine; -lazine",
+      "usan_stem_definition": "antihypertensives (hydrazine-phthalazines); antiarrhythmic/antianginal/antihypertensive agents, phthalazine like structure",
+      "usan_substem": "-dralazine; -lazine",
+      "usan_year": null,
+      "veterinary": 0,
+      "withdrawn_flag": false
+    },
+    {
+      "atc_classifications": [],
+      "availability_type": 1,
+      "biotherapeutic": null,
+      "black_box_warning": 0,
+      "chemical_probe": 0,
+      "chirality": 0,
+      "cross_references": [
+        {
+          "xref_id": "memantine%20hydrochloride",
+          "xref_name": "memantine hydrochloride",
+          "xref_src": "DailyMed"
+        },
+        {
+          "xref_id": "human/EPAR/axura",
+          "xref_name": "axura",
+          "xref_src": "EMA"
+        },
+        {
+          "xref_id": "human/EPAR/ebixa",
+          "xref_name": "ebixa",
+          "xref_src": "EMA"
+        },
+        {
+          "xref_id": "human/EPAR/marixino",
+          "xref_name": "marixino",
+          "xref_src": "EMA"
+        },
+        {
+          "xref_id": "human/EPAR/memantine-accord",
+          "xref_name": "memantine-accord",
+          "xref_src": "EMA"
+        },
+        {
+          "xref_id": "human/EPAR/memantine-lek",
+          "xref_name": "memantine-lek",
+          "xref_src": "EMA"
+        },
+        {
+          "xref_id": "human/EPAR/memantine-merz",
+          "xref_name": "memantine-merz",
+          "xref_src": "EMA"
+        },
+        {
+          "xref_id": "human/EPAR/memantine-mylan",
+          "xref_name": "memantine-mylan",
+          "xref_src": "EMA"
+        },
+        {
+          "xref_id": "human/EPAR/memantine-ratiopharm",
+          "xref_name": "memantine-ratiopharm",
+          "xref_src": "EMA"
+        },
+        {
+          "xref_id": "human/EPAR/nemdatine",
+          "xref_name": "nemdatine",
+          "xref_src": "EMA"
+        }
+      ],
+      "dosed_ingredient": true,
+      "first_approval": 2002,
+      "first_in_class": 0,
+      "helm_notation": null,
+      "inorganic_flag": 0,
+      "max_phase": "4.0",
+      "molecule_chembl_id": "CHEMBL1699",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL807",
+        "molecule_chembl_id": "CHEMBL1699",
+        "parent_chembl_id": "CHEMBL807"
+      },
+      "molecule_properties": {
+        "alogp": "2.69",
+        "aromatic_rings": 0,
+        "full_molformula": "C12H22ClN",
+        "full_mwt": "215.77",
+        "hba": 1,
+        "hbd": 1,
+        "heavy_atoms": 13,
+        "mw_freebase": "179.31",
+        "np_likeness_score": "0.53",
+        "num_ro5_violations": 0,
+        "psa": "26.02",
+        "qed_weighted": "0.61",
+        "ro3_pass": "Y",
+        "rtb": 0
+      },
+      "molecule_structures": {
+        "canonical_smiles": "CC12CC3CC(C)(C1)CC(N)(C3)C2.Cl",
+        "molfile": "\n     RDKit          2D\n\n 14 15  0  0  0  0  0  0  0  0999 V2000\n    5.0542   -4.8417    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n    3.2000   -4.6625    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.8167   -5.6417    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.5833   -5.6583    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.9250   -6.1542    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.5833   -4.9458    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.8125   -4.9458    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.1958   -5.9292    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.9250   -5.1458    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.6083   -6.3125    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.0875   -6.4042    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.2000   -4.0875    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    4.3292   -5.8792    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.9875   -5.9292    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  3  7  1  0\n  4  6  1  0\n  5  9  1  0\n  6  2  1  0\n  7  2  1  0\n  8  3  1  0\n  9  2  1  0\n 10  3  1  0\n 11  5  1  0\n 12  2  1  0\n 13  3  1  0\n 14  4  1  0\n 10  5  1  0\n  8  4  1  0\n 11  4  1  0\nM  END\n> <chembl_id>\nCHEMBL1699\n\n> <chembl_pref_name>\nMEMANTINE HYDROCHLORIDE",
+        "standard_inchi": "InChI=1S/C12H21N.ClH/c1-10-3-9-4-11(2,6-10)8-12(13,5-9)7-10;/h9H,3-8,13H2,1-2H3;1H",
+        "standard_inchi_key": "LDDHMLJTFXJGPI-UHFFFAOYSA-N"
+      },
+      "molecule_synonyms": [
+        {
+          "molecule_synonym": "Acrescent",
+          "syn_type": "OTHER",
+          "synonyms": "ACRESCENT"
+        },
+        {
+          "molecule_synonym": "Akatinol",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "AKATINOL"
+        },
+        {
+          "molecule_synonym": "Auxura",
+          "syn_type": "OTHER",
+          "synonyms": "AUXURA"
+        },
+        {
+          "molecule_synonym": "Axura",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "AXURA"
+        },
+        {
+          "molecule_synonym": "Balaxur",
+          "syn_type": "OTHER",
+          "synonyms": "BALAXUR"
+        },
+        {
+          "molecule_synonym": "Ebixa",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "EBIXA"
+        },
+        {
+          "molecule_synonym": "FP-01",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "FP-01"
+        },
+        {
+          "molecule_synonym": "Marixino",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "MARIXINO"
+        },
+        {
+          "molecule_synonym": "Marixino (previously maruxa)",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "MARIXINO (PREVIOUSLY MARUXA)"
+        },
+        {
+          "molecule_synonym": "Memantine accord",
+          "syn_type": "OTHER",
+          "synonyms": "MEMANTINE ACCORD"
+        },
+        {
+          "molecule_synonym": "Memantine accord",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "MEMANTINE ACCORD"
+        },
+        {
+          "molecule_synonym": "Memantine hcl",
+          "syn_type": "OTHER",
+          "synonyms": "MEMANTINE HCL"
+        },
+        {
+          "molecule_synonym": "Memantine hydrochloride",
+          "syn_type": "BNF",
+          "synonyms": "MEMANTINE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Memantine hydrochloride",
+          "syn_type": "EMA",
+          "synonyms": "MEMANTINE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Memantine hydrochloride",
+          "syn_type": "FDA",
+          "synonyms": "MEMANTINE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Memantine hydrochloride",
+          "syn_type": "JAN",
+          "synonyms": "MEMANTINE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Memantine hydrochloride",
+          "syn_type": "MERCK_INDEX",
+          "synonyms": "MEMANTINE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Memantine hydrochloride",
+          "syn_type": "OTHER",
+          "synonyms": "MEMANTINE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Memantine hydrochloride",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "MEMANTINE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Memantine hydrochloride",
+          "syn_type": "USAN",
+          "synonyms": "MEMANTINE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Memantine hydrochloride",
+          "syn_type": "USP",
+          "synonyms": "MEMANTINE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Memantine hydrochloride component of namzaric",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "MEMANTINE HYDROCHLORIDE COMPONENT OF NAMZARIC"
+        },
+        {
+          "molecule_synonym": "Memantine lek",
+          "syn_type": "OTHER",
+          "synonyms": "MEMANTINE LEK"
+        },
+        {
+          "molecule_synonym": "Memantine lek",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "MEMANTINE LEK"
+        },
+        {
+          "molecule_synonym": "Memantine merz",
+          "syn_type": "OTHER",
+          "synonyms": "MEMANTINE MERZ"
+        },
+        {
+          "molecule_synonym": "Memantine merz",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "MEMANTINE MERZ"
+        },
+        {
+          "molecule_synonym": "Memantine mylan",
+          "syn_type": "OTHER",
+          "synonyms": "MEMANTINE MYLAN"
+        },
+        {
+          "molecule_synonym": "Memantine mylan",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "MEMANTINE MYLAN"
+        },
+        {
+          "molecule_synonym": "Memantine ratiopharm",
+          "syn_type": "OTHER",
+          "synonyms": "MEMANTINE RATIOPHARM"
+        },
+        {
+          "molecule_synonym": "Memantine ratiopharm",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "MEMANTINE RATIOPHARM"
+        },
+        {
+          "molecule_synonym": "Memary",
+          "syn_type": "OTHER",
+          "synonyms": "MEMARY"
+        },
+        {
+          "molecule_synonym": "Namenda",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "NAMENDA"
+        },
+        {
+          "molecule_synonym": "Namenda xr",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "NAMENDA XR"
+        },
+        {
+          "molecule_synonym": "Nemdatine",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "NEMDATINE"
+        },
+        {
+          "molecule_synonym": "NSC-102290",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "NSC-102290"
+        },
+        {
+          "molecule_synonym": "SUN-Y7017",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "SUN-Y7017"
+        },
+        {
+          "molecule_synonym": "Valios",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "VALIOS"
+        }
+      ],
+      "molecule_type": "Small molecule",
+      "natural_product": 0,
+      "oral": true,
+      "orphan": 0,
+      "parenteral": false,
+      "polymer_flag": 0,
+      "pref_name": "MEMANTINE HYDROCHLORIDE",
+      "prodrug": 0,
+      "score": 13.0,
+      "structure_type": "MOL",
+      "therapeutic_flag": true,
+      "topical": false,
+      "usan_stem": "-mantine",
+      "usan_stem_definition": "antivirals/antiparkinsonians (adamantane derivatives)",
+      "usan_substem": "-mantine",
+      "usan_year": 2003,
+      "veterinary": 0,
+      "withdrawn_flag": false
+    },
+    {
+      "atc_classifications": [],
+      "availability_type": 1,
+      "biotherapeutic": null,
+      "black_box_warning": 1,
+      "chemical_probe": 0,
+      "chirality": 1,
+      "cross_references": [
+        {
+          "xref_id": "atomoxetine%20hydrochloride",
+          "xref_name": "atomoxetine hydrochloride",
+          "xref_src": "DailyMed"
+        }
+      ],
+      "dosed_ingredient": true,
+      "first_approval": 2002,
+      "first_in_class": 0,
+      "helm_notation": null,
+      "inorganic_flag": 0,
+      "max_phase": "4.0",
+      "molecule_chembl_id": "CHEMBL1702",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL641",
+        "molecule_chembl_id": "CHEMBL1702",
+        "parent_chembl_id": "CHEMBL641"
+      },
+      "molecule_properties": {
+        "alogp": "3.72",
+        "aromatic_rings": 2,
+        "full_molformula": "C17H22ClNO",
+        "full_mwt": "291.82",
+        "hba": 2,
+        "hbd": 1,
+        "heavy_atoms": 19,
+        "mw_freebase": "255.36",
+        "np_likeness_score": "-0.06",
+        "num_ro5_violations": 0,
+        "psa": "21.26",
+        "qed_weighted": "0.85",
+        "ro3_pass": "N",
+        "rtb": 6
+      },
+      "molecule_structures": {
+        "canonical_smiles": "CNCC[C@@H](Oc1ccccc1C)c1ccccc1.Cl",
+        "molfile": "\n     RDKit          2D\n\n 20 20  0  0  0  0  0  0  0  0999 V2000\n    0.1417   -3.3250    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n    0.0792   -0.1792    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.5292   -0.5375    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.6958   -0.5292    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.1458   -0.1833    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.6958   -1.2375    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.3083   -0.1750    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.5333   -0.1667    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.5292   -1.2500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.9208   -0.5250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.1500    0.5250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.7583   -0.5375    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0875   -1.5917    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.3125   -1.5833    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.1500   -0.5208    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.1458   -1.6042    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.7583   -1.2500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0875   -2.3000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.3167   -2.2917    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.7042   -2.6542    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  3  2  1  0\n  4  2  1  0\n  5  3  2  0\n  4  6  1  6\n  7  4  1  0\n  8 10  1  0\n  9  3  1  0\n 10  7  1  0\n 11  5  1  0\n 12  5  1  0\n 13  6  2  0\n 14  6  1  0\n 15  8  1  0\n 16  9  2  0\n 17 12  2  0\n 18 13  1  0\n 19 14  2  0\n 20 19  1  0\n 16 17  1  0\n 20 18  2  0\nM  END\n> <chembl_id>\nCHEMBL1702\n\n> <chembl_pref_name>\nATOMOXETINE HYDROCHLORIDE",
+        "standard_inchi": "InChI=1S/C17H21NO.ClH/c1-14-8-6-7-11-16(14)19-17(12-13-18-2)15-9-4-3-5-10-15;/h3-11,17-18H,12-13H2,1-2H3;1H/t17-;/m1./s1",
+        "standard_inchi_key": "LUCXVPAZUDVVBT-UNTBIKODSA-N"
+      },
+      "molecule_synonyms": [
+        {
+          "molecule_synonym": "Atomoxetine (as hydrochloride)",
+          "syn_type": "OTHER",
+          "synonyms": "ATOMOXETINE (AS HYDROCHLORIDE)"
+        },
+        {
+          "molecule_synonym": "Atomoxetine hcl",
+          "syn_type": "OTHER",
+          "synonyms": "ATOMOXETINE HCL"
+        },
+        {
+          "molecule_synonym": "Atomoxetine hydrochloride",
+          "syn_type": "BNF",
+          "synonyms": "ATOMOXETINE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Atomoxetine hydrochloride",
+          "syn_type": "FDA",
+          "synonyms": "ATOMOXETINE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Atomoxetine hydrochloride",
+          "syn_type": "JAN",
+          "synonyms": "ATOMOXETINE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Atomoxetine hydrochloride",
+          "syn_type": "MERCK_INDEX",
+          "synonyms": "ATOMOXETINE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Atomoxetine hydrochloride",
+          "syn_type": "OTHER",
+          "synonyms": "ATOMOXETINE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Atomoxetine hydrochloride",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "ATOMOXETINE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Atomoxetine hydrochloride",
+          "syn_type": "USAN",
+          "synonyms": "ATOMOXETINE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Atomoxetine hydrochloride",
+          "syn_type": "USP",
+          "synonyms": "ATOMOXETINE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "LY-139603",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "LY-139603"
+        },
+        {
+          "molecule_synonym": "NSC-759104",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "NSC-759104"
+        },
+        {
+          "molecule_synonym": "(r)-(-)-tomoxetine hydrochloride",
+          "syn_type": "OTHER",
+          "synonyms": "(R)-(-)-TOMOXETINE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Strattera",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "STRATTERA"
+        },
+        {
+          "molecule_synonym": "Tomoxetine",
+          "syn_type": "INN",
+          "synonyms": "TOMOXETINE"
+        },
+        {
+          "molecule_synonym": "Tomoxetine hydrochloride",
+          "syn_type": "OTHER",
+          "synonyms": "TOMOXETINE HYDROCHLORIDE"
+        }
+      ],
+      "molecule_type": "Small molecule",
+      "natural_product": 0,
+      "oral": true,
+      "orphan": 0,
+      "parenteral": false,
+      "polymer_flag": 0,
+      "pref_name": "ATOMOXETINE HYDROCHLORIDE",
+      "prodrug": 0,
+      "score": 13.0,
+      "structure_type": "MOL",
+      "therapeutic_flag": true,
+      "topical": false,
+      "usan_stem": "-oxetine",
+      "usan_stem_definition": "antidepressants (fluoxetine type)",
+      "usan_substem": "-oxetine",
+      "usan_year": 2001,
+      "veterinary": 0,
+      "withdrawn_flag": false
+    },
+    {
+      "atc_classifications": [],
+      "availability_type": 2,
+      "biotherapeutic": null,
+      "black_box_warning": 0,
+      "chemical_probe": 0,
+      "chirality": 2,
+      "cross_references": [
+        {
+          "xref_id": "naphazoline%20hydrochloride",
+          "xref_name": "naphazoline hydrochloride",
+          "xref_src": "DailyMed"
+        }
+      ],
+      "dosed_ingredient": true,
+      "first_approval": 1971,
+      "first_in_class": 0,
+      "helm_notation": null,
+      "inorganic_flag": 0,
+      "max_phase": "4.0",
+      "molecule_chembl_id": "CHEMBL1706",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL761",
+        "molecule_chembl_id": "CHEMBL1706",
+        "parent_chembl_id": "CHEMBL761"
+      },
+      "molecule_properties": {
+        "alogp": "2.38",
+        "aromatic_rings": 2,
+        "full_molformula": "C14H15ClN2",
+        "full_mwt": "246.74",
+        "hba": 2,
+        "hbd": 1,
+        "heavy_atoms": 16,
+        "mw_freebase": "210.28",
+        "np_likeness_score": "-0.35",
+        "num_ro5_violations": 0,
+        "psa": "24.39",
+        "qed_weighted": "0.81",
+        "ro3_pass": "Y",
+        "rtb": 2
+      },
+      "molecule_structures": {
+        "canonical_smiles": "Cl.c1ccc2c(CC3=NCCN3)cccc2c1",
+        "molfile": "\n     RDKit          2D\n\n 17 18  0  0  0  0  0  0  0  0999 V2000\n    6.0542   -5.4375    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n    5.1292   -4.2167    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.3292   -3.5292    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    4.5292   -5.2875    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.7042   -4.6167    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    3.9167   -5.6417    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.5125   -4.5792    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.9167   -6.3542    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.0542   -3.5167    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.1292   -5.6375    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.2750   -4.1917    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.1500   -6.3417    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.3000   -5.2917    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.5292   -6.7000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.3000   -6.7167    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.6792   -5.6542    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.6792   -6.3750    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  3  2  2  0\n  4  7  1  0\n  5  2  1  0\n  6  4  2  0\n  7  2  1  0\n  8  6  1  0\n  9  3  1  0\n 10  4  1  0\n 11  5  1  0\n 12 10  2  0\n 13  6  1  0\n 14 12  1  0\n 15  8  1  0\n 16 13  2  0\n 17 16  1  0\n  9 11  1  0\n 14  8  2  0\n 17 15  2  0\nM  END\n> <chembl_id>\nCHEMBL1706\n\n> <chembl_pref_name>\nNAPHAZOLINE HYDROCHLORIDE",
+        "standard_inchi": "InChI=1S/C14H14N2.ClH/c1-2-7-13-11(4-1)5-3-6-12(13)10-14-15-8-9-16-14;/h1-7H,8-10H2,(H,15,16);1H",
+        "standard_inchi_key": "DJDFFEBSKJCGHC-UHFFFAOYSA-N"
+      },
+      "molecule_synonyms": [
+        {
+          "molecule_synonym": "Albalon",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "ALBALON"
+        },
+        {
+          "molecule_synonym": "Antistin-privine",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "ANTISTIN-PRIVINE"
+        },
+        {
+          "molecule_synonym": "Gppe nsl soln",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "GPPE NSL SOLN"
+        },
+        {
+          "molecule_synonym": "Nafazair",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "NAFAZAIR"
+        },
+        {
+          "molecule_synonym": "Naphaz hcl",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "NAPHAZ HCL"
+        },
+        {
+          "molecule_synonym": "Naphazoline hcl",
+          "syn_type": "OTHER",
+          "synonyms": "NAPHAZOLINE HCL"
+        },
+        {
+          "molecule_synonym": "Naphazoline hydrochloride",
+          "syn_type": "BNF",
+          "synonyms": "NAPHAZOLINE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Naphazoline hydrochloride",
+          "syn_type": "FDA",
+          "synonyms": "NAPHAZOLINE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Naphazoline hydrochloride",
+          "syn_type": "MERCK_INDEX",
+          "synonyms": "NAPHAZOLINE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Naphazoline hydrochloride",
+          "syn_type": "OTHER",
+          "synonyms": "NAPHAZOLINE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Naphazoline hydrochloride",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "NAPHAZOLINE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Naphazoline hydrochloride component of naphcon-a",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "NAPHAZOLINE HYDROCHLORIDE COMPONENT OF NAPHCON-A"
+        },
+        {
+          "molecule_synonym": "Naphazoline hydrochloride component of opcon-a",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "NAPHAZOLINE HYDROCHLORIDE COMPONENT OF OPCON-A"
+        },
+        {
+          "molecule_synonym": "Naphazoline hydrochloride component of vasocon-a",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "NAPHAZOLINE HYDROCHLORIDE COMPONENT OF VASOCON-A"
+        },
+        {
+          "molecule_synonym": "Naphazoline hydrochloride component of visine",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "NAPHAZOLINE HYDROCHLORIDE COMPONENT OF VISINE"
+        },
+        {
+          "molecule_synonym": "Naphazoline hydrochloride component of visine-a",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "NAPHAZOLINE HYDROCHLORIDE COMPONENT OF VISINE-A"
+        },
+        {
+          "molecule_synonym": "Naphazoline nitrate",
+          "syn_type": "BNF",
+          "synonyms": "NAPHAZOLINE NITRATE"
+        },
+        {
+          "molecule_synonym": "Naphcon forte",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "NAPHCON FORTE"
+        },
+        {
+          "molecule_synonym": "NSC-35711",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "NSC-35711"
+        },
+        {
+          "molecule_synonym": "Opcon",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "OPCON"
+        },
+        {
+          "molecule_synonym": "Vasocon",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "VASOCON"
+        }
+      ],
+      "molecule_type": "Small molecule",
+      "natural_product": 0,
+      "oral": false,
+      "orphan": 0,
+      "parenteral": false,
+      "polymer_flag": 0,
+      "pref_name": "NAPHAZOLINE HYDROCHLORIDE",
+      "prodrug": 0,
+      "score": 13.0,
+      "structure_type": "MOL",
+      "therapeutic_flag": true,
+      "topical": true,
+      "usan_stem": "-azoline",
+      "usan_stem_definition": "antihistamines/local vasoconstrictors (antazoline type)",
+      "usan_substem": "-azoline",
+      "usan_year": null,
+      "veterinary": 0,
+      "withdrawn_flag": false
+    },
+    {
+      "atc_classifications": [],
+      "availability_type": 1,
+      "biotherapeutic": null,
+      "black_box_warning": 0,
+      "chemical_probe": 0,
+      "chirality": 0,
+      "cross_references": [
+        {
+          "xref_id": "ketamine%20hydrochloride",
+          "xref_name": "ketamine hydrochloride",
+          "xref_src": "DailyMed"
+        }
+      ],
+      "dosed_ingredient": true,
+      "first_approval": 1970,
+      "first_in_class": 0,
+      "helm_notation": null,
+      "inorganic_flag": 0,
+      "max_phase": "4.0",
+      "molecule_chembl_id": "CHEMBL1714",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL742",
+        "molecule_chembl_id": "CHEMBL1714",
+        "parent_chembl_id": "CHEMBL742"
+      },
+      "molecule_properties": {
+        "alogp": "2.90",
+        "aromatic_rings": 1,
+        "full_molformula": "C13H17Cl2NO",
+        "full_mwt": "274.19",
+        "hba": 2,
+        "hbd": 1,
+        "heavy_atoms": 16,
+        "mw_freebase": "237.73",
+        "np_likeness_score": "0.02",
+        "num_ro5_violations": 0,
+        "psa": "29.10",
+        "qed_weighted": "0.86",
+        "ro3_pass": "Y",
+        "rtb": 2
+      },
+      "molecule_structures": {
+        "canonical_smiles": "CNC1(c2ccccc2Cl)CCCCC1=O.Cl",
+        "molfile": "\n     RDKit          2D\n\n 17 17  0  0  0  0  0  0  0  0999 V2000\n    4.7750   -4.0000    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n    3.7042   -5.3292    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.4167   -5.3417    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.0917   -5.0042    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.7625   -5.9625    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.0042   -4.6917    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    3.0917   -4.2917    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    4.4042   -6.5667    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n    3.7167   -6.0667    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.7667   -4.7292    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.4792   -5.3542    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.4792   -5.9542    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.6042   -4.1125    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.0917   -6.4250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.4750   -4.7250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.4792   -6.0667    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.8292   -5.3500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  3  2  1  0\n  4  2  1  0\n  5  3  2  0\n  6  2  1  0\n  7  4  2  0\n  8  5  1  0\n  9  2  1  0\n 10  3  1  0\n 11  4  1  0\n 12  5  1  0\n 13  6  1  0\n 14  9  1  0\n 15 10  2  0\n 16 14  1  0\n 17 15  1  0\n 16 11  1  0\n 17 12  2  0\nM  END\n> <chembl_id>\nCHEMBL1714\n\n> <chembl_pref_name>\nKETAMINE HYDROCHLORIDE",
+        "standard_inchi": "InChI=1S/C13H16ClNO.ClH/c1-15-13(9-5-4-8-12(13)16)10-6-2-3-7-11(10)14;/h2-3,6-7,15H,4-5,8-9H2,1H3;1H",
+        "standard_inchi_key": "VCMGMSHEPQENPE-UHFFFAOYSA-N"
+      },
+      "molecule_synonyms": [
+        {
+          "molecule_synonym": "CI-581",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "CI-581"
+        },
+        {
+          "molecule_synonym": "CL 369",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "CL 369"
+        },
+        {
+          "molecule_synonym": "CL-369",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "CL-369"
+        },
+        {
+          "molecule_synonym": "CN-52,372-2",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "CN-52,372-2"
+        },
+        {
+          "molecule_synonym": "CN-52372-2",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "CN-52372-2"
+        },
+        {
+          "molecule_synonym": "CN-523722",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "CN-523722"
+        },
+        {
+          "molecule_synonym": "Ketalar",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "KETALAR"
+        },
+        {
+          "molecule_synonym": "Ketamine (as hydrochloride)",
+          "syn_type": "OTHER",
+          "synonyms": "KETAMINE (AS HYDROCHLORIDE)"
+        },
+        {
+          "molecule_synonym": "Ketamine hcl",
+          "syn_type": "OTHER",
+          "synonyms": "KETAMINE HCL"
+        },
+        {
+          "molecule_synonym": "Ketamine hydrochloride",
+          "syn_type": "BNF",
+          "synonyms": "KETAMINE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Ketamine hydrochloride",
+          "syn_type": "FDA",
+          "synonyms": "KETAMINE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Ketamine hydrochloride",
+          "syn_type": "JAN",
+          "synonyms": "KETAMINE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Ketamine hydrochloride",
+          "syn_type": "MERCK_INDEX",
+          "synonyms": "KETAMINE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Ketamine hydrochloride",
+          "syn_type": "OTHER",
+          "synonyms": "KETAMINE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Ketamine hydrochloride",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "KETAMINE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Ketamine hydrochloride",
+          "syn_type": "USAN",
+          "synonyms": "KETAMINE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Ketamine hydrochloride",
+          "syn_type": "USP",
+          "synonyms": "KETAMINE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Ketamine hydrochloride ciii",
+          "syn_type": "USP",
+          "synonyms": "KETAMINE HYDROCHLORIDE CIII"
+        },
+        {
+          "molecule_synonym": "Ketamini hydrochloridum",
+          "syn_type": "OTHER",
+          "synonyms": "KETAMINI HYDROCHLORIDUM"
+        },
+        {
+          "molecule_synonym": "Ketaset",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "KETASET"
+        },
+        {
+          "molecule_synonym": "Special k",
+          "syn_type": "OTHER",
+          "synonyms": "SPECIAL K"
+        },
+        {
+          "molecule_synonym": "Vetalar",
+          "syn_type": "OTHER",
+          "synonyms": "VETALAR"
+        }
+      ],
+      "molecule_type": "Small molecule",
+      "natural_product": 0,
+      "oral": false,
+      "orphan": 0,
+      "parenteral": true,
+      "polymer_flag": 0,
+      "pref_name": "KETAMINE HYDROCHLORIDE",
+      "prodrug": 0,
+      "score": 13.0,
+      "structure_type": "MOL",
+      "therapeutic_flag": true,
+      "topical": false,
+      "usan_stem": null,
+      "usan_stem_definition": null,
+      "usan_substem": null,
+      "usan_year": 1966,
+      "veterinary": 0,
+      "withdrawn_flag": false
+    },
+    {
+      "atc_classifications": [],
+      "availability_type": -1,
+      "biotherapeutic": null,
+      "black_box_warning": 0,
+      "chemical_probe": 0,
+      "chirality": -1,
+      "cross_references": [],
+      "dosed_ingredient": false,
+      "first_approval": null,
+      "first_in_class": -1,
+      "helm_notation": null,
+      "inorganic_flag": -1,
+      "max_phase": null,
+      "molecule_chembl_id": "CHEMBL550011",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL1194287",
+        "molecule_chembl_id": "CHEMBL550011",
+        "parent_chembl_id": "CHEMBL1194287"
+      },
+      "molecule_properties": {
+        "alogp": "3.30",
+        "aromatic_rings": 2,
+        "full_molformula": "C16H21Cl2N3",
+        "full_mwt": "326.27",
+        "hba": 3,
+        "hbd": 0,
+        "heavy_atoms": 20,
+        "mw_freebase": "289.81",
+        "np_likeness_score": "-1.48",
+        "num_ro5_violations": 0,
+        "psa": "19.37",
+        "qed_weighted": "0.81",
+        "ro3_pass": "N",
+        "rtb": 6
+      },
+      "molecule_structures": {
+        "canonical_smiles": "CN(C)CCN(Cc1ccc(Cl)cc1)c1ccccn1.Cl",
+        "molfile": "\n     RDKit          2D\n\n 21 21  0  0  0  0  0  0  0  0999 V2000\n    3.8468    0.0000    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n    0.1786    2.9081    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.5359    2.4956    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.5359    1.6706    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    0.1786    1.2581    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.8931    1.6706    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.8931    2.4956    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.1786    0.4331    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.5359    0.0206    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.8931    0.0206    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.8931   -0.8044    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.6076   -1.2169    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.6076   -2.0419    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.8931   -2.4544    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.1786   -2.0419    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.1786   -1.2169    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.8931   -3.2794    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n   -1.2503    0.4331    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.9648    0.0206    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.9648   -0.8044    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.6793    0.4331    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  5  6  1  0\n 11 12  2  0\n 12 13  1  0\n  6  7  2  0\n 13 14  2  0\n  7  2  1  0\n 14 15  1  0\n  3  4  1  0\n 15 16  2  0\n 16 11  1  0\n  5  8  1  0\n 14 17  1  0\n  9 18  1  0\n  8  9  1  0\n 18 19  1  0\n  4  5  2  0\n 19 20  1  0\n  8 10  1  0\n 19 21  1  0\n  2  3  2  0\n 10 11  1  0\nM  END\n> <chembl_id>\nCHEMBL550011\n\n> <chembl_pref_name>\nCHLORPYRAMIN HYDROCHLORIDE",
+        "standard_inchi": "InChI=1S/C16H20ClN3.ClH/c1-19(2)11-12-20(16-5-3-4-10-18-16)13-14-6-8-15(17)9-7-14;/h3-10H,11-13H2,1-2H3;1H",
+        "standard_inchi_key": "VEYWWAGBHABATA-UHFFFAOYSA-N"
+      },
+      "molecule_synonyms": [],
+      "molecule_type": "Small molecule",
+      "natural_product": 0,
+      "oral": false,
+      "orphan": -1,
+      "parenteral": false,
+      "polymer_flag": 0,
+      "pref_name": "CHLORPYRAMIN HYDROCHLORIDE",
+      "prodrug": -1,
+      "score": 13.0,
+      "structure_type": "MOL",
+      "therapeutic_flag": false,
+      "topical": false,
+      "usan_stem": null,
+      "usan_stem_definition": null,
+      "usan_substem": null,
+      "usan_year": null,
+      "veterinary": -1,
+      "withdrawn_flag": false
+    },
+    {
+      "atc_classifications": [],
+      "availability_type": -1,
+      "biotherapeutic": null,
+      "black_box_warning": 0,
+      "chemical_probe": 0,
+      "chirality": 1,
+      "cross_references": [],
+      "dosed_ingredient": false,
+      "first_approval": 2017,
+      "first_in_class": 0,
+      "helm_notation": null,
+      "inorganic_flag": 0,
+      "max_phase": "4.0",
+      "molecule_chembl_id": "CHEMBL550755",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL218291",
+        "molecule_chembl_id": "CHEMBL550755",
+        "parent_chembl_id": "CHEMBL218291"
+      },
+      "molecule_properties": {
+        "alogp": "-2.02",
+        "aromatic_rings": 2,
+        "full_molformula": "C11H15ClN4O4",
+        "full_mwt": "302.72",
+        "hba": 6,
+        "hbd": 6,
+        "heavy_atoms": 19,
+        "mw_freebase": "266.26",
+        "np_likeness_score": "1.06",
+        "num_ro5_violations": 1,
+        "psa": "134.26",
+        "qed_weighted": "0.37",
+        "ro3_pass": "N",
+        "rtb": 2
+      },
+      "molecule_structures": {
+        "canonical_smiles": "Cl.O=c1[nH]cnc2c([C@@H]3N[C@H](CO)[C@@H](O)[C@H]3O)c[nH]c12",
+        "molfile": "\n     RDKit          2D\n\n 20 21  0  0  0  0  0  0  0  0999 V2000\n   -5.1857   -6.8652    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n   -8.5962   -4.8616    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -8.5962   -4.0366    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -9.3107   -3.6241    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  -10.0252   -4.0366    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  -10.0252   -4.8616    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -9.3107   -5.2741    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   -7.8116   -5.1165    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -7.3267   -4.4491    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -7.8116   -3.7817    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   -7.5567   -5.9012    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -8.0416   -6.5686    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   -7.5567   -7.2360    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -6.7721   -6.9811    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -6.7721   -6.1561    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -6.1047   -5.6712    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -6.1047   -7.4660    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -7.8117   -8.0206    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -8.6367   -8.0206    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -9.3107   -2.7991    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  7  2  1  0\n  3  4  1  0\n  4  5  1  0\n  5  6  1  0\n  6  7  2  0\n  3 10  1  0\n  3  2  2  0\n  2  8  1  0\n  8  9  2  0\n  9 10  1  0\n 11  8  1  1\n 11 12  1  0\n 11 15  1  0\n 12 13  1  0\n 13 14  1  0\n 14 15  1  0\n 15 16  1  6\n 14 17  1  6\n 13 18  1  1\n 18 19  1  0\n  4 20  2  0\nM  END\n> <chembl_id>\nCHEMBL550755\n\n> <chembl_pref_name>\nFORODESINE HYDROCHLORIDE",
+        "standard_inchi": "InChI=1S/C11H14N4O4.ClH/c16-2-5-9(17)10(18)7(15-5)4-1-12-8-6(4)13-3-14-11(8)19;/h1,3,5,7,9-10,12,15-18H,2H2,(H,13,14,19);1H/t5-,7+,9-,10+;/m1./s1",
+        "standard_inchi_key": "WEIAMZKHBCLFOG-QPAIBFMUSA-N"
+      },
+      "molecule_synonyms": [
+        {
+          "molecule_synonym": "BCX-1777",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "BCX-1777"
+        },
+        {
+          "molecule_synonym": "Forodesine hcl",
+          "syn_type": "OTHER",
+          "synonyms": "FORODESINE HCL"
+        },
+        {
+          "molecule_synonym": "Forodesine hydrochloride",
+          "syn_type": "JAN",
+          "synonyms": "FORODESINE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Forodesine hydrochloride",
+          "syn_type": "MERCK_INDEX",
+          "synonyms": "FORODESINE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Forodesine hydrochloride",
+          "syn_type": "OTHER",
+          "synonyms": "FORODESINE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Forodesine hydrochloride",
+          "syn_type": "USAN",
+          "synonyms": "FORODESINE HYDROCHLORIDE"
+        }
+      ],
+      "molecule_type": "Small molecule",
+      "natural_product": 0,
+      "oral": false,
+      "orphan": 0,
+      "parenteral": false,
+      "polymer_flag": 0,
+      "pref_name": "FORODESINE HYDROCHLORIDE",
+      "prodrug": 0,
+      "score": 13.0,
+      "structure_type": "MOL",
+      "therapeutic_flag": false,
+      "topical": false,
+      "usan_stem": null,
+      "usan_stem_definition": null,
+      "usan_substem": null,
+      "usan_year": 2000,
+      "veterinary": 0,
+      "withdrawn_flag": false
+    },
+    {
+      "atc_classifications": [],
+      "availability_type": -2,
+      "biotherapeutic": null,
+      "black_box_warning": 0,
+      "chemical_probe": 0,
+      "chirality": 1,
+      "cross_references": [],
+      "dosed_ingredient": true,
+      "first_approval": 1990,
+      "first_in_class": 0,
+      "helm_notation": null,
+      "inorganic_flag": 0,
+      "max_phase": "4.0",
+      "molecule_chembl_id": "CHEMBL1770",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL1454",
+        "molecule_chembl_id": "CHEMBL1770",
+        "parent_chembl_id": "CHEMBL1454"
+      },
+      "molecule_properties": {
+        "alogp": "2.15",
+        "aromatic_rings": 1,
+        "full_molformula": "C11H13ClN2S",
+        "full_mwt": "240.76",
+        "hba": 3,
+        "hbd": 0,
+        "heavy_atoms": 14,
+        "mw_freebase": "204.30",
+        "np_likeness_score": "-0.47",
+        "num_ro5_violations": 0,
+        "psa": "15.60",
+        "qed_weighted": "0.70",
+        "ro3_pass": "Y",
+        "rtb": 1
+      },
+      "molecule_structures": {
+        "canonical_smiles": "Cl.c1ccc([C@H]2CN3CCSC3=N2)cc1",
+        "molfile": "\n     RDKit          2D\n\n 15 16  0  0  0  0  0  0  0  0999 V2000\n    2.3750   -3.6792    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n    5.2042   -2.9083    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.6292   -2.4917    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    4.9875   -3.5833    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    4.0583   -2.9083    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.2750   -3.5833    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.9125   -2.9125    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n    3.4417   -2.5542    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.5583   -3.9958    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.1292   -3.5833    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.4417   -1.8417    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.8292   -2.9083    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.8292   -1.4875    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.2167   -2.5542    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.2167   -1.8417    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  3  2  2  0\n  4  2  1  0\n  5  3  1  0\n  6  4  1  0\n  7  2  1  0\n  5  8  1  6\n  9  4  1  0\n 10  7  1  0\n 11  8  1  0\n 12  8  2  0\n 13 11  2  0\n 14 12  1  0\n 15 13  1  0\n 10  9  1  0\n  6  5  1  0\n 14 15  2  0\nM  END\n> <chembl_id>\nCHEMBL1770\n\n> <chembl_pref_name>\nLEVAMISOLE HYDROCHLORIDE",
+        "standard_inchi": "InChI=1S/C11H12N2S.ClH/c1-2-4-9(5-3-1)10-8-13-6-7-14-11(13)12-10;/h1-5,10H,6-8H2;1H/t10-;/m1./s1",
+        "standard_inchi_key": "LAZPBGZRMVRFKY-HNCPQSOCSA-N"
+      },
+      "molecule_synonyms": [
+        {
+          "molecule_synonym": "Ascaridil",
+          "syn_type": "OTHER",
+          "synonyms": "ASCARIDIL"
+        },
+        {
+          "molecule_synonym": "Ergamisol",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "ERGAMISOL"
+        },
+        {
+          "molecule_synonym": "Ketrax",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "KETRAX"
+        },
+        {
+          "molecule_synonym": "Levamisole hcl",
+          "syn_type": "OTHER",
+          "synonyms": "LEVAMISOLE HCL"
+        },
+        {
+          "molecule_synonym": "Levamisole hydrochloride",
+          "syn_type": "BNF",
+          "synonyms": "LEVAMISOLE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Levamisole hydrochloride",
+          "syn_type": "FDA",
+          "synonyms": "LEVAMISOLE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Levamisole hydrochloride",
+          "syn_type": "JAN",
+          "synonyms": "LEVAMISOLE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Levamisole hydrochloride",
+          "syn_type": "MERCK_INDEX",
+          "synonyms": "LEVAMISOLE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Levamisole hydrochloride",
+          "syn_type": "OTHER",
+          "synonyms": "LEVAMISOLE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Levamisole hydrochloride",
+          "syn_type": "USAN",
+          "synonyms": "LEVAMISOLE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Levamisole hydrochloride",
+          "syn_type": "USP",
+          "synonyms": "LEVAMISOLE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Levamisoli hydrochloridum",
+          "syn_type": "OTHER",
+          "synonyms": "LEVAMISOLI HYDROCHLORIDUM"
+        },
+        {
+          "molecule_synonym": "L-narpenol",
+          "syn_type": "OTHER",
+          "synonyms": "L-NARPENOL"
+        },
+        {
+          "molecule_synonym": "NSC-177023",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "NSC-177023"
+        },
+        {
+          "molecule_synonym": "R 12,564",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "R 12,564"
+        },
+        {
+          "molecule_synonym": "R-12564",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "R-12564"
+        },
+        {
+          "molecule_synonym": "R 12654",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "R 12654"
+        },
+        {
+          "molecule_synonym": "Solaskil",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "SOLASKIL"
+        },
+        {
+          "molecule_synonym": "Spartakon l",
+          "syn_type": "OTHER",
+          "synonyms": "SPARTAKON L"
+        },
+        {
+          "molecule_synonym": "Tetramisole hydrochloride, (s)-",
+          "syn_type": "OTHER",
+          "synonyms": "TETRAMISOLE HYDROCHLORIDE, (S)-"
+        }
+      ],
+      "molecule_type": "Small molecule",
+      "natural_product": 0,
+      "oral": true,
+      "orphan": 0,
+      "parenteral": false,
+      "polymer_flag": 0,
+      "pref_name": "LEVAMISOLE HYDROCHLORIDE",
+      "prodrug": 0,
+      "score": 13.0,
+      "structure_type": "MOL",
+      "therapeutic_flag": true,
+      "topical": false,
+      "usan_stem": null,
+      "usan_stem_definition": null,
+      "usan_substem": null,
+      "usan_year": 1970,
+      "veterinary": 0,
+      "withdrawn_flag": true
+    },
+    {
+      "atc_classifications": [],
+      "availability_type": 1,
+      "biotherapeutic": null,
+      "black_box_warning": 1,
+      "chemical_probe": 0,
+      "chirality": 2,
+      "cross_references": [
+        {
+          "xref_id": "amiodarone%20hydrochloride",
+          "xref_name": "amiodarone hydrochloride",
+          "xref_src": "DailyMed"
+        }
+      ],
+      "dosed_ingredient": true,
+      "first_approval": 1985,
+      "first_in_class": 0,
+      "helm_notation": null,
+      "inorganic_flag": 0,
+      "max_phase": "4.0",
+      "molecule_chembl_id": "CHEMBL1083993",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL633",
+        "molecule_chembl_id": "CHEMBL1083993",
+        "parent_chembl_id": "CHEMBL633"
+      },
+      "molecule_properties": {
+        "alogp": "6.94",
+        "aromatic_rings": 3,
+        "full_molformula": "C25H30ClI2NO3",
+        "full_mwt": "681.78",
+        "hba": 4,
+        "hbd": 0,
+        "heavy_atoms": 31,
+        "mw_freebase": "645.32",
+        "np_likeness_score": "-0.38",
+        "num_ro5_violations": 2,
+        "psa": "42.68",
+        "qed_weighted": "0.17",
+        "ro3_pass": "N",
+        "rtb": 11
+      },
+      "molecule_structures": {
+        "canonical_smiles": "CCCCc1oc2ccccc2c1C(=O)c1cc(I)c(OCCN(CC)CC)c(I)c1.Cl",
+        "molfile": "\n     RDKit          2D\n\n 32 33  0  0  0  0  0  0  0  0999 V2000\n    4.4375    0.7188    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n   -2.3542   -1.3958    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -3.0250   -0.9000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.6458   -0.9708    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -3.6958   -1.3833    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.9292   -1.3792    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.6250   -2.1792    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -3.4500   -2.1708    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.5000   -2.1917    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.2000   -2.6083    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.4958   -1.3667    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.9208   -2.2042    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.2208   -0.9583    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.6500   -0.1458    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.2000   -3.4333    0.0000 I   0  0  0  0  0  0  0  0  0  0  0  0\n    1.2000   -0.9417    0.0000 I   0  0  0  0  0  0  0  0  0  0  0  0\n    1.2250   -2.5917    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -3.0250   -0.0750    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.3583   -2.1625    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.2125   -2.8917    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.9292   -2.1792    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -3.8625   -2.8917    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.6542   -2.5792    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.0875   -2.5667    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.3542   -1.3375    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.3083    0.3333    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.3000    1.1625    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.0625   -0.9167    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.7917   -2.1500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.6250   -3.6083    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -3.4500   -3.6083    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.5792    1.5667    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  3  2  2  0\n  4  2  1  0\n  5  3  1  0\n  6  4  1  0\n  7  2  1  0\n  8  7  1  0\n  9 11  1  0\n 10 12  1  0\n 11 13  2  0\n 12  6  2  0\n 13  6  1  0\n 14  4  2  0\n 15 10  1  0\n 16 11  1  0\n 17  9  1  0\n 18  3  1  0\n 19 23  1  0\n 20  7  2  0\n 21 17  1  0\n 22  8  2  0\n 23 21  1  0\n 24 19  1  0\n 25 19  1  0\n 26 18  1  0\n 27 26  1  0\n 28 25  1  0\n 29 24  1  0\n 30 20  1  0\n 31 30  2  0\n 32 27  1  0\n  8  5  1  0\n 22 31  1  0\n 10  9  2  0\nM  END\n> <chembl_id>\nCHEMBL1083993\n\n> <chembl_pref_name>\nAMIODARONE HYDROCHLORIDE",
+        "standard_inchi": "InChI=1S/C25H29I2NO3.ClH/c1-4-7-11-22-23(18-10-8-9-12-21(18)31-22)24(29)17-15-19(26)25(20(27)16-17)30-14-13-28(5-2)6-3;/h8-10,12,15-16H,4-7,11,13-14H2,1-3H3;1H",
+        "standard_inchi_key": "ITPDYQOUSLNIHG-UHFFFAOYSA-N"
+      },
+      "molecule_synonyms": [
+        {
+          "molecule_synonym": "Amidox",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "AMIDOX"
+        },
+        {
+          "molecule_synonym": "Amiodar",
+          "syn_type": "OTHER",
+          "synonyms": "AMIODAR"
+        },
+        {
+          "molecule_synonym": "Amiodarone hcl",
+          "syn_type": "OTHER",
+          "synonyms": "AMIODARONE HCL"
+        },
+        {
+          "molecule_synonym": "Amiodarone hydrochloride",
+          "syn_type": "BNF",
+          "synonyms": "AMIODARONE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Amiodarone hydrochloride",
+          "syn_type": "FDA",
+          "synonyms": "AMIODARONE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Amiodarone hydrochloride",
+          "syn_type": "MERCK_INDEX",
+          "synonyms": "AMIODARONE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Amiodarone hydrochloride",
+          "syn_type": "OTHER",
+          "synonyms": "AMIODARONE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Amiodarone hydrochloride",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "AMIODARONE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Amiodarone hydrochloride",
+          "syn_type": "USP",
+          "synonyms": "AMIODARONE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Amyben",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "AMYBEN"
+        },
+        {
+          "molecule_synonym": "Cordarone",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "CORDARONE"
+        },
+        {
+          "molecule_synonym": "Cordarone x",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "CORDARONE X"
+        },
+        {
+          "molecule_synonym": "Cordarone x 100",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "CORDARONE X 100"
+        },
+        {
+          "molecule_synonym": "Cordarone x 200",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "CORDARONE X 200"
+        },
+        {
+          "molecule_synonym": "Darmil",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "DARMIL"
+        },
+        {
+          "molecule_synonym": "L-3428",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "L-3428"
+        },
+        {
+          "molecule_synonym": "Miodaron",
+          "syn_type": "OTHER",
+          "synonyms": "MIODARON"
+        },
+        {
+          "molecule_synonym": "Nexterone",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "NEXTERONE"
+        },
+        {
+          "molecule_synonym": "NSC-343341",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "NSC-343341"
+        },
+        {
+          "molecule_synonym": "NSC-85442",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "NSC-85442"
+        },
+        {
+          "molecule_synonym": "Ortacrone",
+          "syn_type": "OTHER",
+          "synonyms": "ORTACRONE"
+        },
+        {
+          "molecule_synonym": "Pacerone",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "PACERONE"
+        },
+        {
+          "molecule_synonym": "Ritmocardyl",
+          "syn_type": "OTHER",
+          "synonyms": "RITMOCARDYL"
+        },
+        {
+          "molecule_synonym": "SK&F-33134-A",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "SK&F-33134-A"
+        },
+        {
+          "molecule_synonym": "SKF 33134-A",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "SKF 33134-A"
+        },
+        {
+          "molecule_synonym": "SKF-33134-A",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "SKF-33134-A"
+        },
+        {
+          "molecule_synonym": "Trangorex",
+          "syn_type": "OTHER",
+          "synonyms": "TRANGOREX"
+        },
+        {
+          "molecule_synonym": "VF-236",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "VF-236"
+        }
+      ],
+      "molecule_type": "Small molecule",
+      "natural_product": 0,
+      "oral": true,
+      "orphan": 0,
+      "parenteral": true,
+      "polymer_flag": 0,
+      "pref_name": "AMIODARONE HYDROCHLORIDE",
+      "prodrug": 0,
+      "score": 13.0,
+      "structure_type": "MOL",
+      "therapeutic_flag": true,
+      "topical": false,
+      "usan_stem": "-arone",
+      "usan_stem_definition": "antiarrhythmics: indicates high iodine content",
+      "usan_substem": "-arone (-iodarone)",
+      "usan_year": null,
+      "veterinary": 0,
+      "withdrawn_flag": false
+    },
+    {
+      "atc_classifications": [],
+      "availability_type": 1,
+      "biotherapeutic": null,
+      "black_box_warning": 0,
+      "chemical_probe": 0,
+      "chirality": 0,
+      "cross_references": [
+        {
+          "xref_id": "nicardipine%20hydrochloride",
+          "xref_name": "nicardipine hydrochloride",
+          "xref_src": "DailyMed"
+        }
+      ],
+      "dosed_ingredient": true,
+      "first_approval": 1988,
+      "first_in_class": 0,
+      "helm_notation": null,
+      "inorganic_flag": 0,
+      "max_phase": "4.0",
+      "molecule_chembl_id": "CHEMBL1200326",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL1484",
+        "molecule_chembl_id": "CHEMBL1200326",
+        "parent_chembl_id": "CHEMBL1484"
+      },
+      "molecule_properties": {
+        "alogp": "3.68",
+        "aromatic_rings": 2,
+        "full_molformula": "C26H30ClN3O6",
+        "full_mwt": "515.99",
+        "hba": 8,
+        "hbd": 1,
+        "heavy_atoms": 35,
+        "mw_freebase": "479.53",
+        "np_likeness_score": "-1.11",
+        "num_ro5_violations": 0,
+        "psa": "111.01",
+        "qed_weighted": "0.33",
+        "ro3_pass": "N",
+        "rtb": 9
+      },
+      "molecule_structures": {
+        "canonical_smiles": "COC(=O)C1=C(C)NC(C)=C(C(=O)OCCN(C)Cc2ccccc2)C1c1cccc([N+](=O)[O-])c1.Cl",
+        "molfile": "\n     RDKit          2D\n\n 36 37  0  0  0  0  0  0  0  0999 V2000\n    7.5417   -7.0417    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n    3.8167   -3.9417    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.5875   -3.9542    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.2042   -4.3042    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.8167   -3.2292    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.5875   -3.2292    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.2042   -2.8667    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    4.4667   -6.4417    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    3.2042   -5.0125    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.4667   -4.3042    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.9792   -4.3167    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.8042   -6.0750    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.8167   -5.3542    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.4542   -7.1667    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    4.9542   -6.1667    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    1.9667   -5.0292    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    4.4542   -5.0125    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    6.9250   -4.2375    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    5.0542   -3.9292    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    7.5417   -3.8542    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.3625   -3.9667    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    1.9500   -2.8542    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.4375   -2.8542    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.5875   -5.3625    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    8.1625   -4.1875    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.6917   -4.2667    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.2042   -6.4375    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.5875   -6.0750    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.3042   -3.9000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.9250   -4.9375    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.7542   -4.3042    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    8.1750   -4.9042    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    8.7667   -3.8250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    8.7792   -5.2542    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    9.3792   -4.1625    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    9.3917   -4.8667    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  3  4  1  0\n  4  2  1  0\n  5  2  2  0\n  6  7  1  0\n  7  5  1  0\n  8 12  1  0\n  9  4  1  0\n 10  2  1  0\n 11  3  1  0\n 12 13  1  0\n 13  9  2  0\n 14  8  1  0\n 15  8  2  0\n 16 11  2  0\n 17 10  2  0\n 18 29  1  0\n 19 10  1  0\n 20 18  1  0\n 21 11  1  0\n 22  6  1  0\n 23  5  1  0\n 24  9  1  0\n 25 20  1  0\n 26 19  1  0\n 27 28  1  0\n 28 24  2  0\n 29 26  1  0\n 30 18  1  0\n 31 21  1  0\n 32 25  1  0\n 33 25  2  0\n 34 32  2  0\n 35 33  1  0\n 36 34  1  0\n  6  3  2  0\n 27 12  2  0\n 36 35  2  0\nM  CHG  2   8   1  14  -1\nM  END\n> <chembl_id>\nCHEMBL1200326\n\n> <chembl_pref_name>\nNICARDIPINE HYDROCHLORIDE",
+        "standard_inchi": "InChI=1S/C26H29N3O6.ClH/c1-17-22(25(30)34-4)24(20-11-8-12-21(15-20)29(32)33)23(18(2)27-17)26(31)35-14-13-28(3)16-19-9-6-5-7-10-19;/h5-12,15,24,27H,13-14,16H2,1-4H3;1H",
+        "standard_inchi_key": "AIKVCUNQWYTVTO-UHFFFAOYSA-N"
+      },
+      "molecule_synonyms": [
+        {
+          "molecule_synonym": "Barizin",
+          "syn_type": "OTHER",
+          "synonyms": "BARIZIN"
+        },
+        {
+          "molecule_synonym": "Cardene",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "CARDENE"
+        },
+        {
+          "molecule_synonym": "Cardene sr",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "CARDENE SR"
+        },
+        {
+          "molecule_synonym": "Cardepine",
+          "syn_type": "OTHER",
+          "synonyms": "CARDEPINE"
+        },
+        {
+          "molecule_synonym": "Dacarel",
+          "syn_type": "OTHER",
+          "synonyms": "DACAREL"
+        },
+        {
+          "molecule_synonym": "Lecibra",
+          "syn_type": "OTHER",
+          "synonyms": "LECIBRA"
+        },
+        {
+          "molecule_synonym": "Lecibral",
+          "syn_type": "OTHER",
+          "synonyms": "LECIBRAL"
+        },
+        {
+          "molecule_synonym": "Lescodil",
+          "syn_type": "OTHER",
+          "synonyms": "LESCODIL"
+        },
+        {
+          "molecule_synonym": "Loxen",
+          "syn_type": "OTHER",
+          "synonyms": "LOXEN"
+        },
+        {
+          "molecule_synonym": "Nerdipina",
+          "syn_type": "OTHER",
+          "synonyms": "NERDIPINA"
+        },
+        {
+          "molecule_synonym": "Nicant",
+          "syn_type": "OTHER",
+          "synonyms": "NICANT"
+        },
+        {
+          "molecule_synonym": "Nicapress",
+          "syn_type": "OTHER",
+          "synonyms": "NICAPRESS"
+        },
+        {
+          "molecule_synonym": "Nicardal",
+          "syn_type": "OTHER",
+          "synonyms": "NICARDAL"
+        },
+        {
+          "molecule_synonym": "Nicardipine hcl",
+          "syn_type": "OTHER",
+          "synonyms": "NICARDIPINE HCL"
+        },
+        {
+          "molecule_synonym": "Nicardipine hydrochloride",
+          "syn_type": "BNF",
+          "synonyms": "NICARDIPINE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Nicardipine hydrochloride",
+          "syn_type": "FDA",
+          "synonyms": "NICARDIPINE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Nicardipine hydrochloride",
+          "syn_type": "JAN",
+          "synonyms": "NICARDIPINE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Nicardipine hydrochloride",
+          "syn_type": "MERCK_INDEX",
+          "synonyms": "NICARDIPINE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Nicardipine hydrochloride",
+          "syn_type": "OTHER",
+          "synonyms": "NICARDIPINE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Nicardipine hydrochloride",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "NICARDIPINE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Nicardipine hydrochloride",
+          "syn_type": "USAN",
+          "synonyms": "NICARDIPINE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Nicardipine hydrochloride",
+          "syn_type": "USP",
+          "synonyms": "NICARDIPINE HYDROCHLORIDE"
+        },
+        {
+          "molecule_synonym": "Nicarpin",
+          "syn_type": "OTHER",
+          "synonyms": "NICARPIN"
+        },
+        {
+          "molecule_synonym": "Nicodel",
+          "syn_type": "OTHER",
+          "synonyms": "NICODEL"
+        },
+        {
+          "molecule_synonym": "Nimicor",
+          "syn_type": "OTHER",
+          "synonyms": "NIMICOR"
+        },
+        {
+          "molecule_synonym": "NSC-757855",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "NSC-757855"
+        },
+        {
+          "molecule_synonym": "Perdipina",
+          "syn_type": "OTHER",
+          "synonyms": "PERDIPINA"
+        },
+        {
+          "molecule_synonym": "Perdipine",
+          "syn_type": "OTHER",
+          "synonyms": "PERDIPINE"
+        },
+        {
+          "molecule_synonym": "Ranvil",
+          "syn_type": "OTHER",
+          "synonyms": "RANVIL"
+        },
+        {
+          "molecule_synonym": "Ridene",
+          "syn_type": "OTHER",
+          "synonyms": "RIDENE"
+        },
+        {
+          "molecule_synonym": "RS-69216",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "RS-69216"
+        },
+        {
+          "molecule_synonym": "RS-69216-XX-07-0",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "RS-69216-XX-07-0"
+        },
+        {
+          "molecule_synonym": "RS-69216XX07-0",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "RS-69216XX07-0"
+        },
+        {
+          "molecule_synonym": "Rycarden",
+          "syn_type": "OTHER",
+          "synonyms": "RYCARDEN"
+        },
+        {
+          "molecule_synonym": "Rydene",
+          "syn_type": "OTHER",
+          "synonyms": "RYDENE"
+        },
+        {
+          "molecule_synonym": "Vasodin",
+          "syn_type": "OTHER",
+          "synonyms": "VASODIN"
+        },
+        {
+          "molecule_synonym": "Vasonase",
+          "syn_type": "OTHER",
+          "synonyms": "VASONASE"
+        },
+        {
+          "molecule_synonym": "YC-93",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "YC-93"
+        }
+      ],
+      "molecule_type": "Small molecule",
+      "natural_product": 0,
+      "oral": true,
+      "orphan": 0,
+      "parenteral": true,
+      "polymer_flag": 0,
+      "pref_name": "NICARDIPINE HYDROCHLORIDE",
+      "prodrug": 0,
+      "score": 13.0,
+      "structure_type": "MOL",
+      "therapeutic_flag": true,
+      "topical": false,
+      "usan_stem": "-dipine; -pine",
+      "usan_stem_definition": "phenylpyridine vasodilators, (nifedipine type); tricyclic compounds",
+      "usan_substem": "-dipine; -pine",
+      "usan_year": 1979,
+      "veterinary": 0,
+      "withdrawn_flag": false
+    }
+  ],
+  "page_meta": {
+    "limit": 20,
+    "next": "/chembl/api/data/molecule/search.json?limit=20&offset=20&q=LY294002+hydrochloride",
+    "offset": 0,
+    "previous": null,
+    "total_count": 10000
+  }
+}

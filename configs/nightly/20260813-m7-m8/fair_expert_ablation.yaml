@@ -1,0 +1,124 @@
+# Strict fold-matched M7.0 -> M7.1/M7.2/M7.3 residual-expert ablation.
+# Unlike the original fixed-12-epoch discovery screen, every row first trains
+# the exact same universal-only architecture for 9 epochs.  Expert candidates
+# then copy the common state by a checked tensor contract before residual-only
+# training.  The joint candidate is a separate factor.
+base_config: ../../experiments/m7_general_only.yaml
+fold_seed: 42
+n_folds: 2
+cpu_threads_per_job: 8
+protocol_label: LOCAL_STRICT_OOF_NOT_OFFICIAL
+expected_fits_per_task: 14
+expected_total_fits: 98
+
+scenarios: &scenarios [R00, R10, R01, R11, RT]
+universal: &universal
+  epochs: 9
+  universal_epochs: 9
+  strain_expert_epochs: 0
+  chemical_expert_epochs: 0
+  pair_expert_epochs: 0
+  joint_learning_rate_scale: 0.2
+  fold_matched_universal_warm_start: true
+
+experiments:
+  - id: FAIR-M7.0-U9
+    kind: fair_expert_ablation
+    model_id: M7.0
+    priority: 0
+    scenarios: *scenarios
+    seeds: [42]
+    overrides:
+      model: *universal
+
+  - id: FAIR-M7.1-U9-S2-FROZEN
+    kind: fair_expert_ablation
+    model_id: M7.1-frozen
+    priority: 1
+    scenarios: *scenarios
+    seeds: [42]
+    overrides:
+      model:
+        <<: *universal
+        epochs: 11
+        strain_expert_epochs: 2
+        background_strain_expert_enabled: true
+        response_strain_expert_enabled: true
+        entity_dropout: 0.25
+
+  - id: FAIR-M7.1-U9-S2-J3
+    kind: fair_expert_ablation
+    model_id: M7.1-joint
+    priority: 2
+    scenarios: *scenarios
+    seeds: [42]
+    overrides:
+      model:
+        <<: *universal
+        epochs: 14
+        strain_expert_epochs: 2
+        background_strain_expert_enabled: true
+        response_strain_expert_enabled: true
+        entity_dropout: 0.25
+
+  - id: FAIR-M7.2-U9-C2-FROZEN
+    kind: fair_expert_ablation
+    model_id: M7.2-frozen
+    priority: 1
+    scenarios: *scenarios
+    seeds: [42]
+    overrides:
+      model:
+        <<: *universal
+        epochs: 11
+        chemical_expert_epochs: 2
+        response_chemical_expert_enabled: true
+        entity_dropout: 0.25
+
+  - id: FAIR-M7.2-U9-C2-J3
+    kind: fair_expert_ablation
+    model_id: M7.2-joint
+    priority: 2
+    scenarios: *scenarios
+    seeds: [42]
+    overrides:
+      model:
+        <<: *universal
+        epochs: 14
+        chemical_expert_epochs: 2
+        response_chemical_expert_enabled: true
+        entity_dropout: 0.25
+
+  - id: FAIR-M7.3-U9-S2-C2-FROZEN
+    kind: fair_expert_ablation
+    model_id: M7.3-frozen
+    priority: 1
+    scenarios: *scenarios
+    seeds: [42]
+    overrides:
+      model:
+        <<: *universal
+        epochs: 13
+        strain_expert_epochs: 2
+        chemical_expert_epochs: 2
+        background_strain_expert_enabled: true
+        response_strain_expert_enabled: true
+        response_chemical_expert_enabled: true
+        entity_dropout: 0.25
+
+  - id: FAIR-M7.3-U9-S2-C2-J3
+    kind: fair_expert_ablation
+    model_id: M7.3-joint
+    priority: 2
+    scenarios: *scenarios
+    seeds: [42]
+    overrides:
+      model:
+        <<: *universal
+        epochs: 16
+        strain_expert_epochs: 2
+        chemical_expert_epochs: 2
+        background_strain_expert_enabled: true
+        response_strain_expert_enabled: true
+        response_chemical_expert_enabled: true
+        entity_dropout: 0.25

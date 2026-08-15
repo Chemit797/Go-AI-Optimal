@@ -1,0 +1,30 @@
+{
+  "results": [
+    {
+      "_index": "chebi-prod-compounds-12082026",
+      "_type": "_doc",
+      "_id": "28987",
+      "_score": 87.838936,
+      "_source": {
+        "chebi_accession": "CHEBI:28987",
+        "name": "abietic acid",
+        "ascii_name": "abietic acid",
+        "stars": 3,
+        "default_structure": 1246,
+        "definition": "An abietane diterpenoid that is abieta-7,13-diene substituted by a carboxy group at position 18.",
+        "monoisotopicmass": 302.22458,
+        "smiles": "[H][C@@]12CC=C3C=C(C(C)C)CC[C@]3([H])[C@@]1(C)CCC[C@@]2(C)C(=O)O",
+        "formula": "C20H30O2",
+        "charge": 0,
+        "mass": 302.458,
+        "inchi": "InChI=1S/C20H30O2/c1-13(2)14-6-8-16-15(12-14)7-9-17-19(16,3)10-5-11-20(17,4)18(21)22/h7,12-13,16-17H,5-6,8-11H2,1-4H3,(H,21,22)/t16-,17+,19+,20+/m0/s1",
+        "inchikey": "RSWGJHLUYNHPMX-ONCXSQPRSA-N",
+        "structures": [
+          1246
+        ]
+      }
+    }
+  ],
+  "total": 1,
+  "number_pages": 1
+}

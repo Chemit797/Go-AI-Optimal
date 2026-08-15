@@ -1,0 +1,352 @@
+# Deliberately NOT a run_matrix input: it uses `confirm_candidates`, not
+# `experiments`.  build_m7_m8_confirm.py uses the completed quick screen only
+# as a non-binding nomination and emits the runnable matrix.  Every formal
+# outer fold trains experts at scale 1, then selects its inference scales from
+# at least 2-fold inner OOF built only from that outer fold's training rows.
+# Workload includes the 44 outer fits plus the fold-local inner fits; component
+# recomposition evaluates the whole 0/.25/.5/.75/1 grid without retraining it.
+base_config: ../../experiments/m7_general_only.yaml
+fold_seed: 42
+n_folds: 4
+cpu_threads_per_job: 8
+protocol_label: LOCAL_STRICT_OOF_NOT_OFFICIAL
+requires_expert_scale_selection: true
+materialize_joint_confirm_variants: true
+joint_confirm_epochs: 16
+
+registry_gate: &registry_gate
+  chemical_registry: data/processed/entities/chemical_registry.tsv
+  strain_registry: data/processed/entities/strain_registry.tsv
+  chemical_parent_views: data/processed/entities/chemical_parent_normalized_views.tsv
+  allow_proxy_semantics: false
+  chemical_structure_view: exact
+  # Formal confirmation never admits candidate identity as an exact semantic.
+  semantic_identity_policy: verified_only
+  # Every actual fold must contain a non-zero admitted semantic entity on all
+  # configured axes.  This stays enabled after identity evidence is promoted.
+  semantic_training_coverage_required: true
+
+confirm_scenarios: &confirm_scenarios [R00, R10, R01, R11, RT]
+confirm_seeds: &confirm_seeds [42, 52, 62]
+full_general: &full_general
+  epochs: 80
+  universal_epochs: 80
+  strain_expert_epochs: 0
+  chemical_expert_epochs: 0
+  pair_expert_epochs: 0
+  joint_learning_rate_scale: 0.2
+  fold_matched_universal_warm_start: true
+
+confirm_candidates:
+  - id: CONF-M7.0-GENERAL
+    kind: model_confirm
+    model_id: M7.0
+    scale_policy: none
+    priority: 0
+    promotion_eligible: false
+    confirmation_training_variant: universal_parent_control
+    scenarios: *confirm_scenarios
+    seeds: *confirm_seeds
+    overrides:
+      model: *full_general
+
+  # Joint candidates update the shared/universal trunk for 16 extra epochs.
+  # This control receives the same 96 universal updates but has no experts, so
+  # a joint gain cannot be credited merely to a longer shared-trunk schedule.
+  - id: CONF-M7.0-GENERAL-U96
+    kind: model_confirm
+    model_id: M7.0-U96
+    scale_policy: none
+    priority: 0
+    promotion_eligible: false
+    confirmation_training_variant: same_universal_update_control
+    scenarios: *confirm_scenarios
+    seeds: *confirm_seeds
+    overrides:
+      model:
+        <<: *full_general
+        epochs: 96
+        universal_epochs: 96
+
+  - id: CONF-M7.1-STRAIN
+    kind: model_confirm
+    model_id: M7.1
+    scale_policy: strain
+    priority: 1
+    promotion_regimes: [R10]
+    primary_control: CONF-M7.0-GENERAL
+    joint_primary_control: CONF-M7.0-GENERAL-U96
+    confirmation_training_variant: frozen_residual_only
+    scenarios: *confirm_scenarios
+    seeds: *confirm_seeds
+    overrides:
+      model:
+        <<: *full_general
+        epochs: 96
+        strain_expert_epochs: 16
+        background_strain_expert_enabled: true
+        response_strain_expert_enabled: true
+        entity_dropout: 0.25
+
+  - id: CONF-M7.2-CHEMICAL
+    kind: model_confirm
+    model_id: M7.2
+    scale_policy: chemical
+    priority: 1
+    promotion_regimes: [R01]
+    primary_control: CONF-M7.0-GENERAL
+    joint_primary_control: CONF-M7.0-GENERAL-U96
+    confirmation_training_variant: frozen_residual_only
+    scenarios: *confirm_scenarios
+    seeds: *confirm_seeds
+    overrides:
+      model:
+        <<: *full_general
+        epochs: 96
+        chemical_expert_epochs: 16
+        response_chemical_expert_enabled: true
+        entity_dropout: 0.25
+
+  - id: CONF-M7.3-ENTITIES
+    kind: model_confirm
+    model_id: M7.3
+    scale_policy: both
+    priority: 2
+    promotion_regimes: [R10, R01]
+    primary_control: CONF-M7.0-GENERAL
+    joint_primary_control: CONF-M7.0-GENERAL-U96
+    confirmation_training_variant: frozen_residual_only
+    scenarios: *confirm_scenarios
+    seeds: *confirm_seeds
+    overrides: &full_m73
+      model:
+        <<: *full_general
+        epochs: 96
+        strain_expert_epochs: 8
+        chemical_expert_epochs: 8
+        background_strain_expert_enabled: true
+        response_strain_expert_enabled: true
+        response_chemical_expert_enabled: true
+        entity_dropout: 0.25
+
+  - id: CONF-M7.4-PAIR
+    kind: model_confirm
+    model_id: M7.4
+    scale_policy: all
+    priority: 2
+    promotion_regimes: [R11, RT]
+    primary_control: CONF-M7.3-ENTITIES
+    joint_primary_control: CONF-M7.3-ENTITIES-JOINT
+    confirmation_training_variant: frozen_residual_only
+    scenarios: *confirm_scenarios
+    seeds: *confirm_seeds
+    overrides:
+      model:
+        <<: *full_general
+        epochs: 96
+        strain_expert_epochs: 6
+        chemical_expert_epochs: 5
+        pair_expert_epochs: 5
+        background_strain_expert_enabled: true
+        response_strain_expert_enabled: true
+        response_chemical_expert_enabled: true
+        response_pair_expert_enabled: true
+        entity_dropout: 0.25
+
+  - id: CONF-M8.0-MORGAN
+    kind: model_confirm
+    model_id: M8.0-Morgan
+    scale_policy: both
+    priority: 3
+    promotion_regimes: [R00, R10]
+    primary_control: CONF-M7.3-ENTITIES
+    joint_primary_control: CONF-M7.3-ENTITIES-JOINT
+    required_negative_controls: [CONF-M8.0-MORGAN-SHUFFLED]
+    confirmation_training_variant: frozen_residual_only
+    materialization_blocked: true
+    materialization_block_reason: zero_verified_train_chemical_semantics
+    scenarios: *confirm_scenarios
+    seeds: *confirm_seeds
+    overrides:
+      <<: *full_m73
+      entity:
+        <<: *registry_gate
+        chemical_map: data/processed/chemical_views/chemical_entity_map_exact.tsv
+        chemical_structure_manifest_required: true
+        chemical_features: null
+        strain_features: null
+        chemical_bits: 512
+
+  - id: CONF-M8.0-MORGAN-SHUFFLED
+    kind: model_confirm
+    model_id: M8.0-Morgan-shuffled
+    scale_policy: both
+    priority: 3
+    promotion_eligible: false
+    promotion_regimes: [R00, R10]
+    negative_control_for: CONF-M8.0-MORGAN
+    confirmation_training_variant: frozen_residual_only_negative_control
+    materialization_blocked: true
+    materialization_block_reason: zero_verified_train_chemical_semantics
+    scenarios: *confirm_scenarios
+    seeds: *confirm_seeds
+    overrides:
+      <<: *full_m73
+      entity:
+        <<: *registry_gate
+        chemical_map: data/processed/chemical_views/chemical_entity_map_exact_shuffled.tsv
+        chemical_structure_manifest_required: true
+        chemical_features: null
+        strain_features: null
+        chemical_bits: 512
+        chemical_structure_view: shuffled
+
+  - id: CONF-M8.1-STRAIN-REAL
+    kind: model_confirm
+    model_id: M8.1-real
+    scale_policy: both
+    priority: 3
+    promotion_regimes: [R00, R01]
+    primary_control: CONF-M7.3-ENTITIES
+    joint_primary_control: CONF-M7.3-ENTITIES-JOINT
+    required_negative_controls: [CONF-M8.1-STRAIN-SHUFFLED]
+    confirmation_training_variant: frozen_residual_only
+    materialization_blocked: true
+    materialization_block_reason: zero_verified_train_strain_semantics
+    scenarios: *confirm_scenarios
+    seeds: *confirm_seeds
+    overrides:
+      <<: *full_m73
+      entity:
+        <<: *registry_gate
+        chemical_map: null
+        chemical_features: null
+        strain_features: data/processed/entities/strain_semantics_numeric.tsv
+        strain_features_manifest_required: true
+
+  - id: CONF-M8.1-STRAIN-SHUFFLED
+    kind: model_confirm
+    model_id: M8.1-shuffled
+    scale_policy: both
+    priority: 3
+    promotion_eligible: false
+    promotion_regimes: [R00, R01]
+    confirmation_training_variant: frozen_residual_only_negative_control
+    materialization_blocked: true
+    materialization_block_reason: zero_verified_train_strain_semantics
+    scenarios: *confirm_scenarios
+    seeds: *confirm_seeds
+    overrides:
+      <<: *full_m73
+      entity:
+        <<: *registry_gate
+        chemical_map: null
+        chemical_features: null
+        strain_features: data/processed/entities/strain_semantics_shuffled.tsv
+        strain_features_manifest_required: true
+
+  - id: CONF-M8.2-DUAL
+    kind: model_confirm
+    model_id: M8.2
+    scale_policy: both
+    priority: 4
+    promotion_regimes: [R00, R10, R01]
+    primary_control: CONF-M7.3-ENTITIES
+    joint_primary_control: CONF-M7.3-ENTITIES-JOINT
+    required_negative_controls:
+      [CONF-M8.0-MORGAN-SHUFFLED, CONF-M8.1-STRAIN-SHUFFLED]
+    confirmation_training_variant: frozen_residual_only
+    materialization_blocked: true
+    materialization_block_reason: zero_verified_train_chemical_and_strain_semantics
+    scenarios: *confirm_scenarios
+    seeds: *confirm_seeds
+    overrides:
+      <<: *full_m73
+      entity:
+        <<: *registry_gate
+        chemical_map: data/processed/chemical_views/chemical_entity_map_exact.tsv
+        chemical_structure_manifest_required: true
+        chemical_features: null
+        strain_features: data/processed/entities/strain_semantics_numeric.tsv
+        strain_features_manifest_required: true
+        chemical_bits: 512
+
+  - id: CONF-M8.3-DUAL-PAIR
+    kind: model_confirm
+    model_id: M8.3
+    scale_policy: all
+    priority: 4
+    promotion_regimes: [R00, R10, R01, R11, RT]
+    primary_control: CONF-M7.4-PAIR
+    joint_primary_control: CONF-M7.4-PAIR-JOINT
+    required_negative_controls:
+      [CONF-M8.0-MORGAN-SHUFFLED, CONF-M8.1-STRAIN-SHUFFLED]
+    confirmation_training_variant: frozen_residual_only
+    materialization_blocked: true
+    materialization_block_reason: zero_verified_train_chemical_and_strain_semantics
+    scenarios: *confirm_scenarios
+    seeds: *confirm_seeds
+    overrides:
+      model:
+        <<: *full_general
+        epochs: 96
+        strain_expert_epochs: 6
+        chemical_expert_epochs: 5
+        pair_expert_epochs: 5
+        background_strain_expert_enabled: true
+        response_strain_expert_enabled: true
+        response_chemical_expert_enabled: true
+        response_pair_expert_enabled: true
+        entity_dropout: 0.25
+      entity:
+        <<: *registry_gate
+        chemical_map: data/processed/chemical_views/chemical_entity_map_exact.tsv
+        chemical_structure_manifest_required: true
+        chemical_features: null
+        strain_features: data/processed/entities/strain_semantics_numeric.tsv
+        strain_features_manifest_required: true
+        chemical_bits: 512
+
+  - id: CONF-M8.0-CHEMBERTA-REAL
+    kind: model_confirm
+    model_id: M8.0-ChemBERTa-real
+    scale_policy: both
+    priority: 4
+    promotion_regimes: [R00, R10]
+    primary_control: CONF-M7.3-ENTITIES
+    joint_primary_control: CONF-M7.3-ENTITIES-JOINT
+    required_negative_controls: [CONF-M8.0-CHEMBERTA-SHUFFLED]
+    confirmation_training_variant: frozen_residual_only
+    materialization_blocked: true
+    materialization_block_reason: zero_verified_train_chemical_semantics
+    scenarios: *confirm_scenarios
+    seeds: *confirm_seeds
+    overrides:
+      <<: *full_m73
+      entity:
+        <<: *registry_gate
+        chemical_map: null
+        chemical_features: data/processed/chemical_embeddings/chemberta_77m_mlm/chemberta_real.tsv
+        chemical_features_manifest_required: true
+        strain_features: null
+
+  - id: CONF-M8.0-CHEMBERTA-SHUFFLED
+    kind: model_confirm
+    model_id: M8.0-ChemBERTa-shuffled
+    scale_policy: both
+    priority: 4
+    promotion_eligible: false
+    promotion_regimes: [R00, R10]
+    confirmation_training_variant: frozen_residual_only_negative_control
+    materialization_blocked: true
+    materialization_block_reason: zero_verified_train_chemical_semantics
+    scenarios: *confirm_scenarios
+    seeds: *confirm_seeds
+    overrides:
+      <<: *full_m73
+      entity:
+        <<: *registry_gate
+        chemical_map: null
+        chemical_features: data/processed/chemical_embeddings/chemberta_77m_mlm/chemberta_shuffled.tsv
+        chemical_features_manifest_required: true
+        strain_features: null

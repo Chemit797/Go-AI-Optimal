@@ -1,0 +1,15 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 10205,
+        "MolecularFormula": "C11H8O3",
+        "SMILES": "CC1=CC(=O)C2=C(C1=O)C=CC=C2O",
+        "ConnectivitySMILES": "CC1=CC(=O)C2=C(C1=O)C=CC=C2O",
+        "InChIKey": "VCMMXZQDRFWYSE-UHFFFAOYSA-N",
+        "IUPACName": "5-hydroxy-2-methylnaphthalene-1,4-dione",
+        "Title": "Plumbagin"
+      }
+    ]
+  }
+}

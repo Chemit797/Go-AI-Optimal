@@ -1,0 +1,79 @@
+{
+  "results": [
+    {
+      "_index": "chebi-prod-compounds-12082026",
+      "_type": "_doc",
+      "_id": "46081",
+      "_score": 68.83632,
+      "_source": {
+        "chebi_accession": "CHEBI:46081",
+        "name": "fluconazole",
+        "ascii_name": "fluconazole",
+        "stars": 3,
+        "default_structure": 2885516,
+        "definition": "A member of the class of  triazoles that is propan-2-ol substituted at position 1 and 3 by 1<em>H</em>-1,2,4-triazol-1-yl groups and at position 2 by a 2,4-difluorophenyl group. It is an antifungal drug used for the treatment of mucosal candidiasis and for systemic infections including systemic candidiasis, coccidioidomycosis, and cryptococcosis.",
+        "inchikey": "RFHAOTPXVQNOHP-UHFFFAOYSA-N",
+        "formula": "C13H12F2N6O",
+        "smiles": "OC(Cn1cncn1)(Cn1cncn1)c1ccc(F)cc1F",
+        "mass": 306.276,
+        "charge": 0,
+        "monoisotopicmass": 306.10407,
+        "inchi": "InChI=1S/C13H12F2N6O/c14-10-1-2-11(12(15)3-10)13(22,4-20-8-16-6-18-20)5-21-9-17-7-19-21/h1-3,6-9,22H,4-5H2",
+        "structures": [
+          19134,
+          27509,
+          2885516
+        ]
+      }
+    },
+    {
+      "_index": "chebi-prod-compounds-12082026",
+      "_type": "_doc",
+      "_id": "31634",
+      "_score": 32.02781,
+      "_source": {
+        "chebi_accession": "CHEBI:31634",
+        "name": "Fosfluconazole",
+        "ascii_name": "Fosfluconazole",
+        "stars": 2,
+        "default_structure": 2885510,
+        "formula": "C13H13F2N6O4P",
+        "smiles": "O=P(O)(O)OC(Cn1cncn1)(Cn1cncn1)c1ccc(F)cc1F",
+        "mass": 386.255,
+        "charge": 0,
+        "inchi": "InChI=1S/C13H13F2N6O4P/c14-10-1-2-11(12(15)3-10)13(25-26(22,23)24,4-20-8-16-6-18-20)5-21-9-17-7-19-21/h1-3,6-9H,4-5H2,(H2,22,23,24)",
+        "inchikey": "GHJWNRRCRIGGIO-UHFFFAOYSA-N",
+        "monoisotopicmass": 386.0704,
+        "structures": [
+          2885510
+        ]
+      }
+    },
+    {
+      "_index": "chebi-prod-compounds-12082026",
+      "_type": "_doc",
+      "_id": "66806",
+      "_score": 0.9999921,
+      "_source": {
+        "chebi_accession": "CHEBI:66806",
+        "name": "oceanalin A",
+        "ascii_name": "oceanalin A",
+        "stars": 3,
+        "default_structure": 2795954,
+        "definition": "A glycosphingolipid isolated from a marine sponge <em>Oceanapia</em> sp. that exhibits antifungal activity against fluconazole-resistant yeast <em>Candida glabrata</em> with an MIC value of 30 \u03bcg/ml.",
+        "inchi": "InChI=1S/C41H72N2O9/c1-29(42)36(51-41-40(49)39(48)38(47)37(28-44)52-41)23-19-15-10-8-6-4-3-5-7-9-12-16-20-31(50-2)21-17-13-11-14-18-22-33-32-27-35(46)34(45)26-30(32)24-25-43-33/h16,20,26-27,29,31,33,36-41,43-49H,3-15,17-19,21-25,28,42H2,1-2H3/b20-16+/t29-,31?,33?,36-,37-,38+,39+,40-,41-/m1/s1",
+        "inchikey": "HIPXPNHGBRGNFB-WWQAAKFXSA-N",
+        "smiles": "[H][C@@]1(O[C@H](CCCCCCCCCCCC/C=C/C(CCCCCCCC2NCCc3cc(O)c(O)cc32)OC)[C@@H](C)N)O[C@H](CO)[C@H](O)[C@H](O)[C@H]1O",
+        "monoisotopicmass": 736.52378,
+        "charge": 0,
+        "mass": 737.032,
+        "formula": "C41H72N2O9",
+        "structures": [
+          2795954
+        ]
+      }
+    }
+  ],
+  "total": 3,
+  "number_pages": 1
+}

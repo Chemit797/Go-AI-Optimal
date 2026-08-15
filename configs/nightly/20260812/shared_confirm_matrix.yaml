@@ -1,0 +1,17 @@
+base_config: ../../experiments/response_loss_mse_control.yaml
+fold_seed: 42
+n_folds: 4
+cpu_threads_per_job: 8
+
+experiments:
+  - id: N-CTRL-01
+    priority: 0
+    scenarios: [S1, S2, S3, time, time_forward]
+    seeds: [43, 2026]
+    overrides: {}
+  - id: N-CELL-10
+    priority: 1
+    scenarios: [S1, S2, S3, time, time_forward]
+    seeds: [43, 2026]
+    overrides:
+      model: {interaction_mode: shared_concat}

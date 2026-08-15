@@ -1,0 +1,12 @@
+base_config: ../../experiments/response_loss_mse_control.yaml
+fold_seed: 42
+n_folds: 4
+cpu_threads_per_job: 6
+
+experiments:
+  - id: N-CELL-12-TIME
+    priority: 0
+    scenarios: [time]
+    seeds: [42, 43, 2026]
+    overrides:
+      model: {interaction_mode: shared_film}

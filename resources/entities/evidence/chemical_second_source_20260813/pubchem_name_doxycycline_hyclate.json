@@ -1,0 +1,87 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 54686183,
+        "MolecularFormula": "C46H58Cl2N4O18",
+        "SMILES": "CCO.C[C@@H]1[C@H]2[C@@H]([C@H]3[C@@H](C(=O)C(=C([C@]3(C(=O)C2=C(C4=C1C=CC=C4O)O)O)O)C(=O)N)N(C)C)O.C[C@@H]1[C@H]2[C@@H]([C@H]3[C@@H](C(=O)C(=C([C@]3(C(=O)C2=C(C4=C1C=CC=C4O)O)O)O)C(=O)N)N(C)C)O.O.Cl.Cl",
+        "ConnectivitySMILES": "CCO.CC1C2C(C3C(C(=O)C(=C(C3(C(=O)C2=C(C4=C1C=CC=C4O)O)O)O)C(=O)N)N(C)C)O.CC1C2C(C3C(C(=O)C(=C(C3(C(=O)C2=C(C4=C1C=CC=C4O)O)O)O)C(=O)N)N(C)C)O.O.Cl.Cl",
+        "InChIKey": "UHHHTIKWXBRCLT-VDBOFHIQSA-N",
+        "IUPACName": "bis((4S,4aR,5S,5aR,6R,12aR)-4-(dimethylamino)-1,5,10,11,12a-pentahydroxy-6-methyl-3,12-dioxo-4a,5,5a,6-tetrahydro-4H-tetracene-2-carboxamide);ethanol;hydrate;dihydrochloride",
+        "Title": "Doryx"
+      },
+      {
+        "CID": 54705095,
+        "MolecularFormula": "C24H33ClN2O10",
+        "SMILES": "CCO.C[C@@H]1[C@H]2[C@@H]([C@H]3[C@@H](C(=O)C(=C([C@]3(C(=O)C2=C(C4=C1C=CC=C4O)O)O)O)C(=O)N)N(C)C)O.O.Cl",
+        "ConnectivitySMILES": "CCO.CC1C2C(C3C(C(=O)C(=C(C3(C(=O)C2=C(C4=C1C=CC=C4O)O)O)O)C(=O)N)N(C)C)O.O.Cl",
+        "InChIKey": "DWBSXBGBGHKWOT-WBYAVNBMSA-N",
+        "IUPACName": "(4S,4aR,5S,5aR,6R,12aR)-4-(dimethylamino)-1,5,10,11,12a-pentahydroxy-6-methyl-3,12-dioxo-4a,5,5a,6-tetrahydro-4H-tetracene-2-carboxamide;ethanol;hydrate;hydrochloride",
+        "Title": "Doxycycline hyclate"
+      },
+      {
+        "CID": 54671203,
+        "MolecularFormula": "C22H24N2O8",
+        "SMILES": "C[C@@H]1[C@H]2[C@@H]([C@H]3[C@@H](C(=O)C(=C([C@]3(C(=O)C2=C(C4=C1C=CC=C4O)O)O)O)C(=O)N)N(C)C)O",
+        "ConnectivitySMILES": "CC1C2C(C3C(C(=O)C(=C(C3(C(=O)C2=C(C4=C1C=CC=C4O)O)O)O)C(=O)N)N(C)C)O",
+        "InChIKey": "SGKRLCUYIXIAHR-AKNGSSGZSA-N",
+        "IUPACName": "(4S,4aR,5S,5aR,6R,12aR)-4-(dimethylamino)-1,5,10,11,12a-pentahydroxy-6-methyl-3,12-dioxo-4a,5,5a,6-tetrahydro-4H-tetracene-2-carboxamide",
+        "Title": "4-(Dimethylamino)-1,5,10,11,12a-pentahydroxy-6-methyl-3,12-dioxo-3,4,4a,5,5a,6,12,12a-octahydrotetracene-2-carboximidic acid"
+      },
+      {
+        "CID": 54686898,
+        "MolecularFormula": "C24H31ClN2O9",
+        "SMILES": "CCO.C[C@@H]1[C@H]2[C@@H]([C@H]3[C@@H](C(=O)C(=C([C@]3(C(=O)C2=C(C4=C1C=CC=C4O)O)O)O)C(=O)N)N(C)C)O.Cl",
+        "ConnectivitySMILES": "CCO.CC1C2C(C3C(C(=O)C(=C(C3(C(=O)C2=C(C4=C1C=CC=C4O)O)O)O)C(=O)N)N(C)C)O.Cl",
+        "InChIKey": "QKRDPELKHQJNII-QFWOMMJSSA-N",
+        "IUPACName": "(4S,4aR,5S,5aR,6R,12aR)-4-(dimethylamino)-1,5,10,11,12a-pentahydroxy-6-methyl-3,12-dioxo-4a,5,5a,6-tetrahydro-4H-tetracene-2-carboxamide;ethanol;hydrochloride",
+        "Title": "6-Desoxy-5-hydroxytetracycline hydrochloride hemihydrate hemiethanolate"
+      },
+      {
+        "CID": 54685920,
+        "MolecularFormula": "C22H25ClN2O8",
+        "SMILES": "C[C@@H]1[C@H]2[C@@H]([C@H]3[C@@H](C(=O)C(=C([C@]3(C(=O)C2=C(C4=C1C=CC=C4O)O)O)O)C(=O)N)N(C)C)O.Cl",
+        "ConnectivitySMILES": "CC1C2C(C3C(C(=O)C(=C(C3(C(=O)C2=C(C4=C1C=CC=C4O)O)O)O)C(=O)N)N(C)C)O.Cl",
+        "InChIKey": "PTNZGHXUZDHMIQ-CVHRZJFOSA-N",
+        "IUPACName": "(4S,4aR,5S,5aR,6R,12aR)-4-(dimethylamino)-1,5,10,11,12a-pentahydroxy-6-methyl-3,12-dioxo-4a,5,5a,6-tetrahydro-4H-tetracene-2-carboxamide;hydrochloride",
+        "Title": "Doxycycline Hydrochloride"
+      },
+      {
+        "CID": 57514051,
+        "MolecularFormula": "C46H58Cl2N4O18",
+        "SMILES": "[H+].[H+].CCO.C[C@@H]1[C@H]2[C@@H]([C@H]3[C@@H](C(=O)C(=C([C@]3(C(=O)C2=C(C4=C1C=CC=C4O)O)O)O)C(=O)N)N(C)C)O.C[C@@H]1[C@H]2[C@@H]([C@H]3[C@@H](C(=O)C(=C([C@]3(C(=O)C2=C(C4=C1C=CC=C4O)O)O)O)C(=O)N)N(C)C)O.O.[Cl-].[Cl-]",
+        "ConnectivitySMILES": "[H+].[H+].CCO.CC1C2C(C3C(C(=O)C(=C(C3(C(=O)C2=C(C4=C1C=CC=C4O)O)O)O)C(=O)N)N(C)C)O.CC1C2C(C3C(C(=O)C(=C(C3(C(=O)C2=C(C4=C1C=CC=C4O)O)O)O)C(=O)N)N(C)C)O.O.[Cl-].[Cl-]",
+        "InChIKey": "UHHHTIKWXBRCLT-VDBOFHIQSA-N",
+        "IUPACName": "bis((4S,4aR,5S,5aR,6R,12aR)-4-(dimethylamino)-1,5,10,11,12a-pentahydroxy-6-methyl-3,12-dioxo-4a,5,5a,6-tetrahydro-4H-tetracene-2-carboxamide);ethanol;hydron;dichloride;hydrate",
+        "Title": "bis((4S,4aR,5S,5aR,6R,12aR)-4-(dimethylamino)-1,5,10,11,12a-pentahydroxy-6-methyl-3,12-dioxo-4a,5,5a,6-tetrahydro-4H-tetracene-2-carboxamide);ethanol;hydron;dichloride;hydrate"
+      },
+      {
+        "CID": 131673820,
+        "MolecularFormula": "C46H55ClN4O17",
+        "SMILES": "CCO.C[C@@H]1[C@H]2[C@@H]([C@H]3[C@@H](C(=O)C(=C([C@]3(C(=O)C2=C(C4=C1C=CC=C4O)O)O)O)C(=O)N)N(C)C)O.C[C@@H]1[C@H]2[C@@H]([C@H]3[C@@H](C(=O)C(=C([C@]3(C(=O)C2=C(C4=C1C=CC=C4O)O)O)O)C(=O)N)N(C)C)O.Cl",
+        "ConnectivitySMILES": "CCO.CC1C2C(C3C(C(=O)C(=C(C3(C(=O)C2=C(C4=C1C=CC=C4O)O)O)O)C(=O)N)N(C)C)O.CC1C2C(C3C(C(=O)C(=C(C3(C(=O)C2=C(C4=C1C=CC=C4O)O)O)O)C(=O)N)N(C)C)O.Cl",
+        "InChIKey": "RBXVTKJNXYJLNQ-FSKLHFAESA-N",
+        "IUPACName": "bis((4S,4aR,5S,5aR,6R,12aR)-4-(dimethylamino)-1,5,10,11,12a-pentahydroxy-6-methyl-3,12-dioxo-4a,5,5a,6-tetrahydro-4H-tetracene-2-carboxamide);ethanol;hydrochloride",
+        "Title": "bis((4S,4aR,5S,5aR,6R,12aR)-4-(dimethylamino)-1,5,10,11,12a-pentahydroxy-6-methyl-3,12-dioxo-4a,5,5a,6-tetrahydro-4H-tetracene-2-carboxamide);ethanol;hydrochloride"
+      },
+      {
+        "CID": 54729367,
+        "MolecularFormula": "C46H58Cl2N4O18",
+        "SMILES": "CCO.C[C@@H]1[C@H]2[C@@H]([C@H]3[C@@H](C(=O)C(=C([C@]3(C(=O)C2=C(C4=C1C=CC=C4O)O)O)O)C(=O)N)[NH+](C)C)O.C[C@@H]1[C@H]2[C@@H]([C@H]3[C@@H](C(=O)C(=C([C@]3(C(=O)C2=C(C4=C1C=CC=C4O)O)O)O)C(=O)N)[NH+](C)C)O.O.[Cl-].[Cl-]",
+        "ConnectivitySMILES": "CCO.CC1C2C(C3C(C(=O)C(=C(C3(C(=O)C2=C(C4=C1C=CC=C4O)O)O)O)C(=O)N)[NH+](C)C)O.CC1C2C(C3C(C(=O)C(=C(C3(C(=O)C2=C(C4=C1C=CC=C4O)O)O)O)C(=O)N)[NH+](C)C)O.O.[Cl-].[Cl-]",
+        "InChIKey": "UHHHTIKWXBRCLT-VDBOFHIQSA-N",
+        "IUPACName": "bis([(1S,4aR,11R,11aR,12S,12aR)-3-carbamoyl-4,4a,6,7,12-pentahydroxy-11-methyl-2,5-dioxo-11,11a,12,12a-tetrahydro-1H-tetracen-1-yl]-dimethylazanium);ethanol;dichloride;hydrate",
+        "Title": "Doxycycline hydrochloride hemiethanolate hemihydrate"
+      },
+      {
+        "CID": 57515985,
+        "MolecularFormula": "C22H29ClN2O10",
+        "SMILES": "[H+].C[C@@H]1[C@H]2[C@@H]([C@H]3[C@@H](C(=O)C(=C([C@]3(C(=O)C2=C(C4=C1C=CC=C4O)O)O)O)C(=O)N)N(C)C)O.O.O.[Cl-]",
+        "ConnectivitySMILES": "[H+].CC1C2C(C3C(C(=O)C(=C(C3(C(=O)C2=C(C4=C1C=CC=C4O)O)O)O)C(=O)N)N(C)C)O.O.O.[Cl-]",
+        "InChIKey": "BRBIXBFDXBCEBV-WBYAVNBMSA-N",
+        "IUPACName": "(4S,4aR,5S,5aR,6R,12aR)-4-(dimethylamino)-1,5,10,11,12a-pentahydroxy-6-methyl-3,12-dioxo-4a,5,5a,6-tetrahydro-4H-tetracene-2-carboxamide;hydron;chloride;dihydrate",
+        "Title": "(4S,4aR,5S,5aR,6R,12aR)-4-(dimethylamino)-1,5,10,11,12a-pentahydroxy-6-methyl-3,12-dioxo-4a,5,5a,6-tetrahydro-4H-tetracene-2-carboxamide;hydron;chloride;dihydrate"
+      }
+    ]
+  }
+}

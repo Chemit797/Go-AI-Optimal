@@ -1,0 +1,28 @@
+baseline_config: baseline.yaml
+
+graph:
+  sgd_features: ../data/external/SGD_features.tab
+  string_physical_links: ../data/external/4932.protein.physical.links.v12.0.txt.gz
+  artifact: ../data/processed/string_physical_score400.npz
+  manifest: ../data/processed/string_physical_score400.manifest.json
+  protein_mapping: ../data/processed/protein_id_map.tsv
+  min_score: 400
+  rewire_swaps_per_edge: 5
+  sgd_url: http://sgd-archive.yeastgenome.org/curation/chromosomal_feature/SGD_features.tab
+  string_url: https://stringdb-downloads.org/download/protein.physical.links.v12.0/4932.protein.physical.links.v12.0.txt.gz
+
+model:
+  hidden_dim: 64
+  condition_hidden_dim: 128
+  graph_layers: 2
+  dropout: 0.10
+  learning_rate: 0.001
+  weight_decay: 0.0002
+  epochs: 30
+  batch_size: 128
+  target_scale_floor: 0.10
+  seed: 42
+  device: auto
+
+runtime:
+  runs_dir: ../runs/ppi_graph_mvp

@@ -1,0 +1,57 @@
+baseline_config: ../baseline.yaml
+
+model:
+  hidden_dim: 128
+  response_rank: 256
+  response_basis: learned
+  calibration_rank: 16
+  dropout: 0.10
+  learning_rate: 0.001
+  weight_decay: 0.0002
+  epochs: 5
+  batch_size: 128
+  seed: 42
+  device: cuda:0
+  absolute_weight: 0.25
+  background_weight: 1.0
+  fc_weight: 1.0
+  fc_correlation_weight: 0.0
+  absolute_loss: mse
+  background_loss: mse
+  fc_loss: mse
+  huber_delta: 1.0
+  target_scale_floor: 0.10
+  calibration_enabled: true
+  calibration_plate_dropout: 0.30
+  calibration_center_weight: 0.0001
+  calibration_l2_weight: 0.0001
+  qc_policy: controls_only
+  interaction_mode: shared_general_experts
+  background_strain_expert_enabled: false
+  response_strain_expert_enabled: false
+  response_chemical_expert_enabled: false
+  response_pair_expert_enabled: false
+  entity_dropout: 0.0
+  universal_epochs: 5
+  strain_expert_epochs: 0
+  chemical_expert_epochs: 0
+  pair_expert_epochs: 0
+  joint_learning_rate_scale: 0.2
+
+entity:
+  chemical_map: null
+  chemical_features: null
+  strain_features: null
+  chemical_registry: null
+  strain_registry: null
+  allow_proxy_semantics: false
+  chemical_structure_view: exact
+  chemical_bits: 512
+
+graph:
+  variant: none
+  artifact: null
+  weight: 0.0
+
+runtime:
+  runs_dir: ../../runs/m12/expert_general_s1_legacyfold

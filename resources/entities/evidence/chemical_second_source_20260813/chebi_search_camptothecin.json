@@ -1,0 +1,120 @@
+{
+  "results": [
+    {
+      "_index": "chebi-prod-compounds-12082026",
+      "_type": "_doc",
+      "_id": "13193",
+      "_score": 13.797924,
+      "_source": {
+        "chebi_accession": "CHEBI:13193",
+        "name": "hydrogen acceptor",
+        "ascii_name": "hydrogen acceptor",
+        "stars": 3,
+        "default_structure": 3169204,
+        "definition": "A molecular entity that can undergo reduction by the gain of hydrogen atom(s).",
+        "mass": 0.0,
+        "formula": "A",
+        "charge": 0,
+        "smiles": "*",
+        "monoisotopicmass": 0.0,
+        "structures": [
+          3169204
+        ]
+      }
+    },
+    {
+      "_index": "chebi-prod-compounds-12082026",
+      "_type": "_doc",
+      "_id": "100376",
+      "_score": 2.0,
+      "_source": {
+        "chebi_accession": "CHEBI:100376",
+        "name": "2-[(2R,4aS,12aS)-5-methyl-6-oxo-8-[[oxo(5-thiazolyl)methyl]amino]-2,3,4,4a,12,12a-hexahydropyrano[2,3-c][1,5]benzoxazocin-2-yl]acetic acid methyl ester",
+        "ascii_name": "2-[(2R,4aS,12aS)-5-methyl-6-oxo-8-[[oxo(5-thiazolyl)methyl]amino]-2,3,4,4a,12,12a-hexahydropyrano[2,3-c][1,5]benzoxazocin-2-yl]acetic acid methyl ester",
+        "stars": 2,
+        "default_structure": 2939843,
+        "inchi": "InChI=1S/C21H23N3O6S/c1-24-15-5-4-13(8-19(25)28-2)30-17(15)10-29-16-6-3-12(7-14(16)21(24)27)23-20(26)18-9-22-11-31-18/h3,6-7,9,11,13,15,17H,4-5,8,10H2,1-2H3,(H,23,26)/t13-,15+,17-/m1/s1",
+        "mass": 445.497,
+        "formula": "C21H23N3O6S",
+        "inchikey": "UYHAGXSFPLQSEJ-UKPHBRMFSA-N",
+        "smiles": "COC(=O)C[C@H]1CC[C@H]2[C@@H](COc3ccc(NC(=O)c4cncs4)cc3C(=O)N2C)O1",
+        "charge": 0,
+        "monoisotopicmass": 445.13076,
+        "structures": [
+          2939843
+        ]
+      }
+    },
+    {
+      "_index": "chebi-prod-compounds-12082026",
+      "_type": "_doc",
+      "_id": "100377",
+      "_score": 2.0,
+      "_source": {
+        "chebi_accession": "CHEBI:100377",
+        "name": "2-[(2R,5R,6R)-5-acetamido-6-(hydroxymethyl)-2-oxanyl]-N-[(3-methoxyphenyl)methyl]acetamide",
+        "ascii_name": "2-[(2R,5R,6R)-5-acetamido-6-(hydroxymethyl)-2-oxanyl]-N-[(3-methoxyphenyl)methyl]acetamide",
+        "stars": 2,
+        "default_structure": 2939845,
+        "inchi": "InChI=1S/C18H26N2O5/c1-12(22)20-16-7-6-15(25-17(16)11-21)9-18(23)19-10-13-4-3-5-14(8-13)24-2/h3-5,8,15-17,21H,6-7,9-11H2,1-2H3,(H,19,23)(H,20,22)/t15-,16-,17+/m1/s1",
+        "monoisotopicmass": 350.18417,
+        "charge": 0,
+        "smiles": "COc1cccc(CNC(=O)C[C@H]2CC[C@@H](NC(C)=O)[C@H](CO)O2)c1",
+        "formula": "C18H26N2O5",
+        "inchikey": "QHWKOKDSIMAAGX-ZACQAIPSSA-N",
+        "mass": 350.415,
+        "structures": [
+          2939845
+        ]
+      }
+    },
+    {
+      "_index": "chebi-prod-compounds-12082026",
+      "_type": "_doc",
+      "_id": "100378",
+      "_score": 2.0,
+      "_source": {
+        "chebi_accession": "CHEBI:100378",
+        "name": "(3S)-2-[(S)-tert-butylsulfinyl]-4-[3-(4-cyanophenyl)phenyl]-3-(2-hydroxyethyl)-N-[2-(1-pyrrolidinyl)ethyl]-1,3-dihydropyrrolo[3,4-c]pyridine-6-carboxamide",
+        "ascii_name": "(3S)-2-[(S)-tert-butylsulfinyl]-4-[3-(4-cyanophenyl)phenyl]-3-(2-hydroxyethyl)-N-[2-(1-pyrrolidinyl)ethyl]-1,3-dihydropyrrolo[3,4-c]pyridine-6-carboxamide",
+        "stars": 2,
+        "default_structure": 2939851,
+        "monoisotopicmass": 585.27736,
+        "inchi": "InChI=1S/C33H39N5O3S/c1-33(2,3)42(41)38-22-27-20-28(32(40)35-14-17-37-15-4-5-16-37)36-31(30(27)29(38)13-18-39)26-8-6-7-25(19-26)24-11-9-23(21-34)10-12-24/h6-12,19-20,29,39H,4-5,13-18,22H2,1-3H3,(H,35,40)/t29-,42-/m0/s1",
+        "formula": "C33H39N5O3S",
+        "mass": 585.774,
+        "charge": 0,
+        "smiles": "CC(C)(C)[S@](=O)N1Cc2cc(C(=O)NCCN3CCCC3)nc(-c3cccc(-c4ccc(C#N)cc4)c3)c2[C@@H]1CCO",
+        "inchikey": "KRBOYVJOHNAAFC-WHAQVLKXSA-N",
+        "structures": [
+          2939851
+        ]
+      }
+    },
+    {
+      "_index": "chebi-prod-compounds-12082026",
+      "_type": "_doc",
+      "_id": "100379",
+      "_score": 2.0,
+      "_source": {
+        "chebi_accession": "CHEBI:100379",
+        "name": "2-[(1R,3R,4aS,9aR)-1-(hydroxymethyl)-6-(methanesulfonamido)-3,4,4a,9a-tetrahydro-1H-pyrano[3,4-b]benzofuran-3-yl]-N-(cyclopropylmethyl)acetamide",
+        "ascii_name": "2-[(1R,3R,4aS,9aR)-1-(hydroxymethyl)-6-(methanesulfonamido)-3,4,4a,9a-tetrahydro-1H-pyrano[3,4-b]benzofuran-3-yl]-N-(cyclopropylmethyl)acetamide",
+        "stars": 2,
+        "default_structure": 2939855,
+        "formula": "C19H26N2O6S",
+        "smiles": "CS(=O)(=O)Nc1ccc2c(c1)[C@@H]1C[C@H](CC(=O)NCC3CC3)O[C@H](CO)[C@@H]1O2",
+        "mass": 410.492,
+        "inchikey": "YSCGDHRCRJHNHR-ZSFPCNDZSA-N",
+        "charge": 0,
+        "monoisotopicmass": 410.15116,
+        "inchi": "InChI=1S/C19H26N2O6S/c1-28(24,25)21-12-4-5-16-14(6-12)15-7-13(26-17(10-22)19(15)27-16)8-18(23)20-9-11-2-3-11/h4-6,11,13,15,17,19,21-22H,2-3,7-10H2,1H3,(H,20,23)/t13-,15+,17-,19-/m1/s1",
+        "structures": [
+          2939855
+        ]
+      }
+    }
+  ],
+  "total": 200564,
+  "number_pages": 40113
+}

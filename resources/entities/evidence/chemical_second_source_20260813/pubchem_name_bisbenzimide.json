@@ -1,0 +1,15 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 1464,
+        "MolecularFormula": "C27H28N6O",
+        "SMILES": "CCOC1=CC=C(C=C1)C2=NC3=C(N2)C=C(C=C3)C4=NC5=C(N4)C=C(C=C5)N6CCN(CC6)C",
+        "ConnectivitySMILES": "CCOC1=CC=C(C=C1)C2=NC3=C(N2)C=C(C=C3)C4=NC5=C(N4)C=C(C=C5)N6CCN(CC6)C",
+        "InChIKey": "PRDFBSVERLRRMY-UHFFFAOYSA-N",
+        "IUPACName": "2-(4-ethoxyphenyl)-6-[6-(4-methylpiperazin-1-yl)-1H-benzimidazol-2-yl]-1H-benzimidazole",
+        "Title": "Bisbenzimide"
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 2733526,
+        "MolecularFormula": "C26H29NO",
+        "SMILES": "CC/C(=C(\\C1=CC=CC=C1)/C2=CC=C(C=C2)OCCN(C)C)/C3=CC=CC=C3",
+        "ConnectivitySMILES": "CCC(=C(C1=CC=CC=C1)C2=CC=C(C=C2)OCCN(C)C)C3=CC=CC=C3",
+        "InChIKey": "NKANXQFJJICGDU-QPLCGJKRSA-N",
+        "IUPACName": "2-[4-[(Z)-1,2-diphenylbut-1-enyl]phenoxy]-N,N-dimethylethanamine",
+        "Title": "Tamoxifen"
+      }
+    ]
+  }
+}

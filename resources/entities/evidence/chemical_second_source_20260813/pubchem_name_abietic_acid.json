@@ -1,0 +1,15 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 10569,
+        "MolecularFormula": "C20H30O2",
+        "SMILES": "CC(C)C1=CC2=CC[C@@H]3[C@@]([C@H]2CC1)(CCC[C@@]3(C)C(=O)O)C",
+        "ConnectivitySMILES": "CC(C)C1=CC2=CCC3C(C2CC1)(CCCC3(C)C(=O)O)C",
+        "InChIKey": "RSWGJHLUYNHPMX-ONCXSQPRSA-N",
+        "IUPACName": "(1R,4aR,4bR,10aR)-1,4a-dimethyl-7-propan-2-yl-2,3,4,4b,5,6,10,10a-octahydrophenanthrene-1-carboxylic acid",
+        "Title": "Abietic Acid"
+      }
+    ]
+  }
+}

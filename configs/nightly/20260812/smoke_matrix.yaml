@@ -1,0 +1,48 @@
+base_config: ../../experiments/response_loss_mse_control.yaml
+fold_seed: 42
+n_folds: 2
+cpu_threads_per_job: 4
+
+experiments:
+  - id: SMOKE-LEGACY
+    priority: 0
+    scenarios: [S1]
+    seeds: [42]
+    overrides:
+      model: {epochs: 1}
+  - id: SMOKE-CELL
+    priority: 0
+    scenarios: [S1]
+    seeds: [42]
+    overrides:
+      model: {epochs: 1, interaction_mode: shared_concat}
+  - id: SMOKE-CAL
+    priority: 1
+    scenarios: [S1]
+    seeds: [42]
+    overrides:
+      model: {epochs: 1, calibration_plate_dropout: 0.3, calibration_plate_shuffle: true}
+  - id: SMOKE-PRIOR
+    priority: 1
+    scenarios: [S1]
+    seeds: [42]
+    overrides:
+      model: {epochs: 1, response_prior_mode: both, response_prior_alpha: 4.0}
+  - id: SMOKE-CHEM-REAL
+    priority: 2
+    scenarios: [S1]
+    seeds: [42]
+    overrides:
+      model: {epochs: 1}
+      entity:
+        chemical_map: null
+        chemical_features: data/processed/chemical_embeddings/chemberta_77m_mlm/chemberta_real.tsv
+  - id: SMOKE-CHEM-SHUFFLED
+    priority: 2
+    scenarios: [S1]
+    seeds: [42]
+    overrides:
+      model: {epochs: 1}
+      entity:
+        chemical_map: null
+        chemical_features: data/processed/chemical_embeddings/chemberta_77m_mlm/chemberta_shuffled.tsv

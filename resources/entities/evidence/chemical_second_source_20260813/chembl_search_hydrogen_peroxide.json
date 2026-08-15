@@ -1,0 +1,1882 @@
+{
+  "molecules": [
+    {
+      "atc_classifications": [
+        "A01AB02",
+        "D11AX25",
+        "D08AX01",
+        "S02AA06"
+      ],
+      "availability_type": 0,
+      "biotherapeutic": null,
+      "black_box_warning": 0,
+      "chemical_probe": 0,
+      "chirality": 2,
+      "cross_references": [
+        {
+          "xref_id": "hydrogen%20peroxide",
+          "xref_name": "hydrogen peroxide",
+          "xref_src": "DailyMed"
+        }
+      ],
+      "dosed_ingredient": true,
+      "first_approval": 2017,
+      "first_in_class": 0,
+      "helm_notation": null,
+      "inorganic_flag": 0,
+      "max_phase": "4.0",
+      "molecule_chembl_id": "CHEMBL71595",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL71595",
+        "molecule_chembl_id": "CHEMBL71595",
+        "parent_chembl_id": "CHEMBL71595"
+      },
+      "molecule_properties": {
+        "alogp": "0.02",
+        "aromatic_rings": 0,
+        "full_molformula": "H2O2",
+        "full_mwt": "34.01",
+        "hba": 2,
+        "hbd": 2,
+        "heavy_atoms": 2,
+        "mw_freebase": "34.01",
+        "np_likeness_score": "0.45",
+        "num_ro5_violations": 0,
+        "psa": "40.46",
+        "qed_weighted": "0.29",
+        "ro3_pass": "Y",
+        "rtb": 0
+      },
+      "molecule_structures": {
+        "canonical_smiles": "OO",
+        "molfile": "\n     RDKit          2D\n\n  2  1  0  0  0  0  0  0  0  0999 V2000\n    0.7542    0.0500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.6833    0.0500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0\nM  END\n> <chembl_id>\nCHEMBL71595\n\n> <chembl_pref_name>\nHYDROGEN PEROXIDE",
+        "standard_inchi": "InChI=1S/H2O2/c1-2/h1-2H",
+        "standard_inchi_key": "MHAJPDPJQMAIIY-UHFFFAOYSA-N"
+      },
+      "molecule_synonyms": [
+        {
+          "molecule_synonym": "A-101",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "A-101"
+        },
+        {
+          "molecule_synonym": "Crystacide",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "CRYSTACIDE"
+        },
+        {
+          "molecule_synonym": "Eskata",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "ESKATA"
+        },
+        {
+          "molecule_synonym": "Hioxyl",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "HIOXYL"
+        },
+        {
+          "molecule_synonym": "Hydrogen peroxide",
+          "syn_type": "ATC",
+          "synonyms": "HYDROGEN PEROXIDE"
+        },
+        {
+          "molecule_synonym": "Hydrogen peroxide",
+          "syn_type": "BNF",
+          "synonyms": "HYDROGEN PEROXIDE"
+        },
+        {
+          "molecule_synonym": "Hydrogen peroxide",
+          "syn_type": "FDA",
+          "synonyms": "HYDROGEN PEROXIDE"
+        },
+        {
+          "molecule_synonym": "Hydrogen peroxide",
+          "syn_type": "MERCK_INDEX",
+          "synonyms": "HYDROGEN PEROXIDE"
+        },
+        {
+          "molecule_synonym": "Hydrogen peroxide",
+          "syn_type": "OTHER",
+          "synonyms": "HYDROGEN PEROXIDE"
+        },
+        {
+          "molecule_synonym": "Hydrogen peroxide solution",
+          "syn_type": "OTHER",
+          "synonyms": "HYDROGEN PEROXIDE SOLUTION"
+        },
+        {
+          "molecule_synonym": "Hyrogen peroxide",
+          "syn_type": "OTHER",
+          "synonyms": "HYROGEN PEROXIDE"
+        },
+        {
+          "molecule_synonym": "NSC-19892",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "NSC-19892"
+        },
+        {
+          "molecule_synonym": "Oxydol",
+          "syn_type": "OTHER",
+          "synonyms": "OXYDOL"
+        },
+        {
+          "molecule_synonym": "Peroxyl",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "PEROXYL"
+        }
+      ],
+      "molecule_type": "Small molecule",
+      "natural_product": 1,
+      "oral": false,
+      "orphan": 0,
+      "parenteral": false,
+      "polymer_flag": 0,
+      "pref_name": "HYDROGEN PEROXIDE",
+      "prodrug": 0,
+      "score": 60.0,
+      "structure_type": "MOL",
+      "therapeutic_flag": true,
+      "topical": true,
+      "usan_stem": null,
+      "usan_stem_definition": null,
+      "usan_substem": null,
+      "usan_year": null,
+      "veterinary": 0,
+      "withdrawn_flag": false
+    },
+    {
+      "atc_classifications": [
+        "D10AE01",
+        "D10AE51"
+      ],
+      "availability_type": 1,
+      "biotherapeutic": null,
+      "black_box_warning": 0,
+      "chemical_probe": 0,
+      "chirality": 2,
+      "cross_references": [
+        {
+          "xref_id": "benzoyl%20peroxide",
+          "xref_name": "benzoyl peroxide",
+          "xref_src": "DailyMed"
+        }
+      ],
+      "dosed_ingredient": true,
+      "first_approval": 1984,
+      "first_in_class": 0,
+      "helm_notation": null,
+      "inorganic_flag": 0,
+      "max_phase": "4.0",
+      "molecule_chembl_id": "CHEMBL1200370",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL1200370",
+        "molecule_chembl_id": "CHEMBL1200370",
+        "parent_chembl_id": "CHEMBL1200370"
+      },
+      "molecule_properties": {
+        "alogp": "2.62",
+        "aromatic_rings": 2,
+        "full_molformula": "C14H10O4",
+        "full_mwt": "242.23",
+        "hba": 4,
+        "hbd": 0,
+        "heavy_atoms": 18,
+        "mw_freebase": "242.23",
+        "np_likeness_score": "0.05",
+        "num_ro5_violations": 0,
+        "psa": "52.60",
+        "qed_weighted": "0.60",
+        "ro3_pass": "N",
+        "rtb": 2
+      },
+      "molecule_structures": {
+        "canonical_smiles": "O=C(OOC(=O)c1ccccc1)c1ccccc1",
+        "molfile": "\n     RDKit          2D\n\n 18 19  0  0  0  0  0  0  0  0999 V2000\n    4.1500   -4.6417    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.9875   -5.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.3750   -4.6500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    4.7542   -4.9917    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    4.1500   -3.9292    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    5.9792   -5.7125    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    6.6000   -4.6417    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.5292   -5.0042    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.9167   -4.6417    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.5167   -5.7042    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.2167   -5.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.6125   -3.9417    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.2917   -5.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.9042   -6.0542    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.8375   -4.6417    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.2250   -3.5917    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.2917   -5.7000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.8417   -3.9417    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  2  3  1  0\n  3  4  1  0\n  4  1  1  0\n  5  1  2  0\n  6  2  2  0\n  7  2  1  0\n  8  1  1  0\n  9  8  2  0\n 10  8  1  0\n 11  7  2  0\n 12  7  1  0\n 13  9  1  0\n 14 10  2  0\n 15 11  1  0\n 16 12  2  0\n 17 14  1  0\n 18 16  1  0\n 17 13  2  0\n 18 15  2  0\nM  END\n> <chembl_id>\nCHEMBL1200370\n\n> <chembl_pref_name>\nBENZOYL PEROXIDE",
+        "standard_inchi": "InChI=1S/C14H10O4/c15-13(11-7-3-1-4-8-11)17-18-14(16)12-9-5-2-6-10-12/h1-10H",
+        "standard_inchi_key": "OMPJBNCRMGITSC-UHFFFAOYSA-N"
+      },
+      "molecule_synonyms": [
+        {
+          "molecule_synonym": "Acetoxyl 2.5",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "ACETOXYL 2.5"
+        },
+        {
+          "molecule_synonym": "Acetoxyl 5",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "ACETOXYL 5"
+        },
+        {
+          "molecule_synonym": "Acnecide",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "ACNECIDE"
+        },
+        {
+          "molecule_synonym": "Acnecide 10",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "ACNECIDE 10"
+        },
+        {
+          "molecule_synonym": "Acnegel",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "ACNEGEL"
+        },
+        {
+          "molecule_synonym": "Acnegel fte",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "ACNEGEL FTE"
+        },
+        {
+          "molecule_synonym": "Acnidazil",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "ACNIDAZIL"
+        },
+        {
+          "molecule_synonym": "Anhydrous benzoyl peroxide",
+          "syn_type": "OTHER",
+          "synonyms": "ANHYDROUS BENZOYL PEROXIDE"
+        },
+        {
+          "molecule_synonym": "Benoxyl 10",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "BENOXYL 10"
+        },
+        {
+          "molecule_synonym": "Benoxyl 20",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "BENOXYL 20"
+        },
+        {
+          "molecule_synonym": "Benoxyl 5",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "BENOXYL 5"
+        },
+        {
+          "molecule_synonym": "Benzagel 10",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "BENZAGEL 10"
+        },
+        {
+          "molecule_synonym": "Benzagel 5",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "BENZAGEL 5"
+        },
+        {
+          "molecule_synonym": "Benzamycin",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "BENZAMYCIN"
+        },
+        {
+          "molecule_synonym": "Benzoylis peroxidum cum aqua",
+          "syn_type": "OTHER",
+          "synonyms": "BENZOYLIS PEROXIDUM CUM AQUA"
+        },
+        {
+          "molecule_synonym": "Benzoyl peroxide",
+          "syn_type": "ATC",
+          "synonyms": "BENZOYL PEROXIDE"
+        },
+        {
+          "molecule_synonym": "Benzoyl peroxide",
+          "syn_type": "BNF",
+          "synonyms": "BENZOYL PEROXIDE"
+        },
+        {
+          "molecule_synonym": "Benzoyl peroxide",
+          "syn_type": "FDA",
+          "synonyms": "BENZOYL PEROXIDE"
+        },
+        {
+          "molecule_synonym": "Benzoyl peroxide",
+          "syn_type": "JAN",
+          "synonyms": "BENZOYL PEROXIDE"
+        },
+        {
+          "molecule_synonym": "Benzoyl peroxide",
+          "syn_type": "MERCK_INDEX",
+          "synonyms": "BENZOYL PEROXIDE"
+        },
+        {
+          "molecule_synonym": "Benzoyl peroxide",
+          "syn_type": "OTHER",
+          "synonyms": "BENZOYL PEROXIDE"
+        },
+        {
+          "molecule_synonym": "Benzoyl peroxide",
+          "syn_type": "USAN",
+          "synonyms": "BENZOYL PEROXIDE"
+        },
+        {
+          "molecule_synonym": "Benzoyl peroxide",
+          "syn_type": "USP",
+          "synonyms": "BENZOYL PEROXIDE"
+        },
+        {
+          "molecule_synonym": "Benzoyl peroxide anhydrous",
+          "syn_type": "OTHER",
+          "synonyms": "BENZOYL PEROXIDE ANHYDROUS"
+        },
+        {
+          "molecule_synonym": "Benzoyl peroxide component of acanya",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "BENZOYL PEROXIDE COMPONENT OF ACANYA"
+        },
+        {
+          "molecule_synonym": "Benzoyl peroxide component of aktipak",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "BENZOYL PEROXIDE COMPONENT OF AKTIPAK"
+        },
+        {
+          "molecule_synonym": "Benzoyl peroxide component of benzaclin",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "BENZOYL PEROXIDE COMPONENT OF BENZACLIN"
+        },
+        {
+          "molecule_synonym": "Benzoyl peroxide component of benzamycin",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "BENZOYL PEROXIDE COMPONENT OF BENZAMYCIN"
+        },
+        {
+          "molecule_synonym": "Benzoyl peroxide component of cabtreo",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "BENZOYL PEROXIDE COMPONENT OF CABTREO"
+        },
+        {
+          "molecule_synonym": "Benzoyl peroxide component of duac",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "BENZOYL PEROXIDE COMPONENT OF DUAC"
+        },
+        {
+          "molecule_synonym": "Benzoyl peroxide component of epiduo",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "BENZOYL PEROXIDE COMPONENT OF EPIDUO"
+        },
+        {
+          "molecule_synonym": "Benzoyl peroxide component of idp-126",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "BENZOYL PEROXIDE COMPONENT OF IDP-126"
+        },
+        {
+          "molecule_synonym": "Benzoyl peroxide component of onexton",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "BENZOYL PEROXIDE COMPONENT OF ONEXTON"
+        },
+        {
+          "molecule_synonym": "Benzoyl peroxide component of twyneo",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "BENZOYL PEROXIDE COMPONENT OF TWYNEO"
+        },
+        {
+          "molecule_synonym": "Benzoyl superoxide",
+          "syn_type": "OTHER",
+          "synonyms": "BENZOYL SUPEROXIDE"
+        },
+        {
+          "molecule_synonym": "Brevoxyl",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "BREVOXYL"
+        },
+        {
+          "molecule_synonym": "Clearasil max 10",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "CLEARASIL MAX 10"
+        },
+        {
+          "molecule_synonym": "Dermoxyl",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "DERMOXYL"
+        },
+        {
+          "molecule_synonym": "Dry clear",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "DRY CLEAR"
+        },
+        {
+          "molecule_synonym": "E-928",
+          "syn_type": "OTHER",
+          "synonyms": "E-928"
+        },
+        {
+          "molecule_synonym": "E928",
+          "syn_type": "E_NUMBER",
+          "synonyms": "E928"
+        },
+        {
+          "molecule_synonym": "Epsolay",
+          "syn_type": "OTHER",
+          "synonyms": "EPSOLAY"
+        },
+        {
+          "molecule_synonym": "Epsolay",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "EPSOLAY"
+        },
+        {
+          "molecule_synonym": "Gppe lotio gel",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "GPPE LOTIO GEL"
+        },
+        {
+          "molecule_synonym": "Hydrous benzoyl peroxide",
+          "syn_type": "USP",
+          "synonyms": "HYDROUS BENZOYL PEROXIDE"
+        },
+        {
+          "molecule_synonym": "Ins-928",
+          "syn_type": "OTHER",
+          "synonyms": "INS-928"
+        },
+        {
+          "molecule_synonym": "Ins no.928",
+          "syn_type": "OTHER",
+          "synonyms": "INS NO.928"
+        },
+        {
+          "molecule_synonym": "Mediclear",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "MEDICLEAR"
+        },
+        {
+          "molecule_synonym": "Mediclear acne 10",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "MEDICLEAR ACNE 10"
+        },
+        {
+          "molecule_synonym": "Mediclear acne 5",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "MEDICLEAR ACNE 5"
+        },
+        {
+          "molecule_synonym": "Nericur",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "NERICUR"
+        },
+        {
+          "molecule_synonym": "NSC-671",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "NSC-671"
+        },
+        {
+          "molecule_synonym": "NSC-675",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "NSC-675"
+        },
+        {
+          "molecule_synonym": "Oxy-10",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "OXY-10"
+        },
+        {
+          "molecule_synonym": "Oxy-10 cover-up",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "OXY-10 COVER-UP"
+        },
+        {
+          "molecule_synonym": "Oxy-5",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "OXY-5"
+        },
+        {
+          "molecule_synonym": "Panoxyl 10",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "PANOXYL 10"
+        },
+        {
+          "molecule_synonym": "Panoxyl 10 acnegel",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "PANOXYL 10 ACNEGEL"
+        },
+        {
+          "molecule_synonym": "Panoxyl 10 aquagel",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "PANOXYL 10 AQUAGEL"
+        },
+        {
+          "molecule_synonym": "Panoxyl 2.5 aquagel",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "PANOXYL 2.5 AQUAGEL"
+        },
+        {
+          "molecule_synonym": "Panoxyl 5 acnegel",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "PANOXYL 5 ACNEGEL"
+        },
+        {
+          "molecule_synonym": "Panoxyl 5 aquagel",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "PANOXYL 5 AQUAGEL"
+        },
+        {
+          "molecule_synonym": "Panoxyl crm 5",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "PANOXYL CRM 5"
+        },
+        {
+          "molecule_synonym": "Panoxyl lot 10",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "PANOXYL LOT 10"
+        },
+        {
+          "molecule_synonym": "Panoxyl lot 5",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "PANOXYL LOT 5"
+        },
+        {
+          "molecule_synonym": "Quinoderm 5",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "QUINODERM 5"
+        },
+        {
+          "molecule_synonym": "Quinoped",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "QUINOPED"
+        },
+        {
+          "molecule_synonym": "Theraderm 10",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "THERADERM 10"
+        },
+        {
+          "molecule_synonym": "Theraderm 5",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "THERADERM 5"
+        },
+        {
+          "molecule_synonym": "Topex",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "TOPEX"
+        },
+        {
+          "molecule_synonym": "Ultra clearasil",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "ULTRA CLEARASIL"
+        },
+        {
+          "molecule_synonym": "Valderma",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "VALDERMA"
+        },
+        {
+          "molecule_synonym": "Vanair",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "VANAIR"
+        }
+      ],
+      "molecule_type": "Small molecule",
+      "natural_product": 1,
+      "oral": false,
+      "orphan": 0,
+      "parenteral": false,
+      "polymer_flag": 0,
+      "pref_name": "BENZOYL PEROXIDE",
+      "prodrug": 0,
+      "score": 35.0,
+      "structure_type": "MOL",
+      "therapeutic_flag": false,
+      "topical": true,
+      "usan_stem": null,
+      "usan_stem_definition": null,
+      "usan_substem": null,
+      "usan_year": 1972,
+      "veterinary": 0,
+      "withdrawn_flag": false
+    },
+    {
+      "atc_classifications": [],
+      "availability_type": -1,
+      "biotherapeutic": null,
+      "black_box_warning": 0,
+      "chemical_probe": 0,
+      "chirality": -1,
+      "cross_references": [],
+      "dosed_ingredient": false,
+      "first_approval": null,
+      "first_in_class": -1,
+      "helm_notation": null,
+      "inorganic_flag": -1,
+      "max_phase": null,
+      "molecule_chembl_id": "CHEMBL434750",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL434750",
+        "molecule_chembl_id": "CHEMBL434750",
+        "parent_chembl_id": "CHEMBL434750"
+      },
+      "molecule_properties": {
+        "alogp": "6.47",
+        "aromatic_rings": 0,
+        "full_molformula": "C28H44O3",
+        "full_mwt": "428.66",
+        "hba": 3,
+        "hbd": 1,
+        "heavy_atoms": 31,
+        "mw_freebase": "428.66",
+        "np_likeness_score": "3.36",
+        "num_ro5_violations": 1,
+        "psa": "38.69",
+        "qed_weighted": "0.41",
+        "ro3_pass": "N",
+        "rtb": 4
+      },
+      "molecule_structures": {
+        "canonical_smiles": "CC(C)[C@@H](C)/C=C/[C@@H](C)[C@H]1CC[C@@H]2[C@]1(C)CC[C@H]1[C@]23C=C[C@]2(C[C@@H](O)CC[C@]12C)OO3",
+        "molfile": "\n     RDKit          2D\n\n 34 38  0  0  0  0  0  0  0  0999 V2000\n   -3.9844   -1.0600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -3.9844   -1.8850    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -3.2713   -2.2933    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -3.2713   -0.6434    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.5624   -1.0600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.5613   -1.8850    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.8492   -2.2942    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.1336   -1.8831    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.8512   -0.6444    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.1340    0.5953    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.8550    0.1818    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.4154    0.1809    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.4185   -0.6485    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.3697   -0.9052    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.8591   -0.2386    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.3747    0.4358    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -4.6993   -2.2985    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.5696   -0.2351    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.4207    1.0065    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.1531   -1.1632    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.5797   -1.5467    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.1590   -1.0312    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.6300    1.2198    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.4378    1.3866    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0817    1.8328    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.9901    0.7735    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.7979    0.9403    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.3462    0.3272    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.0531    1.7242    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.0868   -0.4568    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.1539    0.4940    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.2663   -0.0537    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    1.1673    0.6517    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.4249   -1.4725    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n 14 15  1  0\n 15 16  1  0\n 16 12  1  0\n  6  7  1  0\n  2 17  1  1\n  7  8  2  0\n  5 18  1  1\n  8 22  1  0\n 12 19  1  1\n  9 22  1  0\n  6 20  1  6\n  3  6  1  0\n 20 21  1  0\n  5  4  1  0\n 22 21  1  6\n  5  6  1  0\n 16 23  1  0\n  9 11  1  0\n 23 24  1  0\n 22 13  1  0\n 23 25  1  6\n 12 10  1  0\n 24 26  2  0\n 10 11  1  0\n 26 27  1  0\n 12 13  1  0\n 27 28  1  0\n 27 29  1  6\n  1  2  1  0\n 28 30  1  0\n  1  4  1  0\n 28 31  1  0\n  2  3  1  0\n  9 32  1  6\n  5  9  1  0\n 16 33  1  6\n 13 14  1  0\n 13 34  1  6\nM  END\n> <chembl_id>\nCHEMBL434750\n\n> <chembl_pref_name>\nERGOSTEROL PEROXIDE",
+        "standard_inchi": "InChI=1S/C28H44O3/c1-18(2)19(3)7-8-20(4)22-9-10-23-25(22,5)13-12-24-26(6)14-11-21(29)17-27(26)15-16-28(23,24)31-30-27/h7-8,15-16,18-24,29H,9-14,17H2,1-6H3/b8-7+/t19-,20+,21-,22+,23+,24+,25+,26+,27+,28-/m0/s1",
+        "standard_inchi_key": "VXOZCESVZIRHCJ-KGHQQZOUSA-N"
+      },
+      "molecule_synonyms": [],
+      "molecule_type": "Small molecule",
+      "natural_product": 1,
+      "oral": false,
+      "orphan": -1,
+      "parenteral": false,
+      "polymer_flag": 0,
+      "pref_name": "ERGOSTEROL PEROXIDE",
+      "prodrug": -1,
+      "score": 28.0,
+      "structure_type": "MOL",
+      "therapeutic_flag": false,
+      "topical": false,
+      "usan_stem": null,
+      "usan_stem_definition": null,
+      "usan_substem": null,
+      "usan_year": null,
+      "veterinary": -1,
+      "withdrawn_flag": false
+    },
+    {
+      "atc_classifications": [],
+      "availability_type": -1,
+      "biotherapeutic": null,
+      "black_box_warning": 0,
+      "chemical_probe": 0,
+      "chirality": -1,
+      "cross_references": [],
+      "dosed_ingredient": false,
+      "first_approval": null,
+      "first_in_class": -1,
+      "helm_notation": null,
+      "inorganic_flag": -1,
+      "max_phase": null,
+      "molecule_chembl_id": "CHEMBL2314349",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL2314349",
+        "molecule_chembl_id": "CHEMBL2314349",
+        "parent_chembl_id": "CHEMBL2314349"
+      },
+      "molecule_properties": {
+        "alogp": "2.38",
+        "aromatic_rings": 0,
+        "full_molformula": "C15H20O4",
+        "full_mwt": "264.32",
+        "hba": 4,
+        "hbd": 0,
+        "heavy_atoms": 19,
+        "mw_freebase": "264.32",
+        "np_likeness_score": "2.87",
+        "num_ro5_violations": 0,
+        "psa": "44.76",
+        "qed_weighted": "0.38",
+        "ro3_pass": "N",
+        "rtb": 0
+      },
+      "molecule_structures": {
+        "canonical_smiles": "CC1=CC2C[C@]3(C)CC[C@H]4[C@H](C)C(=O)O[C@@H]4C13OO2",
+        "molfile": "\n     RDKit          2D\n\n 21 24  0  0  0  0  0  0  0  0999 V2000\n    9.1861   -9.0735    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   10.8847  -12.0206    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   11.2200  -11.2699    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    8.4870   -9.4827    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    8.4870  -11.1242    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   11.2898  -12.7339    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   12.0253  -11.1051    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    8.4866  -11.9469    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   10.0681  -11.9287    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    7.7727   -9.8963    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    9.4875  -11.8318    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   10.6117   -9.8935    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   11.3231  -10.3049    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    9.1947  -10.7149    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    9.1930   -9.8963    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    9.8989  -11.1220    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    9.9002   -9.4842    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   10.6133  -10.7122    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.7727  -10.7149    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    8.5888   -9.8930    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    8.5434  -10.5492    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  5  8  1  0\n  3  7  1  6\n 14 16  1  0\n  5 14  1  0\n 18  3  1  0\n 18 13  1  6\n 15 14  1  0\n 19  5  2  0\n  2  3  1  0\n  9  2  1  0\n 10  4  1  0\n 15  1  1  1\n 12 17  1  0\n 16  9  1  0\n 10 19  1  0\n 15  4  1  0\n 18 12  1  0\n  2  6  2  0\n 18 16  1  0\n 15 17  1  0\n 16 11  1  1\n 10 20  1  0\n 20 21  1  0\n 21 14  1  0\nM  END\n> <chembl_id>\nCHEMBL2314349\n\n> <chembl_pref_name>\nNone",
+        "standard_inchi": "InChI=1S/C15H20O4/c1-8-6-10-7-14(3)5-4-11-9(2)13(16)17-12(11)15(8,14)19-18-10/h6,9-12H,4-5,7H2,1-3H3/t9-,10?,11-,12-,14-,15?/m0/s1",
+        "standard_inchi_key": "DNHVANFANYUOGW-VQSFCORFSA-N"
+      },
+      "molecule_synonyms": [],
+      "molecule_type": "Small molecule",
+      "natural_product": 0,
+      "oral": false,
+      "orphan": -1,
+      "parenteral": false,
+      "polymer_flag": 0,
+      "pref_name": null,
+      "prodrug": -1,
+      "score": 28.0,
+      "structure_type": "MOL",
+      "therapeutic_flag": false,
+      "topical": false,
+      "usan_stem": null,
+      "usan_stem_definition": null,
+      "usan_substem": null,
+      "usan_year": null,
+      "veterinary": -1,
+      "withdrawn_flag": false
+    },
+    {
+      "atc_classifications": [
+        "A06AD03",
+        "A02AA03"
+      ],
+      "availability_type": null,
+      "biotherapeutic": null,
+      "black_box_warning": 0,
+      "chemical_probe": 0,
+      "chirality": 2,
+      "cross_references": [],
+      "dosed_ingredient": false,
+      "first_approval": null,
+      "first_in_class": 0,
+      "helm_notation": null,
+      "inorganic_flag": 1,
+      "max_phase": "-1.0",
+      "molecule_chembl_id": "CHEMBL3707298",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL3707298",
+        "molecule_chembl_id": "CHEMBL3707298",
+        "parent_chembl_id": "CHEMBL3707298"
+      },
+      "molecule_properties": {
+        "alogp": null,
+        "aromatic_rings": null,
+        "full_molformula": "MgO2",
+        "full_mwt": "56.30",
+        "hba": null,
+        "hbd": null,
+        "heavy_atoms": null,
+        "mw_freebase": "56.30",
+        "np_likeness_score": null,
+        "num_ro5_violations": null,
+        "psa": null,
+        "qed_weighted": null,
+        "ro3_pass": null,
+        "rtb": null
+      },
+      "molecule_structures": {
+        "canonical_smiles": "[Mg+2].[O-][O-]",
+        "molfile": "\n     RDKit          2D\n\n  3  1  0  0  0  0  0  0  0  0999 V2000\n    2.9464    0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    2.1214    0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000    0.0000    0.0000 Mg  0  0  0  0  0 15  0  0  0  0  0  0\n  1  2  1  0\nM  CHG  3   1  -1   2  -1   3   2\nM  END\n> <chembl_id>\nCHEMBL3707298\n\n> <chembl_pref_name>\nMAGNESIUM PEROXIDE",
+        "standard_inchi": "InChI=1S/Mg.O2/c;1-2/q+2;-2",
+        "standard_inchi_key": "SPAGIJMPHSUYSE-UHFFFAOYSA-N"
+      },
+      "molecule_synonyms": [
+        {
+          "molecule_synonym": "Drillox m",
+          "syn_type": "OTHER",
+          "synonyms": "DRILLOX M"
+        },
+        {
+          "molecule_synonym": "Magnesium dioxide",
+          "syn_type": "OTHER",
+          "synonyms": "MAGNESIUM DIOXIDE"
+        },
+        {
+          "molecule_synonym": "Magnesium perhydrol",
+          "syn_type": "OTHER",
+          "synonyms": "MAGNESIUM PERHYDROL"
+        },
+        {
+          "molecule_synonym": "Magnesium peroxide",
+          "syn_type": "ATC",
+          "synonyms": "MAGNESIUM PEROXIDE"
+        },
+        {
+          "molecule_synonym": "Magnesium superoxol",
+          "syn_type": "OTHER",
+          "synonyms": "MAGNESIUM SUPEROXOL"
+        }
+      ],
+      "molecule_type": "Small molecule",
+      "natural_product": 0,
+      "oral": false,
+      "orphan": 0,
+      "parenteral": false,
+      "polymer_flag": 0,
+      "pref_name": "MAGNESIUM PEROXIDE",
+      "prodrug": 0,
+      "score": 28.0,
+      "structure_type": "MOL",
+      "therapeutic_flag": false,
+      "topical": false,
+      "usan_stem": null,
+      "usan_stem_definition": null,
+      "usan_substem": null,
+      "usan_year": null,
+      "veterinary": 0,
+      "withdrawn_flag": false
+    },
+    {
+      "atc_classifications": [],
+      "availability_type": -1,
+      "biotherapeutic": null,
+      "black_box_warning": 0,
+      "chemical_probe": 0,
+      "chirality": -1,
+      "cross_references": [],
+      "dosed_ingredient": false,
+      "first_approval": null,
+      "first_in_class": -1,
+      "helm_notation": null,
+      "inorganic_flag": -1,
+      "max_phase": null,
+      "molecule_chembl_id": "CHEMBL4204760",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL4204760",
+        "molecule_chembl_id": "CHEMBL4204760",
+        "parent_chembl_id": "CHEMBL4204760"
+      },
+      "molecule_properties": {
+        "alogp": "4.85",
+        "aromatic_rings": 0,
+        "full_molformula": "C29H44O5",
+        "full_mwt": "472.67",
+        "hba": 5,
+        "hbd": 3,
+        "heavy_atoms": 34,
+        "mw_freebase": "472.67",
+        "np_likeness_score": "2.91",
+        "num_ro5_violations": 0,
+        "psa": "79.15",
+        "qed_weighted": "0.48",
+        "ro3_pass": "N",
+        "rtb": 1
+      },
+      "molecule_structures": {
+        "canonical_smiles": "CC1=C2C3=CC[C@@H]4[C@@]5(C)C[C@@H](O)[C@@H](O)[C@@](C)(CO)[C@@H]5CC[C@@]4(C)[C@]3(C)CC[C@@]23CC[C@]1(C)OO3",
+        "molfile": "\n     RDKit          2D\n\n 36 41  0  0  0  0  0  0  0  0999 V2000\n    4.1397   -7.9683    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.7478   -7.2836    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.3492   -7.9684    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.0653   -6.0914    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.0653   -6.8876    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.7534   -5.6912    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.4373   -6.0914    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.4362   -6.8876    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.1193   -7.2868    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.8104   -6.8926    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.1257   -5.6944    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.8099   -6.1002    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.8270   -4.5135    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.1296   -4.9023    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.5112   -4.9192    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.4986   -5.7098    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.1732   -6.1155    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.8672   -5.7334    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.1984   -4.5302    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.8774   -4.9417    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    8.5673   -4.5676    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    8.5875   -3.7756    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.9085   -3.3642    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.2134   -3.7405    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.3745   -7.2873    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    4.8263   -7.5701    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    4.4303   -5.2952    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.1191   -6.4895    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    5.8016   -5.3036    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.4904   -6.5042    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.5358   -3.3268    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.9309   -2.5683    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    8.8749   -3.3804    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    8.8475   -4.8255    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    2.3759   -5.6965    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    3.7423   -8.6580    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0\n  2  3  1  1\n  4  5  1  0\n  4  6  1  0\n  5  2  1  0\n  2  8  1  0\n  7  6  1  0\n  7  8  1  0\n  7 11  1  0\n  8  9  1  0\n  9 10  1  0\n 10 12  1  0\n 11 12  1  0\n 11 14  1  0\n 12 16  1  0\n 15 13  2  0\n 13 14  1  0\n 15 16  1  0\n 15 19  1  0\n 16 17  1  0\n 17 18  1  0\n 18 20  1  0\n 19 20  1  0\n 19 24  2  0\n 21 20  1  0\n 21 22  1  0\n 22 23  1  0\n 23 24  1  0\n  5 25  1  6\n  8 26  1  6\n  7 27  1  1\n 11 28  1  6\n 12 29  1  1\n 16 30  1  6\n 24 31  1  0\n 23 32  1  6\n 23 33  1  0\n 20 34  1  1\n 34 33  1  0\n  4 35  1  6\n  1 36  1  0\nM  END\n> <chembl_id>\nCHEMBL4204760\n\n> <chembl_pref_name>\nNone",
+        "standard_inchi": "InChI=1S/C29H44O5/c1-17-22-18-7-8-21-24(2)15-19(31)23(32)25(3,16-30)20(24)9-10-27(21,5)26(18,4)11-13-29(22)14-12-28(17,6)33-34-29/h7,19-21,23,30-32H,8-16H2,1-6H3/t19-,20-,21-,23-,24+,25+,26-,27-,28+,29-/m1/s1",
+        "standard_inchi_key": "LWWKEGHSAJFHQB-CPJZLKBRSA-N"
+      },
+      "molecule_synonyms": [],
+      "molecule_type": "Small molecule",
+      "natural_product": 1,
+      "oral": false,
+      "orphan": -1,
+      "parenteral": false,
+      "polymer_flag": 0,
+      "pref_name": null,
+      "prodrug": -1,
+      "score": 22.0,
+      "structure_type": "MOL",
+      "therapeutic_flag": false,
+      "topical": false,
+      "usan_stem": null,
+      "usan_stem_definition": null,
+      "usan_substem": null,
+      "usan_year": null,
+      "veterinary": -1,
+      "withdrawn_flag": false
+    },
+    {
+      "atc_classifications": [],
+      "availability_type": null,
+      "biotherapeutic": null,
+      "black_box_warning": 0,
+      "chemical_probe": 0,
+      "chirality": 2,
+      "cross_references": [],
+      "dosed_ingredient": false,
+      "first_approval": null,
+      "first_in_class": 0,
+      "helm_notation": null,
+      "inorganic_flag": 0,
+      "max_phase": "2.0",
+      "molecule_chembl_id": "CHEMBL4297766",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL4297766",
+        "molecule_chembl_id": "CHEMBL4297766",
+        "parent_chembl_id": "CHEMBL4297766"
+      },
+      "molecule_properties": null,
+      "molecule_structures": null,
+      "molecule_synonyms": [
+        {
+          "molecule_synonym": "Hydrogen",
+          "syn_type": "MERCK_INDEX",
+          "synonyms": "HYDROGEN"
+        },
+        {
+          "molecule_synonym": "Hydrogen",
+          "syn_type": "OTHER",
+          "synonyms": "HYDROGEN"
+        }
+      ],
+      "molecule_type": "Unknown",
+      "natural_product": 0,
+      "oral": false,
+      "orphan": 0,
+      "parenteral": false,
+      "polymer_flag": 0,
+      "pref_name": "HYDROGEN",
+      "prodrug": 0,
+      "score": 22.0,
+      "structure_type": "NONE",
+      "therapeutic_flag": false,
+      "topical": false,
+      "usan_stem": null,
+      "usan_stem_definition": null,
+      "usan_substem": null,
+      "usan_year": null,
+      "veterinary": 0,
+      "withdrawn_flag": false
+    },
+    {
+      "atc_classifications": [],
+      "availability_type": -1,
+      "biotherapeutic": null,
+      "black_box_warning": 0,
+      "chemical_probe": 0,
+      "chirality": -1,
+      "cross_references": [],
+      "dosed_ingredient": false,
+      "first_approval": null,
+      "first_in_class": -1,
+      "helm_notation": null,
+      "inorganic_flag": -1,
+      "max_phase": null,
+      "molecule_chembl_id": "CHEMBL1161699",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL1161699",
+        "molecule_chembl_id": "CHEMBL1161699",
+        "parent_chembl_id": "CHEMBL1161699"
+      },
+      "molecule_properties": {
+        "alogp": "-0.32",
+        "aromatic_rings": 0,
+        "full_molformula": "H2O3S",
+        "full_mwt": "82.08",
+        "hba": 1,
+        "hbd": 2,
+        "heavy_atoms": 4,
+        "mw_freebase": "82.08",
+        "np_likeness_score": "-0.03",
+        "num_ro5_violations": 0,
+        "psa": "57.53",
+        "qed_weighted": "0.39",
+        "ro3_pass": "Y",
+        "rtb": 0
+      },
+      "molecule_structures": {
+        "canonical_smiles": "O=S(O)O",
+        "molfile": "\n     RDKit          2D\n\n  4  3  0  0  0  0  0  0  0  0999 V2000\n    0.0001   -0.0001    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n    0.4126    0.7143    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    0.4126   -0.7146    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.8249   -0.0001    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  2  0\n  3  1  1  0\n  4  1  1  0\nM  END\n> <chembl_id>\nCHEMBL1161699\n\n> <chembl_pref_name>\nSULFUROUS ACID",
+        "standard_inchi": "InChI=1S/H2O3S/c1-4(2)3/h(H2,1,2,3)",
+        "standard_inchi_key": "LSNNMFCWUKXFEE-UHFFFAOYSA-N"
+      },
+      "molecule_synonyms": [],
+      "molecule_type": "Small molecule",
+      "natural_product": 1,
+      "oral": false,
+      "orphan": -1,
+      "parenteral": false,
+      "polymer_flag": 0,
+      "pref_name": "SULFUROUS ACID",
+      "prodrug": -1,
+      "score": 21.0,
+      "structure_type": "MOL",
+      "therapeutic_flag": false,
+      "topical": false,
+      "usan_stem": null,
+      "usan_stem_definition": null,
+      "usan_substem": null,
+      "usan_year": null,
+      "veterinary": -1,
+      "withdrawn_flag": false
+    },
+    {
+      "atc_classifications": [],
+      "availability_type": -1,
+      "biotherapeutic": null,
+      "black_box_warning": 0,
+      "chemical_probe": 0,
+      "chirality": -1,
+      "cross_references": [],
+      "dosed_ingredient": false,
+      "first_approval": null,
+      "first_in_class": -1,
+      "helm_notation": null,
+      "inorganic_flag": -1,
+      "max_phase": null,
+      "molecule_chembl_id": "CHEMBL2270408",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL2285758",
+        "molecule_chembl_id": "CHEMBL2270408",
+        "parent_chembl_id": "CHEMBL2285758"
+      },
+      "molecule_properties": {
+        "alogp": "1.31",
+        "aromatic_rings": 0,
+        "full_molformula": "C7H13NO4S2",
+        "full_mwt": "239.32",
+        "hba": 3,
+        "hbd": 0,
+        "heavy_atoms": 8,
+        "mw_freebase": "149.28",
+        "np_likeness_score": "0.81",
+        "num_ro5_violations": 0,
+        "psa": "3.24",
+        "qed_weighted": "0.52",
+        "ro3_pass": "Y",
+        "rtb": 1
+      },
+      "molecule_structures": {
+        "canonical_smiles": "CN(C)C1CSSC1.O=C(O)C(=O)O",
+        "molfile": "\n     RDKit          2D\n\n 14 13  0  0  0  0  0  0  0  0999 V2000\n   15.0426  -20.4068    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   14.2176  -20.4068    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   13.8051  -19.6909    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   13.8051  -21.1226    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.2176  -21.8343    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   12.9759  -21.1226    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   12.1180  -24.3283    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n   12.9430  -24.3283    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n   13.1979  -23.5436    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   12.5305  -23.0587    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   11.8631  -23.5436    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   12.5304  -22.2337    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   13.2449  -21.8211    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   11.8159  -21.8212    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0\n  2  3  2  0\n  2  4  1  0\n  4  5  2  0\n  4  6  1  0\n  7  8  1  0\n  8  9  1  0\n  9 10  1  0\n 10 11  1  0\n 11  7  1  0\n 10 12  1  0\n 12 13  1  0\n 12 14  1  0\nM  END\n> <chembl_id>\nCHEMBL2270408\n\n> <chembl_pref_name>\nNEREISTOXIN HYDROGEN OXALATE",
+        "standard_inchi": "InChI=1S/C5H11NS2.C2H2O4/c1-6(2)5-3-7-8-4-5;3-1(4)2(5)6/h5H,3-4H2,1-2H3;(H,3,4)(H,5,6)",
+        "standard_inchi_key": "CTHWFFMDTBCNNE-UHFFFAOYSA-N"
+      },
+      "molecule_synonyms": [],
+      "molecule_type": "Small molecule",
+      "natural_product": 0,
+      "oral": false,
+      "orphan": -1,
+      "parenteral": false,
+      "polymer_flag": 0,
+      "pref_name": "NEREISTOXIN HYDROGEN OXALATE",
+      "prodrug": -1,
+      "score": 20.0,
+      "structure_type": "MOL",
+      "therapeutic_flag": false,
+      "topical": false,
+      "usan_stem": null,
+      "usan_stem_definition": null,
+      "usan_substem": null,
+      "usan_year": null,
+      "veterinary": -1,
+      "withdrawn_flag": false
+    },
+    {
+      "atc_classifications": [],
+      "availability_type": -1,
+      "biotherapeutic": null,
+      "black_box_warning": 0,
+      "chemical_probe": 0,
+      "chirality": -1,
+      "cross_references": [],
+      "dosed_ingredient": false,
+      "first_approval": null,
+      "first_in_class": -1,
+      "helm_notation": null,
+      "inorganic_flag": -1,
+      "max_phase": null,
+      "molecule_chembl_id": "CHEMBL4209107",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL4209107",
+        "molecule_chembl_id": "CHEMBL4209107",
+        "parent_chembl_id": "CHEMBL4209107"
+      },
+      "molecule_properties": {
+        "alogp": "5.88",
+        "aromatic_rings": 0,
+        "full_molformula": "C29H44O4",
+        "full_mwt": "456.67",
+        "hba": 4,
+        "hbd": 2,
+        "heavy_atoms": 33,
+        "mw_freebase": "456.67",
+        "np_likeness_score": "2.75",
+        "num_ro5_violations": 1,
+        "psa": "58.92",
+        "qed_weighted": "0.48",
+        "ro3_pass": "N",
+        "rtb": 1
+      },
+      "molecule_structures": {
+        "canonical_smiles": "CC1=C2C3=CC[C@@H]4[C@@]5(C)CC[C@@H](O)[C@](C)(CO)[C@@H]5CC[C@@]4(C)[C@]3(C)CC[C@]23CC[C@@]1(C)OO3",
+        "molfile": "\n     RDKit          2D\n\n 35 40  0  0  0  0  0  0  0  0999 V2000\n    4.1762  -22.0440    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.7839  -21.3601    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.3850  -22.0442    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.1034  -20.1695    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.1034  -20.9655    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.7884  -19.7682    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.4712  -20.1695    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.4735  -20.9654    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.1509  -21.3610    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.8449  -20.9691    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.1609  -19.7733    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.8440  -20.1749    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.8625  -18.5919    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.1629  -18.9795    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.5456  -18.9977    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.5301  -19.7889    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.2066  -20.1905    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.9009  -19.8093    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.2294  -18.6057    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.9086  -19.0204    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    8.6006  -18.6434    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    8.6198  -17.8540    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.9406  -17.4434    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.2445  -17.8199    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.4099  -21.3617    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    4.8591  -21.6460    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    4.4644  -19.3735    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.1547  -20.5675    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    5.8352  -19.3784    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.5214  -20.5821    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.5675  -17.4059    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.9632  -16.6480    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    8.9070  -17.4605    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    8.8808  -18.9010    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    3.7913  -22.7498    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0\n  2  3  1  1\n  4  5  1  0\n  4  6  1  0\n  5  2  1  0\n  2  8  1  0\n  7  6  1  0\n  7  8  1  0\n  7 11  1  0\n  8  9  1  0\n  9 10  1  0\n 10 12  1  0\n 11 12  1  0\n 11 14  1  0\n 12 16  1  0\n 15 13  2  0\n 13 14  1  0\n 15 16  1  0\n 15 19  1  0\n 16 17  1  0\n 17 18  1  0\n 18 20  1  0\n 19 20  1  0\n 19 24  2  0\n 21 20  1  0\n 21 22  1  0\n 22 23  1  0\n 23 24  1  0\n  5 25  1  6\n  8 26  1  6\n  7 27  1  1\n 11 28  1  6\n 12 29  1  1\n 16 30  1  6\n 24 31  1  0\n 23 32  1  1\n 23 33  1  0\n 20 34  1  6\n 34 33  1  0\n  3 35  1  0\nM  END\n> <chembl_id>\nCHEMBL4209107\n\n> <chembl_pref_name>\nNone",
+        "standard_inchi": "InChI=1S/C29H44O4/c1-18-23-19-7-8-21-24(2)11-10-22(31)25(3,17-30)20(24)9-12-27(21,5)26(19,4)13-15-29(23)16-14-28(18,6)32-33-29/h7,20-22,30-31H,8-17H2,1-6H3/t20-,21-,22-,24+,25-,26-,27-,28-,29+/m1/s1",
+        "standard_inchi_key": "ZEYYXHRJJGPVFD-ZWCIYHLXSA-N"
+      },
+      "molecule_synonyms": [],
+      "molecule_type": "Small molecule",
+      "natural_product": 1,
+      "oral": false,
+      "orphan": -1,
+      "parenteral": false,
+      "polymer_flag": 0,
+      "pref_name": null,
+      "prodrug": -1,
+      "score": 20.0,
+      "structure_type": "MOL",
+      "therapeutic_flag": false,
+      "topical": false,
+      "usan_stem": null,
+      "usan_stem_definition": null,
+      "usan_substem": null,
+      "usan_year": null,
+      "veterinary": -1,
+      "withdrawn_flag": false
+    },
+    {
+      "atc_classifications": [],
+      "availability_type": -1,
+      "biotherapeutic": null,
+      "black_box_warning": 0,
+      "chemical_probe": 0,
+      "chirality": -1,
+      "cross_references": [],
+      "dosed_ingredient": false,
+      "first_approval": null,
+      "first_in_class": -1,
+      "helm_notation": null,
+      "inorganic_flag": -1,
+      "max_phase": null,
+      "molecule_chembl_id": "CHEMBL4209625",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL4209625",
+        "molecule_chembl_id": "CHEMBL4209625",
+        "parent_chembl_id": "CHEMBL4209625"
+      },
+      "molecule_properties": {
+        "alogp": "5.88",
+        "aromatic_rings": 0,
+        "full_molformula": "C29H44O4",
+        "full_mwt": "456.67",
+        "hba": 4,
+        "hbd": 2,
+        "heavy_atoms": 33,
+        "mw_freebase": "456.67",
+        "np_likeness_score": "2.75",
+        "num_ro5_violations": 1,
+        "psa": "58.92",
+        "qed_weighted": "0.48",
+        "ro3_pass": "N",
+        "rtb": 1
+      },
+      "molecule_structures": {
+        "canonical_smiles": "CC1=C2C3=CC[C@@H]4[C@@]5(C)CC[C@@H](O)[C@@](C)(CO)[C@@H]5CC[C@@]4(C)[C@]3(C)CC[C@@]23CC[C@]1(C)OO3",
+        "molfile": "\n     RDKit          2D\n\n 35 40  0  0  0  0  0  0  0  0999 V2000\n    4.4203  -14.4067    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.0285  -13.7221    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.6298  -14.4069    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.3460  -12.5299    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.3460  -13.3261    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.0340  -12.1296    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.7180  -12.5299    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.7168  -13.3261    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.4000  -13.7253    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.0911  -13.3311    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.4064  -12.1329    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.0905  -12.5387    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.1077  -10.9520    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.4103  -11.3408    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.7918  -11.3577    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.7792  -12.1482    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.4539  -12.5539    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    8.1479  -12.1719    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.4791  -10.9687    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    8.1581  -11.3802    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    8.8479  -11.0061    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    8.8682  -10.2141    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    8.1892   -9.8026    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.4941  -10.1790    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.6552  -13.7258    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    5.1070  -14.0086    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    4.7110  -11.7337    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.3998  -12.9280    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    6.0823  -11.7421    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.7710  -12.9427    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.8164   -9.7653    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    8.2116   -9.0068    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    9.1556   -9.8189    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    9.1282  -11.2639    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    4.0229  -15.0965    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0\n  2  3  1  1\n  4  5  1  0\n  4  6  1  0\n  5  2  1  0\n  2  8  1  0\n  7  6  1  0\n  7  8  1  0\n  7 11  1  0\n  8  9  1  0\n  9 10  1  0\n 10 12  1  0\n 11 12  1  0\n 11 14  1  0\n 12 16  1  0\n 15 13  2  0\n 13 14  1  0\n 15 16  1  0\n 15 19  1  0\n 16 17  1  0\n 17 18  1  0\n 18 20  1  0\n 19 20  1  0\n 19 24  2  0\n 21 20  1  0\n 21 22  1  0\n 22 23  1  0\n 23 24  1  0\n  5 25  1  6\n  8 26  1  6\n  7 27  1  1\n 11 28  1  6\n 12 29  1  1\n 16 30  1  6\n 24 31  1  0\n 23 32  1  6\n 23 33  1  0\n 20 34  1  1\n 34 33  1  0\n  1 35  1  0\nM  END\n> <chembl_id>\nCHEMBL4209625\n\n> <chembl_pref_name>\nNone",
+        "standard_inchi": "InChI=1S/C29H44O4/c1-18-23-19-7-8-21-24(2)11-10-22(31)25(3,17-30)20(24)9-12-27(21,5)26(19,4)13-15-29(23)16-14-28(18,6)32-33-29/h7,20-22,30-31H,8-17H2,1-6H3/t20-,21-,22-,24+,25+,26-,27-,28+,29-/m1/s1",
+        "standard_inchi_key": "ZEYYXHRJJGPVFD-YRLJVRQXSA-N"
+      },
+      "molecule_synonyms": [],
+      "molecule_type": "Small molecule",
+      "natural_product": 1,
+      "oral": false,
+      "orphan": -1,
+      "parenteral": false,
+      "polymer_flag": 0,
+      "pref_name": null,
+      "prodrug": -1,
+      "score": 20.0,
+      "structure_type": "MOL",
+      "therapeutic_flag": false,
+      "topical": false,
+      "usan_stem": null,
+      "usan_stem_definition": null,
+      "usan_substem": null,
+      "usan_year": null,
+      "veterinary": -1,
+      "withdrawn_flag": false
+    },
+    {
+      "atc_classifications": [],
+      "availability_type": -1,
+      "biotherapeutic": null,
+      "black_box_warning": 0,
+      "chemical_probe": 0,
+      "chirality": -1,
+      "cross_references": [],
+      "dosed_ingredient": false,
+      "first_approval": null,
+      "first_in_class": -1,
+      "helm_notation": null,
+      "inorganic_flag": -1,
+      "max_phase": null,
+      "molecule_chembl_id": "CHEMBL308104",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL308104",
+        "molecule_chembl_id": "CHEMBL308104",
+        "parent_chembl_id": "CHEMBL308104"
+      },
+      "molecule_properties": {
+        "alogp": "3.50",
+        "aromatic_rings": 1,
+        "full_molformula": "C23H29NO5",
+        "full_mwt": "399.49",
+        "hba": 6,
+        "hbd": 0,
+        "heavy_atoms": 29,
+        "mw_freebase": "399.49",
+        "np_likeness_score": "1.65",
+        "num_ro5_violations": 0,
+        "psa": "49.39",
+        "qed_weighted": "0.56",
+        "ro3_pass": "N",
+        "rtb": 5
+      },
+      "molecule_structures": {
+        "canonical_smiles": "COC1=CC=C2[C@H]3Cc4ccc(OC)c5c4[C@@]2(CCN3COOC(C)(C)C)[C@H]1O5",
+        "molfile": "\n     RDKit          2D\n\n 31 35  0  0  1  0  0  0  0  0999 V2000\n    4.0667   -2.7917    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.6917   -3.2417    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.1792   -1.9917    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.3292   -3.0667    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.5542   -1.4792    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.9292   -2.2292    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    5.4292   -2.9917    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.9167   -1.6792    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.5792   -4.0417    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.0292   -3.3792    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    5.5542   -2.1917    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.2167   -3.8542    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.8542   -4.3292    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.7042   -2.4292    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.6792   -0.7042    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.1417   -2.6417    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.0292   -0.8917    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.9792   -3.5167    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.4292   -0.3917    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    9.2292   -4.4042    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.3292   -4.4042    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    2.5792   -4.1167    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    8.2792   -4.4042    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    3.0417   -0.1917    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    9.7042   -3.5792    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    9.7042   -5.2167    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   10.1792   -4.4042    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.4792   -4.7917    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.1792    0.6833    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.3418   -2.5829    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    2.3407   -3.2180    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0\n  3  1  1  0\n  4  1  1  0\n  5  3  1  0\n  4  6  1  0\n  7  2  1  0\n  8  3  2  0\n  9  2  2  0\n 10 16  1  0\n 11  8  1  0\n 12  4  1  0\n 13 12  2  0\n  1 14  1  1\n 15  5  2  0\n 16 14  1  0\n 17  8  1  0\n 18 10  1  0\n 19 17  2  0\n 20 23  1  0\n 21 18  1  0\n 22 12  1  0\n 23 21  1  0\n 24 15  1  0\n 25 20  1  0\n 26 20  1  0\n 27 20  1  0\n 28 22  1  0\n 29 24  1  0\n  5  6  1  0\n  7 10  1  0\n  9 13  1  0\n  7 11  1  0\n 15 19  1  0\n  7 30  1  6\n  4 31  1  1\nM  END\n> <chembl_id>\nCHEMBL308104\n\n> <chembl_pref_name>\nNone",
+        "standard_inchi": "InChI=1S/C23H29NO5/c1-22(2,3)29-27-13-24-11-10-23-15-7-9-18(26-5)21(23)28-20-17(25-4)8-6-14(19(20)23)12-16(15)24/h6-9,16,21H,10-13H2,1-5H3/t16-,21+,23+/m1/s1",
+        "standard_inchi_key": "FTHZWFCSBZULIC-HNKPZJSLSA-N"
+      },
+      "molecule_synonyms": [],
+      "molecule_type": "Small molecule",
+      "natural_product": 0,
+      "oral": false,
+      "orphan": -1,
+      "parenteral": false,
+      "polymer_flag": 0,
+      "pref_name": null,
+      "prodrug": -1,
+      "score": 18.0,
+      "structure_type": "MOL",
+      "therapeutic_flag": false,
+      "topical": false,
+      "usan_stem": null,
+      "usan_stem_definition": null,
+      "usan_substem": null,
+      "usan_year": null,
+      "veterinary": -1,
+      "withdrawn_flag": false
+    },
+    {
+      "atc_classifications": [
+        "D10AB02",
+        "D11AC08"
+      ],
+      "availability_type": 0,
+      "biotherapeutic": null,
+      "black_box_warning": 0,
+      "chemical_probe": 0,
+      "chirality": 2,
+      "cross_references": [],
+      "dosed_ingredient": true,
+      "first_approval": 1982,
+      "first_in_class": 0,
+      "helm_notation": null,
+      "inorganic_flag": 0,
+      "max_phase": "4.0",
+      "molecule_chembl_id": "CHEMBL1235452",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL1235452",
+        "molecule_chembl_id": "CHEMBL1235452",
+        "parent_chembl_id": "CHEMBL1235452"
+      },
+      "molecule_properties": {
+        "alogp": "5.19",
+        "aromatic_rings": 0,
+        "full_molformula": "S8",
+        "full_mwt": "256.54",
+        "hba": 8,
+        "hbd": 0,
+        "heavy_atoms": 8,
+        "mw_freebase": "256.54",
+        "np_likeness_score": "0.45",
+        "num_ro5_violations": 1,
+        "psa": "0.00",
+        "qed_weighted": "0.54",
+        "ro3_pass": "N",
+        "rtb": 0
+      },
+      "molecule_structures": {
+        "canonical_smiles": "S1SSSSSSS1",
+        "molfile": "\n     RDKit          2D\n\n  8  8  0  0  0  0  0  0  0  0999 V2000\n    0.8977    1.8520    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n    0.3144    2.4353    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.5106    2.4353    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.0940    1.8520    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.0940    1.0270    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.5106    0.4436    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n    0.3144    0.4436    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n    0.8977    1.0270    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0\n  2  3  1  0\n  3  4  1  0\n  4  5  1  0\n  5  6  1  0\n  6  7  1  0\n  7  8  1  0\n  8  1  1  0\nM  END\n> <chembl_id>\nCHEMBL1235452\n\n> <chembl_pref_name>\nSULFUR",
+        "standard_inchi": "InChI=1S/S8/c1-2-4-6-8-7-5-3-1",
+        "standard_inchi_key": "JLQNHALFVCURHW-UHFFFAOYSA-N"
+      },
+      "molecule_synonyms": [
+        {
+          "molecule_synonym": "Acnaveen",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "ACNAVEEN"
+        },
+        {
+          "molecule_synonym": "Acnil",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "ACNIL"
+        },
+        {
+          "molecule_synonym": ".alpha.-sulfur",
+          "syn_type": "OTHER",
+          "synonyms": ".ALPHA.-SULFUR"
+        },
+        {
+          "molecule_synonym": "Bensulfoid",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "BENSULFOID"
+        },
+        {
+          "molecule_synonym": "Colloidal sulfur",
+          "syn_type": "OTHER",
+          "synonyms": "COLLOIDAL SULFUR"
+        },
+        {
+          "molecule_synonym": "Colloidal sulphur",
+          "syn_type": "OTHER",
+          "synonyms": "COLLOIDAL SULPHUR"
+        },
+        {
+          "molecule_synonym": "Cuticura",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "CUTICURA"
+        },
+        {
+          "molecule_synonym": "Dome-acne",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "DOME-ACNE"
+        },
+        {
+          "molecule_synonym": "Eskamel",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "ESKAMEL"
+        },
+        {
+          "molecule_synonym": "Liu huang",
+          "syn_type": "OTHER",
+          "synonyms": "LIU HUANG"
+        },
+        {
+          "molecule_synonym": "Meted",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "METED"
+        },
+        {
+          "molecule_synonym": "NSC-403664",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "NSC-403664"
+        },
+        {
+          "molecule_synonym": "NSC-603623",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "NSC-603623"
+        },
+        {
+          "molecule_synonym": "Orthorhombic sulfur",
+          "syn_type": "OTHER",
+          "synonyms": "ORTHORHOMBIC SULFUR"
+        },
+        {
+          "molecule_synonym": "Sulfur",
+          "syn_type": "ATC",
+          "synonyms": "SULFUR"
+        },
+        {
+          "molecule_synonym": "Sulfur",
+          "syn_type": "BNF",
+          "synonyms": "SULFUR"
+        },
+        {
+          "molecule_synonym": "Sulfur",
+          "syn_type": "FDA",
+          "synonyms": "SULFUR"
+        },
+        {
+          "molecule_synonym": "Sulfur",
+          "syn_type": "OTHER",
+          "synonyms": "SULFUR"
+        },
+        {
+          "molecule_synonym": "Sulfur, colloidal",
+          "syn_type": "OTHER",
+          "synonyms": "SULFUR, COLLOIDAL"
+        },
+        {
+          "molecule_synonym": "Sulfur,colloidal",
+          "syn_type": "OTHER",
+          "synonyms": "SULFUR,COLLOIDAL"
+        },
+        {
+          "molecule_synonym": "Sulfur compounds",
+          "syn_type": "ATC",
+          "synonyms": "SULFUR COMPOUNDS"
+        },
+        {
+          "molecule_synonym": "Sulfur,micronized",
+          "syn_type": "OTHER",
+          "synonyms": "SULFUR,MICRONIZED"
+        },
+        {
+          "molecule_synonym": "Sulfur, pharmaceutical",
+          "syn_type": "MERCK_INDEX",
+          "synonyms": "SULFUR, PHARMACEUTICAL"
+        },
+        {
+          "molecule_synonym": "Sulfur precipitated",
+          "syn_type": "BNF",
+          "synonyms": "SULFUR PRECIPITATED"
+        },
+        {
+          "molecule_synonym": "Sulfur, precipitated",
+          "syn_type": "USP",
+          "synonyms": "SULFUR, PRECIPITATED"
+        },
+        {
+          "molecule_synonym": "Sulfur,precipitated",
+          "syn_type": "OTHER",
+          "synonyms": "SULFUR,PRECIPITATED"
+        },
+        {
+          "molecule_synonym": "Sulfur (s8)",
+          "syn_type": "OTHER",
+          "synonyms": "SULFUR (S8)"
+        },
+        {
+          "molecule_synonym": "Sulfur, sublimed",
+          "syn_type": "USP",
+          "synonyms": "SULFUR, SUBLIMED"
+        },
+        {
+          "molecule_synonym": "Sulfur,sublimed",
+          "syn_type": "OTHER",
+          "synonyms": "SULFUR,SUBLIMED"
+        },
+        {
+          "molecule_synonym": "Sulphur",
+          "syn_type": "OTHER",
+          "synonyms": "SULPHUR"
+        }
+      ],
+      "molecule_type": "Small molecule",
+      "natural_product": 1,
+      "oral": false,
+      "orphan": 0,
+      "parenteral": false,
+      "polymer_flag": 0,
+      "pref_name": "SULFUR",
+      "prodrug": 0,
+      "score": 18.0,
+      "structure_type": "MOL",
+      "therapeutic_flag": false,
+      "topical": true,
+      "usan_stem": null,
+      "usan_stem_definition": null,
+      "usan_substem": null,
+      "usan_year": null,
+      "veterinary": 0,
+      "withdrawn_flag": false
+    },
+    {
+      "atc_classifications": [],
+      "availability_type": -1,
+      "biotherapeutic": null,
+      "black_box_warning": 0,
+      "chemical_probe": 0,
+      "chirality": -1,
+      "cross_references": [],
+      "dosed_ingredient": false,
+      "first_approval": null,
+      "first_in_class": -1,
+      "helm_notation": null,
+      "inorganic_flag": -1,
+      "max_phase": null,
+      "molecule_chembl_id": "CHEMBL1922604",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL205338",
+        "molecule_chembl_id": "CHEMBL1922604",
+        "parent_chembl_id": "CHEMBL205338"
+      },
+      "molecule_properties": {
+        "alogp": "-0.21",
+        "aromatic_rings": 0,
+        "full_molformula": "C5H11NNaO5P",
+        "full_mwt": "219.11",
+        "hba": 3,
+        "hbd": 3,
+        "heavy_atoms": 12,
+        "mw_freebase": "197.13",
+        "np_likeness_score": "0.81",
+        "num_ro5_violations": 0,
+        "psa": "98.07",
+        "qed_weighted": "0.33",
+        "ro3_pass": "N",
+        "rtb": 4
+      },
+      "molecule_structures": {
+        "canonical_smiles": "CC(=O)N(O)CCCP(=O)([O-])O.[Na+]",
+        "molfile": "\n     RDKit          2D\n\n 13 11  0  0  0  0  0  0  0  0999 V2000\n    7.3292    0.1583    0.0000 Na  0  0  0  0  0 15  0  0  0  0  0  0\n    4.2583    2.0000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    4.9728    1.5875    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.5439    1.5875    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.5439    0.7625    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    4.2583    2.8250    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    5.6873    2.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.4017    1.5875    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.1162    2.0000    0.0000 P   0  0  0  0  0  0  0  0  0  0  0  0\n    7.8307    1.5875    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    7.1162    2.8250    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    7.1083    1.1750    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    2.8294    2.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  2  4  1  0\n  7  8  1  0\n  8  9  1  0\n  4  5  2  0\n  9 10  1  0\n  2  3  1  0\n  9 11  2  0\n  2  6  1  0\n  9 12  1  0\n  4 13  1  0\n  3  7  1  0\nM  CHG  2   1   1  10  -1\nM  END\n> <chembl_id>\nCHEMBL1922604\n\n> <chembl_pref_name>\nNone",
+        "standard_inchi": "InChI=1S/C5H12NO5P.Na/c1-5(7)6(8)3-2-4-12(9,10)11;/h8H,2-4H2,1H3,(H2,9,10,11);/q;+1/p-1",
+        "standard_inchi_key": "LCFXFDGYDKNWMD-UHFFFAOYSA-M"
+      },
+      "molecule_synonyms": [],
+      "molecule_type": "Small molecule",
+      "natural_product": 0,
+      "oral": false,
+      "orphan": -1,
+      "parenteral": false,
+      "polymer_flag": 0,
+      "pref_name": null,
+      "prodrug": -1,
+      "score": 18.0,
+      "structure_type": "MOL",
+      "therapeutic_flag": false,
+      "topical": false,
+      "usan_stem": null,
+      "usan_stem_definition": null,
+      "usan_substem": null,
+      "usan_year": null,
+      "veterinary": -1,
+      "withdrawn_flag": false
+    },
+    {
+      "atc_classifications": [],
+      "availability_type": -1,
+      "biotherapeutic": null,
+      "black_box_warning": 0,
+      "chemical_probe": 0,
+      "chirality": -1,
+      "cross_references": [],
+      "dosed_ingredient": false,
+      "first_approval": null,
+      "first_in_class": -1,
+      "helm_notation": null,
+      "inorganic_flag": -1,
+      "max_phase": null,
+      "molecule_chembl_id": "CHEMBL3305928",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL3305928",
+        "molecule_chembl_id": "CHEMBL3305928",
+        "parent_chembl_id": "CHEMBL3305928"
+      },
+      "molecule_properties": {
+        "alogp": "1.53",
+        "aromatic_rings": 0,
+        "full_molformula": "C6H13O4P",
+        "full_mwt": "180.14",
+        "hba": 3,
+        "hbd": 1,
+        "heavy_atoms": 11,
+        "mw_freebase": "180.14",
+        "np_likeness_score": "0.40",
+        "num_ro5_violations": 0,
+        "psa": "63.60",
+        "qed_weighted": "0.51",
+        "ro3_pass": "N",
+        "rtb": 5
+      },
+      "molecule_structures": {
+        "canonical_smiles": "CCCCOP(=O)(O)C(C)=O",
+        "molfile": "\n     RDKit          2D\n\n 11 10  0  0  0  0  0  0  0  0999 V2000\n    4.7081  -12.5292    0.0000 P   0  0  0  0  0  0  0  0  0  0  0  0\n    5.5331  -12.5292    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    5.1206  -11.8147    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    3.2791  -12.5292    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.9936  -12.1167    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.9936  -11.2917    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    4.7081  -13.3542    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    5.9456  -13.2436    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.7706  -13.2436    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.1831  -13.9581    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    8.0081  -13.9581    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0\n  1  3  2  0\n  4  5  1  0\n  5  1  1  0\n  5  6  2  0\n  1  7  1  0\n  2  8  1  0\n  8  9  1  0\n  9 10  1  0\n 10 11  1  0\nM  END\n> <chembl_id>\nCHEMBL3305928\n\n> <chembl_pref_name>\nNone",
+        "standard_inchi": "InChI=1S/C6H13O4P/c1-3-4-5-10-11(8,9)6(2)7/h3-5H2,1-2H3,(H,8,9)",
+        "standard_inchi_key": "JGFBWABEUCASTP-UHFFFAOYSA-N"
+      },
+      "molecule_synonyms": [],
+      "molecule_type": "Small molecule",
+      "natural_product": 0,
+      "oral": false,
+      "orphan": -1,
+      "parenteral": false,
+      "polymer_flag": 0,
+      "pref_name": null,
+      "prodrug": -1,
+      "score": 18.0,
+      "structure_type": "MOL",
+      "therapeutic_flag": false,
+      "topical": false,
+      "usan_stem": null,
+      "usan_stem_definition": null,
+      "usan_substem": null,
+      "usan_year": null,
+      "veterinary": -1,
+      "withdrawn_flag": false
+    },
+    {
+      "atc_classifications": [],
+      "availability_type": -1,
+      "biotherapeutic": null,
+      "black_box_warning": 0,
+      "chemical_probe": 0,
+      "chirality": -1,
+      "cross_references": [],
+      "dosed_ingredient": false,
+      "first_approval": null,
+      "first_in_class": -1,
+      "helm_notation": null,
+      "inorganic_flag": -1,
+      "max_phase": null,
+      "molecule_chembl_id": "CHEMBL3306297",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL3306297",
+        "molecule_chembl_id": "CHEMBL3306297",
+        "parent_chembl_id": "CHEMBL3306297"
+      },
+      "molecule_properties": {
+        "alogp": "0.75",
+        "aromatic_rings": 0,
+        "full_molformula": "C4H9O4P",
+        "full_mwt": "152.09",
+        "hba": 3,
+        "hbd": 1,
+        "heavy_atoms": 9,
+        "mw_freebase": "152.09",
+        "np_likeness_score": "0.28",
+        "num_ro5_violations": 0,
+        "psa": "63.60",
+        "qed_weighted": "0.61",
+        "ro3_pass": "N",
+        "rtb": 3
+      },
+      "molecule_structures": {
+        "canonical_smiles": "CCOP(=O)(O)C(C)=O",
+        "molfile": "\n     RDKit          2D\n\n  9  8  0  0  0  0  0  0  0  0999 V2000\n    4.7081  -12.5293    0.0000 P   0  0  0  0  0  0  0  0  0  0  0  0\n    5.5331  -12.5293    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    5.1206  -11.8148    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    3.2792  -12.5293    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.9936  -12.1168    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.9936  -11.2917    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    4.7081  -13.3543    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    5.9456  -13.2437    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.7706  -13.2437    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0\n  1  3  2  0\n  4  5  1  0\n  5  1  1  0\n  5  6  2  0\n  1  7  1  0\n  2  8  1  0\n  8  9  1  0\nM  END\n> <chembl_id>\nCHEMBL3306297\n\n> <chembl_pref_name>\nNone",
+        "standard_inchi": "InChI=1S/C4H9O4P/c1-3-8-9(6,7)4(2)5/h3H2,1-2H3,(H,6,7)",
+        "standard_inchi_key": "WUXJCOASEDOVAS-UHFFFAOYSA-N"
+      },
+      "molecule_synonyms": [],
+      "molecule_type": "Small molecule",
+      "natural_product": 0,
+      "oral": false,
+      "orphan": -1,
+      "parenteral": false,
+      "polymer_flag": 0,
+      "pref_name": null,
+      "prodrug": -1,
+      "score": 18.0,
+      "structure_type": "MOL",
+      "therapeutic_flag": false,
+      "topical": false,
+      "usan_stem": null,
+      "usan_stem_definition": null,
+      "usan_substem": null,
+      "usan_year": null,
+      "veterinary": -1,
+      "withdrawn_flag": false
+    },
+    {
+      "atc_classifications": [],
+      "availability_type": -1,
+      "biotherapeutic": null,
+      "black_box_warning": 0,
+      "chemical_probe": 0,
+      "chirality": -1,
+      "cross_references": [],
+      "dosed_ingredient": false,
+      "first_approval": null,
+      "first_in_class": -1,
+      "helm_notation": null,
+      "inorganic_flag": -1,
+      "max_phase": null,
+      "molecule_chembl_id": "CHEMBL97389",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL1205446",
+        "molecule_chembl_id": "CHEMBL97389",
+        "parent_chembl_id": "CHEMBL1205446"
+      },
+      "molecule_properties": {
+        "alogp": "0.67",
+        "aromatic_rings": 0,
+        "full_molformula": "C5H11NNaO4P",
+        "full_mwt": "203.11",
+        "hba": 2,
+        "hbd": 3,
+        "heavy_atoms": 11,
+        "mw_freebase": "181.13",
+        "np_likeness_score": "-0.04",
+        "num_ro5_violations": 0,
+        "psa": "86.63",
+        "qed_weighted": "0.44",
+        "ro3_pass": "N",
+        "rtb": 4
+      },
+      "molecule_structures": {
+        "canonical_smiles": "CCCCNC(=O)P(=O)([O-])O.[Na+]",
+        "molfile": "\n     RDKit          2D\n\n 12 10  0  0  0  0  0  0  0  0999 V2000\n    5.2792    1.2833    0.0000 Na  0  0  0  0  0 15  0  0  0  0  0  0\n    3.1875   -1.2792    0.0000 P   0  0  0  0  0  0  0  0  0  0  0  0\n    3.9000   -0.8750    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.4750   -0.8667    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    3.1792   -0.4542    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    3.9000   -0.0417    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    4.6167   -1.2875    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    3.1875   -2.1167    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    5.3292   -0.8667    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.0417   -1.2792    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.7542   -0.8667    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.4750   -1.2792    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  3  2  1  0\n  4  2  1  0\n  5  2  2  0\n  6  3  2  0\n  7  3  1  0\n  8  2  1  0\n  9  7  1  0\n 10  9  1  0\n 11 10  1  0\n 12 11  1  0\nM  CHG  2   1   1   4  -1\nM  END\n> <chembl_id>\nCHEMBL97389\n\n> <chembl_pref_name>\nSODIUM HYDROGEN (BUTYLAMINO)CARBONYLPHOSPHONATE",
+        "standard_inchi": "InChI=1S/C5H12NO4P.Na/c1-2-3-4-6-5(7)11(8,9)10;/h2-4H2,1H3,(H,6,7)(H2,8,9,10);/q;+1/p-1",
+        "standard_inchi_key": "XZWWCSRZYGUJCH-UHFFFAOYSA-M"
+      },
+      "molecule_synonyms": [],
+      "molecule_type": "Small molecule",
+      "natural_product": 0,
+      "oral": false,
+      "orphan": -1,
+      "parenteral": false,
+      "polymer_flag": 0,
+      "pref_name": "SODIUM HYDROGEN (BUTYLAMINO)CARBONYLPHOSPHONATE",
+      "prodrug": -1,
+      "score": 17.0,
+      "structure_type": "MOL",
+      "therapeutic_flag": false,
+      "topical": false,
+      "usan_stem": null,
+      "usan_stem_definition": null,
+      "usan_substem": null,
+      "usan_year": null,
+      "veterinary": -1,
+      "withdrawn_flag": false
+    },
+    {
+      "atc_classifications": [],
+      "availability_type": -1,
+      "biotherapeutic": null,
+      "black_box_warning": 0,
+      "chemical_probe": 0,
+      "chirality": -1,
+      "cross_references": [],
+      "dosed_ingredient": false,
+      "first_approval": null,
+      "first_in_class": -1,
+      "helm_notation": null,
+      "inorganic_flag": -1,
+      "max_phase": null,
+      "molecule_chembl_id": "CHEMBL350209",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL350209",
+        "molecule_chembl_id": "CHEMBL350209",
+        "parent_chembl_id": "CHEMBL350209"
+      },
+      "molecule_properties": {
+        "alogp": "-0.80",
+        "aromatic_rings": 0,
+        "full_molformula": "C4H12NO3P",
+        "full_mwt": "153.12",
+        "hba": 2,
+        "hbd": 1,
+        "heavy_atoms": 9,
+        "mw_freebase": "153.12",
+        "np_likeness_score": "0.48",
+        "num_ro5_violations": 0,
+        "psa": "60.36",
+        "qed_weighted": "0.42",
+        "ro3_pass": "N",
+        "rtb": 2
+      },
+      "molecule_structures": {
+        "canonical_smiles": "C[N+](C)(C)CP(=O)([O-])O",
+        "molfile": "\n     RDKit          2D\n\n  9  8  0  0  0  0  0  0  0  0999 V2000\n    6.3167   -6.4625    0.0000 P   0  0  0  0  0  0  0  0  0  0  0  0\n    5.6000   -6.8750    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.8792   -6.4625    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    7.0250   -6.0375    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    5.9000   -5.7417    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    6.7250   -7.1667    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    4.8792   -5.6375    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.0792   -6.2375    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.1750   -6.8750    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0\n  3  2  1  0\n  4  1  1  0\n  5  1  2  0\n  6  1  1  0\n  7  3  1  0\n  8  3  1  0\n  9  3  1  0\nM  CHG  2   3   1   4  -1\nM  END\n> <chembl_id>\nCHEMBL350209\n\n> <chembl_pref_name>\nHYDROGEN (TRIMETHYLAMMONIO)METHYLPHOSPHONATE",
+        "standard_inchi": "InChI=1S/C4H12NO3P/c1-5(2,3)4-9(6,7)8/h4H2,1-3H3,(H-,6,7,8)",
+        "standard_inchi_key": "WYKNNRXUNHJPDJ-UHFFFAOYSA-N"
+      },
+      "molecule_synonyms": [],
+      "molecule_type": "Small molecule",
+      "natural_product": 0,
+      "oral": false,
+      "orphan": -1,
+      "parenteral": false,
+      "polymer_flag": 0,
+      "pref_name": "HYDROGEN (TRIMETHYLAMMONIO)METHYLPHOSPHONATE",
+      "prodrug": -1,
+      "score": 17.0,
+      "structure_type": "MOL",
+      "therapeutic_flag": false,
+      "topical": false,
+      "usan_stem": null,
+      "usan_stem_definition": null,
+      "usan_substem": null,
+      "usan_year": null,
+      "veterinary": -1,
+      "withdrawn_flag": false
+    },
+    {
+      "atc_classifications": [],
+      "availability_type": -1,
+      "biotherapeutic": null,
+      "black_box_warning": 0,
+      "chemical_probe": 0,
+      "chirality": -1,
+      "cross_references": [],
+      "dosed_ingredient": false,
+      "first_approval": null,
+      "first_in_class": -1,
+      "helm_notation": null,
+      "inorganic_flag": -1,
+      "max_phase": null,
+      "molecule_chembl_id": "CHEMBL79455",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL79455",
+        "molecule_chembl_id": "CHEMBL79455",
+        "parent_chembl_id": "CHEMBL79455"
+      },
+      "molecule_properties": {
+        "alogp": "0.87",
+        "aromatic_rings": 0,
+        "full_molformula": "N3-",
+        "full_mwt": "42.02",
+        "hba": 0,
+        "hbd": 0,
+        "heavy_atoms": 3,
+        "mw_freebase": "42.02",
+        "np_likeness_score": "0.56",
+        "num_ro5_violations": 0,
+        "psa": "58.70",
+        "qed_weighted": "0.22",
+        "ro3_pass": "Y",
+        "rtb": 0
+      },
+      "molecule_structures": {
+        "canonical_smiles": "[N-]=[N+]=[N-]",
+        "molfile": "\n     RDKit          2D\n\n  3  2  0  0  0  0  0  0  0  0999 V2000\n   -0.8250   -0.4125    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000   -0.4125    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    0.8250   -0.4125    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0\n  2  3  2  0\nM  CHG  3   1  -1   2   1   3  -1\nM  END\n> <chembl_id>\nCHEMBL79455\n\n> <chembl_pref_name>\nNone",
+        "standard_inchi": "InChI=1S/N3/c1-3-2/q-1",
+        "standard_inchi_key": "IVRMZWNICZWHMI-UHFFFAOYSA-N"
+      },
+      "molecule_synonyms": [],
+      "molecule_type": "Small molecule",
+      "natural_product": 0,
+      "oral": false,
+      "orphan": -1,
+      "parenteral": false,
+      "polymer_flag": 0,
+      "pref_name": null,
+      "prodrug": -1,
+      "score": 17.0,
+      "structure_type": "MOL",
+      "therapeutic_flag": false,
+      "topical": false,
+      "usan_stem": null,
+      "usan_stem_definition": null,
+      "usan_substem": null,
+      "usan_year": null,
+      "veterinary": -1,
+      "withdrawn_flag": false
+    },
+    {
+      "atc_classifications": [],
+      "availability_type": -1,
+      "biotherapeutic": null,
+      "black_box_warning": 0,
+      "chemical_probe": 0,
+      "chirality": -1,
+      "cross_references": [],
+      "dosed_ingredient": false,
+      "first_approval": null,
+      "first_in_class": -1,
+      "helm_notation": null,
+      "inorganic_flag": -1,
+      "max_phase": null,
+      "molecule_chembl_id": "CHEMBL227517",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL227517",
+        "molecule_chembl_id": "CHEMBL227517",
+        "parent_chembl_id": "CHEMBL227517"
+      },
+      "molecule_properties": {
+        "alogp": "2.45",
+        "aromatic_rings": 1,
+        "full_molformula": "C10H15O3P",
+        "full_mwt": "214.20",
+        "hba": 2,
+        "hbd": 1,
+        "heavy_atoms": 14,
+        "mw_freebase": "214.20",
+        "np_likeness_score": "0.24",
+        "num_ro5_violations": 0,
+        "psa": "46.53",
+        "qed_weighted": "0.77",
+        "ro3_pass": "N",
+        "rtb": 5
+      },
+      "molecule_structures": {
+        "canonical_smiles": "CCOP(=O)(O)CCc1ccccc1",
+        "molfile": "\n     RDKit          2D\n\n 14 14  0  0  0  0  0  0  0  0999 V2000\n    5.4027   -2.7208    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.4016   -3.5482    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.1164   -3.9610    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.8328   -3.5477    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.8300   -2.7172    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.1146   -2.3080    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.5429   -2.3020    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    8.2589   -2.7118    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    8.9718   -2.2966    0.0000 P   0  0  0  0  0  0  0  0  0  0  0  0\n    9.6833   -1.8792    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    9.3881   -3.0088    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    8.5556   -1.5843    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   10.4007   -2.2867    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   11.1122   -1.8692    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  5  7  1  0\n  3  4  2  0\n  7  8  1  0\n  8  9  1  0\n  4  5  1  0\n  9 10  1  0\n  2  3  1  0\n  9 11  1  0\n  5  6  2  0\n  9 12  2  0\n  6  1  1  0\n 10 13  1  0\n  1  2  2  0\n 13 14  1  0\nM  END\n> <chembl_id>\nCHEMBL227517\n\n> <chembl_pref_name>\nNone",
+        "standard_inchi": "InChI=1S/C10H15O3P/c1-2-13-14(11,12)9-8-10-6-4-3-5-7-10/h3-7H,2,8-9H2,1H3,(H,11,12)",
+        "standard_inchi_key": "GZUDEZNVOZREBO-UHFFFAOYSA-N"
+      },
+      "molecule_synonyms": [],
+      "molecule_type": "Small molecule",
+      "natural_product": 0,
+      "oral": false,
+      "orphan": -1,
+      "parenteral": false,
+      "polymer_flag": 0,
+      "pref_name": null,
+      "prodrug": -1,
+      "score": 17.0,
+      "structure_type": "MOL",
+      "therapeutic_flag": false,
+      "topical": false,
+      "usan_stem": null,
+      "usan_stem_definition": null,
+      "usan_substem": null,
+      "usan_year": null,
+      "veterinary": -1,
+      "withdrawn_flag": false
+    }
+  ],
+  "page_meta": {
+    "limit": 20,
+    "next": "/chembl/api/data/molecule/search.json?limit=20&offset=20&q=Hydrogen+peroxide",
+    "offset": 0,
+    "previous": null,
+    "total_count": 1492
+  }
+}

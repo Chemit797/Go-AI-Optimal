@@ -1,0 +1,746 @@
+# M7/M8 schedule-confounded discovery screen.  Every primary candidate uses
+# two folds, seed 42, 12 total epochs and the same five leakage-safe regimes,
+# but universal/expert update counts differ. It cannot promote a model.
+# Scores produced by this matrix are LOCAL STRICT OOF, never official GOAI PSS.
+# M8 semantic tasks are explicitly RESEARCH candidate-identity experiments;
+# they cannot be presented as verified-identity confirmation results.
+# Workload: 22 primary candidates * 14 fits + 10 one-regime scale candidates
+# * 2 fits = 328 fold fits total.
+base_config: ../../experiments/m7_general_only.yaml
+fold_seed: 42
+n_folds: 2
+cpu_threads_per_job: 8
+protocol_label: LOCAL_STRICT_OOF_NOT_OFFICIAL
+promotion_eligible: false
+schedule_confounded: true
+
+core_scenarios: &core_scenarios [R00, R10, R01, R11, RT]
+registry_gate: &registry_gate
+  chemical_registry: data/processed/entities/chemical_registry.tsv
+  strain_registry: data/processed/entities/strain_registry.tsv
+  chemical_parent_views: data/processed/entities/chemical_parent_normalized_views.tsv
+  allow_proxy_semantics: false
+  chemical_structure_view: exact
+  semantic_identity_policy: research_allow_candidate
+  # Quick candidate-identity screens are explicitly research-only and may
+  # explore evidence before it satisfies the formal verified-only gate.
+  semantic_training_coverage_required: false
+quick_general: &quick_general
+  epochs: 12
+  universal_epochs: 9
+  strain_expert_epochs: 0
+  chemical_expert_epochs: 0
+  pair_expert_epochs: 0
+  joint_learning_rate_scale: 0.2
+
+experiments:
+  - id: SCR-M7.0-GENERAL
+    kind: model_screen
+    model_id: M7.0
+    priority: 0
+    scenarios: *core_scenarios
+    seeds: [42]
+    overrides:
+      model: *quick_general
+
+  - id: SCR-M7.1-STRAIN
+    kind: model_screen
+    model_id: M7.1
+    priority: 1
+    scenarios: *core_scenarios
+    seeds: [42]
+    overrides:
+      model:
+        <<: *quick_general
+        universal_epochs: 7
+        strain_expert_epochs: 2
+        background_strain_expert_enabled: true
+        response_strain_expert_enabled: true
+        entity_dropout: 0.25
+
+  - id: SCR-M7.2-CHEMICAL
+    kind: model_screen
+    model_id: M7.2
+    priority: 1
+    scenarios: *core_scenarios
+    seeds: [42]
+    overrides:
+      model:
+        <<: *quick_general
+        universal_epochs: 7
+        chemical_expert_epochs: 2
+        response_chemical_expert_enabled: true
+        entity_dropout: 0.25
+
+  - id: SCR-M7.2-CHEM-PROTOTYPE
+    kind: model_screen
+    model_id: M7.2-prototype
+    priority: 1
+    scenarios: *core_scenarios
+    seeds: [42]
+    overrides:
+      model:
+        <<: *quick_general
+        universal_epochs: 7
+        chemical_expert_epochs: 2
+        response_chemical_expert_enabled: true
+        response_prior_mode: chemical
+        response_prior_alpha: 4.0
+        response_prior_learnable_scale: false
+        entity_dropout: 0.25
+
+  - id: SCR-M7.3-ENTITIES
+    kind: model_screen
+    model_id: M7.3
+    priority: 2
+    scenarios: *core_scenarios
+    seeds: [42]
+    overrides: &quick_m73
+      model:
+        <<: *quick_general
+        universal_epochs: 5
+        strain_expert_epochs: 2
+        chemical_expert_epochs: 2
+        background_strain_expert_enabled: true
+        response_strain_expert_enabled: true
+        response_chemical_expert_enabled: true
+        entity_dropout: 0.25
+
+  - id: SCR-M7.3-ENTITIES-PROTOTYPE
+    kind: model_screen
+    model_id: M7.3-prototype
+    priority: 2
+    scenarios: *core_scenarios
+    seeds: [42]
+    overrides:
+      model:
+        <<: *quick_general
+        universal_epochs: 5
+        strain_expert_epochs: 2
+        chemical_expert_epochs: 2
+        background_strain_expert_enabled: true
+        response_strain_expert_enabled: true
+        response_chemical_expert_enabled: true
+        response_prior_mode: chemical
+        response_prior_alpha: 4.0
+        response_prior_learnable_scale: false
+        entity_dropout: 0.25
+
+  - id: SCR-M7.4-PAIR
+    kind: model_screen
+    model_id: M7.4
+    priority: 2
+    scenarios: *core_scenarios
+    seeds: [42]
+    overrides:
+      model:
+        <<: *quick_general
+        universal_epochs: 4
+        strain_expert_epochs: 2
+        chemical_expert_epochs: 2
+        pair_expert_epochs: 1
+        background_strain_expert_enabled: true
+        response_strain_expert_enabled: true
+        response_chemical_expert_enabled: true
+        response_pair_expert_enabled: true
+        entity_dropout: 0.25
+
+  - id: SCR-M7.4-PAIR-PROTOTYPE
+    kind: model_screen
+    model_id: M7.4-prototype
+    priority: 2
+    scenarios: *core_scenarios
+    seeds: [42]
+    overrides:
+      model:
+        <<: *quick_general
+        universal_epochs: 4
+        strain_expert_epochs: 2
+        chemical_expert_epochs: 2
+        pair_expert_epochs: 1
+        background_strain_expert_enabled: true
+        response_strain_expert_enabled: true
+        response_chemical_expert_enabled: true
+        response_pair_expert_enabled: true
+        response_prior_mode: chemical
+        response_prior_alpha: 4.0
+        response_prior_learnable_scale: false
+        entity_dropout: 0.25
+
+  # Formulation-policy sensitivity: exact-only, parent-normalized, and
+  # explicit zero vectors for risky parent/proxy mappings.
+  - id: SCR-M8.0-MORGAN-EXACT
+    kind: model_screen
+    semantic_scope: RESEARCH_CANDIDATE_SEMANTICS
+    model_id: M8.0-Morgan-exact
+    priority: 3
+    scenarios: *core_scenarios
+    seeds: [42]
+    overrides:
+      model:
+        <<: *quick_general
+        universal_epochs: 5
+        strain_expert_epochs: 2
+        chemical_expert_epochs: 2
+        background_strain_expert_enabled: true
+        response_strain_expert_enabled: true
+        response_chemical_expert_enabled: true
+        entity_dropout: 0.25
+      entity:
+        <<: *registry_gate
+        chemical_map: data/processed/chemical_views/chemical_entity_map_exact.tsv
+        chemical_structure_manifest_required: true
+        chemical_features: null
+        strain_features: null
+        chemical_bits: 512
+
+  - id: SCR-M8.0-MORGAN-SHUFFLED
+    kind: model_screen
+    promotion_eligible: false
+    semantic_scope: RESEARCH_CANDIDATE_SEMANTICS
+    negative_control_for: SCR-M8.0-MORGAN-EXACT
+    model_id: M8.0-Morgan-shuffled
+    priority: 3
+    scenarios: *core_scenarios
+    seeds: [42]
+    overrides:
+      model:
+        <<: *quick_general
+        universal_epochs: 5
+        strain_expert_epochs: 2
+        chemical_expert_epochs: 2
+        background_strain_expert_enabled: true
+        response_strain_expert_enabled: true
+        response_chemical_expert_enabled: true
+        entity_dropout: 0.25
+      entity:
+        <<: *registry_gate
+        chemical_map: data/processed/chemical_views/chemical_entity_map_exact_shuffled.tsv
+        chemical_structure_manifest_required: true
+        chemical_features: null
+        strain_features: null
+        chemical_bits: 512
+        chemical_structure_view: shuffled
+
+  - id: SCR-M8.0-MORGAN-PARENT
+    kind: model_screen
+    semantic_scope: RESEARCH_CANDIDATE_AND_PROXY_SEMANTICS
+    model_id: M8.0-Morgan-parent
+    priority: 3
+    scenarios: *core_scenarios
+    seeds: [42]
+    overrides:
+      model:
+        <<: *quick_general
+        universal_epochs: 5
+        strain_expert_epochs: 2
+        chemical_expert_epochs: 2
+        background_strain_expert_enabled: true
+        response_strain_expert_enabled: true
+        response_chemical_expert_enabled: true
+        entity_dropout: 0.25
+      entity:
+        <<: *registry_gate
+        chemical_map: data/processed/chemical_views/chemical_entity_map_parent_normalized.tsv
+        chemical_structure_manifest_required: true
+        chemical_features: null
+        strain_features: null
+        chemical_bits: 512
+        allow_proxy_semantics: true
+        chemical_structure_view: parent
+
+  - id: SCR-M8.0-MORGAN-ZERO-RISKY
+    kind: model_screen
+    semantic_scope: RESEARCH_CANDIDATE_SEMANTICS
+    model_id: M8.0-Morgan-zero-risky
+    priority: 3
+    scenarios: *core_scenarios
+    seeds: [42]
+    overrides:
+      model:
+        <<: *quick_general
+        universal_epochs: 5
+        strain_expert_epochs: 2
+        chemical_expert_epochs: 2
+        background_strain_expert_enabled: true
+        response_strain_expert_enabled: true
+        response_chemical_expert_enabled: true
+        entity_dropout: 0.25
+      entity:
+        <<: *registry_gate
+        chemical_map: data/processed/chemical_views/chemical_entity_map_zero_risky.tsv
+        chemical_structure_manifest_required: true
+        chemical_features: null
+        strain_features: null
+        chemical_bits: 512
+        chemical_parent_views: null
+        # Seven independently reviewed identity-risk rows are suppressed;
+        # this is intentionally broader than the five parent/component rows.
+        chemical_identity_risks: resources/entities/chemical_identity_risk_review.tsv
+        chemical_structure_view: zero_risky
+
+  - id: SCR-M8.1-STRAIN-REAL
+    kind: model_screen
+    semantic_scope: RESEARCH_CANDIDATE_SEMANTICS
+    model_id: M8.1-real
+    priority: 3
+    scenarios: *core_scenarios
+    seeds: [42]
+    overrides:
+      model:
+        <<: *quick_general
+        universal_epochs: 5
+        strain_expert_epochs: 2
+        chemical_expert_epochs: 2
+        background_strain_expert_enabled: true
+        response_strain_expert_enabled: true
+        response_chemical_expert_enabled: true
+        entity_dropout: 0.25
+      entity:
+        <<: *registry_gate
+        chemical_map: null
+        chemical_features: null
+        strain_features: data/processed/entities/strain_semantics_numeric.tsv
+        strain_features_manifest_required: true
+
+  - id: SCR-M8.1-STRAIN-SHUFFLED
+    kind: model_screen
+    semantic_scope: RESEARCH_CANDIDATE_SEMANTICS
+    model_id: M8.1-shuffled
+    priority: 3
+    scenarios: *core_scenarios
+    seeds: [42]
+    overrides:
+      model:
+        <<: *quick_general
+        universal_epochs: 5
+        strain_expert_epochs: 2
+        chemical_expert_epochs: 2
+        background_strain_expert_enabled: true
+        response_strain_expert_enabled: true
+        response_chemical_expert_enabled: true
+        entity_dropout: 0.25
+      entity:
+        <<: *registry_gate
+        chemical_map: null
+        chemical_features: null
+        strain_features: data/processed/entities/strain_semantics_shuffled.tsv
+        strain_features_manifest_required: true
+
+  - id: SCR-M8.2-DUAL
+    kind: model_screen
+    semantic_scope: RESEARCH_CANDIDATE_SEMANTICS
+    model_id: M8.2
+    priority: 4
+    scenarios: *core_scenarios
+    seeds: [42]
+    overrides:
+      model:
+        <<: *quick_general
+        universal_epochs: 5
+        strain_expert_epochs: 2
+        chemical_expert_epochs: 2
+        background_strain_expert_enabled: true
+        response_strain_expert_enabled: true
+        response_chemical_expert_enabled: true
+        entity_dropout: 0.25
+      entity:
+        <<: *registry_gate
+        chemical_map: data/processed/chemical_views/chemical_entity_map_exact.tsv
+        chemical_structure_manifest_required: true
+        chemical_features: null
+        strain_features: data/processed/entities/strain_semantics_numeric.tsv
+        strain_features_manifest_required: true
+        chemical_bits: 512
+
+  - id: SCR-M8.3-DUAL-PAIR
+    kind: model_screen
+    semantic_scope: RESEARCH_CANDIDATE_SEMANTICS
+    model_id: M8.3
+    priority: 4
+    scenarios: *core_scenarios
+    seeds: [42]
+    overrides:
+      model:
+        <<: *quick_general
+        universal_epochs: 4
+        strain_expert_epochs: 2
+        chemical_expert_epochs: 2
+        pair_expert_epochs: 1
+        background_strain_expert_enabled: true
+        response_strain_expert_enabled: true
+        response_chemical_expert_enabled: true
+        response_pair_expert_enabled: true
+        entity_dropout: 0.25
+      entity:
+        <<: *registry_gate
+        chemical_map: data/processed/chemical_views/chemical_entity_map_exact.tsv
+        chemical_structure_manifest_required: true
+        chemical_features: null
+        strain_features: data/processed/entities/strain_semantics_numeric.tsv
+        strain_features_manifest_required: true
+        chemical_bits: 512
+
+  - id: SCR-M8.0-CHEMBERTA-REAL
+    kind: model_screen
+    semantic_scope: RESEARCH_CANDIDATE_SEMANTICS
+    model_id: M8.0-ChemBERTa-real
+    priority: 4
+    scenarios: *core_scenarios
+    seeds: [42]
+    overrides:
+      model:
+        <<: *quick_general
+        universal_epochs: 5
+        strain_expert_epochs: 2
+        chemical_expert_epochs: 2
+        background_strain_expert_enabled: true
+        response_strain_expert_enabled: true
+        response_chemical_expert_enabled: true
+        entity_dropout: 0.25
+      entity:
+        <<: *registry_gate
+        chemical_map: null
+        chemical_features: data/processed/chemical_embeddings/chemberta_77m_mlm/chemberta_real.tsv
+        chemical_features_manifest_required: true
+        strain_features: null
+
+  - id: SCR-M8.0-CHEMBERTA-SHUFFLED
+    kind: model_screen
+    semantic_scope: RESEARCH_CANDIDATE_SEMANTICS
+    negative_control_for: SCR-M8.0-CHEMBERTA-REAL
+    model_id: M8.0-ChemBERTa-shuffled
+    priority: 4
+    scenarios: *core_scenarios
+    seeds: [42]
+    overrides:
+      model:
+        <<: *quick_general
+        universal_epochs: 5
+        strain_expert_epochs: 2
+        chemical_expert_epochs: 2
+        background_strain_expert_enabled: true
+        response_strain_expert_enabled: true
+        response_chemical_expert_enabled: true
+        entity_dropout: 0.25
+      entity:
+        <<: *registry_gate
+        chemical_map: null
+        chemical_features: data/processed/chemical_embeddings/chemberta_77m_mlm/chemberta_shuffled.tsv
+        chemical_features_manifest_required: true
+        strain_features: null
+
+  - id: SCR-M8.0-CHEMBERTA-PARENT
+    kind: model_screen
+    semantic_scope: RESEARCH_CANDIDATE_AND_PROXY_SEMANTICS
+    model_id: M8.0-ChemBERTa-parent
+    priority: 4
+    scenarios: *core_scenarios
+    seeds: [42]
+    overrides:
+      model:
+        <<: *quick_general
+        universal_epochs: 5
+        strain_expert_epochs: 2
+        chemical_expert_epochs: 2
+        background_strain_expert_enabled: true
+        response_strain_expert_enabled: true
+        response_chemical_expert_enabled: true
+        entity_dropout: 0.25
+      entity:
+        <<: *registry_gate
+        chemical_map: null
+        chemical_features: data/processed/chemical_embeddings/chemberta_77m_mlm_parent/chemberta_real.tsv
+        chemical_features_manifest_required: true
+        strain_features: null
+        allow_proxy_semantics: true
+        chemical_structure_view: parent
+
+  - id: SCR-M8.0-CHEMBERTA-ZERO-RISKY
+    kind: model_screen
+    semantic_scope: RESEARCH_CANDIDATE_SEMANTICS
+    model_id: M8.0-ChemBERTa-zero-risky
+    priority: 4
+    scenarios: *core_scenarios
+    seeds: [42]
+    overrides:
+      model:
+        <<: *quick_general
+        universal_epochs: 5
+        strain_expert_epochs: 2
+        chemical_expert_epochs: 2
+        background_strain_expert_enabled: true
+        response_strain_expert_enabled: true
+        response_chemical_expert_enabled: true
+        entity_dropout: 0.25
+      entity:
+        <<: *registry_gate
+        chemical_map: null
+        chemical_features: data/processed/chemical_embeddings/chemberta_77m_mlm_zero_risky/chemberta_real.tsv
+        chemical_features_manifest_required: true
+        strain_features: null
+        chemical_parent_views: null
+        # Keep the runtime gate tied to the same seven-row contract used to
+        # build the frozen embedding artifact and its manifest.
+        chemical_identity_risks: resources/entities/chemical_identity_risk_review.tsv
+        chemical_structure_view: zero_risky
+
+  - id: SCR-M8.0-FUSION-REAL
+    kind: model_screen
+    semantic_scope: RESEARCH_CANDIDATE_AND_PROXY_SEMANTICS
+    model_id: M8.0-fusion-real
+    priority: 4
+    scenarios: *core_scenarios
+    seeds: [42]
+    overrides:
+      model:
+        <<: *quick_general
+        universal_epochs: 5
+        strain_expert_epochs: 2
+        chemical_expert_epochs: 2
+        background_strain_expert_enabled: true
+        response_strain_expert_enabled: true
+        response_chemical_expert_enabled: true
+        entity_dropout: 0.25
+      entity:
+        <<: *registry_gate
+        chemical_map: data/processed/chemical_views/chemical_entity_map_parent_normalized.tsv
+        chemical_structure_manifest_required: true
+        chemical_features: data/processed/chemical_embeddings/chemberta_77m_mlm_parent/chemberta_real.tsv
+        chemical_features_manifest_required: true
+        strain_features: null
+        chemical_bits: 512
+        allow_proxy_semantics: true
+        chemical_structure_view: parent
+
+  - id: SCR-M8.0-FUSION-SHUFFLED
+    kind: model_screen
+    semantic_scope: RESEARCH_CANDIDATE_AND_PROXY_SEMANTICS
+    negative_control_for: SCR-M8.0-FUSION-REAL
+    model_id: M8.0-fusion-shuffled
+    priority: 4
+    scenarios: *core_scenarios
+    seeds: [42]
+    overrides:
+      model:
+        <<: *quick_general
+        universal_epochs: 5
+        strain_expert_epochs: 2
+        chemical_expert_epochs: 2
+        background_strain_expert_enabled: true
+        response_strain_expert_enabled: true
+        response_chemical_expert_enabled: true
+        entity_dropout: 0.25
+      entity:
+        <<: *registry_gate
+        chemical_map: data/processed/chemical_views/chemical_entity_map_parent_normalized.tsv
+        chemical_structure_manifest_required: true
+        chemical_features: data/processed/chemical_embeddings/chemberta_77m_mlm_parent/chemberta_shuffled.tsv
+        chemical_features_manifest_required: true
+        strain_features: null
+        chemical_bits: 512
+        allow_proxy_semantics: true
+        chemical_structure_view: parent
+
+  # Fixed, non-learned expert-scale searches.  R10 activates only the strain
+  # expert at validation; R01 activates only the chemical expert.  Each axis is
+  # therefore selected without a 25-cell Cartesian search.
+  - id: SCALE-M7.3-STRAIN-P000
+    kind: expert_scale_screen
+    selection_axis: strain
+    selection_value: 0.0
+    priority: 10
+    scenarios: [R10]
+    seeds: [42]
+    overrides:
+      <<: *quick_m73
+      model:
+        <<: [*quick_general]
+        universal_epochs: 5
+        strain_expert_epochs: 2
+        chemical_expert_epochs: 2
+        background_strain_expert_enabled: true
+        response_strain_expert_enabled: true
+        response_chemical_expert_enabled: true
+        entity_dropout: 0.25
+        strain_expert_scale: 0.0
+
+  - id: SCALE-M7.3-STRAIN-P025
+    kind: expert_scale_screen
+    selection_axis: strain
+    selection_value: 0.25
+    priority: 10
+    scenarios: [R10]
+    seeds: [42]
+    overrides:
+      <<: *quick_m73
+      model:
+        <<: [*quick_general]
+        universal_epochs: 5
+        strain_expert_epochs: 2
+        chemical_expert_epochs: 2
+        background_strain_expert_enabled: true
+        response_strain_expert_enabled: true
+        response_chemical_expert_enabled: true
+        entity_dropout: 0.25
+        strain_expert_scale: 0.25
+
+  - id: SCALE-M7.3-STRAIN-P050
+    kind: expert_scale_screen
+    selection_axis: strain
+    selection_value: 0.5
+    priority: 10
+    scenarios: [R10]
+    seeds: [42]
+    overrides:
+      <<: *quick_m73
+      model:
+        <<: [*quick_general]
+        universal_epochs: 5
+        strain_expert_epochs: 2
+        chemical_expert_epochs: 2
+        background_strain_expert_enabled: true
+        response_strain_expert_enabled: true
+        response_chemical_expert_enabled: true
+        entity_dropout: 0.25
+        strain_expert_scale: 0.5
+
+  - id: SCALE-M7.3-STRAIN-P075
+    kind: expert_scale_screen
+    selection_axis: strain
+    selection_value: 0.75
+    priority: 10
+    scenarios: [R10]
+    seeds: [42]
+    overrides:
+      <<: *quick_m73
+      model:
+        <<: [*quick_general]
+        universal_epochs: 5
+        strain_expert_epochs: 2
+        chemical_expert_epochs: 2
+        background_strain_expert_enabled: true
+        response_strain_expert_enabled: true
+        response_chemical_expert_enabled: true
+        entity_dropout: 0.25
+        strain_expert_scale: 0.75
+
+  - id: SCALE-M7.3-STRAIN-P100
+    kind: expert_scale_screen
+    selection_axis: strain
+    selection_value: 1.0
+    priority: 10
+    scenarios: [R10]
+    seeds: [42]
+    overrides:
+      <<: *quick_m73
+      model:
+        <<: [*quick_general]
+        universal_epochs: 5
+        strain_expert_epochs: 2
+        chemical_expert_epochs: 2
+        background_strain_expert_enabled: true
+        response_strain_expert_enabled: true
+        response_chemical_expert_enabled: true
+        entity_dropout: 0.25
+        strain_expert_scale: 1.0
+
+  - id: SCALE-M7.3-CHEMICAL-P000
+    kind: expert_scale_screen
+    selection_axis: chemical
+    selection_value: 0.0
+    priority: 11
+    scenarios: [R01]
+    seeds: [42]
+    overrides:
+      <<: *quick_m73
+      model:
+        <<: [*quick_general]
+        universal_epochs: 5
+        strain_expert_epochs: 2
+        chemical_expert_epochs: 2
+        background_strain_expert_enabled: true
+        response_strain_expert_enabled: true
+        response_chemical_expert_enabled: true
+        entity_dropout: 0.25
+        chemical_expert_scale: 0.0
+
+  - id: SCALE-M7.3-CHEMICAL-P025
+    kind: expert_scale_screen
+    selection_axis: chemical
+    selection_value: 0.25
+    priority: 11
+    scenarios: [R01]
+    seeds: [42]
+    overrides:
+      <<: *quick_m73
+      model:
+        <<: [*quick_general]
+        universal_epochs: 5
+        strain_expert_epochs: 2
+        chemical_expert_epochs: 2
+        background_strain_expert_enabled: true
+        response_strain_expert_enabled: true
+        response_chemical_expert_enabled: true
+        entity_dropout: 0.25
+        chemical_expert_scale: 0.25
+
+  - id: SCALE-M7.3-CHEMICAL-P050
+    kind: expert_scale_screen
+    selection_axis: chemical
+    selection_value: 0.5
+    priority: 11
+    scenarios: [R01]
+    seeds: [42]
+    overrides:
+      <<: *quick_m73
+      model:
+        <<: [*quick_general]
+        universal_epochs: 5
+        strain_expert_epochs: 2
+        chemical_expert_epochs: 2
+        background_strain_expert_enabled: true
+        response_strain_expert_enabled: true
+        response_chemical_expert_enabled: true
+        entity_dropout: 0.25
+        chemical_expert_scale: 0.5
+
+  - id: SCALE-M7.3-CHEMICAL-P075
+    kind: expert_scale_screen
+    selection_axis: chemical
+    selection_value: 0.75
+    priority: 11
+    scenarios: [R01]
+    seeds: [42]
+    overrides:
+      <<: *quick_m73
+      model:
+        <<: [*quick_general]
+        universal_epochs: 5
+        strain_expert_epochs: 2
+        chemical_expert_epochs: 2
+        background_strain_expert_enabled: true
+        response_strain_expert_enabled: true
+        response_chemical_expert_enabled: true
+        entity_dropout: 0.25
+        chemical_expert_scale: 0.75
+
+  - id: SCALE-M7.3-CHEMICAL-P100
+    kind: expert_scale_screen
+    selection_axis: chemical
+    selection_value: 1.0
+    priority: 11
+    scenarios: [R01]
+    seeds: [42]
+    overrides:
+      <<: *quick_m73
+      model:
+        <<: [*quick_general]
+        universal_epochs: 5
+        strain_expert_epochs: 2
+        chemical_expert_epochs: 2
+        background_strain_expert_enabled: true
+        response_strain_expert_enabled: true
+        response_chemical_expert_enabled: true
+        entity_dropout: 0.25
+        chemical_expert_scale: 1.0

@@ -1,0 +1,30 @@
+{
+  "model": "GOAI-M12.0",
+  "status": "selected_primary_local_fc_candidate",
+  "score_status": "local_strict_oof_not_official",
+  "parent": "GOAI-M11.0",
+  "seeds": [42, 43, 2026],
+  "r10_formula": "blend=-0.075*R6+1.075*R9.6; R12=blend+0.15*I(abs(R6)>=0.5)*(R6-blend); y=B6+C6+R12",
+  "local_oof": {
+    "samples": 5078,
+    "held_out_chemical_clusters": 37,
+    "fc_pcc": 0.426342,
+    "context_residual_pcc": 0.060967,
+    "high_effect_pcc": 0.603184,
+    "high_effect_f1": 0.233970,
+    "absolute_sample_r2_median": 0.979150,
+    "nested_outer_fc_pcc": 0.425571
+  },
+  "support_route_counts": {
+    "R10": 2072,
+    "R01": 1594,
+    "R00": 425,
+    "R11": 135,
+    "control": 228
+  },
+  "rejected_additions": {
+    "strain_semantics_M12.1": "best blend alpha was zero",
+    "seen_strain_expert_overlay": "best blend alpha was zero",
+    "dual_semantics_M12.2": "below zero-semantic and frozen M2 controls"
+  }
+}

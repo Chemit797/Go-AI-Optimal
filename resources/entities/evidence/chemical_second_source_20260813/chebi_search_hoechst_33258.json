@@ -1,0 +1,29 @@
+{
+  "results": [
+    {
+      "_index": "chebi-prod-compounds-12082026",
+      "_type": "_doc",
+      "_id": "52082",
+      "_score": 70.097206,
+      "_source": {
+        "chebi_accession": "CHEBI:52082",
+        "name": "pibenzimol",
+        "ascii_name": "pibenzimol",
+        "stars": 3,
+        "default_structure": 79701,
+        "inchi": "InChI=1S/C25H24N6O/c1-30-10-12-31(13-11-30)18-5-9-21-23(15-18)29-25(27-21)17-4-8-20-22(14-17)28-24(26-20)16-2-6-19(32)7-3-16/h2-9,14-15,32H,10-13H2,1H3,(H,26,28)(H,27,29)",
+        "monoisotopicmass": 424.20116,
+        "mass": 424.508,
+        "smiles": "CN1CCN(c2ccc3nc(-c4ccc5nc(-c6ccc(O)cc6)nc5c4)nc3c2)CC1",
+        "charge": 0,
+        "inchikey": "INAAIJLSXJJHOZ-UHFFFAOYSA-N",
+        "formula": "C25H24N6O",
+        "structures": [
+          79701
+        ]
+      }
+    }
+  ],
+  "total": 1,
+  "number_pages": 1
+}

@@ -1,0 +1,76 @@
+{
+  "results": [
+    {
+      "_index": "chebi-prod-compounds-12082026",
+      "_type": "_doc",
+      "_id": "195256",
+      "_score": 39.245113,
+      "_source": {
+        "chebi_accession": "CHEBI:195256",
+        "name": "geneticin cation(4+)",
+        "ascii_name": "geneticin cation(4+)",
+        "stars": 2,
+        "default_structure": 3327374,
+        "monoisotopicmass": 500.30355,
+        "formula": "C20H44N4O10",
+        "inchikey": "BRZYSWJRSDMWLG-CAXSIQPQSA-R",
+        "mass": 500.59,
+        "charge": 4,
+        "smiles": "C[NH2+][C@@H]1[C@@H](O)[C@@H](O[C@@H]2[C@@H](O)[C@H](O[C@H]3O[C@H](C(C)O)[C@@H](O)[C@H](O)[C@H]3[NH3+])[C@@H]([NH3+])C[C@H]2[NH3+])OC[C@]1(C)O",
+        "inchi": "InChI=1S/C20H40N4O10/c1-6(25)14-11(27)10(26)9(23)18(32-14)33-15-7(21)4-8(22)16(12(15)28)34-19-13(29)17(24-3)20(2,30)5-31-19/h6-19,24-30H,4-5,21-23H2,1-3H3/p+4/t6?,7-,8+,9+,10+,11-,12-,13+,14+,15+,16-,17+,18+,19+,20-/m0/s1",
+        "structures": [
+          3327374
+        ]
+      }
+    },
+    {
+      "_index": "chebi-prod-compounds-12082026",
+      "_type": "_doc",
+      "_id": "42768",
+      "_score": 39.245113,
+      "_source": {
+        "chebi_accession": "CHEBI:42768",
+        "name": "geneticin",
+        "ascii_name": "geneticin",
+        "stars": 3,
+        "default_structure": 4921,
+        "definition": "An aminoglycoside antibiotic produced by <em>Micromonospora rhodorangea</em>. It blocks polypeptide synthesis  by inhibiting the elongation step in both prokaryotic and eukaryotic cells.",
+        "formula": "C20H40N4O10",
+        "monoisotopicmass": 496.27444,
+        "inchi": "InChI=1S/C20H40N4O10/c1-6(25)14-11(27)10(26)9(23)18(32-14)33-15-7(21)4-8(22)16(12(15)28)34-19-13(29)17(24-3)20(2,30)5-31-19/h6-19,24-30H,4-5,21-23H2,1-3H3/t6?,7-,8+,9+,10+,11-,12-,13+,14+,15+,16-,17+,18+,19+,20-/m0/s1",
+        "mass": 496.558,
+        "charge": 0,
+        "smiles": "CN[C@@H]1[C@@H](O)[C@@H](O[C@@H]2[C@@H](O)[C@H](O[C@H]3O[C@H](C(C)O)[C@@H](O)[C@H](O)[C@H]3N)[C@@H](N)C[C@H]2N)OC[C@]1(C)O",
+        "inchikey": "BRZYSWJRSDMWLG-CAXSIQPQSA-N",
+        "structures": [
+          4921
+        ]
+      }
+    },
+    {
+      "_index": "chebi-prod-compounds-12082026",
+      "_type": "_doc",
+      "_id": "172916",
+      "_score": 34.152245,
+      "_source": {
+        "chebi_accession": "CHEBI:172916",
+        "name": "6'-Oxo-G418",
+        "ascii_name": "6'-Oxo-G418",
+        "stars": 2,
+        "default_structure": 3237172,
+        "mass": 494.542,
+        "formula": "C20H38N4O10",
+        "charge": 0,
+        "smiles": "CN[C@@H]1[C@@H](O)[C@@H](O[C@@H]2[C@@H](O)[C@H](O[C@H]3O[C@H](C(C)=O)[C@@H](O)[C@H](O)[C@H]3N)[C@@H](N)C[C@H]2N)OC[C@]1(C)O",
+        "monoisotopicmass": 494.25879,
+        "inchi": "InChI=1S/C20H38N4O10/c1-6(25)14-11(27)10(26)9(23)18(32-14)33-15-7(21)4-8(22)16(12(15)28)34-19-13(29)17(24-3)20(2,30)5-31-19/h7-19,24,26-30H,4-5,21-23H2,1-3H3/t7-,8+,9+,10+,11-,12-,13+,14+,15+,16-,17+,18+,19+,20-/m0/s1",
+        "inchikey": "KUVREGBJSDRYBS-CYLNMLNUSA-N",
+        "structures": [
+          3237172
+        ]
+      }
+    }
+  ],
+  "total": 3,
+  "number_pages": 1
+}

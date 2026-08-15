@@ -1,0 +1,31 @@
+baseline_config: baseline.yaml
+
+model:
+  hidden_dim: 128
+  response_rank: 64
+  calibration_rank: 16
+  dropout: 0.10
+  learning_rate: 0.001
+  weight_decay: 0.0002
+  epochs: 80
+  batch_size: 128
+  seed: 42
+  device: auto
+  absolute_weight: 0.25
+  background_weight: 1.0
+  fc_weight: 1.0
+  target_scale_floor: 0.10
+  calibration_enabled: false
+
+entity:
+  chemical_map: ../data/processed/chemical_entity_map.tsv
+  strain_features: null
+  chemical_bits: 512
+
+graph:
+  variant: none
+  artifact: null
+  weight: 0.0
+
+runtime:
+  runs_dir: ../runs/response_mvp
